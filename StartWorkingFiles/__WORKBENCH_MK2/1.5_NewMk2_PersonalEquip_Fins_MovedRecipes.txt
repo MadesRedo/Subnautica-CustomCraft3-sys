@@ -1,0 +1,37 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Fins	#
+(
+	ItemID: Fins;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerFinsUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: UltraGlideFins;
+	OldPath: Workbench/FinsMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerFinsUpgrades;
+),
+(
+	ItemID: SwimChargeFins;
+	OldPath: Workbench/FinsMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerFinsUpgrades;
+),
+(
+	ItemID: ugscfins;															#	More Modified Items "MrPurple6411" - 398	#
+	OldPath: Workbench/FinsMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerFinsUpgrades;
+),
+(
+	ItemID: BurstFinsItem;														#	Burst Fins "EldritchCarMaker" - 1950	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerFinsUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: DWUltraGlideSwimChargeFins;											#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/FinsMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerFinsUpgrades;
+);

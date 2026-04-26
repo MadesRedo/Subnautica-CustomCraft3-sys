@@ -1,0 +1,25 @@
+AddedRecipes: 
+(
+    ItemID: Precursorioncrystal;
+    AmountCrafted: 1;
+    UnlockedBy: Precursorioncrystal;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Battery;
+        Required: 2;
+    ),
+    (
+        ItemID: Copper;
+        Required: 2;
+    ),
+    (
+        ItemID: Gold;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    Path: Fabricator/Resources/AdvancedMaterials;
+),

@@ -1,0 +1,376 @@
+AliasRecipes:
+(
+	ItemID: BuyTenShockerEgg;
+	DisplayName: "Purchase 10 Ampeel Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: shockeregg,shockeregg,shockeregg,shockeregg,shockeregg,shockeregg,shockeregg,shockeregg,shockeregg,shockeregg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenShockerEgg;
+	DisplayName: "Sell 10 Ampeel Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: shockeregg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: shockeregg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenBonesharkEgg;
+	DisplayName: "Purchase 10 Boneshark Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg,bonesharkegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenBonesharkEgg;
+	DisplayName: "Sell 10 Boneshark Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: bonesharkegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: bonesharkegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenCrabsnakeEgg;
+	DisplayName: "Purchase 10 Crabsnake Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg,crabsnakeegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenCrabsnakeEgg;
+	DisplayName: "Sell 10 Crabsnake Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: crabsnakeegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: crabsnakeegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenCrabsquidEgg;
+	DisplayName: "Purchase 10 Crabsquid Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg,crabsquidegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenCrabsquidEgg;
+	DisplayName: "Sell 10 Crabsquid Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: crabsquidegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: crabsquidegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenCrashEgg;
+	DisplayName: "Purchase 10 Crashfish Egg";
+	Tooltip: "Size 1 - Defensive";
+	LinkedItemIDs: crashegg,crashegg,crashegg,crashegg,crashegg,crashegg,crashegg,crashegg,crashegg,crashegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenCrashEgg;
+	DisplayName: "Sell 10 Crashfish Egg";
+	Tooltip: "Size 1 - Defensive";
+	SpriteItemID: crashegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: crashegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenCutefishEgg;
+	DisplayName: "Purchase 10 Cuddlefish Egg";
+	Tooltip: "DOES NOT BREED - Size 1 - Passive";
+	LinkedItemIDs: cutefishegg,cutefishegg,cutefishegg,cutefishegg,cutefishegg,cutefishegg,cutefishegg,cutefishegg,cutefishegg,cutefishegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenCutefishEgg;
+	DisplayName: "Sell 10 Cuddlefish Egg";
+	Tooltip: "DOES NOT BREED - Size 1 - Passive";
+	SpriteItemID: cutefishegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: cutefishegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenGasopodEgg;
+	DisplayName: "Purchase 10 Gasopod Egg";
+	Tooltip: "Size 4(2x2) - Defensive";
+	LinkedItemIDs: gasopodegg,gasopodegg,gasopodegg,gasopodegg,gasopodegg,gasopodegg,gasopodegg,gasopodegg,gasopodegg,gasopodegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenGasopodEgg;
+	DisplayName: "Sell 10 Gasopod Egg";
+	Tooltip: "Size 4(2x2) - Defensive";
+	SpriteItemID: gasopodegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: gasopodegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenJellyrayEgg;
+	DisplayName: "Purchase 10 Jellyray Egg";
+	Tooltip: "Size 4(2x2) - Defensive";
+	LinkedItemIDs: jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg,jellyrayegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenJellyrayEgg;
+	DisplayName: "Sell 10 Jellyray Egg";
+	Tooltip: "Size 4(2x2) - Defensive";
+	SpriteItemID: jellyrayegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jellyrayegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenLavaLizardEgg;
+	DisplayName: "Purchase 10 Lava Lizard Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg,lavalizardegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenLavaLizardEgg;
+	DisplayName: "Sell 10 Lava Lizard Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: lavalizardegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: lavalizardegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenMesmerEgg;
+	DisplayName: "Purchase 10 Mesmer Egg";
+	Tooltip: "Size 1 - Agressive";
+	LinkedItemIDs: mesmeregg,mesmeregg,mesmeregg,mesmeregg,mesmeregg,mesmeregg,mesmeregg,mesmeregg,mesmeregg,mesmeregg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenMesmerEgg;
+	DisplayName: "Sell 10 Mesmer Egg";
+	Tooltip: "Size 1 - Agressive";
+	SpriteItemID: mesmeregg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: mesmeregg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenRabbitRayEgg;
+	DisplayName: "Purchase 10 Rabbit Ray Egg";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg,rabbitrayegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenRabbitRayEgg;
+	DisplayName: "Sell 10 Rabbit Ray Egg";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: rabbitrayegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: rabbitrayegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenReefbackEgg;
+	DisplayName: "Purchase 10 Reefback Egg";
+	Tooltip: "Size 9(3x3) - Passive";
+	LinkedItemIDs: reefbackegg,reefbackegg,reefbackegg,reefbackegg,reefbackegg,reefbackegg,reefbackegg,reefbackegg,reefbackegg,reefbackegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenReefbackEgg;
+	DisplayName: "Sell 10 Reefback Egg";
+	Tooltip: "Size 9(3x3) - Passive";
+	SpriteItemID: reefbackegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: reefbackegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenSandSharkEgg;
+	DisplayName: "Purchase 10 Sand Shark Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg,sandsharkegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenSandSharkEgg;
+	DisplayName: "Sell 10 Sand Shark Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: sandsharkegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: sandsharkegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenSpadefishEgg;
+	DisplayName: "Purchase 10 Spadefish Egg";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: spadefishegg,spadefishegg,spadefishegg,spadefishegg,spadefishegg,spadefishegg,spadefishegg,spadefishegg,spadefishegg,spadefishegg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenSpadefishEgg;
+	DisplayName: "Sell 10 Spadefish Egg";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: spadefishegg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spadefishegg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+),
+(
+	ItemID: BuyTenStalkerEgg;
+	DisplayName: "Purchase 10 Stalker Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: stalkeregg,stalkeregg,stalkeregg,stalkeregg,stalkeregg,stalkeregg,stalkeregg,stalkeregg,stalkeregg,stalkeregg;
+	Ingredients:
+	(
+		ItemID: GoldCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/EggBuyTen;
+),
+(
+	ItemID: SellTenStalkerEgg;
+	DisplayName: "Sell 10 Stalker Egg";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: stalkeregg;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: stalkeregg;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/EggSellTen;
+);

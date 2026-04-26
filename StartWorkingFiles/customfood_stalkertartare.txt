@@ -1,0 +1,29 @@
+CustomFoods:
+(
+    ItemID: Stalkertartare;
+    DecayRateMod: 0.15; 
+    DisplayName: "Stalker Tartare";
+    Tooltip: "A delicate marine cuisine made from ground Stalker teeth, carefully prepared with oceanic herbs and spices.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StalkerTooth;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: CreepvinePiece;
+        Required: 2;
+    ),
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/CookedFood;
+    FoodValue:42;
+    WaterValue:45;
+    ForceUnlockAtStart: YES;
+),

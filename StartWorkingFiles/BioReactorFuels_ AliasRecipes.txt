@@ -1,0 +1,1167 @@
+AliasRecipes:
+#======= V1.25 =======#
+#=====================#
+
+#____________ bFDungFuels ____________#
+	(
+		ItemID: bFDungCakePile;
+		FunctionalID: seatreaderpoop;
+		DisplayName: "Dung Cake Pile";
+		Tooltip: "Traditionally used as fuel in underdeveloped civilizations 6 000 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: bFDryDungCakes;
+				Required: 3;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFDungFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFDryDungCakes;
+	),
+
+	(
+		ItemID: bFDryDungCakes0;
+		FunctionalID: seatreaderpoop;
+		DisplayName: "Dry Dung Cakes";
+		Tooltip: "Feces in order to be used as a fuel source
+1 000 000ϟ.";
+		AmountCrafted: 0;
+		LinkedItemIDs: bFDryDungCakes;
+		Ingredients:
+			(
+				ItemID: bFDungCake;
+				Required: 6;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFDungFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFDungCake;
+	),
+
+	(
+		ItemID: bFDungCake0;
+		FunctionalID: seatreaderpoop;
+		DisplayName: "Dung Cake";
+		Tooltip: "Solid remains of food that could not be digested 100 000ϟ.";
+		AmountCrafted: 0;
+		LinkedItemIDs: bFDungCake;
+		Ingredients:
+			(
+				ItemID: bFDryDung;
+				Required: 10;
+			),
+			(
+				ItemID: bFSeaWater;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFDungFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFDryDung;
+	),
+
+	(
+		ItemID: bFDryDung0;
+		FunctionalID: seatreaderpoop;
+		DisplayName: "Dry Dung";
+		Tooltip: "Dehydrated alien feces 7 000ϟ.";
+		AmountCrafted: 0;
+		LinkedItemIDs: bFDryDung;
+		Ingredients:
+			(
+				ItemID: seatreaderpoop;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFDungFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: seatreaderpoop;
+	),
+
+#____________ bFDungFuels ____________#
+#____________ bFBasicLiquids _________#
+
+	(
+		ItemID: bFCODistilledWaterFromBODistilledWater;
+		FunctionalID: filteredwater;
+		DisplayName: "Carboy of Distilled Water";
+		Tooltip: "Water that has been mechanically processed to remove impurities and make it suitable for use.";
+		LinkedItemIDs: bFCODistilledWater;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFBODistilledWater;
+				Required: 3;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFBODistilledWater;
+	),
+
+	(
+		ItemID: bFCODistilledWaterFromSeaWater;
+		FunctionalID:filteredwater;
+		DisplayName: "Carboy of Distilled Water";
+		Tooltip: "Water that has been mechanically processed to remove impurities and make it suitable for use.";
+		LinkedItemIDs: bFCODistilledWater;
+		AmountCrafted: 0;
+		Ingredients: 
+			(
+				ItemID: bFSeaWater;
+				Required: 6;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: NO;
+		UnlockedBy:bFSeaWater;
+	),
+
+	(
+		ItemID: bFBODistilledWaterFromWetspade;
+		FunctionalID: filteredwater;
+		DisplayName: "Bottle of Distilled Water";
+		Tooltip: "Caution, drink distilled Water leaches minerals from your body and could put your health at risk! Long term use not advised.";
+		LinkedItemIDs: bFBODistilledWater;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFWetspade;
+				Required: 3;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFWetspade;
+	),
+
+	(
+		ItemID: bFBODistilledWaterFromBigFilteredWater;
+		FunctionalID: filteredwater;
+		DisplayName: "Bottle of Distilled Water";
+		Tooltip: "Caution, drink distilled Water leaches minerals from your body and could put your health at risk! Long term use not advised.";
+		LinkedItemIDs: bFBODistilledWater;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bigfilteredwater;
+				Required: 2;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bigfilteredwater;
+	),
+
+	(
+		ItemID: bFBigFilteredWaterFromOptimuspade;
+		FunctionalID: bigfilteredwater;
+		DisplayName: "Large filtered water (x2)";
+		Tooltip: "H2O. 215oz. Pure.";
+		LinkedItemIDs: bigfilteredwater, bigfilteredwater;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFOptimuspade;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFOptimuspade;
+	),
+
+	(
+		ItemID: bFSeaWaterFromKooshChunk;
+		FunctionalID: disinfectedwater;
+		DisplayName: "Sea Water (x4)";
+		Tooltip: "Water from the sea, compound of dissolved salts 1000ϟ.";
+		LinkedItemIDs: bFSeaWater, bFSeaWater, bFSeaWater, bFSeaWater;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: kooshchunk;
+				Required: 7;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: purpletentacleseed;
+	),
+
+	(
+		ItemID: bFSeaWaterFromPurpleTentacleSeed;
+		FunctionalID: disinfectedwater;
+		DisplayName: "Sea Water";
+		Tooltip: "Water from the sea, compound of dissolved salts 1000ϟ.";
+		LinkedItemIDs: bFSeaWater;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: purpletentacleseed;
+				Required: 10;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBasicLiquids;
+		ForceUnlockAtStart: YES;
+	),
+
+#____________ bFBasicLiquids ____________#
+#____________ bFFermentation ____________#
+
+	(
+		ItemID: bFEthanolBarrel;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Ethanol Barrel";
+		Tooltip: "An alcohol and fuel additive 21 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: melon;
+				Required: 3;
+			),
+			(
+				ItemID: hangingfruit;
+				Required: 3;
+			),
+			(
+				ItemID: bFYeast;
+				Required: 1;
+			),
+			(
+				ItemID: bFCODistilledWater;
+				Required: 1;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFFermentation;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFYeast;
+	),
+
+	(
+		ItemID: bFYeast0;
+		FunctionalID: nutrientblock;
+		DisplayName: "Yeast";
+		Tooltip: "Eukaryotic single-celled microorganisms, with the ability to convert sugar into ethanol
+13 000ϟ.";
+		LinkedItemIDs: bFYeast;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: purplevegetable;
+				Required: 4;
+			),
+			(
+				ItemID: pinkmushroom;
+				Required: 1;
+			),
+			(
+				ItemID: salt;
+				Required: 2;
+			),
+			(
+				ItemID: treemushroompiece;
+				Required: 4;
+			),
+			(
+				ItemID: bFCODistilledWater;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFFermentation;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: pinkmushroom;
+	),
+
+#____________ bFFermentation ____________#
+#____________ bFPlantBiomass ____________#
+
+	(
+		ItemID: bFPlantOilBarrelFromJaffaCup;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Plant Oil Barrel";
+		Tooltip: "Container of oil, designed for storage and transport 9 000ϟ.";
+		LinkedItemIDs: bFPlantOilBarrel;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: orangemushroomspore;
+				Required: 4;
+			),
+			(
+				ItemID: jeweleddiskpiece;
+				Required: 4;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFPlantBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: orangemushroomspore;
+	),
+
+	(
+		ItemID: bFPlantOilBarrelFromCOPlantOil;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Plant Oil Barrel";
+		Tooltip: "Container of oil, designed for storage and transport 9 000ϟ.";
+		LinkedItemIDs: bFPlantOilBarrel;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFCOPlantOil;
+				Required: 3;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFPlantBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFCOPlantOil;
+	),
+
+	(
+		ItemID: bFCOPlantOilFromBloodOil;
+		FunctionalID: lubricant;
+		DisplayName: "Carboy Of Plant Oil";
+		Tooltip: "Fats taken from plants 3 000ϟ.";
+		LinkedItemIDs: bFCOPlantOil;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bloodoil;
+				Required: 7;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFPlantBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bloodoil;
+	),
+
+	(
+		ItemID: bFCOPlantOilFromGelSack;
+		FunctionalID: lubricant;
+		DisplayName: "Carboy Of Plant Oil";
+		Tooltip: "Fats taken from plants 3 000ϟ.";
+		LinkedItemIDs: bFCOPlantOil;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: jellyplant;
+				Required: 15;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFPlantBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: jellyplant;
+	),
+
+	(
+		ItemID: bFCOPlantOilFromBOPlantOil;
+		FunctionalID: lubricant;
+		DisplayName: "Carboy Of Plant Oil";
+		Tooltip: "Fats taken from plants 3 000ϟ.";
+		LinkedItemIDs: bFCOPlantOil;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFBOPlantOil;
+				Required: 10;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFPlantBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFBOPlantOil;
+	),
+
+	(
+		ItemID: bFBOPlantOil0;
+		FunctionalID: filteredwater;
+		DisplayName: "Bottle Of Plant Oil";
+		Tooltip: "Like most food fats, plant oils help improve the palatability of foods and serve as a medium for cooking 300ϟ.";
+		LinkedItemIDs: bFBOPlantOil;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: creepvineseedcluster;
+				Required: 6;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFPlantBiomass;
+		ForceUnlockAtStart: YES;
+	),
+
+#____________ bFPlantBiomass ____________#
+#____________ bFAnimalBiomass ___________#
+
+	(
+		ItemID: bFTallowBarrelFromReefback;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Tallow Barrel (x2)";
+		Tooltip: "Fuel produced through contemporary processes from biomass 24 000ϟ.";
+		LinkedItemIDs: bFTallowBarrel, bFTallowBarrel;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: reefback;
+				Required: 1;
+			),
+			(
+				ItemID: titanium;
+				Required: 4;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: reefback;
+	),
+
+	(
+		ItemID: bFTallowBarrelFromTallow;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Tallow Barrel";
+		Tooltip: "Fuel produced through contemporary processes from biomass 24 000ϟ.";
+		LinkedItemIDs: bFTallowBarrel;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFTallow;
+				Required: 6;
+			),
+			(
+				ItemID: titanium;
+				Required: 2;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFTallow;
+	),
+
+	(
+		ItemID: bFTallowFromOptimuspade;
+		FunctionalID: aerogel;
+		DisplayName: "Tallow";
+		Tooltip: "Hard fatty substance made from rendered animal fat 4 000ϟ.";
+		LinkedItemIDs: bFTallow;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFOptimuspade;
+				Required: 3;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFOptimuspade;
+	),
+
+	(
+		ItemID: bFTallowFromFatspade;
+		FunctionalID: aerogel;
+		DisplayName: "Tallow";
+		Tooltip: "Hard fatty substance made from rendered animal fat 4 000ϟ.";
+		LinkedItemIDs: bFTallow;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFFatspade;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFFatspade;
+	),
+
+	(
+		ItemID: bFTallowFromWetspade;
+		FunctionalID: aerogel;
+		DisplayName: "Tallow";
+		Tooltip: "Hard fatty substance made from rendered animal fat 4 000ϟ.";
+		LinkedItemIDs: bFTallow;
+		AmountCrafted: 0;
+		Ingredients:
+			( 
+				ItemID: bFWetspade;
+				Required: 7;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFWetspade;
+	),
+
+	(
+		ItemID: bFTallowFromReginald;
+		FunctionalID: aerogel;
+		DisplayName: "Tallow";
+		Tooltip: "Hard fatty substance made from rendered animal fat 4 000ϟ.";
+		LinkedItemIDs: bFTallow;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: reginald;
+				Required: 9;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: reginald;
+	),
+
+	(
+		ItemID: bFTallowFromBoomerang;
+		FunctionalID: aerogel;
+		DisplayName: "Tallow";
+		Tooltip: "Hard fatty substance made from rendered animal fat 4 000ϟ.";
+		LinkedItemIDs: bFTallow;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: boomerang;
+				Required: 6;
+			),
+			(
+				ItemID: garryfish;
+				Required: 8;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAnimalBiomass;
+		ForceUnlockAtStart: YES;
+	),
+
+#____________ bFAnimalBiomass ___________#
+#____________ bFAdvancedFuels ___________#
+
+	(
+		ItemID: bFDarkBiomass;
+		FunctionalID: reactorrod;
+		DisplayName: "Dark Biomass";
+		Tooltip: "Non-three-dimensional energy, probably originating from inverted emptiness of the void 400 000ϟ.";
+		AmountCrafted: 2;
+		Ingredients:
+			(
+				ItemID: uraninitecrystal;
+				Required: 4;
+			),
+			(
+				ItemID: bFHydrazinePowerCell;
+				Required: 2;
+			),
+			(
+				ItemID: precursorioncrystal;
+				Required: 4;
+			),
+			(
+				ItemID: bFParticleTrap;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFParticleTrap, bFHydrazinePowerCell;
+	),
+
+	(
+		ItemID: bFParticleTrap0;
+		FunctionalID: reactorrod;
+		DisplayName: "Particle Trap";
+		Tooltip: "Device for the storage of charged particles using strong magnetic and electric fileds.";
+		LinkedItemIDs: bFParticleTrap;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: titanium;
+				Required: 4;
+			),
+			(
+				ItemID: lithium;
+				Required: 2;
+			),
+			(
+				ItemID: lead;
+				Required: 2;
+			),
+			(
+				ItemID: magnesium;
+				Required: 2;
+			),
+			(
+				ItemID: enameledglass;
+				Required: 2;
+			),
+			(
+				ItemID: bFBiodieselBarrel;
+				Required: 2;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFBiodieselBarrel;
+	),
+
+	(
+		ItemID: bFBiodieselBarrel0;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Biodiesel Barrel";
+		Tooltip: "Fuel produced through contemporary processes from biomass 120 000ϟ.";
+		LinkedItemIDs: bFBiodieselBarrel;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFTallowBarrel;
+				Required: 2;
+			),
+			(
+				ItemID: bFPlantOilBarrel;
+				Required: 2;
+			),
+			(
+				ItemID: bFEthanolBarrel;
+				Required: 1;
+			),
+			(
+				ItemID: gaspod;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: gaspod;
+	),
+
+	(
+		ItemID: bFHydrazinePowerCell0;
+		FunctionalID: hullreinforcementmodule;
+		DisplayName: "Hydrazine Power Cell (x2)";
+		Tooltip: "Store away from sources of heat or ignition, should be connected to earth 40 000ϟ.";
+		LinkedItemIDs: bFHydrazinePowerCell, bFHydrazinePowerCell;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFHydrazineCan;
+				Required: 1;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			),
+			(
+				ItemID: diamond;
+				Required: 1;
+			),
+			(
+				ItemID: wiringkit;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFHydrazineCan;
+	),
+
+	(
+		ItemID: bFHydrazineCan0;
+		FunctionalID: bleach;
+		DisplayName: "Hydrazine Can";
+		Tooltip: "Originally used as a rocket fuel during World War II 70 000ϟ.";
+		LinkedItemIDs: bFHydrazineCan;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFAnammoxBacteria;
+				Required: 1;
+			),
+			(
+				ItemID: bFBODistilledWater;
+				Required: 2;
+			),
+			(
+				ItemID: bFAmmonia;
+				Required: 4;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFAnammoxBacteria;
+	),
+
+	(
+		ItemID: bFAnammoxBacteria0;
+		FunctionalID: benzene;
+		DisplayName: "Anammox Bacteria";
+		Tooltip: "Known for their ability to convert ammonium into nitrogen gas without using oxygen.";
+		LinkedItemIDs: bFAnammoxBacteria;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFSeaWater;
+				Required: 10;
+			),
+			(
+				ItemID: seatreaderpoop;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFMicroscope;
+	),
+
+	(
+		ItemID: bFAmmoniaFromStillWater;
+		FunctionalID: hydrochloricacid;
+		DisplayName: "Ammonia";
+		Tooltip: "Ammonia is used as a refrigerant gas, for purification of water supplies, and in the manufacture of plastics, explosives, textiles, pesticides, dyes and other chemicals 11 000ϟ.";
+		LinkedItemIDs: bFAmmonia;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: stillsuitwater;
+				Required: 1;
+			),
+			(
+				ItemID: sulphur;
+				Required: 3;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFSeaWater;
+	),
+
+	(
+		ItemID: bFAmmoniaFromSeaWater;
+		FunctionalID: hydrochloricacid;
+		DisplayName: "Ammonia";
+		Tooltip: "Ammonia is used as a refrigerant gas, for purification of water supplies, and in the manufacture of plastics, explosives, textiles, pesticides, dyes and other chemicals 11 000ϟ.";
+		LinkedItemIDs: bFAmmonia;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFSeaWater;
+				Required: 5;
+			),
+			(
+				ItemID: hydrochloricacid;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFAdvancedFuels;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFSeaWater;
+	),
+
+#____________ bFAdvancedFuels ___________#
+#____________ bFBioengineering __________#
+
+	(
+		ItemID: bFOptimuspade0;
+		FunctionalID: spadefish;
+		DisplayName: "Optimuspade (x2)";
+		Tooltip: "Organism with multiple genetic modifications in order to provide maximum goods 840ϟ.";
+		LinkedItemIDs: bFOptimuspade, bFOptimuspade, labequipment1, labequipment1;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFBloodspadefishEgg;
+				Required: 2;
+			),
+			(
+				ItemID: bFWetspadeDNA;
+				Required: 2;
+			),
+			(
+				ItemID: bFFatspadeDNA;
+				Required: 2;
+			),
+			(
+				ItemID: bFMicroscope;
+				Required: 2;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFWetspadeDNA, bFFatspadeDNA;
+	),
+
+	(
+		ItemID: bFFatspade0;
+		FunctionalID: spadefish;
+		DisplayName: "Fatspade (x2)";
+		Tooltip: "Genetically modified fish that can be used for biomass manufacturing 600ϟ.";
+		LinkedItemIDs: bFFatspade, bFFatspade, labequipment1;
+		AmountCrafted: 0;
+		Ingredients:
+			( 
+				ItemID: bFBloodspadefishEgg;
+				Required: 2;
+			),
+			( 
+				ItemID: bFCrabsquidDNA;
+				Required: 2;
+			),
+			( 
+				ItemID: bFMicroscope;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFCrabsquidDNA;
+	),
+
+	(
+		ItemID: bFWetspade0;
+		FunctionalID: spadefish;
+		DisplayName: "Wetspade (x2)";
+		Tooltip: "Genetically modified fish that can be used for water supply 530ϟ.";
+		LinkedItemIDs: bFWetspade, bFWetspade, labequipment1;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFBloodspadefishEgg;
+				Required: 2;
+			),
+			(
+				ItemID: bFBladderfishDNA;
+				Required: 2;
+			),
+			(
+				ItemID: bFMicroscope;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFBladderfishDNA;
+	),
+
+	(
+		ItemID: bFReefbackEgg;
+		FunctionalID: reefbackegg;
+		DisplayName: "Reefback Egg (x2)";
+		Tooltip: "Incredibly, Reefbacks hatch from these 840ϟ.";
+		LinkedItemIDs: reefbackegg, reefbackegg, labequipment1, labequipment1;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFBloodspadefishEgg;
+				Required: 2;
+			),
+			(
+				ItemID: bFPlantOilBarrel;
+				Required: 2;
+			),
+			(
+				ItemID: bFLeviathanDNA;
+				Required: 2;
+			),
+			(
+				ItemID: bFFloaterDNA;
+				Required: 2;
+			),
+			(
+				ItemID: bFMicroscope;
+				Required: 2;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFLeviathanDNA;
+	),
+
+	(
+		ItemID: bFBloodspadefishEgg0;
+		FunctionalID: bloodoil;
+		DisplayName: "Bloodspade Egg";
+		Tooltip: "Triglyceride environment form organism vulnerable to mutations. Further research is needed 12 000ϟ.";
+		LinkedItemIDs: bFBloodspadefishEgg;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: spadefishegg;
+				Required: 1;
+			),
+			(
+				ItemID: bloodoil;
+				Required: 1;
+			),
+			(
+				ItemID: bFPlantOilBarrel;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: spadefishegg;
+	),
+
+	(
+		ItemID: bFLeviathanDNA0;
+		FunctionalID: labcontainer3;
+		DisplayName: "Leviathan DNA";
+		Tooltip: "Contains the genetic code of a leviathan organisms.";
+		LinkedItemIDs: bFLeviathanDNA, labequipment3;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: seatreaderpoop;
+				Required: 5;
+			),
+			(
+				ItemID: bFSampleAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: seatreaderpoop;
+	),
+
+	(
+		ItemID: bFFatspadeDNA0;
+		FunctionalID: labcontainer3;
+		DisplayName: "Fatspade DNA";
+		Tooltip: "Contains the genetic code of a Fatspade fish.";
+		LinkedItemIDs: bFFatspadeDNA, labequipment3;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFFatspade;
+				Required: 10;
+			),
+			(
+				ItemID: bFSampleAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFFatspade;
+	),
+
+	(
+		ItemID: bFWetspadeDNA0;
+		FunctionalID: labcontainer3;
+		DisplayName: "Wetspade DNA";
+		Tooltip: "Contains the genetic code of a Wetspade fish.";
+		LinkedItemIDs: bFWetspadeDNA, labequipment3;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFWetspade;
+				Required: 10;
+			),
+			(
+				ItemID: bFSampleAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFWetspade;
+	),
+
+	(
+		ItemID: bFCrabsquidDNA0;
+		FunctionalID: labcontainer3;
+		DisplayName: "Crabsquid DNA";
+		Tooltip: "Contains the genetic code of a Crabsquid.";
+		LinkedItemIDs: bFCrabsquidDNA, labequipment3;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: crabsquid;
+				Required: 5;
+			),
+			(
+				ItemID: bFSampleAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: crabsquid;
+	),
+
+	(
+		ItemID: bFFloaterDNA;
+		FunctionalID: labcontainer3;
+		DisplayName: "Floater DNA";
+		Tooltip: "Contains the genetic code of a Floater.";
+		LinkedItemIDs: labequipment3;
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: floater;
+				Required: 10;
+			),
+			(
+				ItemID: bFSampleAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: floater;
+	),
+
+	(
+		ItemID: bFBladderfishDNA0;
+		FunctionalID: labcontainer3;
+		DisplayName: "Bladderfish DNA";
+		Tooltip: "Contains the genetic code of a Bladderfish.";
+		LinkedItemIDs: bFBladderfishDNA, labequipment3;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bladderfish;
+				Required: 10;
+			),
+			(
+				ItemID: bFSampleAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFBioengineering;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bladderfish;
+	),
+
+#____________ bFBioengineering __________#
+#_________ bFLaboratoryEquipment ________#
+
+	(
+		ItemID: bFSampleAnalyzer0;
+		FunctionalID: labequipment3;
+		DisplayName: "Sample Analyzer";
+		Tooltip: "Fully operational matter analysis device.";
+		LinkedItemIDs: bFSampleAnalyzer;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: labequipment3;
+				Required: 1;
+			),
+			(
+				ItemID: bFPowerSupplyCell;
+				Required: 5;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: labequipment3;
+	),
+
+	(
+		ItemID: bFFluidAnalyzer0;
+		FunctionalID: labequipment2;
+		DisplayName: "Fluid Analyzer";
+		Tooltip: "Fully operational liquid analysis device.";
+		LinkedItemIDs: bFFluidAnalyzer;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: labequipment2;
+				Required: 1;
+			),
+			(
+				ItemID: bFPowerSupplyCell;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: labequipment2;
+	),
+
+	(
+		ItemID: bFMicroscope0;
+		FunctionalID: labequipment1;
+		DisplayName: "Microscope";
+		Tooltip: "Fully operational genetic modification device.";
+		LinkedItemIDs: bFMicroscope;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: labequipment1;
+				Required: 1;
+			),
+			(
+				ItemID: bFPowerSupplyCell;
+				Required: 10;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: labequipment1;
+	),
+
+	(
+		ItemID: bFPowerSupplyCellFromMagnesium;
+		FunctionalID: vehiclehullmodule1;
+		DisplayName: "Power Supply Cell (x4)";
+		Tooltip: "Device consisting of one or more electrochemical cells provided to power electrical devices.";
+		LinkedItemIDs: bFPowerSupplyCell, bFPowerSupplyCell, bFPowerSupplyCell, bFPowerSupplyCell;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: magnesium;
+				Required: 1;
+			),
+			(
+				ItemID: silicone;
+				Required: 1;
+			),
+			(
+				ItemID: aramidfibers;
+				Required: 1;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: magnesium;
+	),
+
+	(
+		ItemID: bFPowerSupplyCellFromLithiumPowerCell;
+		FunctionalID: vehiclehullmodule1;
+		DisplayName: "Power Supply Cell (x2)";
+		Tooltip: "Device consisting of one or more electrochemical cells provided to power electrical devices.";
+		LinkedItemIDs: bFPowerSupplyCell, bFPowerSupplyCell;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFLithiumPowerCell;
+				Required: 4;
+			),
+			(
+				ItemID: silicone;
+				Required: 1;
+			),
+			(
+				ItemID: fibermesh;
+				Required: 1;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFLithiumPowerCell;
+	),
+
+	(
+		ItemID: bFMagnesiumFromSeaWater;
+		FunctionalID: magnesium;
+		DisplayName: "Magnesium";
+		Tooltip: "Mg. Combustible metal.";
+		LinkedItemIDs: magnesium, labequipment2;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: bFSeaWater;
+				Required: 8;
+			),
+			(
+				ItemID: bFFluidAnalyzer;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFFluidAnalyzer;
+	),
+
+	(
+		ItemID: bFLithiumPowerCell0;
+		FunctionalID: vehiclehullmodule1;
+		DisplayName: "Lithium Power Cell";
+		Tooltip: "Convert chemical energy directly to electrical energy.";
+		LinkedItemIDs: bFLithiumPowerCell;
+		AmountCrafted: 0;
+		Ingredients:
+			(
+				ItemID: lithium;
+				Required: 3;
+			),
+			(
+				ItemID: silicone;
+				Required: 1;
+			),
+			(
+				ItemID: titanium;
+				Required: 1;
+			);
+		Path: Fabricator/Resources/bFBioFuels/bFLaboratoryEquipment;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: lithium;
+	);
+
+#_________ bFLaboratoryEquipment ________#

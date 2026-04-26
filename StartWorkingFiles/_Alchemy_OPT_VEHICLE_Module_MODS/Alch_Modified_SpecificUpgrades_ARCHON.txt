@@ -1,0 +1,233 @@
+#	ARCHON SPECIFIC UPGRADES	#
+
+
+ModifiedRecipes:
+
+# ---	DEPTH MODULES	--- #
+	#__ DEPTH MK1 __#
+(
+    ItemID: ArchonDepthModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_CopperOxide_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    );
+),
+	#__ DEPTH MK2 __#
+(
+    ItemID: ArchonDepthModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ArchonDepthModule1;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Charged_CorundumGem_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    );
+),
+	#__ DEPTH MK3 __#
+(
+    ItemID: ArchonDepthModule3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ArchonDepthModule2;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Charged_AlchemyMaster_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    );
+),
+
+# ---	REPAIR MODULES	--- #
+	#__ REPAIR MK1 __#
+(
+    ItemID: ArchonRepairModuleMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+	#__ REPAIR MK2 __#
+(
+    ItemID: ArchonRepairModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ArchonRepairModuleMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    );
+),
+	#__ REPAIR MK3 __#
+(
+    ItemID: ArchonRepairModuleMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ArchonRepairModuleMk2;
+        Required: 1;
+    ),
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    );
+),
+
+# ---	TELEPORTATION MODULES	--- #
+	#__ EMERGENCY TELEPORTATION __#
+(
+    ItemID: ArchonEmergencyTeleportationModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+	#__ TELEPORTATION MODULE A __#
+(
+    ItemID: ArchonTeleportationModuleA;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PrecursorKey_Blue;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    );
+),
+
+# ---	DOCKING MODULE	--- #
+(
+    ItemID: ArchonDockingModuleMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_Gold_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 3;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    );
+);

@@ -1,0 +1,905 @@
+CustomBioFuels: 
+(
+    ItemID: Titanium;
+    Energy: 10;
+),
+
+(
+    ItemID: Copper;
+    Energy: 10;
+),
+
+(
+    ItemID: Silver;
+    Energy: 20;
+),
+
+(
+    ItemID: Gold;
+    Energy: 25;
+),
+
+(
+    ItemID: Lead;
+    Energy: 20;
+),
+
+(
+    ItemID: Lithium;
+    Energy: 30;
+),
+
+(
+    ItemID: Magnetite;
+    Energy: 30;
+),
+
+(
+    ItemID: ScrapMetal;
+    Energy: 40;
+),
+
+(
+    ItemID: AluminiumOxide;
+    Energy: 80;
+),
+
+(
+    ItemID: UranititeCrystal;
+    Energy: 80;
+),
+
+(
+    ItemID: Sulphur;
+    Energy: 80;
+),
+
+(
+    ItemID: Quartz;
+    Energy: 10;
+),
+
+(
+    ItemID: Salt;
+    Energy: 5;
+),
+
+(
+    ItemID: Diamond;
+    Energy: 100;
+),
+
+(
+    ItemID: Nickel;
+    Energy: 200;
+),
+
+(
+    ItemID: Kyanite;
+    Energy: 500;
+),
+
+(
+    ItemID: CrashPowder;
+    Energy: 15;
+),
+
+(
+    ItemID: PrecursorIonCrystal;
+    Energy: 1000;
+),
+
+(
+    ItemID: PrecursorIonCrystalMatrix;
+    Energy: 5000;
+),
+
+(
+    ItemID: Tank;
+    Energy: 30;
+),
+
+(
+    ItemID: DoubleTank;
+    Energy: 90;
+),
+
+(
+    ItemID: HighCapacityTank;
+    Energy: 180;
+),
+
+(
+    ItemID: PlasteelTank;
+    Energy: 180;
+),
+
+(
+    ItemID: Fins;
+    Energy: 40;
+),
+
+(
+    ItemID: UltraGlideFins;
+    Energy: 80;
+),
+
+(
+    ItemID: SwimChargeFins;
+    Energy: 80;
+),
+
+(
+    ItemID: RadiationSuit;
+    Energy: 50;
+),
+
+(
+    ItemID: RadiationHelmet;
+    Energy: 50;
+),
+
+(
+    ItemID: RadiationGloves;
+    Energy: 50;
+),
+
+(
+    ItemID: ReinforcedDiveSuit;
+    Energy: 60;
+),
+
+(
+    ItemID: ReinforcedGloves;
+    Energy: 60;
+),
+
+(
+    ItemID: StillSuit;
+    Energy: 60;
+),
+
+(
+    ItemID: Rebreather;
+    Energy: ;
+),
+
+(
+    ItemID: FirstAidKit;
+    Energy: 20;
+),
+
+(
+    ItemID: FireExtinguisher;
+    Energy: 30;
+),
+
+(
+    ItemID: Compass;
+    Energy: 30;
+),
+
+(
+    ItemID: Pipe;
+    Energy: 20;
+),
+
+(
+    ItemID: PipeSurfaceFloater;
+    Energy: 20;
+),
+
+(
+    ItemID: PrecursorKey_Purple;
+    Energy: 200;
+),
+
+(
+    ItemID: PrecursorKey_White;
+    Energy: 200;
+),
+
+(
+    ItemID: PrecursorKey_Red;
+    Energy: 200;
+),
+
+(
+    ItemID: PrecursorKey_Blue;
+    Energy: 200;
+),
+
+(
+    ItemID: PrecursorKey_Orange;
+    Energy: 200;
+),
+
+(
+    ItemID: MapRoomHudChip;
+    Energy: 100;
+),
+
+(
+    ItemID: HydroChloricAxid;
+    Energy: 50;
+),
+
+(
+    ItemID: Benzene;
+    Energy: 50;
+),
+
+(
+    ItemID: AramidFibers;
+    Energy: 60;
+),
+
+(
+    ItemID: Aerogel;
+    Energy: 100;
+),
+
+(
+    ItemID: Polyaniline;
+    Energy: 80;
+),
+
+(
+    ItemID: HatchingEnzymes;
+    Energy: 900;
+),
+
+(
+    ItemID: CopperWire;
+    Energy: 30;
+),
+
+(
+    ItemID: Battery;
+    Energy: 20;
+),
+
+(
+    ItemID: PrecursorIonBattery;
+    Energy: 1100;
+),
+
+(
+    ItemID: PowerCell;
+    Energy: 40;
+),
+
+(
+    ItemID: PrecursroIonPowerCell;
+    Energy: 2200;
+),
+
+(
+    ItemID: ComputerChip;
+    Energy: 100;
+),
+
+(
+    ItemID: WiringKit;
+    Energy: 100;
+),
+
+(
+    ItemID: AdwancedWiringKit;
+    Energy: 200;
+),
+
+(
+    ItemID: ReactorRod;
+    Energy: 10000;
+),
+
+(
+    ItemID: TitaniumIngot;
+    Energy: 100;
+),
+
+(
+    ItemID: FiberMesh;
+    Energy: 10;
+),
+
+(
+    ItemID: Silicone;
+    Energy: 20;
+),
+
+(
+    ItemID: Glass;
+    Energy: 20;
+),
+
+(
+    ItemID: Bleach;
+    Energy: 10;
+),
+
+(
+    ItemID: Lubricant;
+    Energy: 70;
+),
+
+(
+    ItemID: EnameledGlass;
+    Energy: 30;
+),
+
+(
+    ItemID: PlasteelIngot;
+    Energy: 200;
+),
+
+(
+    ItemID: Knife;
+    Energy: 30;
+),
+
+(
+    ItemID: Scanner;
+    Energy: 40;
+),
+
+(
+    ItemID: Flashlight;
+    Energy: 20;
+),
+
+(
+    ItemID: DiveReel;
+    Energy: 30;
+),
+
+(
+    ItemID: AirBladder;
+    Energy: 20;
+),
+
+(
+    ItemID: Flare;
+    Energy: 5;
+),
+
+(
+    ItemID: Builder;
+    Energy: 20;
+),
+
+(
+    ItemID: LaserCutter;
+    Energy: 40;
+),
+
+(
+    ItemID: StasisRifle;
+    Energy: 50;
+),
+
+(
+    ItemID: PropulsionCannon;
+    Energy: 50;
+),
+
+(
+    ItemID: LedLight;
+    Energy: 30;
+),
+
+(
+    ItemID: HeatBlade;
+    Energy: 40;
+),
+
+(
+    ItemID: ReulsionCannon;
+    Energy: 100;
+),
+
+(
+    ItemID: Transfuser;
+    Energy: 80;
+),
+
+(
+    ItemID: Terraformer;
+    Energy: 80;
+),
+
+(
+    ItemID: LootSensorMetal;
+    Energy: 10;
+),
+
+(
+    ItemID: LootSensorLithium;
+    Energy: 10;
+),
+
+(
+    ItemID: LootSensorFragment;
+    Energy: 10;
+),
+
+(
+    ItemID: Cyclops;
+    Energy: 10000;
+),
+
+(
+    ItemID: MercuryOre;
+    Energy: 80;
+),
+
+(
+    ItemID: OpalGem;
+    Energy: 30;
+),
+
+(
+    ItemID: starshipsouvenir;
+    Energy: 10;
+),
+
+(
+    ItemID: luggagebag;
+    Energy: 10;
+),
+
+(
+    ItemID: labequipment1;
+    Energy: 10;
+),
+
+(
+    ItemID: labequipment2;
+    Energy: 10;
+),
+
+(
+    ItemID: labequipment3;
+    Energy: 10;
+),
+
+(
+    ItemID: poster;
+    Energy: 10;
+),
+
+(
+    ItemID: posteraurora;
+    Energy: 10;
+),
+
+(
+    ItemID: posterexosuit1;
+    Energy: 10;
+),
+
+(
+    ItemID: posterexosuit2;
+    Energy: 10;
+),
+
+(
+    ItemID: posterkitty;
+    Energy: 10;
+),
+
+(
+    ItemID: arcadegorgetoy;
+    Energy: 10;
+),
+
+(
+    ItemID: cap1;
+    Energy: 10;
+),
+
+(
+    ItemID: cap2;
+    Energy: 10;
+),
+
+(
+    ItemID: labcontainer;
+    Energy: 10;
+),
+
+(
+    ItemID: labcontainer2;
+    Energy: 10;
+),
+
+(
+    ItemID: labcontainer3;
+    Energy: 10;
+),
+
+(
+    ItemID: ToyCar;
+    Energy: 10;
+),
+
+(
+    ItemID: SeaGlide;
+    Energy: 100;
+),
+
+(
+    ItemID: Constructor;
+    Energy: 200;
+),
+
+(
+    ItemID: Beacon;
+    Energy: 40;
+),
+
+(
+    ItemID: SmallStorage;
+    Energy: 40;
+),
+
+(
+    ItemID: GravSphere;
+    Energy: 40;
+),
+
+(
+    ItemID: CyclopsDecoy;
+    Energy: 40;
+),
+
+(
+    ItemID: None;
+    Energy: -1000;
+),
+
+(
+    ItemID: PDA;
+    Energy: 510;
+),
+
+(
+    ItemID: SeamothFragment;
+    Energy: 1100;
+),
+
+(
+    ItemID: ExosuitFragment;
+    Energy: 1102;
+),
+
+(
+    ItemID: PropulsionCannonFragment;
+    Energy: 1107;
+),
+
+(
+    ItemID: BaseMapRoomFragment;
+    Energy: 1146;
+),
+
+(
+    ItemID: LaserCutterFragment;
+    Energy: 1149;
+),
+
+(
+    ItemID: Bench;
+    Energy: 1525;
+),
+
+(
+    ItemID: PictureFrame;
+    Energy: 1526;
+),
+
+(
+    ItemID: TechLight;
+    Energy: 1532;
+),
+
+(
+    ItemID: SingleWallShelf;
+    Energy: 1539;
+),
+
+(
+    ItemID: WallShelves;
+    Energy: 1540;
+),
+
+(
+    ItemID: Bed1;
+    Energy: 1541;
+),
+
+(
+    ItemID: NarrowBed;
+    Energy: 1543;
+),
+
+(
+    ItemID: StarshipCargoCrate;
+    Energy: 1800;
+),
+
+(
+    ItemID: StarshipDesk;
+    Energy: 1802;
+),
+
+(
+    ItemID: StarshipChair;
+    Energy: 1803;
+),
+
+(
+    ItemID: StarshipChair3;
+    Energy: 1806;
+),
+
+(
+    ItemID: CoffeeVendingMachine;
+    Energy: 1812;
+),
+
+(
+    ItemID: BarTable;
+    Energy: 1813;
+),
+
+(
+    ItemID: TrashCans;
+    Energy: 1819;
+),
+
+(
+    ItemID: VendingMachine;
+    Energy: 1821;
+),
+
+(
+    ItemID: LabCounter;
+    Energy: 1822;
+),
+
+(
+    ItemID: Player;
+    Energy: 1337;
+),
+
+(
+    ItemID: Bleeder;
+    Energy: 100;
+),
+
+(
+    ItemID: ReaperLeviathan;
+    Energy: 1;
+),
+
+(
+    ItemID: GhostLeviathan;
+    Energy: 1;
+),
+
+(
+    ItemID: CaveCrawler;
+    Energy: 100;
+),
+
+(
+    ItemID: FloatingStone;
+    Energy: 62098;
+),
+
+(
+    ItemID: StasisRifleFragment;
+    Energy: 1101;
+),
+
+(
+    ItemID: FabricatorBlueprintOld;
+    Energy: 1000;
+),
+
+(
+    ItemID: SomethingPlaceholder;
+    Energy: -1;
+),
+
+(
+    ItemID: Welder;
+    Energy: 40;
+),
+
+(
+    ItemID: HangingStinger;
+    Energy: 200;
+),
+
+(
+    ItemID: VehicleArmorPlating;
+    Energy: 200;
+),
+
+(
+    ItemID: VehiclePowerUpgradeModule;
+    Energy: 100;
+),
+
+(
+    ItemID: vehiclestoragemodule;
+    Energy: 50;
+),
+
+(
+    ItemID: vehiclehullmodule1;
+    Energy: 100;
+),
+
+(
+    ItemID: vehiclehullmodule2;
+    Energy: 200;
+),
+
+(
+    ItemID: vehiclehullmodule3;
+    Energy: 300;
+),
+
+(
+    ItemID: seamothsolarcharge;
+    Energy: 100;
+),
+
+(
+    ItemID: seamothelectricaldefense;
+    Energy: 100;
+),
+
+(
+    ItemID: seamothtorpedomodule;
+    Energy: 150;
+),
+
+(
+    ItemID: seamothsonarmodule;
+    Energy: 50;
+),
+
+(
+    ItemID: exohullmodule1;
+    Energy: 500;
+),
+
+(
+    ItemID: exohullmodule2;
+    Energy: 1500;
+),
+
+(
+    ItemID: exosuitthermalreactormodule;
+    Energy: 1500;
+),
+
+(
+    ItemID: exosuitjetupgrademodule;
+    Energy: 400;
+),
+
+(
+    ItemID: exosuitpropulsionarmmodule;
+    Energy: 300;
+),
+
+(
+    ItemID: exosuitgrapplingarmmodule;
+    Energy: 300;
+),
+
+(
+    ItemID: exosuitdrillarmmodule;
+    Energy: 400;
+),
+
+(
+    ItemID: exosuittorpedoarmmodule;
+    Energy: 300;
+),
+
+(
+    ItemID: cyclopshullmodule1;
+    Energy: 300;
+),
+
+(
+    ItemID: cyclopshullmodule2;
+    Energy: 600;
+),
+
+(
+    ItemID: cyclopshullmodule3;
+    Energy: 900;
+),
+
+(
+    ItemID: powerupgrademodule;
+    Energy: 200;
+),
+
+(
+    ItemID: cyclopsshieldmodule;
+    Energy: 500;
+),
+
+(
+    ItemID: cyclopssonarmodule;
+    Energy: 100;
+),
+
+(
+    ItemID: cyclopsseamothrepairmodule;
+    Energy: 200;
+),
+
+(
+    ItemID: cyclopsfiresuppressionmodule;
+    Energy: 200;
+),
+
+(
+    ItemID: cyclopsdecoymodule;
+    Energy: 250;
+),
+
+(
+    ItemID: cyclopsthermalreactormodule;
+    Energy: 4000;
+),
+
+(
+    ItemID: hullreinforcementmodule2;
+    Energy: 600;
+),
+
+(
+    ItemID: hullreinforcementmodule3;
+    Energy: 900;
+),
+
+(
+    ItemID: maproomupgradescanspeed;
+    Energy: 100;
+),
+
+(
+    ItemID: maproomupgradescanrange;
+    Energy: 200;
+),
+
+(
+    ItemID: maproomcamera;
+    Energy: 200;
+),
+
+(
+    ItemID: gastorpedo;
+    Energy: 20;
+),
+
+(
+    ItemID: repulsioncannon;
+    Energy: 100;
+),
+
+(
+    ItemID: whirlpooltorpedo;
+    Energy: 20;
+);

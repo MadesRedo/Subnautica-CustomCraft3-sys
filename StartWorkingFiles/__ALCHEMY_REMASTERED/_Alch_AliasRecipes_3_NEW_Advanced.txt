@@ -1,0 +1,318 @@
+
+
+
+AliasRecipes:
+
+#	----------------------------------------	#
+#				ADVANCED ALCHEMY				#
+#	----------------------------------------	#
+
+
+#	-------------	DIAMOND	----------------	#
+(
+    ItemID: Alch_Diamond;
+    DisplayName: "Alchemic Diamond";
+	Tooltip: "Advanced Alchemy. To obtain +2 Diamond | +3 Carbon raw. Bioreactor: +500";
+    LinkedItemIDs: Alch_Diamond;
+	FunctionalID: Diamond;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Diamond;
+    Path: Alch_Fab/Alchemy/Alch_Advanced;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: SpikePlantSeed;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_CarbonRaw;
+    DisplayName: "Carbon raw";
+	Tooltip: "Pyrolytic Component of Alchemic Diamond. Piece of pure Carbon. Solid and complex, it forms more compounds than all the other chemical elements combined. Useful in many compositions. Bioreactor: +400";
+	LinkedItemIDs: Alch_CarbonRaw;
+	FunctionalID: Diamond;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CarbonRaw;
+),
+
+(
+    ItemID: Alch_Diamond_&_Carbon;
+    DisplayName: "Diamond & Carbon";
+	Tooltip: "+2 Diamond | +3 Carbon raw, obtained by Pyrolyse of Alchemic Diamond";
+	LinkedItemIDs: Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Diamond, Diamond, LabEquipment1;
+	FunctionalID: Diamond;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Diamond_&_Carbon;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Diamond;
+        Required: 1;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment1;
+        Required: 1;
+    );
+),
+
+#	-------------	RUBY	----------------	#
+(
+    ItemID: Alch_AluminumOxide;
+    DisplayName: "Alchemic Ruby";
+	Tooltip: "Advanced Alchemy. To obtain +2 Ruby | +2 Corundum Gem. Bioreactor: +600";
+    LinkedItemIDs: Alch_AluminumOxide;
+	FunctionalID: AluminumOxide;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_AluminumOxide;
+    Path: Alch_Fab/Alchemy/Alch_Advanced;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: SeaCrownSeed;
+        Required: 2;
+    ),
+	(
+        ItemID: WhiteMushroom;
+        Required: 2;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_CorundumGem;
+    DisplayName: "Corundum Gem";
+	Tooltip: "Pyrolytic Component of Alchemic Ruby. Metamorphic gem with incredible physical properties: density, hardness, brittleness, insolubility, chemically inert, no magnetism or radioactivity. Bioreactor: +450";
+	LinkedItemIDs: Alch_CorundumGem;
+	FunctionalID: AluminumOxide;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CorundumGem;
+),
+
+(
+    ItemID: Alch_Ruby_&_Corundum;
+    DisplayName: "Ruby & Corindon";
+	Tooltip: "+2 Ruby | +2 Corundum Gem, obtained by Pyrolyse of Alchemic Ruby";
+	LinkedItemIDs: Alch_CorundumGem, Alch_CorundumGem, AluminumOxide, AluminumOxide, LabEquipment1;
+	FunctionalID: AluminumOxide;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Ruby_&_Corundum;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_AluminumOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment1;
+        Required: 1;
+    );
+),
+
+#	-------------	MAGNETITE	-------------	#
+(
+    ItemID: Alch_Magnetite;
+    DisplayName: "Alchemic Magnetite";
+	Tooltip: "Advanced Alchemy. To obtain +4 Magnetite. Bioreactor: +600";
+    LinkedItemIDs: Alch_Magnetite;
+	FunctionalID: Magnetite;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnetite;
+    Path: Alch_Fab/Alchemy/Alch_Advanced;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: SnakeMushroomSpore;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_Magnetite_X;
+    DisplayName: "Magnetite (x4)";
+	Tooltip: "Magnetite (x4) : obtained from Alchemic Magnetite";
+	LinkedItemIDs: Magnetite, Magnetite, Magnetite, Magnetite, Alch_LabContainer2;
+	FunctionalID: Magnetite;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnetite_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Magnetite;
+        Required: 1;
+    ),
+	(
+        ItemID: Gold;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer2;
+        Required: 1;
+    );
+),
+
+#	-----------	CRYSTALLINE SULFUR	-----------	#
+(
+    ItemID: Alch_Sulphur;
+    DisplayName: "Alchemic Crystalline sulfur";
+	Tooltip: "Advanced Alchemy. To obtain +3 Crystalline sulfur. Bioreactor: +600";
+    LinkedItemIDs: Alch_Sulphur;
+	FunctionalID: Sulphur;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Sulphur;
+    Path: Alch_Fab/Alchemy/Alch_Advanced;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: EyesPlantSeed;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_Sulphur_X;
+    DisplayName: "Crystalline sulfur (x3)";
+	Tooltip: "Crystalline sulfur (x3) : obtained from Alchemic Crystalline sulfur";
+	LinkedItemIDs: Sulphur, Sulphur, Sulphur, Alch_LabContainer;
+	FunctionalID: Sulphur;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Sulphur_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Sulphur;
+        Required: 1;
+    ),
+	(
+        ItemID: CrashPowder;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    );
+),
+
+#	-------------	NICKEL	-------------	#
+(
+    ItemID: Alch_Nickel;
+    DisplayName: "Alchemic Nickel";
+	Tooltip: "Advanced Alchemy. To obtain +3 Nickel. Bioreactor: +700";
+    LinkedItemIDs: Alch_Nickel;
+	FunctionalID: Nickel;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Nickel;
+    Path: Alch_Fab/Alchemy/Alch_Advanced;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: GabesFeatherSeed;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_Nickel_X;
+    DisplayName: "Nickel (x3)";
+	Tooltip: "Nickel (x3) : obtained from Alchemic Nickel";
+	LinkedItemIDs: Nickel, Nickel, Nickel, Alch_LabContainer;
+	FunctionalID: Nickel;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Nickel_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Nickel;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    );
+);

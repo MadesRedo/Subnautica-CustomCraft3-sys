@@ -1,0 +1,107 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Tank O₂		#
+(
+	ItemID: OxygenCanister;														#	Oxygen Canisters (Discord) "M3dicCookie"	#
+	OldPath: Fabricator/Personal/Equipment/Oxygen;
+	NewPath: Fabricator/Personal/Equipment;
+),
+(
+	ItemID: OxygenCanister;														#	Oxygen Canisters (Discord) "M3dicCookie"	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: RechargedOxygenCanister;											#	Oxygen Canisters (Discord) "M3dicCookie"	#
+	OldPath: Fabricator/Personal/Equipment/Oxygen;
+	NewPath: Fabricator/Personal/Equipment;
+),
+(
+	ItemID: RechargedOxygenCanister;											#	Oxygen Canisters (Discord) "M3dicCookie"	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Tank;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PlasteelTank;
+	OldPath: Workbench/TankMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+),
+(
+	ItemID: DoubleTank;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: HighCapacityTank;
+	OldPath: Workbench/TankMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+),
+(
+	ItemID: PlasteelHighCapTank;												#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/TankMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+),
+(
+	ItemID: lwuhtank;															#	More Modified Items "MrPurple6411" - 398	#
+	OldPath: Workbench/TankMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+),
+(
+	ItemID: ScubaManifold;														#	More Modified Items "MrPurple6411" - 398	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: OxygenLink;															#	Oxygen Link "0x4B" - 1397	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Normalair;															#	Configurable Tanks "M3dicCookie" - 1388		#
+	#OldPath: Fabricator/TANKSS;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Doubleair;															#	Configurable Tanks "M3dicCookie" - 1388		#
+	#OldPath: Fabricator/TANKSS;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Thatsalotofair;														#	Configurable Tanks "M3dicCookie" - 1388		#
+	#OldPath: Fabricator/TANKSS;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PrecursorOxygenTank;												#	Precursor Oxygen Tank "pNatultra" - 2565	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+),
+(
+	ItemID: deathrunremade_photosynthesistanksmall;								#	Deathrun Remade "Raqzas" - 1495		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: lwuhcptank;															#	Deathrun Remade "Raqzas" - 1495		#
+	OldPath: Workbench/TankMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+),
+(
+	ItemID: lwuhcctank;															#	Deathrun Remade "Raqzas" - 1495		#
+	OldPath: Workbench/TankMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerTankUpgrades;
+);

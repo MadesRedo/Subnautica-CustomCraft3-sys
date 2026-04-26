@@ -1,0 +1,44 @@
+AddedRecipes: 
+(
+    ItemID: Sulphur;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CrashPowder;
+        Required: 3;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/IMCCraft/IMCRawMat;
+),
+(
+    ItemID: Salt;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Holefish;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/IMCCraft/IMCRawMat;
+),
+(
+    ItemID: CrashPowder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: Bleach;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/IMCCraft/IMCRawMat;
+);

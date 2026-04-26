@@ -1,0 +1,1226 @@
+AliasRecipes:
+(
+	ItemID: BuyTenAcidMushroom;
+	DisplayName: "Purchase 10 Acid Mushroom";
+	Tooltip: " ";
+	LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenAcidMushroom;
+	DisplayName: "Sell 10 Acid Mushroom";
+	Tooltip: " ";
+	SpriteItemID: acidmushroom;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: acidmushroom;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenAcidMushroomSpore;
+	DisplayName: "Purchase 10 Acid Mushroom Spore";
+	Tooltip: " ";
+	LinkedItemIDs: acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenAcidMushroomSpore;
+	DisplayName: "Sell 10 Acid Mushroom Spore";
+	Tooltip: " ";
+	SpriteItemID: acidmushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: acidmushroomspore;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSeaTreaderPoop;
+	DisplayName: "Purchase 10 Alien Feces";
+	Tooltip: " ";
+	LinkedItemIDs: seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSeaTreaderPoop;
+	DisplayName: "Sell 10 Alien Feces";
+	Tooltip: " ";
+	SpriteItemID: seatreaderpoop;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: seatreaderpoop;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenBluePalmSeed;
+	DisplayName: "Purchase 10 Blue Palm Seed";
+	Tooltip: " ";
+	LinkedItemIDs: bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenBluePalmSeed;
+	DisplayName: "Sell 10 Blue Palm Seed";
+	Tooltip: " ";
+	SpriteItemID: bluepalmseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: bluepalmseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleBrainCoralPiece;
+	DisplayName: "Purchase 10 Brain Coral Sample";
+	Tooltip: " ";
+	LinkedItemIDs: purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleBrainCoralPiece;
+	DisplayName: "Sell 10 Brain Coral Sample";
+	Tooltip: " ";
+	SpriteItemID: purplebraincoralpiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplebraincoralpiece;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenKooshChunk;
+	DisplayName: "Purchase 10 Bulb Bush Sample";
+	Tooltip: " ";
+	LinkedItemIDs: kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenKooshChunk;
+	DisplayName: "Sell 10 Bulb Bush Sample";
+	Tooltip: " ";
+	SpriteItemID: kooshchunk;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: kooshchunk;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenBulboTreePiece;
+	DisplayName: "Purchase 10 Bulbo Tree Sample";
+	Tooltip: " ";
+	LinkedItemIDs: bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenBulboTreePiece;
+	DisplayName: "Sell 10 Bulbo Tree Sample";
+	Tooltip: " ";
+	SpriteItemID: bulbotreepiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: bulbotreepiece;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleBranchesSeed;
+	DisplayName: "Purchase 10 Cave Bush Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleBranchesSeed;
+	DisplayName: "Sell 10 Cave Bush Seed";
+	Tooltip: " ";
+	SpriteItemID: purplebranchesseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplebranchesseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleVegetable;
+	DisplayName: "Purchase 10 Chinese Potato";
+	Tooltip: " ";
+	LinkedItemIDs: purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleVegetable;
+	DisplayName: "Sell 10 Chinese Potato";
+	Tooltip: " ";
+	SpriteItemID: purplevegetable;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplevegetable;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenCoralChunk;
+	DisplayName: "Purchase 10 Coral Tube Sample";
+	Tooltip: " ";
+	LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenCoralChunk;
+	DisplayName: "Sell 10 Coral Tube Sample";
+	Tooltip: " ";
+	SpriteItemID: coralchunk;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: coralchunk;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenCreepVinePiece;
+	DisplayName: "Purchase 10 Creepvine Sample";
+	Tooltip: " ";
+	LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenCreepVinePiece;
+	DisplayName: "Sell 10 Creepvine Sample";
+	Tooltip: " ";
+	SpriteItemID: creepvinepiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: creepvinepiece;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenCreepVineSeedCluster;
+	DisplayName: "Purchase 10 Creepvine Seed Cluster";
+	Tooltip: " ";
+	LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenCreepVineSeedCluster;
+	DisplayName: "Sell 10 Creepvine Seed Cluster";
+	Tooltip: " ";
+	SpriteItemID: creepvineseedcluster;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: creepvineseedcluster;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenWhiteMushroom;
+	DisplayName: "Purchase 10 Deep Shroom";
+	Tooltip: " ";
+	LinkedItemIDs: whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenWhiteMushroom;
+	DisplayName: "Sell 10 Deep Shroom";
+	Tooltip: " ";
+	SpriteItemID: whitemushroom;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: whitemushroom;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenWhiteMushroomSpore;
+	DisplayName: "Purchase 10 Deep Shroom Spore";
+	Tooltip: " ";
+	LinkedItemIDs: whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenWhiteMushroomSpore;
+	DisplayName: "Sell 10 Deep Shroom Spore";
+	Tooltip: " ";
+	SpriteItemID: whitemushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: whitemushroomspore;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenEyesPlantSeed;
+	DisplayName: "Purchase 10 Eye Stalk Seed";
+	Tooltip: " ";
+	LinkedItemIDs: eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenEyesPlantSeed;
+	DisplayName: "Sell 10 Eye Stalk Seed";
+	Tooltip: " ";
+	SpriteItemID: eyesplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: eyesplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenFernPalmSeed;
+	DisplayName: "Purchase 10 Fern Palm Seed";
+	Tooltip: " ";
+	LinkedItemIDs: fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenFernPalmSeed;
+	DisplayName: "Sell 10 Fern Palm Seed";
+	Tooltip: " ";
+	SpriteItemID: fernpalmseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: fernpalmseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenTreeMushroomPiece;
+	DisplayName: "Purchase 10 Fungal Sample";
+	Tooltip: " ";
+	LinkedItemIDs: treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenTreeMushroomPiece;
+	DisplayName: "Sell 10 Fungal Sample";
+	Tooltip: " ";
+	SpriteItemID: treemushroompiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: treemushroompiece;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenRedRollPlantSeed;
+	DisplayName: "Purchase 10 Furled Papyrus Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenRedRollPlantSeed;
+	DisplayName: "Sell 10 Furled Papyrus Seed";
+	Tooltip: " ";
+	SpriteItemID: redrollplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redrollplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenGabesFeatherSeed;
+	DisplayName: "Purchase 10 Gabe's Feather Seed";
+	Tooltip: " ";
+	LinkedItemIDs: gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenGabesFeatherSeed;
+	DisplayName: "Sell 10 Gabe's Feather Seed";
+	Tooltip: " ";
+	SpriteItemID: gabesfeatherseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: gabesfeatherseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenGasPod;
+	DisplayName: "Purchase 10 Gas Pod";
+	Tooltip: " ";
+	LinkedItemIDs: gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenGasPod;
+	DisplayName: "Sell 10 Gas Pod";
+	Tooltip: " ";
+	SpriteItemID: gaspod;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: gaspod;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenJellyPlant;
+	DisplayName: "Purchase 10 Gel Sack";
+	Tooltip: " ";
+	LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenJellyPlant;
+	DisplayName: "Sell 10 Gel Sack";
+	Tooltip: " ";
+	SpriteItemID: jellyplant;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jellyplant;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenJellyPlantSeed;
+	DisplayName: "Purchase 10 Gel Sack Spores";
+	Tooltip: " ";
+	LinkedItemIDs: jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenJellyPlantSeed;
+	DisplayName: "Sell 10 Gel Sack Spores";
+	Tooltip: " ";
+	SpriteItemID: jellyplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jellyplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenRedGreenTentacleSeed;
+	DisplayName: "Purchase 10 Ghost Weed Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenRedGreenTentacleSeed;
+	DisplayName: "Sell 10 Ghost Weed Seed";
+	Tooltip: " ";
+	SpriteItemID: redgreententacleseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redgreententacleseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenOrangePetalsPlantSeed;
+	DisplayName: "Purchase 10 Grub Basket Seed";
+	Tooltip: " ";
+	LinkedItemIDs: orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenOrangePetalsPlantSeed;
+	DisplayName: "Sell 10 Grub Basket Seed";
+	Tooltip: " ";
+	SpriteItemID: orangepetalsplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: orangepetalsplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenOrangeMushroomSpore;
+	DisplayName: "Purchase 10 Jaffa Cup Seed";
+	Tooltip: " ";
+	LinkedItemIDs: orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenOrangeMushroomSpore;
+	DisplayName: "Sell 10 Jaffa Cup Seed";
+	Tooltip: " ";
+	SpriteItemID: orangemushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: orangemushroomspore;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSnakeMushroomSpore;
+	DisplayName: "Purchase 10 Jellyshroom Spore";
+	Tooltip: " ";
+	LinkedItemIDs: snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSnakeMushroomSpore;
+	DisplayName: "Sell 10 Jellyshroom Spore";
+	Tooltip: " ";
+	SpriteItemID: snakemushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: snakemushroomspore;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenHangingFruit;
+	DisplayName: "Purchase 10 Lantern Fruit";
+	Tooltip: " ";
+	LinkedItemIDs: hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenHangingFruit;
+	DisplayName: "Sell 10 Lantern Fruit";
+	Tooltip: " ";
+	SpriteItemID: hangingfruit;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: hangingfruit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSmallMelon;
+	DisplayName: "Purchase 10 Small Marblemelon";
+	Tooltip: " ";
+	LinkedItemIDs: smallmelon,smallmelon,smallmelon,smallmelon,smallmelon,smallmelon,smallmelon,smallmelon,smallmelon,smallmelon;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSmallMelon;
+	DisplayName: "Sell 10 Small Marblemelon";
+	Tooltip: " ";
+	SpriteItemID: smallmelon;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: smallmelon;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenMelon;
+	DisplayName: "Purchase 10 Marblemelon";
+	Tooltip: " ";
+	LinkedItemIDs: melon,melon,melon,melon,melon,melon,melon,melon,melon,melon;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenMelon;
+	DisplayName: "Sell 10 Marblemelon";
+	Tooltip: " ";
+	SpriteItemID: melon;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: melon;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenMelonSeed;
+	DisplayName: "Purchase 10 Marblemelon Seeds";
+	Tooltip: " ";
+	LinkedItemIDs: melonseed,melonseed,melonseed,melonseed,melonseed,melonseed,melonseed,melonseed,melonseed,melonseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenMelonSeed;
+	DisplayName: "Sell 10 Marblemelon Seeds";
+	Tooltip: " ";
+	SpriteItemID: melonseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: melonseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenMembrainTreeSeed;
+	DisplayName: "Purchase 10 Membrain Tree Seed";
+	Tooltip: " ";
+	LinkedItemIDs: membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenMembrainTreeSeed;
+	DisplayName: "Sell 10 Membrain Tree Seed";
+	Tooltip: " ";
+	SpriteItemID: membraintreeseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: membraintreeseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleVasePlantSeed;
+	DisplayName: "Purchase 10 Ming Plant Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleVasePlantSeed;
+	DisplayName: "Sell 10 Ming Plant Seed";
+	Tooltip: " ";
+	SpriteItemID: purplevaseplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplevaseplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPinkMushroom;
+	DisplayName: "Purchase 10 Pink Cap";
+	Tooltip: " ";
+	LinkedItemIDs: pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPinkMushroom;
+	DisplayName: "Sell 10 Pink Cap Seed";
+	Tooltip: " ";
+	SpriteItemID: pinkmushroom;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: pinkmushroom;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPinkMushroomSpore;
+	DisplayName: "Purchase 10 Pink Cap Spore";
+	Tooltip: " ";
+	LinkedItemIDs: pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPinkMushroomSpore;
+	DisplayName: "Sell 10 Pink Cap Spore";
+	Tooltip: " ";
+	SpriteItemID: pinkmushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: pinkmushroomspore;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSmallFanSeed;
+	DisplayName: "Purchase 10 Pygmy Fan Seed";
+	Tooltip: " ";
+	LinkedItemIDs: smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSmallFanSeed;
+	DisplayName: "Sell 10 Pygmy Fan Seed";
+	Tooltip: " ";
+	SpriteItemID: smallfanseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: smallfanseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenRedBushSeed;
+	DisplayName: "Purchase 10 Redwort Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redbushseed,redbushseed,redbushseed,redbushseed,redbushseed,redbushseed,redbushseed,redbushseed,redbushseed,redbushseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenRedBushSeed;
+	DisplayName: "Sell 10 Redwort Seed";
+	Tooltip: " ";
+	SpriteItemID: redbushseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redbushseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenRedConePlantSeed;
+	DisplayName: "Purchase 10 Regress Shell Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenRedConePlantSeed;
+	DisplayName: "Sell 10 Regress Shell Seed";
+	Tooltip: " ";
+	SpriteItemID: redconeplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redconeplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenRedBasketPlantSeed;
+	DisplayName: "Purchase 10 Rouge Cradle Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenRedBasketPlantSeed;
+	DisplayName: "Sell 10 Rogue Cradle Seed";
+	Tooltip: " ";
+	SpriteItemID: redbasketplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redbasketplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSeaCrownSeed;
+	DisplayName: "Purchase 10 Sea Crown Seed";
+	Tooltip: " ";
+	LinkedItemIDs: seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSeaCrownSeed;
+	DisplayName: "Sell 10 Sea Crown Seed";
+	Tooltip: " ";
+	SpriteItemID: seacrownseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: seacrownseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleRattle;
+	DisplayName: "Purchase 10 Speckled Rattler";
+	Tooltip: " ";
+	LinkedItemIDs: purplerattle,purplerattle,purplerattle,purplerattle,purplerattle,purplerattle,purplerattle,purplerattle,purplerattle,purplerattle;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleRattle;
+	DisplayName: "Sell 10 Speckled Rattler";
+	Tooltip: " ";
+	SpriteItemID: purplerattle;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplerattle;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenShellGrassSeed;
+	DisplayName: "Purchase 10 Spiked Horn Grass Seed";
+	Tooltip: " ";
+	LinkedItemIDs: shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenShellGrassSeed;
+	DisplayName: "Sell 10 Spiked Horn Grass Seed";
+	Tooltip: " ";
+	SpriteItemID: shellgrassseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: shellgrassseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSpottedLeavesPlantSeed;
+	DisplayName: "Purchase 10 Spotted Dockleaf Seed";
+	Tooltip: " ";
+	LinkedItemIDs: spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSpottedLeavesPlantSeed;
+	DisplayName: "Sell 10 Spotted Dockleaf Seed";
+	Tooltip: " ";
+	SpriteItemID: spottedleavesplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spottedleavesplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenStalkerTooth;
+	DisplayName: "Purchase 10 Stalker Teeth";
+	Tooltip: " ";
+	LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenStalkerTooth;
+	DisplayName: "Sell 10 Stalker Teeth";
+	Tooltip: " ";
+	SpriteItemID: stalkertooth;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: stalkertooth;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenJeweledDiskPiece;
+	DisplayName: "Purchase 10 Table Coral Sample";
+	Tooltip: " ";
+	LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenJeweledDiskPiece;
+	DisplayName: "Sell 10 Table Coral Sample";
+	Tooltip: " ";
+	SpriteItemID: jeweleddiskpiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jeweleddiskpiece;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenSpikePlantSeed;
+	DisplayName: "Purchase 10 Tiger Plant Seed";
+	Tooltip: " ";
+	LinkedItemIDs: spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenSpikePlantSeed;
+	DisplayName: "Sell 10 Tiger Plant Seed";
+	Tooltip: " ";
+	SpriteItemID: spikeplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spikeplantseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleFanSeed;
+	DisplayName: "Purchase 10 Veined Nettle Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleFanSeed;
+	DisplayName: "Sell 10 Veined Nettle Seed";
+	Tooltip: " ";
+	SpriteItemID: purplefanseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplefanseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleStalkSeed;
+	DisplayName: "Purchase 10 Violet Beau Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleStalkSeed;
+	DisplayName: "Sell 10 Violet Beau Seed";
+	Tooltip: " ";
+	SpriteItemID: purplestalkseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplestalkseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPinkFlowerSeed;
+	DisplayName: "Purchase 10 Voxel Shrub Seed";
+	Tooltip: " ";
+	LinkedItemIDs: pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPinkFlowerSeed;
+	DisplayName: "Sell 10 Voxel Shrub Seed";
+	Tooltip: " ";
+	SpriteItemID: pinkflowerseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: pinkflowerseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+),
+(
+	ItemID: BuyTenPurpleTentacleSeed;
+	DisplayName: "Purchase 10 Writhing Weed Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FloraBuyTen;
+),
+(
+	ItemID: SellTenPurpleTentacleSeed;
+	DisplayName: "Sell 10 Writhing Weed Seed";
+	Tooltip: " ";
+	SpriteItemID: purpletentacleseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purpletentacleseed;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FloraSellTen;
+);

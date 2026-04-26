@@ -1,0 +1,37 @@
+
+
+
+MovedRecipes:
+
+
+#	------------	REACTOR RODS	-----------	#
+	#	1 - Enriched Copper Oxide Rod		#
+(
+    ItemID: Alch_Enriched_CopperOxide_Rod;
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Rods;
+),
+	#	2 - Enriched Sulphur Crystals Rod		#
+(
+    ItemID: Alch_Enriched_SulphurCrystals_Rod;
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Rods;
+),
+	#	3 - Enriched Pink Salt Rod		#
+(
+    ItemID: Alch_Enriched_PinkSalt_Rod;
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Rods;
+),
+	#	4 - Enriched Iron Magnetic Powder Rod		#
+(
+    ItemID: Alch_Enriched_IronMagneticPowder_Rod;
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Rods;
+),
+	#	5 - Radium Crystal Rod		#
+(
+    ItemID: Alch_RadiumCrystal_Rod;
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Rods;
+);

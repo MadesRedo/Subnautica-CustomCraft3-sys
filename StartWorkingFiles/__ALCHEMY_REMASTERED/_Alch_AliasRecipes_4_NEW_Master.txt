@@ -1,0 +1,198 @@
+
+
+
+AliasRecipes:
+
+#	----------------------------------------	#
+#				MASTER ALCHEMY					#
+#	----------------------------------------	#
+
+
+#	-------------	KYANITE	----------------	#
+(
+    ItemID: Alch_Kyanite;
+    DisplayName: "Alchemic Kyanite";
+	Tooltip: "Master Alchemy. To obtain +3 Kyanite. Bioreactor: +800";
+    LinkedItemIDs: Alch_Kyanite;
+	FunctionalID: Kyanite;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Kyanite;
+    Path: Alch_Fab/Alchemy/Alch_Master;
+    Ingredients: 
+    (
+        ItemID: BloodOil;
+        Required: 1;
+    ),
+    (
+        ItemID: MembrainTreeSeed;
+        Required: 3;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_Kyanite_X;
+    DisplayName: "Kyanite (x3)";
+	Tooltip: "Kyanite (x3) : obtained from Alchemic Kyanite";
+	LinkedItemIDs: Kyanite, Kyanite, Kyanite, LabEquipment1;
+	FunctionalID: Kyanite;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Kyanite_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Kyanite;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment1;
+        Required: 1;
+    );
+),
+
+#	-----------	URANINITE CRYSTAL	-------------	#
+(
+    ItemID: Alch_UraniniteCrystal;
+    DisplayName: "Alchemic Uraninite crystal";
+	Tooltip: "Master Alchemy. To obtain +2 Uraninite crystal | +2 Radium crystal. Bioreactor: +900";
+    LinkedItemIDs: Alch_UraniniteCrystal;
+	FunctionalID: UraniniteCrystal;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_UraniniteCrystal;
+    Path: Alch_Fab/Alchemy/Alch_Master;
+    Ingredients: 
+    (
+        ItemID: BloodOil;
+        Required: 2;
+    ),
+    (
+        ItemID: RedGreenTentacleSeed;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Sulphur;
+        Required: 2;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_RadiumCrystal;
+    DisplayName: "Radium Crystal";
+	Tooltip: "Catalytic Component of Alchemic Uraninite crystal. Highly radioactive! Radium Crystal provides an enormous amount of energy compared to Uranium, but only in the short term... unless it can be channeled... Bioreactor: +1200";
+	LinkedItemIDs: Alch_RadiumCrystal;
+	FunctionalID: UraniniteCrystal;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_RadiumCrystal;
+),
+
+(
+    ItemID: Alch_Uraninite_&_Radium;
+    DisplayName: "Uraninite & Radium";
+	Tooltip: "+2 Uraninite crystal | +2 Radium crystal, obtained by Catalysis of Alchemic Uraninite crystal";
+	LinkedItemIDs: Alch_RadiumCrystal, Alch_RadiumCrystal, UraniniteCrystal, UraniniteCrystal, LabEquipment1;
+	FunctionalID: UraniniteCrystal;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Uraninite_&_Radium;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_UraniniteCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment1;
+        Required: 1;
+    );
+),
+
+#	-------------	ION CUBE	-------------	#
+(
+    ItemID: Alch_PrecursorIonCrystal;
+    DisplayName: "Ion cube";
+	Tooltip: "Master Alchemy: an Ion Cube made directly in the Alchemy Fabricator. It's the ultimate energy source on this planet, and you can finally synthesize it. Congratulations! Alchemy holds almost no secrets for you now...";
+    LinkedItemIDs: PrecursorIonCrystal;
+	FunctionalID: PrecursorIonCrystal;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_PrecursorIonCrystal;
+    Path: Alch_Fab/Alchemy/Alch_Master;
+    Ingredients: 
+    (
+        ItemID: BloodOil;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 4;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    );
+);

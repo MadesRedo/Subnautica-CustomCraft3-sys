@@ -1,0 +1,37 @@
+#		PdaGroup: ExteriorModules | PdaCategory: ExteriorLight		#
+
+
+ModifiedRecipes:
+
+
+#	------------	PROJECTEUR FIXE	-----------	#
+(
+    ItemID: Techlight;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: LEDLight;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+	LinkedItemIDs: Battery;
+),
+
+#	------------	PROJECTEUR À 180°	-----------	#
+(
+    ItemID: Spotlight;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: LEDLight;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+	LinkedItemIDs: Battery;
+);

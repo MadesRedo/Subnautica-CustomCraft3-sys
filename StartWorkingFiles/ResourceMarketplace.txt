@@ -1,0 +1,293 @@
+# THIS FILE IS ONLY USED FOR SETTING UP THE COINS AND MARKET ACCESS POINT. DO NOT MODIFY ANYTHING IN THIS FILE. #
+CustomFabricators:
+(
+	ItemID: ResourceMarket;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 2;
+	);
+	ForceUnlockAtStart: YES;
+	PdaGroup: InteriorModules;
+	PdaCategory: InteriorModule;
+	DisplayName: "Resource Marketplace";
+	Tooltip: "A place to exchange items you don't need.";
+	Model: Fabricator;
+	AllowedInBase: YES;
+	AllowedInCyclops: YES;
+	ColorTint: .937, .749, .016;
+	CustomCraftingTabs:
+	(
+		TabID: ShopMenu;
+		DisplayName: "Resource Market";
+		ParentTabPath: ResourceMarket;
+	),
+	(
+		TabID: ShopBuy;
+		DisplayName: "Purchase Items";
+		ParentTabPath: ResourceMarket/ShopMenu;
+	),
+	(
+		TabID: BuyOne;
+		DisplayName: "Purchase Single Items";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy;
+	),
+	(
+		TabID: OreBuyOne;
+		DisplayName: "Purchase Single Ores";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyOne;
+	),
+	(
+		TabID: FloraBuyOne;
+		DisplayName: "Purchase Single Flora";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyOne;
+	),
+	(
+		TabID: FaunaBuyOne;
+		DisplayName: "Purchase Single Fauna";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyOne;
+	),
+	(
+		TabID: EggBuyOne;
+		DisplayName: "Purchase Single Eggs";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyOne;
+	),
+	(
+		TabID: BuyFive;
+		DisplayName: "Purchase 5 Items";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy;
+	),
+	(
+		TabID: OreBuyFive;
+		DisplayName: "Purchase 5 Ores";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyFive;
+	),
+	(
+		TabID: FloraBuyFive;
+		DisplayName: "Purchase 5 Flora";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyFive;
+	),
+	(
+		TabID: FaunaBuyFive;
+		DisplayName: "Purchase 5 Fauna";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyFive;
+	),
+	(
+		TabID: EggBuyFive;
+		DisplayName: "Purchase 5 Eggs";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyFive;
+	),
+	(
+		TabID: BuyTen;
+		DisplayName: "Purchase 10 Items";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy;
+	),
+	(
+		TabID: OreBuyTen;
+		DisplayName: "Purchase 10 Ores";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyTen;
+	),
+	(
+		TabID: FloraBuyTen;
+		DisplayName: "Purchase 10 Flora";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyTen;
+	),
+	(
+		TabID: FaunaBuyTen;
+		DisplayName: "Purchase 10 Fauna";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyTen;
+	),
+	(
+		TabID: EggBuyTen;
+		DisplayName: "Purchase 10 Eggs";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopBuy/BuyTen;
+	),
+	(
+		TabID: ShopSell;
+		DisplayName: "Sell Items";
+		ParentTabPath: ResourceMarket/ShopMenu;
+	),
+	(
+		TabID: SellOne;
+		DisplayName: "Sell Single Items";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell;
+	),
+	(
+		TabID: OreSellOne;
+		DisplayName: "Sell Single Ores";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellOne;
+	),
+	(
+		TabID: FloraSellOne;
+		DisplayName: "Sell Single Flora";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellOne;
+	),
+	(
+		TabID: FaunaSellOne;
+		DisplayName: "Sell Single Fauna";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellOne;
+	),
+	(
+		TabID: EggSellOne;
+		DisplayName: "Sell Single Eggs";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellOne;
+	),
+	(
+		TabID: SellFive;
+		DisplayName: "Sell 5 Items";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell;
+	),
+	(
+		TabID: OreSellFive;
+		DisplayName: "Sell 5 Ores";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellFive;
+	),
+	(
+		TabID: FloraSellFive;
+		DisplayName: "Sell 5 Flora";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellFive;
+	),
+	(
+		TabID: FaunaSellFive;
+		DisplayName: "Sell 5 Fauna";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellFive;
+	),
+	(
+		TabID: EggSellFive;
+		DisplayName: "Sell 5 Eggs";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellFive;
+	),
+	(
+		TabID: SellTen;
+		DisplayName: "Sell 10 Items";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell;
+	),
+	(
+		TabID: OreSellTen;
+		DisplayName: "Sell 10 Ores";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellTen;
+	),
+	(
+		TabID: FloraSellTen;
+		DisplayName: "Sell 10 Flora";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellTen;
+	),
+	(
+		TabID: FaunaSellTen;
+		DisplayName: "Sell 10 Fauna";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellTen;
+	),
+	(
+		TabID: EggSellTen;
+		DisplayName: "Sell 10 Eggs";
+		ParentTabPath: ResourceMarket/ShopMenu/ShopSell/SellTen;
+	),
+	(
+		TabID: BankMenu;
+		DisplayName: "Exchange Coins";
+		ParentTabPath: ResourceMarket;
+	),
+	(
+		TabID: CoinPlus;
+		DisplayName: "Invest Coins";
+		ParentTabPath: ResourceMarket/BankMenu;
+	),
+	(
+		TabID: CoinMinus;
+		DisplayName: "Withdrawl Coins";
+		ParentTabPath: ResourceMarket/BankMenu;
+	);
+	AliasRecipes:
+	(
+		ItemID: CopperCredit;
+		DisplayName: "Copper Coin";
+		Tooltip: "Value - 1 Credit";
+	),
+	(
+		ItemID: SilverCredit;
+		DisplayName: "Silver Coin";
+		Tooltip: "Value - 5 Credits";
+	),
+	(
+		ItemID: GoldCredit;
+		DisplayName: "Gold Coin";
+		Tooltip: "Value - 25 Credits";
+	),
+	(
+		ItemID: DiamondCredit;
+		DisplayName: "Diamond Coin";
+		Tooltip: "Value - 125 Credits";
+	),
+	(
+		ItemID: CopperToSilver;
+		DisplayName: "Exchange Copper For Silver";
+		Tooltip: "5 Copper Coins For 1 Silver Coin";
+		LinkedItemIDs: SilverCredit;
+		Ingredients:
+		(
+			ItemID: CopperCredit;
+			Required: 5;
+		);
+		Path: ResourceMarket/BankMenu/CoinPlus;
+	),
+	(
+		ItemID: SilverToGold;
+		DisplayName: "Exchange Silver For Gold";
+		Tooltip: "5 Silver Coins For 1 Gold Coin";
+		LinkedItemIDs: GoldCredit;
+		Ingredients:
+		(
+			ItemID: SilverCredit;
+			Required: 5;
+		);
+		Path: ResourceMarket/BankMenu/CoinPlus;
+	),
+	(
+		ItemID: GoldToDiamond;
+		DisplayName: "Exchange Gold For Diamond";
+		Tooltip: "5 Gold Coins For 1 Diamond Coin";
+		LinkedItemIDs: DiamondCredit;
+		Ingredients:
+		(
+			ItemID: GoldCredit;
+			Required: 5;
+		);
+		Path: ResourceMarket/BankMenu/CoinPlus;
+	),
+	(
+		ItemID: DiamondToGold;
+		DisplayName: "Exchange Diamond For Gold";
+		Tooltip: "1 Diamond Coin For 5 Gold Coins";
+		LinkedItemIDs: GoldCredit, GoldCredit, GoldCredit, GoldCredit, GoldCredit;
+		Ingredients:
+		(
+			ItemID: DiamondCredit;
+			Required: 1;
+		);
+		Path: ResourceMarket/BankMenu/CoinMinus;
+	),
+	(
+		ItemID: GoldToSilver;
+		DisplayName: "Exchange Gold For Silver";
+		Tooltip: "1 Gold Coin For 5 Silver Coins";
+		LinkedItemIDs: SilverCredit, SilverCredit, SilverCredit, SilverCredit, SilverCredit;
+		Ingredients:
+		(
+			ItemID: GoldCredit;
+			Required: 1;
+		);
+		Path: ResourceMarket/BankMenu/CoinMinus;
+	),
+	(
+		ItemID: SilverToCopper;
+		DisplayName: "Exchange Silver For Copper";
+		Tooltip: "1 Silver Coin For 5 Copper Coins";
+		LinkedItemIDs: CopperCredit, CopperCredit, CopperCredit, CopperCredit, CopperCredit;
+		Ingredients:
+		(
+			ItemID: SilverCredit;
+			Required: 1;
+		);
+		Path: ResourceMarket/BankMenu/CoinMinus;
+	);
+);

@@ -1,0 +1,24 @@
+AddedRecipes: 
+					#---Tool---#
+(
+    ItemID: diamondblade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: diamond;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : diamond;
+    PdaGroup: Personal;
+    PdaCategory: Tools;
+    Path: Fabricator/Personal/Tools;
+);

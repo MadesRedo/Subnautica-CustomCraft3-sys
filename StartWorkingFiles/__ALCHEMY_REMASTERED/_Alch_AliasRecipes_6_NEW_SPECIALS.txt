@@ -1,0 +1,522 @@
+#		PdaGroup: Resources | PdaCategory: AdvancedMaterials		#
+
+
+AliasRecipes:
+
+
+
+#	----------------------------------------------------	#
+#				STRANGE ORGANIC COMPOUNDS					#
+#	----------------------------------------------------	#
+
+
+#	-----------	PINK COMPOUND	-----------	#
+(
+    ItemID: Alch_Compound_Pink;
+	DisplayName: "Pink Compound";
+	Tooltip: "A liquid compound in acid-base equilibrium, Aluminium-rich but 100% organic. Incredibly stable, chemically and magnetically neutral, with little residue and a deep pink color.";
+    LinkedItemIDs: Alch_Compound_Pink, LabEquipment2;
+	FunctionalID: HatchingEnzymes;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_StrangeOrganicCompounds;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Compound_Pink;
+    Ingredients:
+    (
+        ItemID: LabEquipment2;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    ),
+	(
+        ItemID: CrabsnakeEgg;
+        Required: 1;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 1;
+    );
+),
+
+#	-----------	BLUE COMPOUND	-----------	#
+(
+    ItemID: Alch_Compound_Blue;
+	DisplayName: "Blue Compound";
+	Tooltip: "A liquid compound in acid-base equilibrium, rich in copper but surprisingly organic. What's astonishing is that it seems to take on mass over time whereas it doesn't take on volume, but it quickly reaches its threshold after a few hours, which is unheard of in Organic Chemistry...";
+    LinkedItemIDs: Alch_Compound_Blue, LabEquipment2;
+	FunctionalID: HatchingEnzymes;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_StrangeOrganicCompounds;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Compound_Blue;
+    Ingredients:
+    (
+        ItemID: LabEquipment2;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    ),
+	(
+        ItemID: ReefbackEgg;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+
+#	-----------	YELLOW COMPOUND	-----------	#
+(
+    ItemID: Alch_Compound_Yellow;
+	DisplayName: "Yellow Compound";
+	Tooltip: "A basic liquid sulfur compound with a nauseating odor... this compound is quite corrosive, it seems to react to light to tarnish and becomes phosphorescent in the dark... and only with Sulfur and this famous Sea Pink Salt, Alchemy on this planet has not finished surprising us!";
+    LinkedItemIDs: Alch_Compound_Yellow, LabEquipment2;
+	FunctionalID: HatchingEnzymes;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_StrangeOrganicCompounds;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Compound_Yellow;
+    Ingredients:
+    (
+        ItemID: LabEquipment2;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    ),
+	(
+        ItemID: MesmerEgg;
+        Required: 3;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 1;
+    );
+),
+
+#	-----------	GREEN COMPOUND	-----------	#
+(
+    ItemID: Alch_Compound_Green;
+	DisplayName: "Green Compound";
+	Tooltip: "A slightly radioactive compound, unstable and acid-base balanced. Radium is transformed here into an almost gelatinous substance that we strongly recommend not to shake too much... it's beyond comprehension, you'd almost think this green jelly reacts to human presence by emitting ripples on the surface when approached.";
+    LinkedItemIDs: Alch_Compound_Green, LabEquipment2;
+	FunctionalID: HatchingEnzymes;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_StrangeOrganicCompounds;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Compound_Green;
+    Ingredients:
+    (
+        ItemID: LabEquipment2;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    ),
+	(
+        ItemID: LavaLizardEgg;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    );
+),
+
+#	-----------	PURPLE-CYAN COMPOUND -----------	#
+(
+    ItemID: Alch_Compound_Purple_Cyan;
+	DisplayName: "Purple-Cyan Compound";
+	Tooltip: "A liquid compound with an acid PH, it is reminiscent of decorative objects with bubbles constantly moving up and down, as if the liquid Disthene and Corundum were unwilling/unable to mix... 2 chemical entities in this compound, it's as if a key element were missing to define which entity takes priority...";
+    LinkedItemIDs: Alch_Compound_Purple_Cyan, LabEquipment2;
+	FunctionalID: HatchingEnzymes;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_StrangeOrganicCompounds;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Compound_Purple_Cyan;
+    Ingredients:
+    (
+        ItemID: LabEquipment2;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    ),
+	(
+        ItemID: CrabsquidEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: ShockerEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+),
+
+
+#	----------------------------------------	#
+#				COMPLEX ENZYMES					#
+#	----------------------------------------	#
+
+
+#	-----------	PINK ENZYME	-----------	#
+(
+    ItemID: Alch_Enzyme_Pink;
+	DisplayName: "Pink Enzyme";
+	Tooltip: "Complex Enzyme. The Pink Enzyme pierces the secrets of Bulb bush plants, opening the doors to their adaptability, solidity and genetic stability. Aluminum oxide from the Pink Compound is essential to the longevity of Sea Emperor Leviathan babies.";
+    LinkedItemIDs: Alch_Enzyme_Pink;
+	FunctionalID: GasPod;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Enzyme_Pink;
+	UnlockedBy: ReefbackEgg;
+    Ingredients:
+    (
+        ItemID: KooshChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_Compound_Pink;
+        Required: 1;
+    );
+),
+
+#	-----------	BLUE ENZYME	-----------	#
+(
+    ItemID: Alch_Enzyme_Blue;
+	DisplayName: "Blue Enzyme";
+	Tooltip: "Complex Enzyme. Like Tree Mushrooms, Blue Enzyme will provide all the size and growth needed by Sea Emperor Leviathan babies. This unique Catalysis requires liquefied Copper Oxide to be obtained.";
+    LinkedItemIDs: Alch_Enzyme_Blue;
+	FunctionalID: GasPod;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Enzyme_Blue;
+	UnlockedBy: ReefbackEgg;
+    Ingredients:
+    (
+        ItemID: TreeMushroomPiece;
+        Required: 4;
+    ),
+    (
+        ItemID: Alch_Compound_Blue;
+        Required: 1;
+    );
+),
+
+#	-----------	YELLOW ENZYME -----------	#
+(
+    ItemID: Alch_Enzyme_Yellow;
+	DisplayName: "Yellow Enzyme";
+	Tooltip: "Complex Enzyme. Yellow Enzyme plays a key role in the development of sight and mind. The Eye stalk seed, with its unique bulbous properties, is the only plant on the planet offering the nutrients needed to grow the eyeballs of Sea Emperor Leviathan babies as well as their cerebral cortex.";
+    LinkedItemIDs: Alch_Enzyme_Yellow;
+	FunctionalID: GasPod;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Enzyme_Yellow;
+	UnlockedBy: ReefbackEgg;
+    Ingredients:
+    (
+        ItemID: EyesPlantSeed;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_Compound_Yellow;
+        Required: 1;
+    );
+),
+
+#	-----------	GREEN ENZYME -----------	#
+(
+    ItemID: Alch_Enzyme_Green;
+	DisplayName: "Green Enzyme";
+	Tooltip: "Complex Enzyme. The Green Enzyme is involved in the development of different types of instinct: survival, hunting and migration. This requires a great deal of energy, hence the need to dissolve a Radium crystal, whose radioactivity is then absorbed by the Ghost weed seeds.";
+    LinkedItemIDs: Alch_Enzyme_Green;
+	FunctionalID: GasPod;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Enzyme_Green;
+	UnlockedBy: ReefbackEgg;
+    Ingredients:
+    (
+        ItemID: RedGreenTentacleSeed;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_Compound_Green;
+        Required: 1;
+    );
+),
+
+#	-----------	PURPLE-CYAN ENZYME	-----------	#
+(
+    ItemID: Alch_Enzyme_Purple_Cyan;
+	DisplayName: "Purple-Cyan Enzyme";
+	Tooltip: "Complex Enzyme. A difficult-to-obtain enzyme that is absolutely essential for the development of the reproductive system of Sea Emperor Leviathan babies. Without the Purple-Cyan Enzyme, the survival of the species cannot be assured, so it goes without saying that at this stage you want to ensure their survival... right??";
+    LinkedItemIDs: Alch_Enzyme_Purple_Cyan;
+	FunctionalID: GasPod;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Enzyme_Purple_Cyan;
+	UnlockedBy: ReefbackEgg;
+    Ingredients:
+    (
+        ItemID: SeaCrownSeed;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_Compound_Purple_Cyan;
+        Required: 1;
+    );
+),
+
+
+#	egg Egg -------	MAMY SPECIAL -------	Egg egg		#
+(
+    ItemID: Alch_PrecursorKey_Red;
+	DisplayName: "Red Tablet";
+	Tooltip: "Alchemy reveals the existence of this tablet, which shines like a blood-red gemstone and serves as the starting point for the creation of the orange tablet.";
+	LinkedItemIDs: PrecursorKey_Red;
+	FunctionalID: PrecursorKey_Red;
+	SpriteItemID: PrecursorKey_Red;
+	PdaGroup: Personal;
+	PdaCategory: Equipment;
+	Path: Alch_Fab/Alchemy/Alch_Tablets;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_PrecursorKey_Red;
+	Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CinnabarPowder_Vial;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    ),
+	(
+        ItemID: BloodOil;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_PrecursorKey_White;
+	DisplayName: "White Tablet";
+	Tooltip: "Alchemy reveals the existence of this tablet, made essentially of Carbon, which serves as the support and starting receptacle for the creation of the blue tablet.";
+	LinkedItemIDs: PrecursorKey_White;
+	FunctionalID: PrecursorKey_White;
+	SpriteItemID: PrecursorKey_White;
+	PdaGroup: Personal;
+	PdaCategory: Equipment;
+	Path: Alch_Fab/Alchemy/Alch_Tablets;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_PrecursorKey_White;
+	Ingredients: 
+    (
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_GenericEgg;
+	DisplayName: "Creature Egg Recipe";
+	Tooltip: "A discovery that made it possible to manufacture eggs on 4546B!! Sulfur fermentation of Sea Treaders manure with an organic energy source, such as that contained in Crashfish eggs, reveals incredible behavior!! The species is so defensive that the egg absorbs the chemical reaction to give life to a brand new chitinous receptacle. After absorbing matter, we obtain the 'skeleton' of a new egg... being born from an egg.. Another truly unexpected mystery.";
+    LinkedItemIDs: GenericEgg;
+	FunctionalID: GenericEgg;
+	SpriteItemID: GenericEgg;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_Eggs;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_GenericEgg;
+    Ingredients:
+	(
+        ItemID: CrashEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    ),
+	(
+        ItemID: SeaTreaderPoop;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_JumperEgg;
+	DisplayName: "Shuttlebug Egg Recipe";
+	Tooltip: "This mysterious egg is one of the few that can be manufactured. The genetic similarities between the Floater and the Shuttlebug broaden the range of possibilities. Between the first, whose sole purpose is to float, and the second, which often appears to want to propel itself upwards, all that was needed was a starting receptacle for testing, as neither species produces eggs! Copper oxide is the perfect catalyst: derived from rocks, one of which clings and the other constantly pokes around, add to that the synthesis of manure for organic matter, and you get a wonderful surprise egg!";
+    LinkedItemIDs: JumperEgg;
+	FunctionalID: JumperEgg;
+	SpriteItemID: JumperEgg;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_Eggs;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_JumperEgg;
+    Ingredients:
+	(
+        ItemID: GenericEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: Floater;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SyntheticManure;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_EasterEgg;
+	DisplayName: "Reefback Egg Recipe";
+	Tooltip: "The recipe for obtaining the Reefback Leviathan Egg, after countless attempts to translate Precursors messages... A powerful source of energy, a complex mix of DNA, and the Creature Egg as a receptacle. These giant, peaceful Leviathans hold the secret to the antidote to the Kharaa bacteria, to which they are immune, all that remains is to hope that the recipe is viable. Alchemy is powerful, but the energy of the cube is even more so. Misused, it could well bring about an end different from the one you hope for... This is our last Easter Egg on 4546B!";
+    LinkedItemIDs: ReefbackEgg;
+	FunctionalID: ReefbackEgg;
+	SpriteItemID: ReefbackEgg;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_Eggs;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_EasterEgg;
+	UnlockedBy: SpecimenAnalyzer;
+    Ingredients:
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: GenericEgg;
+        Required: 1;
+    ),
+		(
+        ItemID: JumperEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: RabbitrayEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: SpadefishEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: BonesharkEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: GasopodEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: JellyrayEgg;
+        Required: 1;
+    ),
+	(
+        ItemID: SandsharkEgg;
+        Required: 1;
+    );
+);

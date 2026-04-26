@@ -1,0 +1,19 @@
+﻿
+
+
+CustomBioFuels:			#	OPTIONAL	#
+
+
+(
+    ItemID: BioFuel;
+    Energy: 1000;
+),
+(
+    ItemID: BioFuelPink;
+    Energy: 1300;
+),
+(
+    ItemID: BioFuelRed;
+    Energy: 1800;
+);
+

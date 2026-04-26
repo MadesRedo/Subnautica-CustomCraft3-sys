@@ -1,0 +1,575 @@
+#---------------------------------------------------------------#
+#			Crafts					#
+#---------------------------------------------------------------#
+	AliasRecipes:
+					#---Garden---Fertilizers---#
+(
+    ItemID: NHIBio_FertilizerBp;
+    DisplayName: "Fertilizer";
+    Tooltip: "Garden's best friend. Can be used in plant-related recipes or as a fuel in a Bioreactor.
+-worth 1000ϟ-";
+    AmountCrafted: 2;
+#    LinkedItemIDs: NHIBio_FertilizerBp;#
+    Ingredients: 
+    (
+        ItemID: seatreaderpoop;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : seatreaderpoop;
+),
+(
+    ItemID: NHIBio_FertilizerBp3;
+    DisplayName: "Fertilizer (x3)";
+    Tooltip: "Garden's best friend. Can be used in plant-related recipes or as a fuel in a Bioreactor.
+-worth 1000ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp;
+    Ingredients: 
+    (
+        ItemID: creepvineseedcluster;
+        Required: 1;
+    ),
+    (
+        ItemID: purplevaseplantseed;
+        Required: 3;
+    ),
+    (
+        ItemID: crashpowder;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : creepvineseedcluster;
+),
+(
+    ItemID: NHIBio_FertilizerBp2;
+    DisplayName: "Fertilizer (x4)";
+    Tooltip: "Garden's best friend. Can be used in plant-related recipes or as a fuel in a Bioreactor.
+-worth 1000ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp;
+    Ingredients: 
+    (
+        ItemID: bloodoil;
+        Required: 1;
+    ),
+    (
+        ItemID: purplevegetable;
+        Required: 1;
+    ),
+    (
+        ItemID: crashpowder;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : bloodoil;
+),
+(
+    ItemID: NHIBio_FertilizerBp4;
+    DisplayName: "Fertilizer (x6)";
+    SpriteItemID : NHIBio_FertilizerBp;
+    Tooltip: "Garden's best friend. Can be used in plant-related recipes or as a fuel in a Bioreactor.
+-worth 1000ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp, NHIBio_FertilizerBp;
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethylene;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethylene;
+),
+					#---Garden---Production---#
+(
+    ItemID: MoreSmallMelons;
+    DisplayName: "Small Marblemelon (x3)";
+    Tooltip: "A small alien fruit. Multiplied thanks to mother Nature.";
+    FunctionalID: smallmelon;
+    SpriteItemID: smallmelon;
+    AmountCrafted: 0;
+    LinkedItemIDs: smallmelon, smallmelon, smallmelon;
+    Ingredients: 
+    (
+        ItemID: smallmelon;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBio_FertilizerBp;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : smallmelon;
+),
+(
+    ItemID: MoreShroom;
+    DisplayName: "Acid Mushroom (x5)";
+    Tooltip: "Purple fungus. Acidic flesh. Multiplied thanks to mother Nature.";
+    FunctionalID: acidmushroom;
+    SpriteItemID: acidmushroom;
+    AmountCrafted: 0;
+    LinkedItemIDs: acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom;
+    Ingredients: 
+    (
+        ItemID: acidmushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBio_FertilizerBp;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : acidmushroom;
+),
+(
+    ItemID: MoreDeepShroom;
+    DisplayName: "Deep Shroom (x5)";
+    Tooltip: "White fungus. Highly acidic flesh. Multiplied thanks to mother Nature.";
+    FunctionalID: whitemushroom;
+    SpriteItemID: whitemushroom;
+    AmountCrafted: 0;
+    LinkedItemIDs: whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom;
+    Ingredients: 
+    (
+        ItemID: whitemushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBio_FertilizerBp;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab21_Garden;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : whitemushroom;
+),
+					#---BioFuels---#
+(
+    ItemID: NHIBio_BioEthanol;
+    DisplayName: "Bioethanol";
+    Tooltip: "Fermentation of sugars and starches produces bio alcohols like ethanol. It appears that deep biomes' flora usually contain a lot of sugar.
+-worth 2100ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_BioEthanol;
+    Ingredients: 
+    (
+        ItemID: whitemushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: seacrownseed;
+        Required: 3;
+    ),
+    (
+        ItemID: spottedleavesplantseed;
+        Required: 3;
+    ),
+    (
+        ItemID: gabesfeatherseed;
+        Required: 2;
+    ),
+    (
+        ItemID: redgreententacleseed;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : whitemushroom;
+),
+(
+    ItemID: NHIBio_BioEthanol2;
+    DisplayName: "Bioethanol";
+    Tooltip: "Fermentation of sugars and starches produces bio alcohols like ethanol. It appears that deep biomes' flora usually contain a lot of sugar.
+-worth 2100ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_BioEthanol;
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethanol;
+        Required: 3;
+    ),
+    (
+        ItemID: seacrownseed;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethanol;
+),
+(
+    ItemID: NHIBio_BioGas;
+    DisplayName: "Biogas";
+    Tooltip: "This first-generation biofuel is gaseous in nature.
+-worth 2940ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_BioGas;
+    Ingredients: 
+    (
+        ItemID: whitemushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 3;
+    ),
+    (
+        ItemID: pinkmushroom;
+        Required: 3;
+    ),
+    (
+        ItemID: snakemushroomspore;
+        Required: 2;
+    ),
+    (
+        ItemID: membraintreeseed;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : whitemushroom;
+),
+(
+    ItemID: NHIBio_BioGas2;
+    DisplayName: "Biogas";
+    Tooltip: "This first-generation biofuel is gaseous in nature.
+-worth 2940ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_BioGas;
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethylene;
+        Required: 3;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    ),
+    (
+        ItemID: pinkmushroom;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethylene;
+),
+(
+    ItemID: NHIBio_compostcreepvine;
+    DisplayName: "Creepvine Compost";
+    Tooltip: "Breaks down Creepvine over time for reliable energy.
+(Restored item)
+-worth 800ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_compostcreepvine;
+    Ingredients: 
+    (
+        ItemID: creepvinepiece;
+        Required: 3;
+    ),
+    (
+        ItemID: treemushroompiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : creepvinepiece, treemushroompiece;
+),
+(
+    ItemID: NHIBio_BioAlgae;
+    DisplayName: "Algae Based BioFuel";
+    Tooltip: "Algae are the highest source of energy in the class of biofuels. Gotta use them then.
+-worth 1500ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_BioAlgae;
+    Ingredients: 
+    (
+        ItemID: creepvinepiece;
+        Required: 3;
+    ),
+    (
+        ItemID: purpletentacleseed;
+        Required: 3;
+    ),
+    (
+        ItemID: redbushseed;
+        Required: 2;
+    ),
+    (
+        ItemID: purplestalkseed;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : creepvinepiece;
+),
+(
+    ItemID: NHIBio_FishOil;
+    DisplayName: "Fish Oil Tank";
+    Tooltip: "Breaks down condensed fish fat over time for reliable energy. Should be good for a while.
+-worth 4650ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_FishOil;
+    Ingredients: 
+    (
+        ItemID: oculus;
+        Required: 3;
+    ),
+    (
+        ItemID: spadefish;
+        Required: 3;
+    ),
+    (
+        ItemID: garryfish;
+        Required: 2;
+    ),
+    (
+        ItemID: eyeye;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab23_BioFuel;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : oculus, spadefish, garryfish, eyeye;
+),
+					#---BioSynthesis---#
+(
+    ItemID: NHIBio_Membrane;
+    DisplayName: "Membrane";
+    Tooltip: "For straining liquids.
+(Restored item)";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBio_Membrane;
+    Ingredients: 
+    (
+        ItemID: membraintreeseed;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_purple, membraintreeseed;
+),
+(
+    ItemID: NHIbasic_Salt1;
+    DisplayName: "Salt Deposit";
+    Tooltip: "NaCl. Culinary and sanitation applications.";
+    AmountCrafted: 0;
+    LinkedItemIDs: salt;
+    Ingredients: 
+    (
+        ItemID: hoopfish;
+        Required: 4;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : hoopfish;
+),
+(
+    ItemID: NHIbasic_Salt2;
+    DisplayName: "Salt Deposit";
+    Tooltip: "NaCl. Culinary and sanitation applications.";
+    AmountCrafted: 0;
+    LinkedItemIDs: salt;
+    Ingredients: 
+    (
+        ItemID: spinefish;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : spinefish;
+),
+(
+    ItemID: NHIbasic_GasPod;
+    DisplayName: "Gas Pod (x2)";
+    Tooltip: "An acidic compound produced by the gasopod. May be re-purposed.";
+    AmountCrafted: 0;
+    LinkedItemIDs: gaspod, gaspod;
+    Ingredients: 
+    (
+        ItemID: pinkmushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: purplerattle;
+        Required: 1;
+    ),
+    (
+        ItemID: acidmushroom;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : gaspod;
+),
+(
+    ItemID: NHIbasic_crashpowder;
+    DisplayName: "Cave Sulfur";
+    Tooltip: "SO4Tr. Sulfur-based powder which collects within particular cave plants. Combustible underwater.";
+#    FunctionalID: crashpowder;
+    SpriteItemID: crashpowder;#
+    AmountCrafted: 0;
+    LinkedItemIDs: crashpowder;
+    Ingredients: 
+    (
+        ItemID: gaspod;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : crashpowder;
+),
+(
+    ItemID: NHIbasic_coraltubesample;
+    DisplayName: "Coral Tube Sample";
+    Tooltip: "Sample containing CaCO3. Calcium carbonate is a base ingredient for bleach.";
+    AmountCrafted: 0;
+    LinkedItemIDs: coralchunk;
+    Ingredients: 
+    (
+        ItemID: redconeplantseed;
+        Required: 1;
+    ),
+    (
+        ItemID: shellgrassseed;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : coralchunk, redconeplantseed, shellgrassseed;
+),
+(
+    ItemID: NHIbasic_tablecoralsample;
+    DisplayName: "Table Coral Sample";
+    Tooltip: "Contains trace precious metals used in computer fabrication.";
+    AmountCrafted: 0;
+    LinkedItemIDs: jeweleddiskpiece;
+    Ingredients: 
+    (
+        ItemID: redbasketplantseed;
+        Required: 1;
+    ),
+    (
+        ItemID: spottedleavesplantseed;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry/NHITab22_BioSynthesis;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : jeweleddiskpiece, redbasketplantseed, spottedleavesplantseed;
+),
+					#---Restored Food Recipes---#
+(
+    ItemID: NHIbasic_bigfilteredwater;
+    DisplayName: "Large Filtered Water";
+    Tooltip: "H2O. 15oz. Pure.";
+    AmountCrafted: 0;
+    LinkedItemIDs: bigfilteredwater;
+    Ingredients: 
+    (
+        ItemID: filteredwater;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+    PdaGroup: Survival;
+    PdaCategory: Water;
+    ForceUnlockAtStart: NO;
+    UnlockedBy : filteredwater;
+),
+(
+    ItemID: NHIbasic_nutrientblockk;
+    DisplayName: "Nutrient Block";
+    Tooltip: "Dense, processed food recovered from the Aurora.";
+    AmountCrafted: 0;
+    LinkedItemIDs: nutrientblock;
+    Ingredients: 
+    (
+        ItemID: purplevegetable;
+        Required: 1;
+    ),
+    (
+        ItemID: curedpeeper;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+    PdaGroup: Survival;
+    PdaCategory: CookedFood;
+    ForceUnlockAtStart: NO;
+    UnlockedBy : peeper, purplevegetable;
+),
+(
+    ItemID: NHIbasic_MembraneFilteredWater;
+    DisplayName: "Filtered Water";
+    Tooltip: "H2O. 6oz. Filtered using an all-organic membrane.";
+    AmountCrafted: 0;
+    LinkedItemIDs: filteredwater;
+    Ingredients: 
+    (
+        ItemID: NHIBio_Membrane;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+    PdaGroup: Survival;
+    PdaCategory: Water;
+    ForceUnlockAtStart: NO;
+    UnlockedBy : NHIBio_Membrane;
+);

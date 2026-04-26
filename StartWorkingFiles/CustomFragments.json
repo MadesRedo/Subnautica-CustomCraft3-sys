@@ -1,0 +1,89 @@
+CustomFragmentCounts: 
+(
+    ItemID: Battery Charger;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Beacon;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Bioreactor;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Cyclops Bridge Fragment;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Cyclops Engine Fragment;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Cyclops Hull Fragment;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Grav Sphere;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Laser Cutter;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Constructor;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Work Bench;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Base Moon Pool;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Nuclear Reactor;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Power Cell Charger;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Power Transmitter;
+    FragmentsToScan: 2;
+),
+(
+    ItemID: Exosuit Fragment;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Exosuit Drill Arm Module;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Exosuit Grappling Arm Module;
+    FragmentsToScan: 4;
+),
+(
+    ItemID: Base Map Room;
+    FragmentsToScan: 5;
+),
+(
+    ItemID: Seaglide;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Seamoth;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Stasis Rifle;
+    FragmentsToScan: 6;
+),
+(
+    ItemID: Thermal Plant;
+    FragmentsToScan: 4;
+);

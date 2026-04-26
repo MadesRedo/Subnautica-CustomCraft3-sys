@@ -1,0 +1,307 @@
+
+#		SEAMOTH 	#
+
+MovedRecipes:
+
+		#	Seamoth Depth	#
+(
+	ItemID: VehicleHullModule1;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: VehicleHullModule2;
+	OldPath: Workbench/SeamothDepthModules;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+),
+(
+	ItemID: VehicleHullModule3;
+	OldPath: Workbench/SeamothDepthModules;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+),
+(
+	ItemID: SeamothDepthModuleMK4;											#	More Seamoth Modules "Haishii" - 1295		==> Need to be fixed	#
+	OldPath: Workbench/SeamothDepthModules;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+),
+(
+	ItemID: SeamothHullModule4;												#	More Seamoth Depth Modules "MrPurple6411" - 1135	#
+	OldPath: Workbench/SeamothDepthModules;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+),
+(
+	ItemID: SeamothDepthModuleMK5;											#	More Seamoth Modules "Haishii" - 1295		==> Need to be fixed	#
+	OldPath: Workbench/SeamothDepthModules;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+),
+(
+	ItemID: SeamothHullModule5;												#	More Seamoth Depth Modules "MrPurple6411" - 1135	#
+	OldPath: Workbench/SeamothDepthModules;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothDepthUpgrades;
+),
+		#	Seamoth Vanilla & Mods	#
+(
+	ItemID: SeamothSolarCharge;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothSolarModuleMk2;											#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothThermalModule;											#	DWEquipment "DaWrecka"	    °° CONFLICT WITH => °°  	Seamoth Thermal Reactor "MrPurple6411" - 1139	#
+	OldPath: SeamothUpgrades/VehicleChargers;
+	NewPath: SeamothUpgrades/SeamothModules;
+),
+(
+	ItemID: SeamothThermalModule;												#	COPIED	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothThermalModuleMk2;										#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothUnifiedChargerModule;									#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothAirBladderModule;										#	Seamoth Air Bladder "visolar6" - 2977	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothElectricalDefense;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothEnergyShield;											#	Seamoth Energy Shield "senna7608" - 280 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothHoverModule;												#	Seamoth Hover Module "MrJumpscare" - 1809	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothWarp;													#	Seamoth Warp Module "mmmmAcErr" - 1196	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothSonarModule;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothFlareModule;												#	Seamoth Flare System "visolar6" - 2957		#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothTorpedoModule;
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: LaserCannon;													#	Laser Cannon "senna7608" - 136 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothClawArmModule;											#	Seamoth Arms "senna7608" - 365 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothDrillArmModule;											#	Seamoth Arms "senna7608" - 365 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothGrapplingArmModule;										#	Seamoth Arms "senna7608" - 365 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothPropulsionArmModule;										#	Seamoth Arms "senna7608" - 365 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SeamothTorpedoArmModule;										#	Seamoth Arms "senna7608" - 365 	#
+	NewPath: Workbench_MK2/SeamothUpgrades/SeamothModuleUpgrades;
+	Copied: YES;
+),
+		#	Seamoth Enhancement System "M3dicCookie" - 2524   #
+(
+	ItemID: ElectricalEnhancement;
+	OldPath: SeamothUpgrades/SeamothModules;
+	Hidden: YES;
+),
+(
+	ItemID: ElectricalEnhancement;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_SES_Upgrades;
+	Copied: YES;
+),
+		#----------------------#
+(
+	ItemID: ElectronicEnhancement;
+	OldPath: SeamothUpgrades/SeamothModules;
+	Hidden: YES;
+),
+(
+	ItemID: ElectronicEnhancement;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_SES_Upgrades;
+	Copied: YES;
+),
+		#----------------------#
+(
+	ItemID: MechanicalEnhancement;
+	OldPath: SeamothUpgrades/SeamothModules;
+	Hidden: YES;
+),
+(
+	ItemID: MechanicalEnhancement;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_SES_Upgrades;
+	Copied: YES;
+),
+		#----------------------#
+(
+	ItemID: SafetyModule;
+	OldPath: SeamothUpgrades/SeamothModules;
+	Hidden: YES;
+),
+(
+	ItemID: SafetyModule;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_SES_Upgrades;
+	Copied: YES;
+),
+		#----------------------#
+(
+	ItemID: SeamothLink;
+	OldPath: SeamothUpgrades/SeamothModules;
+	Hidden: YES;
+),
+(
+	ItemID: SeamothLink;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_SES_Upgrades;
+	Copied: YES;
+),
+		#----------------------#
+(
+	ItemID: SeamothEnhancementSystemModule;
+	OldPath: SeamothUpgrades/SeamothModules;
+	NewPath: SeamothUpgrades/vehicleEnhancements;
+),
+(
+	ItemID: SeamothEnhancementSystemModule;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_SES_Upgrades;
+	Copied: YES;
+),
+		#-----------------------------#
+		#	Seamoth VF Speed - 1973   #
+(
+	ItemID: SpeedModuleVF1Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Speed;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF2Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Speed;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF3Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Speed;
+	Copied: YES;
+),
+		#	Seamoth VF Stealth - 746   #
+(
+	ItemID: StealthModule1Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule2Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule3Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule4Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule5Seamoth;
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Stealth;
+	Copied: YES;
+),
+		#	Seamoth VF Others	#
+(
+	ItemID: SolarChargingModuleSeamoth;								#	1413	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: ThermalChargingModuleSeamoth;							#	1768	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: SelfRepairModuleSeamoth;								#	2880	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: MagnetBootsModuleSeamoth;								#	2283	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: FlightModuleSeamoth;									#	2224	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: ImpulseSpeedBoosterSeamoth;								#	1403	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: SonarModuleSeamoth;										#	1406	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: CrabsquidModuleSeamoth;									#	1609	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: NanoWeaveBarrierSeamoth;								#	1405	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: IonDefenseCapacitorSeamoth;								#	1404	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: VoidDepthUpgradeSeamoth;								#	1900	#
+	NewPath: Workbench_MK2/SeamothUpgrades/Seamoth_VF_Others;
+	Copied: YES;
+);

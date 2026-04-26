@@ -1,0 +1,446 @@
+
+
+
+AliasRecipes:
+
+
+	#---------------------#
+	#	ORGANIC ALCHEMY	  #
+	#---------------------#
+
+	#  SYNTHETIC MANURE X3  #
+(
+    ItemID: Alch_SyntheticManure;
+	DisplayName: "Synthetic Manure";
+	Tooltip: "Synthetic Manure (x3): a largely synthetic compound that is difficult to obtain, but the result achieved here is nearly 90% identical to the actual excrement of the Sea Treader Leviathan. Bioreactor: +220";
+    LinkedItemIDs: Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure;
+	FunctionalID: SeaTreaderPoop;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_SyntheticManure;
+    Ingredients:
+    (
+        ItemID: PurpleVegetable;
+        Required: 2;
+    ),
+	(
+        ItemID: HangingFruit;
+        Required: 2;
+    ),
+	(
+        ItemID: RedBasketPlantSeed;
+        Required: 1;
+    ),
+	(
+        ItemID: Salt;
+        Required: 2;
+    ),
+	(
+        ItemID: Lubricant;
+        Required: 1;
+    ),
+	(
+        ItemID: StalkerTooth;
+        Required: 2;
+    );
+),
+
+
+	#---------------------#
+	#	BASIC MATERIALS	  #
+	#---------------------#
+
+
+		#	MAGNESIUM	#
+(
+    ItemID: Alch_Magnesium;
+	DisplayName: "Magnesium";
+	Tooltip: "Mg - This recipe allows you to synthesize and obtain +2 Magnesium. Magnesium is an alkaline earth metal, it is the ninth most abundant element in the universe. Strangely absent on 4546B, or perhaps present but in unfathomable depths, it will be necessary in many alchemical recipes. Bioreactor: +100";
+    LinkedItemIDs: Magnesium, Magnesium;
+	FunctionalID: Magnesium;
+	SpriteItemID: Magnesium;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnesium, Magnesium;
+	UnlockedBy: Salt;
+    Ingredients:
+    (
+        ItemID: Salt;
+        Required: 3;
+    ),
+    (
+        ItemID: AcidMushroom;
+        Required: 2;
+    ),
+    (
+        ItemID: CrashPowder;
+        Required: 1;
+    );
+),
+
+		#	MERCURY	  #
+(
+    ItemID: Alch_MercuryOre;
+	DisplayName: "Mercury ore";
+	Tooltip: "HgS - This recipe allows you to synthesize and obtain +2 Mercury ore. Mercury is found on Earth primarily in the form of a mercury sulfide ore (α-HgS), also called Cinnabar, which is vermilion red in color. Absent on 4546B, or perhaps present but in unfathomable depths, it is nevertheless possible to synthesize it because it will be essential for Alchemy. Bioreactor: +100";
+    LinkedItemIDs: MercuryOre, MercuryOre;
+	FunctionalID: MercuryOre;
+	SpriteItemID: MercuryOre;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_MercuryOre, MercuryOre;
+	UnlockedBy: Lithium;
+    Ingredients:
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+    (
+        ItemID: Benzene;
+        Required: 1;
+    ),
+	(
+        ItemID: MembrainTreeSeed;
+        Required: 2;
+    );
+),
+
+#	----------------------------------------	#
+#				BASIC ALCHEMY					#
+#	----------------------------------------	#
+
+
+#	--------------	TITANIUM	----------------	#
+(
+    ItemID: Alch_Titanium;
+    DisplayName: "Alchemic Titanium";
+	Tooltip: "Basic Alchemy. To obtain +3 Titanium | +3 Organic Titanium. Bioreactor: +300";
+	LinkedItemIDs: Alch_Titanium;
+	FunctionalID: Titanium;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Titanium;
+    Path: Alch_Fab/Alchemy/Alch_Basic;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 2;
+    ),
+    (
+        ItemID: PurpleBrainCoralPiece;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SyntheticManure;
+        Required: 1;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_OrganicTitanium;
+    DisplayName: "Organic Titanium";
+	Tooltip: "Hydrolytic Component of Alchemic Titanium. Versatile and stabilizing, essential for a wide range of compositions. Bioreactor: +100";
+	LinkedItemIDs: Alch_OrganicTitanium;
+	FunctionalID: Titanium;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_OrganicTitanium;
+),
+
+(
+    ItemID: Alch_Titanium_Alloy;
+    DisplayName: "Titanium alloys";
+	Tooltip: "+3 Titanium | +3 Organic Titanium, obtained by Hydrolysis of Alchemic Titanium";
+	LinkedItemIDs: Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Titanium, Titanium, Titanium;
+	FunctionalID: Titanium;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Titanium_Alloy;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 1;
+    ),
+	(
+        ItemID: OrangeMushroomSpore;
+        Required: 1;
+    );
+),
+
+#	--------------	COPPER	----------------	#
+(
+    ItemID: Alch_Copper;
+	DisplayName: "Alchemic Copper";
+	Tooltip: "Basic Alchemy. To obtain +3 Copper | +3 Copper Oxide. Bioreactor: +200";
+	LinkedItemIDs: Alch_Copper;
+	FunctionalID: Copper;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Copper;
+    Path: Alch_Fab/Alchemy/Alch_Basic;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 2;
+    ),
+    (
+        ItemID: CrashPowder;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_CopperOxide;
+    DisplayName: "Copper Oxide";
+	Tooltip: "Catalytic Component of Alchemic Copper. Significantly more conductive than Mineral Copper, it delivers more electrical power and greater energy efficiency. Bioreactor: +100";
+	LinkedItemIDs: Alch_CopperOxide;
+	FunctionalID: Copper;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CopperOxide;
+),
+
+(
+    ItemID: Alch_Copper_Mix;
+    DisplayName: "Copper Mix";
+	Tooltip: "+3 Copper | +3 Copper Oxide, obtained by Catalyse of Alchemic Copper";
+	LinkedItemIDs: Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Copper, Copper, Copper, LabEquipment3;
+	FunctionalID: Copper;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Copper_Mix;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Copper;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment3;
+        Required: 1;
+    );
+),
+
+#	--------------	QUARTZ	----------------	#
+(
+    ItemID: Alch_Quartz;
+	DisplayName: "Alchemic Quartz";
+	Tooltip: "Basic Alchemy. To obtain +5 Quartz. Bioreactor: +200";
+	LinkedItemIDs: Alch_Quartz;
+	FunctionalID: Quartz;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Quartz;
+    Path: Alch_Fab/Alchemy/Alch_Basic;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 1;
+    ),
+    (
+        ItemID: PurpleFanSeed;
+        Required: 6;
+    ),
+	(
+        ItemID: Salt;
+        Required: 2;
+    ),
+	(
+        ItemID: Silver;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+
+(
+    ItemID: Alch_Quartz_X;
+    DisplayName: "Quartz (x5)";
+	Tooltip: "Quartz (x5) : obtained from Alchemic Quartz";
+	LinkedItemIDs: Quartz, Quartz, Quartz, Quartz, Quartz, Alch_LabContainer3, Alch_LabContainer3;
+	FunctionalID: Quartz;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Quartz_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Quartz;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer3;
+        Required: 2;
+    );
+),
+
+#	-----------	CAVE SULFUR	-------------	#
+(
+    ItemID: Alch_CrashPowder;
+	DisplayName: "Alchemic Cave sulfur";
+	Tooltip: "Basic Alchemy. To obtain +3 Cave sulfur | +3 Sulfur Crystals. Bioreactor: +220";
+	LinkedItemIDs: Alch_CrashPowder;
+	FunctionalID: CrashPowder;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CrashPowder;
+    Path: Alch_Fab/Alchemy/Alch_Basic;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 1;
+    ),
+    (
+        ItemID: ShellGrassSeed;
+        Required: 6;
+    ),
+	(
+        ItemID: Gold;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_SulphurCrystals;
+    DisplayName: "Sulfur Crystals";
+	Tooltip: "Hydrolytic Component of Alchemic Cave sulfur. Residue-free, more efficient and above all... more stable! A powerful ally in combustion sources. Bioreactor: +100";
+	LinkedItemIDs: Alch_SulphurCrystals;
+	FunctionalID: CrashPowder;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_SulphurCrystals;
+),
+
+(
+    ItemID: Alch_Sulphur_Mix;
+    DisplayName: "Sulfur Mix";
+	Tooltip: "+3 Cave sulfur | +3 Sulfur Crystals, obtained by Hydrolysis of Alchemic Cave sulfur";
+	LinkedItemIDs: Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, CrashPowder, CrashPowder, CrashPowder, LabEquipment3;
+	FunctionalID: CrashPowder;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Sulphur_Mix;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_CrashPowder;
+        Required: 1;
+    ),
+	(
+        ItemID: GasPod;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment3;
+        Required: 1;
+    );
+),
+
+#	-----------	SALT DEPOSIT	-------------	#
+(
+    ItemID: Alch_Salt;
+    DisplayName: "Alchemic Salt deposit";
+	Tooltip: "Basic Alchemy. To obtain +2 Salt deposit | +3 Pink Sea Salt. Bioreactor: +220";
+    LinkedItemIDs: Alch_Salt;
+	FunctionalID: Salt;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Salt;
+    Path: Alch_Fab/Alchemy/Alch_Basic;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 1;
+    ),
+    (
+        ItemID: BluePalmSeed;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_PinkSalt;
+    DisplayName: "Pink Sea Salt";
+	Tooltip: "Hydrolytic Component of Alchemic Salt deposit. Close to pure Sodium Chloride, its properties are astonishing and still little-known, so it's worth taking a closer look... Some compositions require it, the rest is for you to discover... Bioreactor: +100";
+	LinkedItemIDs: Alch_PinkSalt;
+	FunctionalID: Salt;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_PinkSalt;
+),
+
+(
+    ItemID: Alch_Salt_Mix;
+    DisplayName: "Salt Mix";
+	Tooltip: "+2 Salt deposit | +3 Pink Sea Salt, obtained by Hydrolysis of Alchemic Salt deposit";
+	LinkedItemIDs: Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Salt, Salt, LabEquipment3;
+	FunctionalID: Salt;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Salt_Mix;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Salt;
+        Required: 1;
+    ),
+	(
+        ItemID: StalkerTooth;
+        Required: 2;
+    ),
+	(
+        ItemID: LabEquipment3;
+        Required: 1;
+    );
+);

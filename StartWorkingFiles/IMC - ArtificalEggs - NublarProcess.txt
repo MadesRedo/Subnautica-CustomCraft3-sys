@@ -1,0 +1,78 @@
+AliasRecipes:
+(
+    ItemID: IMCDNA;
+    DisplayName: "DNA Sample";
+    Tooltip: "A hodgepodge of native fish, used in the creation of an Artificial Egg Sack.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: Boomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: BladderFish;
+        Required: 1;
+    ),
+    (
+        ItemID: SpadeFish;
+        Required: 1;
+    ),
+    (
+        ItemID: GarryFish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCEggsBase;
+),
+(
+    ItemID: IMCShell;
+    DisplayName: "Synthetic Egg Shell";
+    Tooltip: "This Shell is used as a protective casing, for the Artificial Egg Sack in the Nublar process.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: Salt;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCEggsBase;
+),
+(
+    ItemID: IMCEggBase;
+    DisplayName: "Artificial Egg Sack";
+    Tooltip: "This artificial egg is used as the base component in the Nublar process. A genetic process of generating creature eggs, that are found on planet 4546B.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: IMCShell;
+        Required: 1;
+    ),
+    (
+        ItemID: JellyPlant;
+        Required: 5;
+    ),
+    (
+        ItemID: IMCDNA;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCEggsBase;
+);

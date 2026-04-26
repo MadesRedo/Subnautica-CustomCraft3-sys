@@ -1,0 +1,339 @@
+
+# 		ENERGY	-	Batteries OldPath: Fabricator/Resources/BatteryTab;		#
+
+MovedRecipes:
+
+		#	BATTERIES	#
+			#	Vanilla & Unique	#
+(
+	ItemID: Battery;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+	Copied: Yes;
+),
+(
+	ItemID: LithiumIonBattery;
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: CbLithiumBattery;													#	Deathrun Remade "Raqzas" - 1495		#
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+	Copied: Yes;
+),
+(
+	ItemID: PrecursorIonBattery;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+	Copied: Yes;
+),
+(
+	ItemID: deathrunremade_acidbattery;											#	Deathrun Remade "Raqzas" - 1495		#
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+	Copied: Yes;
+),
+(
+	ItemID: EnzymeBattery;														#	Custom Batteries "MrPurple6411" - 1453		#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: DeepBattery;														#	Custom Batteries "MrPurple6411" - 1453		#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: UraniniteBattery;													#	Uraninite Power Cell "AshFoxJp" - 2579		#
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: NanFuMK4AAA;														#	NANFU Battery "Censeng" - 2859		#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: QuantumIonBattery;													#	Quantum Ion Batteries "SpirantTree0" - 1099		#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: friendsdeInfiniteBattery;											#	Infinite Batteries "SpirantTree0" - 1100	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: UnlimitedBattery;													#	Unlimited Battery "WelovemodsWyatt" - 2626	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: GodBattery;															#	God Batteries "szymonkulka" - 2070	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: kharaabattery;														#	Kharaa Bacterium Battery "ThatGuyy11" - 2638	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: plagueBattery;														#	Red Plague Batteries "MRREPONDYTB" - 2474	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: SmallFuelCell;														#	Fuel Cells "DaWrecka"	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+(
+	ItemID: precbattery2x;														#	Precursor Energy "ThatGuyy11" - 2665	#
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVU;
+),
+			#	ALCHEMY REMASTERED (CC3) "MamylaPuce" - 2000	#
+(
+	ItemID: Alch_1_Battery_PurpleTentacle;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_2_Battery_Creepvine;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_3a_Battery_SnakeMushroom;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_3b_Battery_CopperOxide;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_4a_Battery_LanternTree;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_4b_Battery_SulphurCrystals;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_5a_Battery_BulbBush;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_5b_Battery_PinkSalt;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_6a_Battery_BloodVine;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_6b_Battery_IronMagneticPowder;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_7_Battery_RadiumCrystal;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Recharged_Batt_PurpleTentacle;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Recharged_Batt_Creepvine;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Recharged_Batt_RadiumCrystal;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattAR;
+	Copied: Yes;
+),
+			#	Lots of Batteries "slyFOX3517" - 1488	#
+(
+	ItemID: BloodOilBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: IonizedKyaniteBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: lithiumBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: MagnesiumBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: MagnetiteBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: MercuryBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: NuclearBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: PrecursorkeyBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: RubyBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+(
+	ItemID: SulfurnickelBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattLOB;
+),
+			#	Organisms Battery Pack "Teo8nx" - 1011	#
+(
+	ItemID: AmpBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: BiologicalBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: CrashBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: EMPPulseBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: GasBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: InfernoBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: JellBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+(
+	ItemID: WaveBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattOBP;
+),
+			#	Variety Battery Pack "Alomare" - 580	#
+(
+	ItemID: BloodBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+(
+	ItemID: ChIonBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+(
+	ItemID: CreepBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+(
+	ItemID: CrySulfurBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+(
+	ItemID: LanternBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+(
+	ItemID: MagBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+(
+	ItemID: SulfurBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattVBP;
+),
+			#	 Alien Batteries "Alexius25" - 1871		#
+(
+	ItemID: BlueTabletBatteryV2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattABP;
+),
+(
+	ItemID: OrangeTabletBatteryV2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattABP;
+),
+(
+	ItemID: PurpleTabletBatteryV2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattABP;
+),
+(
+	ItemID: RedTabletBatteryV2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattABP;
+),
+(
+	ItemID: WhiteTabletBatteryV2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattABP;
+),
+			#	 Battery MK2 "Alomare" - 1854	#
+(
+	ItemID: Battery2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattMK2;
+),
+(
+	ItemID: IonBattery2;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattMK2;
+),
+			#	 Phazon Batteries "SparkleArts" - 1461	#
+(
+	ItemID: PhazonBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattPHB;
+),
+(
+	ItemID: ConcentratedPhazonBattery;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades/BattPHB;
+);

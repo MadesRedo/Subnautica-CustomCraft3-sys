@@ -1,0 +1,298 @@
+#		PdaGroup: InteriorModules | PdaCategory: InteriorModule		#
+
+
+ModifiedRecipes:
+
+
+#	------------	FABRICATEUR	-----------	#
+(
+    ItemID: Fabricator;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: Gold;
+        Required: 2;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 1;
+    ),
+	(
+        ItemID: JeweledDiskPiece;
+        Required: 2;
+    );
+),
+
+#	------------	RADIO	-----------	#
+(
+    ItemID: Radio;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	FABRICATEUR DE KIT MÉDICAL	-----------	#
+(
+    ItemID: MedicalCabinet;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: FiberMesh;
+        Required: 3;
+    ),
+    (
+        ItemID: Silver;
+        Required: 4;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+
+#	------------	ARMOIRE MURALE	-----------	#
+(
+    ItemID: SmallLocker;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	ARMOIRE	-----------	#
+(
+    ItemID: Locker;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	CHARGEUR DE PILES	-----------	#
+(
+    ItemID: BatteryCharger;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 3;
+    );
+),
+
+#	------------	CHARGEUR DE BATTERIES HAUTE CAPACITÉ	-----------	#
+(
+    ItemID: PowerCellCharger;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 4;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 5;
+    );
+),
+
+#	------------	AQUARIUM	-----------	#
+(
+    ItemID: Aquarium;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	STATION DE MODIFICATION	-----------	#
+(
+    ItemID: Workbench;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 3;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    );
+),
+
+#	------------	CENTRIFUGEUSE	-----------	#
+(
+    ItemID: Centrifuge;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	POT DE FLEURS BASIQUE	-----------	#
+(
+    ItemID: PlanterPot;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+),
+
+#	------------	POT À PLANTES COMPOSITE	-----------	#
+(
+    ItemID: PlanterPot2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+),
+
+#	------------	POT DE PLANTES ÉLÉGANT	-----------	#
+(
+    ItemID: PlanterPot3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+),
+
+#	------------	BAC À CULTURE D'INTÉRIEUR	-----------	#
+(
+    ItemID: PlanterBox;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: CreepvinePiece;
+        Required: 1;
+    ),
+	(
+        ItemID: SeaTreaderPoop;
+        Required: 2;
+    );
+),
+
+#	------------	POT DE PLANTES MURAL	-----------	#
+(
+    ItemID: PlanterShelf;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+);

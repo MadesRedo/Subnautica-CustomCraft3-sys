@@ -1,0 +1,275 @@
+
+
+
+ModifiedRecipes:
+
+# -----------	VF Depth Modules (VF - 859)		----------- #
+
+	#--- Depth 1 ---#
+(
+    ItemID: ModVehicleDepthModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    );
+),
+
+	#--- Depth 2 ---#
+(
+    ItemID: ModVehicleDepthModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ModVehicleDepthModule1;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Charged_CorundumGem_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    );
+),
+
+	#--- Depth 3 ---#
+(
+    ItemID: ModVehicleDepthModule3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ModVehicleDepthModule2;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Charged_AlchemyMaster_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    );
+),
+
+# -----------	VF Speed Modules - 1973		----------- #
+
+	#--- Speed 1 ---#
+(
+    ItemID: SpeedModuleVF1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Silver;
+        Required: 1;
+    );
+),
+
+	#--- Speed 2 ---#
+(
+    ItemID: SpeedModuleVF2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SpeedModuleVF1;
+        Required: 1;
+    ),
+	(
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    );
+),
+
+	#--- Speed 3 ---#
+(
+    ItemID: SpeedModuleVF3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SpeedModuleVF2;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 3;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# -----------	VF Stealth Modules - 746	----------- #
+
+	#--- Stealth 1 ---#
+(
+    ItemID: StealthModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: FiberMesh;
+        Required: 1;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+
+	#--- Stealth 2 ---#
+(
+    ItemID: StealthModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StealthModule1;
+        Required: 1;
+    ),    
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Gold;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+	#--- Stealth 3 ---#
+(
+    ItemID: StealthModule3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StealthModule2;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+
+	#--- Stealth 4 ---#
+(
+    ItemID: StealthModule4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StealthModule3;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Benzene;
+        Required: 1;
+    ),
+	(
+        ItemID: StalkerTooth;
+        Required: 3;
+    );
+),
+
+	#--- Stealth 5 ---#
+(
+    ItemID: StealthModule5;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StealthModule4;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: RedGreenTentacleSeed;
+        Required: 2;
+    );
+);

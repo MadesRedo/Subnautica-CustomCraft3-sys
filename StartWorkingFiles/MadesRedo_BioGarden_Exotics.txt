@@ -1,0 +1,106 @@
+AliasRecipes:
+(
+ItemID: multiplyjeweleddiskpiece;
+DisplayName: "Table Coral Sample (x10)";
+Tooltip: "Table Coral Sample. Multiplied in the BioGarden.";
+FunctionalID: jeweleddiskpiece;
+SpriteItemID: jeweleddiskpiece;
+AmountCrafted: 0;
+LinkedItemIDs: jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece;
+Ingredients:
+(
+ItemID: jeweleddiskpiece;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: jeweleddiskpiece;
+),
+(
+ItemID: multiplypurplebraincoralpiece;
+DisplayName: "Brain Coral Sample (x10)";
+Tooltip: "Brain Coral Sample. Multiplied in the BioGarden.";
+FunctionalID: purplebraincoralpiece;
+SpriteItemID: purplebraincoralpiece;
+AmountCrafted: 0;
+LinkedItemIDs: purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece;
+Ingredients:
+(
+ItemID: purplebraincoralpiece;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplebraincoralpiece;
+),
+(
+ItemID: multiplykooshchunk;
+DisplayName: "Bulb Bush Sample (x10)";
+Tooltip: "Bulb Bush Sample. Multiplied in the BioGarden.";
+FunctionalID: kooshchunk;
+SpriteItemID: kooshchunk;
+AmountCrafted: 0;
+LinkedItemIDs: kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk;
+Ingredients:
+(
+ItemID: kooshchunk;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: kooshchunk;
+),
+(
+ItemID: multiplyshellgrassseed;
+DisplayName: "Spiked Horn Grass Seed (x10)";
+Tooltip: "Spiked Horn Grass Seed. Multiplied in the BioGarden.";
+FunctionalID: shellgrassseed;
+SpriteItemID: shellgrassseed;
+AmountCrafted: 0;
+LinkedItemIDs: shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed;
+Ingredients:
+(
+ItemID: shellgrassseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: shellgrassseed;
+),
+(
+ItemID: multiplyspikeplantseed;
+DisplayName: "Tiger Plant Seed (x10)";
+Tooltip: "Tiger Plant Seed. Multiplied in the BioGarden.";
+FunctionalID: spikeplantseed;
+SpriteItemID: spikeplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed;
+Ingredients:
+(
+ItemID: spikeplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: spikeplantseed;
+);

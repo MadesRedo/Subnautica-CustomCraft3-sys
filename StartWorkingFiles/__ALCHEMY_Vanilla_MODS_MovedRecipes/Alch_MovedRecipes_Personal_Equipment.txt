@@ -1,0 +1,21 @@
+#	FROM	=>		PdaGroup: Personal 		| 	PdaCategory: Equipment			#
+#	TO		=>		PdaGroup: { ALCHEMY } 	| 	PdaCategory: Tablets			#
+
+MovedRecipes:
+
+# ---	Tablets	: Purple, Orange, Blue	(Moved to)		--- #
+(
+	ItemID: PrecursorKey_Purple;
+	OldPath: Fabricator/Personal/Equipment;
+	NewPath: Alch_Fab/Alchemy/Alch_Tablets;
+),
+(
+	ItemID: PrecursorKey_Orange;
+	OldPath: Fabricator/Personal/Equipment;
+	NewPath: Alch_Fab/Alchemy/Alch_Tablets;
+),
+(
+	ItemID: PrecursorKey_Blue;
+	OldPath: Fabricator/Personal/Equipment;
+	NewPath: Alch_Fab/Alchemy/Alch_Tablets;
+);

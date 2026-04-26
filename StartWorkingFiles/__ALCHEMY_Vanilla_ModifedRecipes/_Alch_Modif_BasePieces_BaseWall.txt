@@ -1,0 +1,54 @@
+#		PdaGroup: BasePieces | PdaCategory: BaseWall		#
+
+
+ModifiedRecipes:
+
+
+#	------------	ÉCOUTILLE	-----------	#
+(
+    ItemID: BaseHatch;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	FENÊTRE		-----------	#
+(
+    ItemID: BaseWindow;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	CONSOLIDATION	-----------	#
+(
+    ItemID: BaseReinforcement;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    );
+);

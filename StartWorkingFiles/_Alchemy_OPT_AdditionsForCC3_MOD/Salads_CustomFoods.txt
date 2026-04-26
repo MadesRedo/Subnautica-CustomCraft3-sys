@@ -1,0 +1,66 @@
+
+
+
+CustomFoods:			#	OPTIONAL	#
+
+
+(
+    ItemID: Thermos;
+    DisplayName: "Thermos with coffee";
+    Tooltip: "Hot delicious coffee. Water +40 | Food +10";
+    AmountCrafted: 1;
+    WaterValue: 40;
+	FoodValue: 10;
+    ForceUnlockAtStart: NO;
+	UnlockedBy: CoffeeVendingMachine;
+	Path: Fabricator/Survival/Water;
+    Ingredients: 
+    (
+        ItemID: DisinfectedWater;
+        Required: 1;
+    ),
+	(
+        ItemID: Coffee;
+        Required: 2;
+    );
+),
+(
+    ItemID: FruitSalad;
+    DisplayName: "Fruit salad";
+    Tooltip: "A surprisingly delicious salad with local fruits. Water +20 | Food +60";
+    AmountCrafted: 1;
+	WaterValue: 20;
+    FoodValue: 60;    
+    ForceUnlockAtStart: NO;
+	UnlockedBy: HangingFruit;
+	Path: Fabricator/Survival/CookedFood;
+    Ingredients: 
+    (
+        ItemID: HangingFruit;
+        Required: 3;
+    ),
+	(
+        ItemID: Melon;
+        Required: 2;
+    );
+),
+(
+    ItemID: VegetableSalad;
+    DisplayName: "Vegetable salad";
+    Tooltip: "A surprisingly delicious salad with local vegetables. Water +10 | Food +70";
+    AmountCrafted: 1;
+	WaterValue: 10;
+    FoodValue: 70;
+    ForceUnlockAtStart: NO;
+	UnlockedBy: PurpleVegetable;
+	Path: Fabricator/Survival/CookedFood;
+    Ingredients: 
+    (
+        ItemID: PurpleVegetable;
+        Required: 4;
+    ),
+	(
+        ItemID: BulboTreePiece;
+        Required: 2;
+    );
+);

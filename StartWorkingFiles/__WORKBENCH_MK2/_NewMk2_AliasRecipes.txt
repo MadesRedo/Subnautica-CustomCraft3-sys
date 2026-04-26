@@ -1,0 +1,33 @@
+
+
+
+AliasRecipes:
+
+
+	#	Variable Gravity Cannon "Indigocoder" 	#
+(
+    ItemID: VarGravityCannon;
+    DisplayName: "Variable Gravity Cannon";
+	Tooltip: "A Propulsion and Repulsion Cannon in a single tool! ID : VariableGravityCannon";
+	FunctionalID: VariableGravityCannon;
+    Path: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	AmountCrafted: 0;
+    Ingredients: 
+    (
+	  ItemID: Titanium;
+	  Required: 1;
+	),
+	(
+	  ItemID: TitaniumIngot;
+	  Required: 2;
+	),
+	(
+	  ItemID: UraniniteCrystal;
+	  Required: 2;
+	),
+	(
+	  ItemID: WiringKit;
+	  Required: 1;
+	);
+	LinkedItemIDs: VariableGravityCannon;
+);

@@ -1,0 +1,185 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Chips	#
+(
+	ItemID: Compass;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: UICompress_Chip;													#	MoreIngots "M3dicCookie" - 196		#
+	#OldPath: Fabricator/Resources/Electronics;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: UIDeCompress_Chip;													#	MoreIngots "M3dicCookie" - 196		#
+	#OldPath: Fabricator/Resources/Electronics;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: LoTechGloveChip;													#	Immersive Outcrop Break "M3dicCookie" - 2519	#
+	OldPath: Workbench/Chips;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: MidTechGloveChip;													#	Immersive Outcrop Break "M3dicCookie" - 2519	#
+	OldPath: Workbench/Chips;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: HiTechGloveChip;													#	Immersive Outcrop Break "M3dicCookie" - 2519	#
+	OldPath: Workbench/Chips;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: EnhancedHUDChip;													#	Better Hud Info "M3dicCookie" - 2517	#
+	OldPath: Workbench/Chips;
+	Hidden: Yes;
+),
+(
+	ItemID: EnhancedHUDChip;													#	Better Hud Info "M3dicCookie" - 2517	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: OxygenCanisterMonitorChip;											#	Oxygen Canisters (Discord) "M3dicCookie"	#
+	OldPath: Fabricator/Personal/Equipment/Oxygen;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: OxygenAudioMonitorChip;													#	HIDDEN	#
+	OldPath: Fabricator/Personal/Equipment/Oxygen;
+	Hidden: Yes;
+),
+(
+	ItemID: OxygenAudioMonitorChip;												#	Oxygen Audio Monitor "M3dicCookie" - 2522	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: OxygenTankMonitorChip;												#	Oxygen Tank Monitor "M3dicCookie" - 2523	#
+	OldPath: Fabricator/Personal/Equipment/Oxygen;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: SnorkelModeChip;													#	Oxygen Tank Monitor "M3dicCookie" - 2523	#
+	OldPath: Fabricator/Personal/Equipment/Oxygen;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: ComboChip;																#	HIDDEN	#
+	OldPath: Fabricator/Personal/Equipment;
+	Hidden: Yes;
+),
+(
+	ItemID: ComboChip;															#	Oxygen Tank Monitor "M3dicCookie" - 2523	#
+	#OldPath: Workbench/Chips;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: HeadLampChip;														#	Headlamp Chip "Alexius25" - 2901	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: NightVisionChip;													#	Night Vision Chip "MrJumpscare" - 1811		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: HealthRecoveryChipMK1;												#	Regeneration chip "subqq" - 1711	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: HealthRecoveryChipMK2;												#	Regeneration chip "subqq" - 1711	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: HealthRecoveryChipMK3;												#	Regeneration chip "subqq" - 1711	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+),
+(
+	ItemID: SonarChip;															#	Sonar Chip "EldritchCarMaker" - 1955	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: SolarChargerChip;													#	Recharger Chips "EldritchCarMaker" - 1940	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: ThermalChargerChip;													#	Recharger Chips "EldritchCarMaker" - 1940	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: ComboChargerChip;													#	Recharger Chips "EldritchCarMaker" - 1940	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: WarpChip;															#	Warp Chip "EldritchCarMaker" - 1948		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: UltimateWarpChip;													#	Warp Chip "EldritchCarMaker" - 1948		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: HydrodinamicMembrane;												#	GENETICA EXPANSION "Maxichigo" - 2664	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PredatorVision;														#	GENETICA EXPANSION "Maxichigo" - 2664	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MineralResonator;													#	GENETICA EXPANSION "Maxichigo" - 2664	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: DiverPerimeterDefenceChipItem;										#	DWEquipment "DaWrecka"	#
+	#OldPath: Fabricator/Personal/ChipMenu;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: DiverDefenceSystemMk2;												#	DWEquipment "DaWrecka"	#
+	#OldPath: Fabricator/Personal/ChipMenu;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: DiverDefenceSystemMk3;												#	DWEquipment "DaWrecka"	#
+	#OldPath: Fabricator/Personal/ChipMenu;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerChipUpgrades;
+	Copied: Yes;
+);

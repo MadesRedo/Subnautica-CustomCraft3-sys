@@ -1,0 +1,32 @@
+#---------------------------------------------------------------#
+#			Custom BioFuels				#
+#---------------------------------------------------------------#
+CustomBioFuels:
+(
+    ItemID: NHIBio_FertilizerBp;
+    Energy: 1000;
+),
+(
+    ItemID: NHIBio_BioEthanol;
+    Energy: 2100;
+),
+(
+    ItemID: NHIBio_BioGas;
+    Energy: 2940;
+),
+(
+    ItemID: NHIBio_compostcreepvine;
+    Energy: 800;
+),
+(
+    ItemID: NHIBio_BioAlgae;
+    Energy: 1500;
+),
+(
+    ItemID: NHIBio_FishOil;
+    Energy: 4650;
+),
+(
+    ItemID: NHIMetabo_Ethanol;
+    Energy: 560;
+);

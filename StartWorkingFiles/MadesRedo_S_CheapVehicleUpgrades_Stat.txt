@@ -1,0 +1,259 @@
+AliasRecipes:
+    (
+        ItemID: add_seamoth_depth1;
+        DisplayName: "Seamoth Depth Module MK1";
+        Tooltip: "Cheap Seamoth Depth MK1";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothdepthmodule1;
+        SpriteItemID: seamothdepthmodule1;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_seamoth_depth2;
+        DisplayName: "Seamoth Depth Module MK2";
+        Tooltip: "Cheap Seamoth Depth MK2";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothdepthmodule2;
+        SpriteItemID: seamothdepthmodule2;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_seamoth_depth3;
+        DisplayName: "Seamoth Depth Module MK3";
+        Tooltip: "Cheap Seamoth Depth MK3";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothdepthmodule3;
+        SpriteItemID: seamothdepthmodule3;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+
+    (
+        ItemID: add_seamoth_solar;
+        DisplayName: "Seamoth Solar Charger";
+        Tooltip: "Cheap Seamoth Solar Charger";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothsolarmodule;
+        SpriteItemID: seamothsolarmodule;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_seamoth_perimeter;
+        DisplayName: "Seamoth Perimeter Defense";
+        Tooltip: "Cheap Seamoth Perimeter Defense";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothperimeterdefense;
+        SpriteItemID: seamothperimeterdefense;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_seamoth_torpedo;
+        DisplayName: "Seamoth Torpedo System";
+        Tooltip: "Cheap Seamoth Torpedo System";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothtorpedosystem;
+        SpriteItemID: seamothtorpedosystem;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+
+    (
+        ItemID: add_prawn_depth1;
+        DisplayName: "Prawn Depth Module MK1";
+        Tooltip: "Cheap Prawn Depth MK1";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, prawnsuitdepthmodule1;
+        SpriteItemID: prawnsuitdepthmodule1;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_prawn_depth2;
+        DisplayName: "Prawn Depth Module MK2";
+        Tooltip: "Cheap Prawn Depth MK2";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, prawnsuitdepthmodule2;
+        SpriteItemID: prawnsuitdepthmodule2;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_prawn_drill;
+        DisplayName: "Prawn Drill Arm";
+        Tooltip: "Cheap Prawn Drill Arm";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, prawnsuitdrillarm;
+        SpriteItemID: prawnsuitdrillarm;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_prawn_grapple;
+        DisplayName: "Prawn Grappling Arm";
+        Tooltip: "Cheap Prawn Grappling Arm";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, prawnsuitgrapplingarm;
+        SpriteItemID: prawnsuitgrapplingarm;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_prawn_propulsion;
+        DisplayName: "Prawn Propulsion Arm";
+        Tooltip: "Cheap Prawn Propulsion Arm";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, prawnsuitpropulsionarm;
+        SpriteItemID: prawnsuitpropulsionarm;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_prawn_jumpjets;
+        DisplayName: "Prawn Jump Jet Upgrade";
+        Tooltip: "Cheap Prawn Jump Jets";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, prawnsuitjetupgrade;
+        SpriteItemID: prawnsuitjetupgrade;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: VehicleUpgradeConsole/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+
+    (
+        ItemID: add_cyclops_depth1;
+        DisplayName: "Cyclops Depth Module MK1";
+        Tooltip: "Cheap Cyclops Depth MK1";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopsdepthmodule1;
+        SpriteItemID: cyclopsdepthmodule1;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: CyclopsFabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_cyclops_depth2;
+        DisplayName: "Cyclops Depth Module MK2";
+        Tooltip: "Cheap Cyclops Depth MK2";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopsdepthmodule2;
+        SpriteItemID: cyclopsdepthmodule2;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: CyclopsFabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_cyclops_depth3;
+        DisplayName: "Cyclops Depth Module MK3";
+        Tooltip: "Cheap Cyclops Depth MK3";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopsdepthmodule3;
+        SpriteItemID: cyclopsdepthmodule3;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: CyclopsFabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_cyclops_fire;
+        DisplayName: "Cyclops Fire Suppression";
+        Tooltip: "Cheap Cyclops Fire Suppression";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopsfiresuppression;
+        SpriteItemID: cyclopsfiresuppression;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: CyclopsFabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_cyclops_efficiency;
+        DisplayName: "Cyclops Power Efficiency";
+        Tooltip: "Cheap Cyclops Power Efficiency";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopspowerefficiency;
+        SpriteItemID: cyclopspowerefficiency;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        Path: CyclopsFabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    );

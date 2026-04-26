@@ -1,0 +1,528 @@
+AliasRecipes: 
+  (
+        ItemID: add_creepvineseedcluster;
+	DisplayName: "Creepvine Seed Cluster x4";
+	Tooltip: "Cheap Creepvine Seed Cluster";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster;
+	SpriteItemID: creepvineseedcluster;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_acidmushroomspore;
+	DisplayName: "Acid Mushroom Spore x4";
+	Tooltip: "Cheap Acid Mushroom Spore";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore;
+	SpriteItemID: acidmushroomspore;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_bluepalmseed;
+	DisplayName: "Blue Palm Seed x4";
+	Tooltip: "Cheap Blue Palm Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, bluepalmseed, bluepalmseed, bluepalmseed, bluepalmseed;
+	SpriteItemID: bluepalmseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_whitemushroomspore;
+	DisplayName: "Deep Shroom Spore x4";
+	Tooltip: "Cheap Deep Shroom Spore";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore;
+	SpriteItemID: whitemushroomspore;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_eyesplantseed;
+	DisplayName: "Eye Stalk Seed x4";
+	Tooltip: "Cheap Eye Stalk Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed;
+	SpriteItemID: eyesplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_jellyplantseed;
+	DisplayName: "Gel Sack Spores x4";
+	Tooltip: "Cheap Gel Sack Spores";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed;
+	SpriteItemID: jellyplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_fernpalmseed;
+	DisplayName: "Fern Palm Seed x4";
+	Tooltip: "Cheap Fern Palm Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed;
+	SpriteItemID: fernpalmseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_redrollplantseed;
+	DisplayName: "Furled Papyrus Seed x4";
+	Tooltip: "Cheap Furled Papyrus Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed;
+	SpriteItemID: redrollplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_melonseed;
+	DisplayName: "Marblemelon Seed x4";
+	Tooltip: "Cheap Marblemelon Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, melonseed, melonseed, melonseed, melonseed;
+	SpriteItemID: melonseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_purplebranchesseed;
+	DisplayName: "Cave Bush Seed x4";
+	Tooltip: "Cheap Cave Bush Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed;
+	SpriteItemID: purplebranchesseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_purplestalkseed;
+	DisplayName: "Violet Beau Seed x4";
+	Tooltip: "Cheap Violet Beau Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed;
+	SpriteItemID: purplestalkseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_gabesfeatherseed;
+	DisplayName: "Gabe's Feather Seed x4";
+	Tooltip: "Cheap Gabe's Feather Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed;
+	SpriteItemID: gabesfeatherseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_redbushseed;
+	DisplayName: "Redwort Seed x4";
+	Tooltip: "Cheap Redwort Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, redbushseed, redbushseed, redbushseed, redbushseed;
+	SpriteItemID: redbushseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_redgreententacleseed;
+	DisplayName: "Ghost Weed Seed x4";
+	Tooltip: "Cheap Ghost Weed Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed;
+	SpriteItemID: redgreententacleseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_orangepetalsplantseed;
+	DisplayName: "Grub Basket Seed x4";
+	Tooltip: "Cheap Grub Basket Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed;
+	SpriteItemID: orangepetalsplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_orangemushroomspore;
+	DisplayName: "Jaffa Cup Seed x4";
+	Tooltip: "Cheap Jaffa Cup Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore;
+	SpriteItemID: orangemushroomspore;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_spottedleavesplantseed;
+	DisplayName: "Spotted Dockleaf Seed x4";
+	Tooltip: "Cheap Spotted Dockleaf Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed;
+	SpriteItemID: spottedleavesplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_snakemushroomspore;
+	DisplayName: "Jellyshroom Spore x4";
+	Tooltip: "Cheap Jellyshroom Spore";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore;
+	SpriteItemID: snakemushroomspore;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_membraintreeseed;
+	DisplayName: "Membrain Tree Seed x4";
+	Tooltip: "Cheap Membrain Tree Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed;
+	SpriteItemID: membraintreeseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_pinkmushroomspore;
+	DisplayName: "Pink Cap Spore x4";
+	Tooltip: "Cheap Pink Cap Spore";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore;
+	SpriteItemID: pinkmushroomspore;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_smallfanseed;
+	DisplayName: "Pygmy Fan Seed x4";
+	Tooltip: "Cheap Pygmy Fan Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, smallfanseed, smallfanseed, smallfanseed, smallfanseed;
+	SpriteItemID: smallfanseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_redconeplantseed;
+	DisplayName: "Regress Shell Seed x4";
+	Tooltip: "Cheap Regress Shell Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed;
+	SpriteItemID: redconeplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_redbasketplantseed;
+	DisplayName: "Rouge Cradle Seed x4";
+	Tooltip: "Cheap Rouge Cradle Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed;
+	SpriteItemID: redbasketplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+ (
+        ItemID: add_seacrownseed;
+	DisplayName: "Sea Crown Seed x4";
+	Tooltip: "Cheap Sea Crown Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, seacrownseed, seacrownseed, seacrownseed, seacrownseed;
+	SpriteItemID: seacrownseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+ (
+        ItemID: add_purplerattlespore;
+	DisplayName: "Speckled Rattler Spore x4";
+	Tooltip: "Cheap Speckled Rattler Spore";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplerattlespore, purplerattlespore, purplerattlespore, purplerattlespore;
+	SpriteItemID: purplerattlespore;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+ (
+        ItemID: add_shellgrassseed;
+	DisplayName: "Spiked Horn Grass Seed x4";
+	Tooltip: "Cheap Spiked Horn Grass Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed;
+	SpriteItemID: shellgrassseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+ (
+        ItemID: add_spikeplantseed;
+	DisplayName: "Tiger Plant Seed x4";
+	Tooltip: "Cheap Tiger Plant Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed;
+	SpriteItemID: spikeplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_purplefanseed;
+	DisplayName: "Veined Nettle Seed x4";
+	Tooltip: "Cheap Veined Nettle Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplefanseed, purplefanseed, purplefanseed, purplefanseed;
+	SpriteItemID: purplefanseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+ (
+        ItemID: add_pinkflowerseed;
+	DisplayName: "Voxel Shrub x4";
+	Tooltip: "Cheap Voxel Shrub";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed;
+	SpriteItemID: pinkflowerseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+ (
+        ItemID: add_purpletentacleseed;
+	DisplayName: "Writhing Weed Seed x4";
+	Tooltip: "Cheap Writhing Weed Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed;
+	SpriteItemID: purpletentacleseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    ),
+  (
+        ItemID: add_purplevaseplantseed;
+	DisplayName: "Ming Plant Seed x4";
+	Tooltip: "Cheap Ming Plant Seed";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed;
+	SpriteItemID: purplevaseplantseed;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapSeeds;        
+    );

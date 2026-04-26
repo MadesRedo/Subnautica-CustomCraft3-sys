@@ -1,0 +1,329 @@
+
+# 		ENERGY	-	Power cell OldPath: Fabricator/Resources/PowCellTab;	#
+
+MovedRecipes:
+
+		#	POWER CELL	#
+			#	Vanilla & Unique	#
+(
+	ItemID: PowerCell;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+	Copied: Yes;
+),
+(
+	ItemID: PrecursorIonPowerCell;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+	Copied: Yes;
+),
+(
+	ItemID: deathrunremade_acidpowercell;										#	Deathrun Remade "Raqzas" - 1495		#
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+	Copied: Yes;
+),
+(
+	ItemID: EnzymePowerCell;													#	Custom Batteries "MrPurple6411" - 1453		#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: DeepPowerCell;														#	Custom Batteries "MrPurple6411" - 1453		#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: UraninitePowerCell;													#	Uraninite Power Cell "AshFoxJp" - 2579		#
+	OldPath: Fabricator/Resources/Electronics;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: NanFuMK4AA;															#	NANFU Battery "Censeng" - 2859		#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: QuantumIonCell;														#	Quantum Ion Batteries "SpirantTree0" - 1099		#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: friendsdeInfiniteCell;												#	Infinite Batteries "SpirantTree0" - 1100	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: UnlimitedCell;														#	Unlimited Battery "WelovemodsWyatt" - 2626	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: GodPowerCell;														#	God Batteries "szymonkulka" - 2070	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: kharaapowercell;													#	Kharaa Bacterium Battery "ThatGuyy11" - 2638	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: plaguePowerCell;													#	Red Plague Batteries "MRREPONDYTB" - 2474	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: FuelCell;															#	Fuel Cells "DaWrecka"	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+(
+	ItemID: precpowercell2x;													#	Precursor Energy "ThatGuyy11" - 2665	#
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVU;
+),
+			#	ALCHEMY REMASTERED (CC3) "MamylaPuce" - 2000	#
+(
+	ItemID: Alch_1_PowerCell_PurpleTentacle;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_2_PowerCell_Creepvine;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_3a_PowerCell_SnakeMushroom;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_3b_PowerCell_CopperOxide;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_4a_PowerCell_LanternTree;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_4b_PowerCell_SulphurCrystals;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_5a_PowerCell_BulbBush;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_5b_PowerCell_PinkSalt;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_6a_PowerCell_BloodVine;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_6b_PowerCell_IronMagneticPowder;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_7_PowerCell_RadiumCrystal;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Recharged_PCell_PurpleTentacle;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Recharged_PCell_Creepvine;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Recharged_PCell_RadiumCrystal;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellAR;
+	Copied: Yes;
+),
+			#	Lots of Batteries "slyFOX3517" - 1488	#
+(
+	ItemID: BloodOilPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: IonizedKyanitePowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: LithiumPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: MagnesiumPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: MagnetitePowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: MercuryPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: NuclearPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: PrecursorkeyPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: RubyPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+(
+	ItemID: SulfurnickelPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellLOB;
+),
+			#	Organisms Battery Pack "Teo8nx" - 1011	#
+(
+	ItemID: AmpPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: BiologicalPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: CrashPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: EMPPulsePowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: GasPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: InfernoPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: JellPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+(
+	ItemID: WavePowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellOBP;
+),
+			#	Variety Battery Pack "Alomare" - 580	#
+(
+	ItemID: BloodPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+(
+	ItemID: ChIonPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+(
+	ItemID: CreepPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+(
+	ItemID: CrySulfurPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+(
+	ItemID: LanternPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+(
+	ItemID: MagPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+(
+	ItemID: SulfurPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellVBP;
+),
+			#	 Alien Batteries "Alexius25" - 1871		#
+(
+	ItemID: BlueTabletPowercellV2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellABP;
+),
+(
+	ItemID: OrangeTabletPowercellV2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellABP;
+),
+(
+	ItemID: PurpleTabletPowercellV2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellABP;
+),
+(
+	ItemID: RedTabletPowercellV2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellABP;
+),
+(
+	ItemID: WhiteTabletPowercellV2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellABP;
+),
+			#	 Battery MK2 "Alomare" - 1854	#
+(
+	ItemID: PowerCell2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellMK2;
+),
+(
+	ItemID: IonPowerCell2;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellMK2;
+),
+			#	 Phazon Batteries "SparkleArts" - 1461	#
+(
+	ItemID: PhazonPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellPHB;
+),
+(
+	ItemID: ConcentratedPhazonPowerCell;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades/PCellPHB;
+);

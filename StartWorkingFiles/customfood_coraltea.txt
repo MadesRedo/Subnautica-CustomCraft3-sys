@@ -1,0 +1,27 @@
+CustomFoods:
+(
+    ItemID: Coraltea;
+    DecayRateMod: 0.0; 
+    DisplayName: "Coral Tea";
+    Tooltip: "A soothing, slightly salty infusion made from brain coral. Known for its calming properties, provides oxygen in a pinch.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    ),
+    (
+        ItemID: jeweleddiskpiece;
+        Required: 1;
+    ),
+    (
+        ItemID: FilteredWater;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Water;
+    FoodValue:11;
+    WaterValue:42;
+    HealthValue:8;
+    OxygenValue:40;
+    ForceUnlockAtStart: YES;
+),

@@ -1,0 +1,554 @@
+#		PdaGroup: Resources | PdaCategory: BasicMaterials			#
+#		PdaGroup: Resources | PdaCategory: AdvancedMaterials		#
+
+AliasRecipes:
+
+
+#	-----------------------------------------	#
+#				UNPACKED MATERIALS				#
+#	-----------------------------------------	#
+
+#	-----------	BASIC MATERIALS --------------	#
+
+#_______	Synthetic Fertilizer Bag	_______#
+(
+    ItemID: Alch_SyntheticManure_Unpack;
+	DisplayName: "x10 Synthetic Manure";
+	Tooltip: "Unpack 1 Synthetic Fertilizer Bag into 10 Synthetic Manure units.";
+    LinkedItemIDs: Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure, Alch_SyntheticManure;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_SyntheticManure_Unpack;
+	UnlockedBy: Alch_SyntheticManure;
+    Ingredients:
+    (
+        ItemID: Alch_SyntheticManure_Bag;
+        Required: 1;
+    );
+),
+
+#_______	Organic Fertilizer Bag		_______#
+(
+    ItemID: Alch_OrganicManure_Unpack;
+	DisplayName: "x10 Organic Manure";
+	Tooltip: "Unpack 1 Organic Fertilizer Bag into 10 Organic Manure units.";
+    LinkedItemIDs: Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure, Alch_OrganicManure;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_OrganicManure_Unpack;
+	UnlockedBy: Alch_OrganicManure;
+    Ingredients:
+    (
+        ItemID: Alch_OrganicManure_Bag;
+        Required: 1;
+    );
+),
+
+#_______	Magnesium Block 	_______#
+(
+    ItemID: Alch_Magnesium_Unpack;
+	DisplayName: "x10 Magnesium";
+	Tooltip: "Unpack 1 Magnesium Block into 10 Magnesium units.";
+    LinkedItemIDs: Magnesium, Magnesium, Magnesium, Magnesium, Magnesium, Magnesium, Magnesium, Magnesium, Magnesium, Magnesium;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnesium_Unpack;
+	UnlockedBy: Alch_Magnesium;
+    Ingredients:
+    (
+        ItemID: Alch_Magnesium_Block;
+        Required: 1;
+    );
+),
+
+#_______	Cinnabar Powder Vial  	_______#
+(
+    ItemID: Alch_CinnabarPowder_Unpack;
+	DisplayName: "x10 Mercury Raw";
+	Tooltip: "Transform 1 Cinnabar Powder Vial into 10 Mercury Ore units.";
+    LinkedItemIDs: MercuryOre, MercuryOre, MercuryOre, MercuryOre, MercuryOre, MercuryOre, MercuryOre, MercuryOre, MercuryOre, MercuryOre;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CinnabarPowder_Unpack;
+	UnlockedBy: Alch_MercuryOre;
+    Ingredients:
+    (
+        ItemID: Alch_CinnabarPowder_Vial;
+        Required: 1;
+    );
+),
+
+#_______	Copper Ingot 	_______#
+(
+    ItemID: Alch_Copper_Unpack;
+	DisplayName: "x10 Copper";
+	Tooltip: "Unpack 1 Copper Ingot into 10 Copper units.";
+    LinkedItemIDs: Copper, Copper, Copper, Copper, Copper, Copper, Copper, Copper, Copper, Copper;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Copper_Unpack;
+	UnlockedBy: Alch_Copper;
+    Ingredients:
+    (
+        ItemID: Alch_Copper_Ingot;
+        Required: 1;
+    );
+),
+
+#_______	Quartz Block	_______#
+(
+    ItemID: Alch_Quartz_Unpack;
+	DisplayName: "x10 Quartz";
+	Tooltip: "Unpack 1 Quartz Block into 10 Quartz units.";
+    LinkedItemIDs: Quartz, Quartz, Quartz, Quartz, Quartz, Quartz, Quartz, Quartz, Quartz, Quartz;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Quartz_Unpack;
+	UnlockedBy: Alch_Quartz;
+    Ingredients:
+    (
+        ItemID: Alch_Quartz_Block;
+        Required: 1;
+    );
+),
+
+#_______	Glass Block		_______#
+(
+    ItemID: Alch_Glass_Unpack;
+	DisplayName: "x10 Glass";
+	Tooltip: "Unpack 1 Glass Block into 10 Glass units.";
+    LinkedItemIDs: Glass, Glass, Glass, Glass, Glass, Glass, Glass, Glass, Glass, Glass;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Glass_Unpack;
+	UnlockedBy: Glass;
+    Ingredients:
+    (
+        ItemID: Alch_Glass_Block;
+        Required: 1;
+    );
+),
+
+#_______	Enameled Glass Block 	_______#
+(
+    ItemID: Alch_EnameledGlass_Unpack;
+	DisplayName: "x10 Enameled Glass";
+	Tooltip: "Unpack 1 Enameled Glass Block into 10 Enameled Glass units.";
+    LinkedItemIDs: EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass, EnameledGlass;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_EnameledGlass_Unpack;
+	UnlockedBy: EnameledGlass;
+    Ingredients:
+    (
+        ItemID: Alch_EnameledGlass_Block;
+        Required: 1;
+    );
+),
+
+#_______	Cave Sulfur Bag 	_______#
+(
+    ItemID: Alch_CrashPowder_Unpack;
+	DisplayName: "x10 Cave Sulfur";
+	Tooltip: "Unpack 1 Cave Sulfur Bag into 10 Cave Sulfur units.";
+    LinkedItemIDs: CrashPowder, CrashPowder, CrashPowder, CrashPowder, CrashPowder, CrashPowder, CrashPowder, CrashPowder, CrashPowder, CrashPowder;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CrashPowder_Unpack;
+	UnlockedBy: Alch_CrashPowder;
+    Ingredients:
+    (
+        ItemID: Alch_CrashPowder_Bag;
+        Required: 1;
+    );
+),
+
+#_______	Salt Block 	_______#
+(
+    ItemID: Alch_Salt_Unpack;
+	DisplayName: "x10 Salt Deposit";
+	Tooltip: "Unpack 1 Salt Block into 10 Salt Deposit units.";
+    LinkedItemIDs: Salt, Salt, Salt, Salt, Salt, Salt, Salt, Salt, Salt, Salt;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Salt_Unpack;
+	UnlockedBy: Alch_Salt;
+    Ingredients:
+    (
+        ItemID: Alch_Salt_Block;
+        Required: 1;
+    );
+),
+
+#_______	Lead Block 	_______#
+(
+    ItemID: Alch_Lead_Unpack;
+	DisplayName: "x10 Lead";
+	Tooltip: "Unpack 1 Lead Block into 10 Lead units.";
+    LinkedItemIDs: Lead, Lead, Lead, Lead, Lead, Lead, Lead, Lead, Lead, Lead;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lead_Unpack;
+	UnlockedBy: Alch_Lead;
+    Ingredients:
+    (
+        ItemID: Alch_Lead_Block;
+        Required: 1;
+    );
+),
+
+#_______	Silver Ingot	_______#
+(
+    ItemID: Alch_Silver_Unpack;
+	DisplayName: "x10 Silver";
+	Tooltip: "Unpack 1 Silver Ingot into 10 Silver units.";
+    LinkedItemIDs: Silver, Silver, Silver, Silver, Silver, Silver, Silver, Silver, Silver, Silver;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Silver_Unpack;
+	UnlockedBy: Alch_Silver;
+    Ingredients:
+    (
+        ItemID: Alch_Silver_Ingot;
+        Required: 1;
+    );
+),
+
+#_______	Gold Ingot 	_______#
+(
+    ItemID: Alch_Gold_Unpack;
+	DisplayName: "x10 Gold";
+	Tooltip: "Unpack 1 Gold Ingot into 10 Gold units.";
+    LinkedItemIDs: Gold, Gold, Gold, Gold, Gold, Gold, Gold, Gold, Gold, Gold;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Gold_Unpack;
+	UnlockedBy: Alch_Gold;
+    Ingredients:
+    (
+        ItemID: Alch_Gold_Ingot;
+        Required: 1;
+    );
+),
+
+#_______	Lithium Block	_______#
+(
+    ItemID: Alch_Lithium_Unpack;
+	DisplayName: "x10 Lithium";
+	Tooltip: "Unpack 1 Lithium Block into 10 Lithium units.";
+    LinkedItemIDs: Lithium, Lithium, Lithium, Lithium, Lithium, Lithium, Lithium, Lithium, Lithium, Lithium;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lithium_Unpack;
+	UnlockedBy: Alch_Lithium;
+    Ingredients:
+    (
+        ItemID: Alch_Lithium_Block;
+        Required: 1;
+    );
+),
+
+#_______	Diamond Block 	_______#
+(
+    ItemID: Alch_Diamond_Unpack;
+	DisplayName: "x10 Diamond";
+	Tooltip: "Unpack 1 Diamond Block into 10 Diamond units.";
+    LinkedItemIDs: Diamond, Diamond, Diamond, Diamond, Diamond, Diamond, Diamond, Diamond, Diamond, Diamond;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Diamond_Unpack;
+	UnlockedBy: Alch_Diamond;
+    Ingredients:
+    (
+        ItemID: Alch_Diamond_Block;
+        Required: 1;
+    );
+),
+
+#_______	Ruby Block 	_______#
+(
+    ItemID: Alch_AluminumOxide_Unpack;
+	DisplayName: "x10 Ruby";
+	Tooltip: "Unpack 1 Ruby Block into 10 Ruby units.";
+    LinkedItemIDs: AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide, AluminumOxide;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_AluminumOxide_Unpack;
+	UnlockedBy: Alch_AluminumOxide;
+    Ingredients:
+    (
+        ItemID: Alch_AluminumOxide_Block;
+        Required: 1;
+    );
+),
+
+#_______	Magnetite Block 	_______#
+(
+    ItemID: Alch_Magnetite_Unpack;
+	DisplayName: "x10 Magnetite";
+	Tooltip: "Unpack 1 Magnetite Block into 10 Magnetite units.";
+    LinkedItemIDs: Magnetite, Magnetite, Magnetite, Magnetite, Magnetite, Magnetite, Magnetite, Magnetite, Magnetite, Magnetite;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnetite_Unpack;
+	UnlockedBy: Alch_Magnetite;
+    Ingredients:
+    (
+        ItemID: Alch_Magnetite_Block;
+        Required: 1;
+    );
+),
+
+#_______	Crystalline Sulfur Block 	_______#
+(
+    ItemID: Alch_Sulphur_Unpack;
+	DisplayName: "x10 Crystalline Sulfur";
+	Tooltip: "Unpack 1 Crystalline Sulfur Block into 10 Crystalline Sulfur units.";
+    LinkedItemIDs: Sulphur, Sulphur, Sulphur, Sulphur, Sulphur, Sulphur, Sulphur, Sulphur, Sulphur, Sulphur;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Sulphur_Unpack;
+	UnlockedBy: Alch_Sulphur;
+    Ingredients:
+    (
+        ItemID: Alch_Sulphur_Block;
+        Required: 1;
+    );
+),
+
+#_______	Nickel Ingot 	_______#
+(
+    ItemID: Alch_Nickel_Unpack;
+	DisplayName: "x10 Nickel";
+	Tooltip: "Unpack 1 Nickel Ingot into 10 Nickel units.";
+    LinkedItemIDs: Nickel, Nickel, Nickel, Nickel, Nickel, Nickel, Nickel, Nickel, Nickel, Nickel;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Nickel_Unpack;
+	UnlockedBy: Alch_Nickel;
+    Ingredients:
+    (
+        ItemID: Alch_Nickel_Ingot;
+        Required: 1;
+    );
+),
+
+#_______	Kyanite Plates 	_______#
+(
+    ItemID: Alch_Kyanite_Unpack;
+	DisplayName: "x10 Kyanite";
+	Tooltip: "Unpack Kyanite Plates into 10 Kyanite units.";
+    LinkedItemIDs: Kyanite, Kyanite, Kyanite, Kyanite, Kyanite, Kyanite, Kyanite, Kyanite, Kyanite, Kyanite;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Kyanite_Unpack;
+	UnlockedBy: Alch_Kyanite;
+    Ingredients:
+    (
+        ItemID: Alch_Kyanite_Plates;
+        Required: 1;
+    );
+),
+
+#_______	Uraninite Crystal Block 	_______#
+(
+    ItemID: Alch_UraniniteCrystal_Unpack;
+	DisplayName: "x10 Uraninite Crystal";
+	Tooltip: "Unpack 1 Uraninite Crystal Block into 10 Uraninite Crystal units.";
+    LinkedItemIDs: UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal, UraniniteCrystal;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_UraniniteCrystal_Unpack;
+	UnlockedBy: Alch_UraniniteCrystal;
+    Ingredients:
+    (
+        ItemID: Alch_UraniniteCrystal_Block;
+        Required: 1;
+    );
+),
+
+
+#	-----------	ADVANCED MATERIALS -------------	#
+
+#_______	Organic Titanium Block 	_______#
+(
+    ItemID: Alch_OrganicTitanium_Unpack;
+	DisplayName: "x10 Organic Titanium";
+	Tooltip: "Unpack 1 Organic Titanium Block into 10 Organic Titanium units.";
+    LinkedItemIDs: Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium, Alch_OrganicTitanium;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_OrganicTitanium_Unpack;
+	UnlockedBy: Alch_OrganicTitanium;
+    Ingredients:
+    (
+        ItemID: Alch_OrganicTitanium_Block;
+        Required: 1;
+    );
+),
+
+#_______	Copper Oxide Block	_______#
+(
+    ItemID: Alch_CopperOxide_Unpack;
+	DisplayName: "x10 Copper Oxide";
+	Tooltip: "Unpack 1 Copper Oxide Block into 10 Copper Oxide units.";
+    LinkedItemIDs: Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide, Alch_CopperOxide;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CopperOxide_Unpack;
+	UnlockedBy: Alch_CopperOxide;
+    Ingredients:
+    (
+        ItemID: Alch_CopperOxide_Block;
+        Required: 1;
+    );
+),
+
+#_______	Sulphur Crystals Block	_______#
+(
+    ItemID: Alch_SulphurCrystals_Unpack;
+	DisplayName: "x10 Sulphur Crystals";
+	Tooltip: "Unpack 1 Sulphur Crystals Block into 10 Sulphur Crystals units.";
+    LinkedItemIDs: Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals, Alch_SulphurCrystals;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_SulphurCrystals_Unpack;
+	UnlockedBy: Alch_SulphurCrystals;
+    Ingredients:
+    (
+        ItemID: Alch_SulphurCrystals_Block;
+        Required: 1;
+    );
+),
+
+#_______	Pink Sea Salt Block 	_______#
+(
+    ItemID: Alch_PinkSalt_Unpack;
+	DisplayName: "x10 Pink Sea Salt";
+	Tooltip: "Unpack 1 Pink Sea Salt Block into 10 Pink Sea Salt units.";
+    LinkedItemIDs: Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt, Alch_PinkSalt;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_PinkSalt_Unpack;
+	UnlockedBy: Alch_PinkSalt;
+    Ingredients:
+    (
+        ItemID: Alch_PinkSalt_Block;
+        Required: 1;
+    );
+),
+
+#_______	Iron Magnetic Powder Bag	_______#
+(
+    ItemID: Alch_IronMagneticPowder_Unpack;
+	DisplayName: "x10 Iron Magnetic Powder";
+	Tooltip: "Unpack 1 Iron Magnetic Powder Bag into 10 Iron Magnetic Powder units.";
+    LinkedItemIDs: Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_IronMagneticPowder_Unpack;
+	UnlockedBy: Alch_IronMagneticPowder;
+    Ingredients:
+    (
+        ItemID: Alch_IronMagneticPowder_Bag;
+        Required: 1;
+    );
+),
+
+#_______	Aluminum Roll	_______#
+(
+    ItemID: Alch_AluminumRaw_Unpack;
+	DisplayName: "x10 Aluminium Raw";
+	Tooltip: "Unpack 1 Aluminum Roll into 10 Aluminum Raw units.";
+    LinkedItemIDs: Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_AluminumRaw_Unpack;
+	UnlockedBy: Alch_AluminumRaw;
+    Ingredients:
+    (
+        ItemID: Alch_AluminumRaw_Roll;
+        Required: 1;
+    );
+),
+
+#_______	Carbon Discs	_______#
+(
+    ItemID: Alch_CarbonRaw_Unpack;
+	DisplayName: "x10 Carbon Raw";
+	Tooltip: "Unpack Carbon Discs into 10 Carbon Raw units.";
+    LinkedItemIDs: Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw, Alch_CarbonRaw;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CarbonRaw_Unpack;
+	UnlockedBy: Alch_CarbonRaw;
+    Ingredients:
+    (
+        ItemID: Alch_CarbonRaw_Discs;
+        Required: 1;
+    );
+),
+
+#_______	Corundum Gem Block  	_______#
+(
+    ItemID: Alch_CorundumGem_Unpack;
+	DisplayName: "x10 Corundum Gem";
+	Tooltip: "Unpack 1 Corundum Gem Block into 10 Corundum Gem units.";
+    LinkedItemIDs: Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem, Alch_CorundumGem;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CorundumGem_Unpack;
+	UnlockedBy: Alch_CorundumGem;
+    Ingredients:
+    (
+        ItemID: Alch_CorundumGem_Block;
+        Required: 1;
+    );
+),
+
+#_______	Radium Crystal Block		_______#
+(
+    ItemID: Alch_RadiumCrystal_Unpack;
+	DisplayName: "x10 Radium Crystal";
+	Tooltip: "Unpack 1 Radium Crystal Block into 10 Radium Crystal units.";
+    LinkedItemIDs: Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal, Alch_RadiumCrystal;
+	FunctionalID: Titanium;
+	Path: Alch_Fab/Alchemy/Alch_Unpack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_RadiumCrystal_Unpack;
+	UnlockedBy: Alch_RadiumCrystal;
+    Ingredients:
+    (
+        ItemID: Alch_RadiumCrystal_Block;
+        Required: 1;
+    );
+);

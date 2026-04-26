@@ -1,0 +1,48 @@
+MovedRecipes:
+
+#Recipes that have moved#
+(
+    ItemID: PrecursorKey_Purple;
+    OldPath: Fabricator/Personal/Equipment;
+    NewPath: Fabricator/PrecursorTab/PrecursorKeysTab;
+),
+(
+    ItemID: PrecursorKey_Orange;
+    OldPath: Fabricator/Personal/Equipment;
+    NewPath: Fabricator/PrecursorTab/PrecursorKeysTab;
+),
+(
+    ItemID: PrecursorKey_Blue;
+    OldPath: Fabricator/Personal/Equipment;
+    NewPath: Fabricator/PrecursorTab/PrecursorKeysTab;
+),
+(
+    ItemID: PrecursorIonBattery;
+    OldPath: Fabricator/Resources/BatteryTab;
+    NewPath: Fabricator/PrecursorTab/PrecursorTabBatteries;
+),
+(
+    ItemID: PrecursorIonPowerCell;
+    OldPath: Fabricator/Resources/PowCellTab;
+    NewPath: Fabricator/PrecursorTab/PrecursorTabBatteries;
+),
+(
+    ItemID: RedTabletInfusedBatteryV1;
+    OldPath: Fabricator/Resources/BatteryTab;
+    NewPath: Fabricator/PrecursorTab/PrecursorTabAdvBatteries;
+),
+(
+    ItemID: WhiteTabletInfusedBatteryV1;
+    OldPath: Fabricator/Resources/BatteryTab;
+    NewPath: Fabricator/PrecursorTab/PrecursorTabAdvBatteries;
+),
+(
+    ItemID: RedTabletInfusedPowercellV1;
+    OldPath: Fabricator/Resources/PowCellTab;
+    NewPath: Fabricator/PrecursorTab/PrecursorTabAdvBatteries;
+),
+(
+    ItemID: WhiteTabletInfusedPowercellV1;
+    OldPath: Fabricator/Resources/PowCellTab;
+    NewPath: Fabricator/PrecursorTab/PrecursorTabAdvBatteries;
+);

@@ -1,0 +1,77 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Gloves		#
+(
+	ItemID: RadiationGloves;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: ReinforcedGloves;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: ReinforcedRadiationGloves;											#	__ Gloves : Reinforced Radiation Suit "Indigocoder" - 1512	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: WarpStabilizationGloves;											#	__ Gloves : Warp Stabilization Suit "Indigocoder" - 1326	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: ArmorGlovesItem;													#	__ Gloves : Armor Suit "EldritchCarMaker" - 1947	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: AcidGloves;															#	__ Gloves : DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: BasicShaleGloves;													#	Immersive Outcrop Break "M3dicCookie" - 2519	#
+	OldPath: Fabricator/Personal/Equipment/Wearable/Gloves;
+	NewPath: Fabricator/Personal/Equipment;
+),
+(
+	ItemID: BasicShaleGloves;															#	BasicShaleGloves => MK2  #
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: StandardShaleGloves;												#	Immersive Outcrop Break "M3dicCookie" - 2519	#
+	OldPath: Fabricator/Personal/Equipment/Wearable/Gloves;
+	NewPath: Fabricator/Personal/Equipment;
+),
+(
+	ItemID: StandardShaleGloves;														#	StandardShaleGloves => MK2  #
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: AdvancedShaleGloves;												#	Immersive Outcrop Break "M3dicCookie" - 2519	#
+	OldPath: Fabricator/Personal/Equipment/Wearable/Gloves;
+	NewPath: Fabricator/Personal/Equipment;
+),
+(
+	ItemID: AdvancedShaleGloves;														#	AdvancedShaleGloves => MK2  #
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MetalHandsMK1;														#	MetalHands "Desperationfighter"	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MetalHandsMK2;														#	MetalHands "Desperationfighter"	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerGloveUpgrades;
+);

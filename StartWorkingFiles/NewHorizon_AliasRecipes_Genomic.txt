@@ -1,0 +1,1730 @@
+#---------------------------------------------------------------#
+#			Crafts					#
+#---------------------------------------------------------------#
+	AliasRecipes:
+					#---Genes---#
+(
+    ItemID: NHIADN4_terrestrialPlant;
+    DisplayName: "Terrestrial Flora Gene";
+    Tooltip: "Generic DNA extracted from local terrestrial plants.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN4_terrestrialPlant, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: pinkflowerseed;
+        Required: 1;
+    ),
+    (
+        ItemID: purplerattlespore;
+        Required: 1;
+    ),
+    (
+        ItemID: orangepetalsplantseed;
+        Required: 1;
+    ),
+    (
+        ItemID: purplevaseplantseed;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab1GenomeSequencer;
+),
+(
+    ItemID: NHIADN4_terrestrialPlant2;
+    DisplayName: "Terrestrial Flora Gene";
+    Tooltip: "Generic DNA extracted from local terrestrial plants.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN4_terrestrialPlant, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: pinkflowerseed;
+        Required: 1;
+    ),
+    (
+        ItemID: pinkmushroomspore;
+        Required: 1;
+    ),
+    (
+        ItemID: orangemushroomspore;
+        Required: 1;
+    ),
+    (
+        ItemID: bulbotreepiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab1GenomeSequencer;
+),
+(
+    ItemID: NHICloningADN4;
+    DisplayName: "Terrestrial Flora Gene (x5)";
+    Tooltip: "Cloned genes. Pretty handy huh ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer, NHIADN4_terrestrialPlant, NHIADN4_terrestrialPlant, NHIADN4_terrestrialPlant, NHIADN4_terrestrialPlant, NHIADN4_terrestrialPlant;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN4_terrestrialPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol1_PCRcocktail;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHISol1_PCRcocktail;
+),
+(
+    ItemID: NHIADN5_shallowseaPlant;
+    DisplayName: "Shallow sea Flora Gene";
+    Tooltip: "Generic DNA extracted from local shallow sea plants.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN5_shallowseaPlant, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: bluepalmseed;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebranchesseed;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : creepvinepiece;
+),
+(
+    ItemID: NHICloningADN5;
+    DisplayName: "Shallow sea Flora Gene (x3)";
+    Tooltip: "Cloned genes. Pretty handy huh ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer, NHIADN5_shallowseaPlant, NHIADN5_shallowseaPlant, NHIADN5_shallowseaPlant;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN5_shallowseaPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol1_PCRcocktail;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHISol1_PCRcocktail;
+),
+(
+    ItemID: NHIADN6_deepseaPlant;
+    DisplayName: "Deep sea Flora Gene";
+    Tooltip: "Generic DNA extracted from local deep sea plants.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN6_deepseaPlant, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: redbasketplantseed;
+        Required: 1;
+    ),
+    (
+        ItemID: eyesplantseed;
+        Required: 1;
+    ),
+    (
+        ItemID: kooshchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: membraintreeseed;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIADN5_shallowseaPlant;
+),
+(
+    ItemID: NHICloningADN6;
+    DisplayName: "Deep sea Flora Gene (x2)";
+    Tooltip: "Cloned genes. Pretty handy huh ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer, NHIADN6_deepseaPlant, NHIADN6_deepseaPlant;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN6_deepseaPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol1_PCRcocktail;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHISol1_PCRcocktail;
+),
+(
+    ItemID: NHIADN1_herbivore;
+    DisplayName: "Herbivorous Fauna Gene";
+    Tooltip: "Generic DNA extracted from some 4546B local herbivores.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN1_herbivore, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: hoverfish;
+        Required: 1;
+    ),
+    (
+        ItemID: reginald;
+        Required: 1;
+    ),
+    (
+        ItemID: oculus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab1GenomeSequencer;
+),
+(
+    ItemID: NHIADN1_herbivore2;
+    DisplayName: "Herbivorous Fauna Gene";
+    Tooltip: "Generic DNA extracted from some 4546B local herbivores.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN1_herbivore, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: garryfish;
+        Required: 1;
+    ),
+    (
+        ItemID: boomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: spadefish;
+        Required: 1;
+    ),
+    (
+        ItemID: oculus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab1GenomeSequencer;
+),
+(
+    ItemID: NHICloningADN1;
+    DisplayName: "Herbivorous Fauna Gene (x5)";
+    Tooltip: "Cloned genes. Pretty handy huh ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer, NHIADN1_herbivore, NHIADN1_herbivore, NHIADN1_herbivore, NHIADN1_herbivore, NHIADN1_herbivore;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol1_PCRcocktail;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHISol1_PCRcocktail;
+),
+(
+    ItemID: NHIADN2_carnivore;
+    DisplayName: "Carnivorous Fauna Gene";
+    Tooltip: "Generic DNA extracted from some stalkers.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN2_carnivore, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: stalkertooth;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : stalkertooth;
+),
+(
+    ItemID: NHICloningADN2;
+    DisplayName: "Carnivorous Fauna Gene (x3)";
+    Tooltip: "Cloned genes. Pretty handy huh ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer, NHIADN2_carnivore, NHIADN2_carnivore, NHIADN2_carnivore;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol1_PCRcocktail;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHISol1_PCRcocktail;
+),
+(
+    ItemID: NHIADN3_leviathan;
+    DisplayName: "Leviathan Fauna Gene";
+    Tooltip: "Generic DNA extracted from some huge beasts.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIADN3_leviathan, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: seatreaderpoop;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIADN2_carnivore;
+),
+(
+    ItemID: NHICloningADN3;
+    DisplayName: "Leviathan Fauna Gene (x2)";
+    Tooltip: "Cloned genes. Pretty handy huh ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer, NHIADN3_leviathan, NHIADN3_leviathan;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN3_leviathan;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol1_PCRcocktail;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab31_CommonGenes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHISol1_PCRcocktail;
+),
+					#---Genomes---#
+(
+    ItemID: NHIGenome1_Ampeel;
+    DisplayName: "Ampeel Genome";
+    Tooltip: "Complete genome of our beloved Ampeel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome1_Ampeel, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: kooshchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: polyaniline;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : polyaniline;
+),
+(
+    ItemID: NHIGenome2_Boneshark;
+    DisplayName: "Boneshark Genome";
+    Tooltip: "Complete genome of the 4546B's so hated Boneshark.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome2_Boneshark, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: redbushseed;
+        Required: 1;
+    ),
+    (
+        ItemID: magnetite; #or lithium ???#
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : lithium;
+),
+(
+    ItemID: NHIGenome3_Crabsnake;
+    DisplayName: "Crabsnake Genome";
+    Tooltip: "Complete genome of a pink snail.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome3_Crabsnake, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: snakemushroomspore;
+        Required: 1;
+    ),
+    (
+        ItemID: oculus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : magnetite;
+),
+(
+    ItemID: NHIGenome4_Crabsquid;
+    DisplayName: "Crabsquid Genome";
+    Tooltip: "Complete genome of whatever that thing is supposed to be.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome4_Crabsquid, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    ),
+    (
+        ItemID: polyaniline;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : polyaniline;
+),
+(
+    ItemID: NHIGenome5_Crashfish;
+    DisplayName: "Crashfish Genome";
+    Tooltip: "Complete genome of a living TNT, have fun with this.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome5_Crashfish, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 2;
+    ),
+    (
+        ItemID: purpletentacleseed;
+        Required: 1;
+    ),
+    (
+        ItemID: crashpowder;
+        Required: 4;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : crashpowder;
+),
+(
+    ItemID: NHIGenome6_Cuddlefish;
+    DisplayName: "Cuddlefish Genome";
+    Tooltip: "Complete genome of a cute Cuddlefish.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome6_Cuddlefish, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 2;
+    ),
+    (
+        ItemID: melon;
+        Required: 1;
+    ),
+    (
+        ItemID: precursorioncrystal;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorioncrystal;
+),
+(
+    ItemID: NHIGenome7_Gasopod;
+    DisplayName: "Gasopod Genome";
+    Tooltip: "Complete genome of a Gasopod.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome7_Gasopod, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 3;
+    ),
+    (
+        ItemID: purplefanseed;
+        Required: 1;
+    ),
+    (
+        ItemID: gaspod;
+        Required: 5;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : gaspod;
+),
+(
+    ItemID: NHIGenome9_LavaLizard;
+    DisplayName: "Lava Lizard Genome";
+    Tooltip: "Complete genome of a terrifying Lava Lizard.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome9_LavaLizard, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: whitemushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: sulphur; #or kyanite ?#
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : sulphur;
+),
+(
+    ItemID: NHIGenome10_Mesmer;
+    DisplayName: "Mesmer Genome";
+    Tooltip: "Complete genome of a beautiful and hypnotizing Mesmer.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome10_Mesmer, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 2;
+    ),
+    (
+        ItemID: spikeplantseed;
+        Required: 1;
+    ),
+    (
+        ItemID: lithium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : lithium;
+),
+(
+    ItemID: NHIGenome11_RabbitRay;
+    DisplayName: "Rabbit Ray Genome";
+    Tooltip: "Complete genome of a graceful Rabbit Ray.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome11_RabbitRay, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 2;
+    ),
+    (
+        ItemID: bluepalmseed;
+        Required: 1;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : coralchunk;
+),
+(
+    ItemID: NHIGenome12_Reefback;
+    DisplayName: "Reefback Leviathan Genome";
+    Tooltip: "Complete genome of a huge Reefback Leviathan.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome12_Reefback, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 4;
+    ),
+    (
+        ItemID: NHIADN3_leviathan;
+        Required: 3;
+    ),
+    (
+        ItemID: redrollplantseed;
+        Required: 2;
+    ),
+    (
+        ItemID: aerogel;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : aerogel;
+),
+(
+    ItemID: NHIGenome13_SandShark;
+    DisplayName: "Sand Shark Genome";
+    Tooltip: "Complete genome of a stupid Sand Shark.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome13_SandShark, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: redbushseed; # or spikeplantseed ? #
+        Required: 1;
+    ),
+    (
+        ItemID: silver;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : silver;
+),
+(
+    ItemID: NHIGenome14_ShuttleBug;
+    DisplayName: "Shuttlebug Genome";
+    Tooltip: "Complete genome of a curious Shuttlebug.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome14_ShuttleBug, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 2;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebranchesseed;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : quartz;
+),
+(
+    ItemID: NHIGenome8_Jellyray;
+    DisplayName: "Jellyray Genome";
+    Tooltip: "Complete genome of a sweet Jellyray.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome8_Jellyray, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 2;
+    ),
+    (
+        ItemID: treemushroompiece;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome11_RabbitRay;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : lithium;
+),
+(
+    ItemID: NHIGenome15_Spadefish;
+    DisplayName: "Spadefish Genome";
+    Tooltip: "Complete genome of a little Spadefish.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome15_Spadefish, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 1;
+    ),
+    (
+        ItemID: smallfanseed;
+        Required: 1;
+    ),
+    (
+        ItemID: lubricant;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : spadefish;
+),
+(
+    ItemID: NHIGenome16_Stalker;
+    DisplayName: "Stalker Genome";
+    Tooltip: "Complete genome of a lurking Stalker.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIGenome16_Stalker, Lab1GenomeSequencer;
+    Ingredients:
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN2_carnivore;
+        Required: 3;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 3;
+    ),
+    (
+        ItemID: creepvineseedcluster;
+        Required: 2;
+    ),
+    (
+        ItemID: gold;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab32_Genomes;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : gold;
+),
+					#-------Eggs-------#
+(
+    ItemID: NHIbasic_AmpeelEgg;
+    DisplayName: "Ampeel Egg";
+    Tooltip: "Ampeels hatch from these.";
+    FunctionalID: shockeregg;
+    SpriteItemID: shockeregg;
+    AmountCrafted: 0;
+    LinkedItemIDs: shockeregg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome1_Ampeel;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome1_Ampeel;
+),
+(
+    ItemID: NHIbasic_bonesharkegg;
+    DisplayName: "Boneshark Egg";
+    Tooltip: "Bonesharks hatch from these.";
+    FunctionalID: bonesharkegg;
+    SpriteItemID: bonesharkegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: bonesharkegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome2_Boneshark;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 3;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome2_Boneshark;
+),
+(
+    ItemID: NHIbasic_CrabSnakekEgg;
+    DisplayName: "Crabsnake Egg";
+    Tooltip: "Crabsnakes hatch from these.";
+    FunctionalID: crabsnakeegg;
+    SpriteItemID: crabsnakeegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: crabsnakeegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome3_Crabsnake;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome3_Crabsnake;
+),
+(
+    ItemID: NHIbasic_crabsquidegg;
+    DisplayName: "Crabsquid Egg";
+    Tooltip: "Crabsquid hatch from these.";
+    FunctionalID: crabsquidegg;
+    SpriteItemID: crabsquidegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: crabsquidegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome4_Crabsquid;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome4_Crabsquid;
+),
+(
+    ItemID: NHIbasic_crashegg;
+    DisplayName: "Crashfish Egg";
+    Tooltip: "Crashfish hatch from these.";
+    FunctionalID: crashegg;
+    SpriteItemID: crashegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: crashegg, Lab3ElectronMicroscope, labcontainer2;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer2;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome5_Crashfish;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome5_Crashfish;
+),
+(
+    ItemID: NHIbasic_cutefishegg;
+    DisplayName: "Cuddlefish Egg";
+    Tooltip: "Cuddlefish hatch from these.";
+    FunctionalID: cutefishegg;
+    SpriteItemID: cutefishegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: cutefishegg, Lab3ElectronMicroscope, labcontainer2;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer2;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome6_Cuddlefish;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome6_Cuddlefish;
+),
+(
+    ItemID: NHIbasic_gasopodegg;
+    DisplayName: "Gasopod Egg";
+    Tooltip: "Gasopods hatch from these.";
+    FunctionalID: gasopodegg;
+    SpriteItemID: gasopodegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: gasopodegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome7_Gasopod;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome7_Gasopod;
+),
+(
+    ItemID: NHIbasic_lavalizardegg;
+    DisplayName: "Lava Lizard Egg";
+    Tooltip: "Lava Lizards hatch from these.";
+    FunctionalID: lavalizardegg;
+    SpriteItemID: lavalizardegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: lavalizardegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome9_LavaLizard;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome9_LavaLizard;
+),
+(
+    ItemID: NHIbasic_mesmeregg;
+    DisplayName: "Mesmer Egg";
+    Tooltip: "Mesmers hatch from these.";
+    FunctionalID: mesmeregg;
+    SpriteItemID: mesmeregg;
+    AmountCrafted: 0;
+    LinkedItemIDs: mesmeregg, Lab3ElectronMicroscope, labcontainer2;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer2;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome10_Mesmer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome10_Mesmer;
+),
+(
+    ItemID: NHIbasic_rabbitrayegg;
+    DisplayName: "Rabbit Ray Egg";
+    Tooltip: "Rabbit Rays hatch from these.";
+    FunctionalID: rabbitrayegg;
+    SpriteItemID: rabbitrayegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: rabbitrayegg, Lab3ElectronMicroscope, labcontainer2;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer2;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome11_RabbitRay;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome11_RabbitRay;
+),
+(
+    ItemID: NHIbasic_reefbackegg;
+    DisplayName: "Reefback Egg";
+    Tooltip: "Incredibly, Reefbacks hatch from these.";
+    FunctionalID: reefbackegg;
+    SpriteItemID: reefbackegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: reefbackegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome12_Reefback;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 3;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 5;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 5;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome12_Reefback;
+),
+(
+    ItemID: NHIbasic_sandsharkegg;
+    DisplayName: "Sand Shark Egg";
+    Tooltip: "Sand Sharks hatch from these.";
+    FunctionalID: sandsharkegg;
+    SpriteItemID: sandsharkegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: sandsharkegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome13_SandShark;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 3;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome13_SandShark;
+),
+(
+    ItemID: NHIbasic_jumperegg;
+    DisplayName: "Shuttlebug Egg";
+    Tooltip: "Shuttlebugs hatch from these.";
+    FunctionalID: jumperegg;
+    SpriteItemID: jumperegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: jumperegg, Lab3ElectronMicroscope, labcontainer2;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer2;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome14_ShuttleBug;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome14_ShuttleBug;
+),
+(
+    ItemID: NHIbasic_jellyrayegg;
+    DisplayName: "Jellyray Egg";
+    Tooltip: "Jellyrays hatch from these.";
+    FunctionalID: jellyrayegg;
+    SpriteItemID: jellyrayegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: jellyrayegg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome8_Jellyray;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome8_Jellyray;
+),
+(
+    ItemID: NHIbasic_spadefishegg;
+    DisplayName: "Spadefish Egg";
+    Tooltip: "Spadefish hatch from these.";
+    FunctionalID: spadefishegg;
+    SpriteItemID: spadefishegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: spadefishegg, Lab3ElectronMicroscope, labcontainer2;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer2;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome15_Spadefish;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome15_Spadefish;
+),
+(
+    ItemID: NHIbasic_stalkeregg;
+    DisplayName: "Stalker Egg";
+    Tooltip: "Stalkers hatch from these.";
+    FunctionalID: stalkeregg;
+    SpriteItemID: stalkeregg;
+    AmountCrafted: 0;
+    LinkedItemIDs: stalkeregg, Lab3ElectronMicroscope, labcontainer;
+    Ingredients: 
+    (
+        ItemID: Lab3ElectronMicroscope;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIGenome16_Stalker;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 2;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab33_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIGenome16_Stalker;
+),
+					#---LabEquipment---#
+(
+    ItemID: Lab1GenomeSequencer;
+    DisplayName: "Genomic Sequencer Device";
+    SpriteItemID : labequipment3;
+    Tooltip: "A functional genomic sequencer acquired from repairing an old sample analyser... Who needs a sample analyser anyway.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab1GenomeSequencer;
+    Ingredients: 
+    (
+        ItemID: labequipment3;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 2;
+    ),
+    (
+        ItemID: quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: computerchip;
+        Required: 1;
+    ),
+    (
+        ItemID: battery;
+        Required: 1;
+    ),
+    (
+        ItemID: magnetite;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : labequipment3;
+),
+(
+    ItemID: Lab2FluidMixing;
+    DisplayName: "Fluid Mixing Device";
+    SpriteItemID : labequipment2;
+    Tooltip: "A functional fluid mixing device allowing anyone to synthesize any kind of biological fluid.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab2FluidMixing;
+    Ingredients: 
+    (
+        ItemID: labequipment2;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: wiringkit;
+        Required: 1;
+    ),
+    (
+        ItemID: battery;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : labequipment2;
+),
+(
+    ItemID: Lab3ElectronMicroscope;
+    DisplayName: "Electron Microscope";
+    SpriteItemID : labequipment1;
+    Tooltip: "A good old fashion and functional electron microscope. Alterra still loves them.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lab3ElectronMicroscope;
+    Ingredients: 
+    (
+        ItemID: labequipment1;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 2;
+    ),
+    (
+        ItemID: quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: battery;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : labequipment1;
+),
+(
+    ItemID: NHIbasic_CylindricalSampleFlask;
+    DisplayName: "Cylindrical Sample Flask (x3)";
+    Tooltip: "A particularly useless glass container. At least that's what they said.";
+    FunctionalID: labcontainer3;
+    SpriteItemID: labcontainer3;
+    AmountCrafted: 0;
+    LinkedItemIDs: labcontainer3, labcontainer3, labcontainer3;
+    Ingredients: 
+    (
+        ItemID: glass;
+        Required: 1;
+    ),
+    (
+        ItemID: titanium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+#    PdaGroup: Personal;
+    PdaCategory: Equipment;#
+    ForceUnlockAtStart : NO;
+    UnlockedBy : glass;
+),
+(
+    ItemID: NHIbasic_SmallSampleFlask;
+    DisplayName: "Small Sample Flask";
+    Tooltip: "A variation on a useless glass container. At least that's what they said.";
+    FunctionalID: labcontainer2;
+    SpriteItemID: labcontainer2;
+    AmountCrafted: 0;
+    LinkedItemIDs: labcontainer2;
+    Ingredients: 
+    (
+        ItemID: glass;
+        Required: 1;
+    ),
+    (
+        ItemID: titanium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+#    PdaGroup: Personal;
+    PdaCategory: Equipment;#
+    ForceUnlockAtStart : NO;
+    UnlockedBy : glass;
+),
+(
+    ItemID: NHIbasic_LargeSampleFlask;
+    DisplayName: "Large Sample Flask";
+    Tooltip: "Useless glass container. At least that's what they said.";
+    FunctionalID: labcontainer;
+    SpriteItemID: labcontainer;
+    AmountCrafted: 0;
+    LinkedItemIDs: labcontainer;
+    Ingredients: 
+    (
+        ItemID: glass;
+        Required: 2;
+    ),
+    (
+        ItemID: titanium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+#    PdaGroup: Personal;
+    PdaCategory: Equipment;#
+    ForceUnlockAtStart : NO;
+    UnlockedBy : glass;
+),
+					#---Solutions---#
+(
+    ItemID: NHISol1_PCRcocktail;
+    DisplayName: "PCR Cocktail";
+    Tooltip: "Taq polymerase, restricting enzymes and all that jazz... Necessary for DNA cloning.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHISol1_PCRcocktail, Lab2FluidMixing;
+    Ingredients: 
+    (
+        ItemID: Lab2FluidMixing;
+        Required: 1;
+    ),
+    (
+        ItemID: disinfectedwater;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer3;
+        Required: 1;
+    ),
+    (
+        ItemID: bloodoil;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    ),
+    (
+        ItemID: treemushroompiece;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab34_Solutions;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : bloodoil;
+),
+(
+    ItemID: NHISol2_Amniotic;
+    DisplayName: "Amniotic Fluid";
+    Tooltip: "This weird substance appears to be an amniotic-like biological stabilizing fluid...";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHISol2_Amniotic, Lab2FluidMixing;
+    Ingredients: 
+    (
+        ItemID: Lab2FluidMixing;
+        Required: 1;
+    ),
+    (
+        ItemID: disinfectedwater;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer3;
+        Required: 1;
+    ),
+    (
+        ItemID: acidmushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: purplerattle;
+        Required: 1;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab34_Solutions;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab2FluidMixing;
+),
+(
+    ItemID: NHISol3_Shell;
+    DisplayName: "Shell Solution";
+    Tooltip: "This thick fluid appears to be a polymer solution capable a polymerizing into a shell-like structure.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHISol3_Shell, Lab2FluidMixing;
+    Ingredients: 
+    (
+        ItemID: Lab2FluidMixing;
+        Required: 1;
+    ),
+    (
+        ItemID: disinfectedwater;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer3;
+        Required: 1;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    ),
+    (
+        ItemID: stalkertooth;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab34_Solutions;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab2FluidMixing;
+),
+(
+    ItemID: NHISol4_Vitellus;
+    DisplayName: "Vitellus Solution";
+    Tooltip: "Yolk sac-like nutrient solution. Who knew that 4546B local species would need such a nutrient solution on an ocean planet ?";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHISol4_Vitellus, Lab2FluidMixing;
+    Ingredients: 
+    (
+        ItemID: Lab2FluidMixing;
+        Required: 1;
+    ),
+    (
+        ItemID: disinfectedwater;
+        Required: 1;
+    ),
+    (
+        ItemID: labcontainer3;
+        Required: 1;
+    ),
+    (
+        ItemID: peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: bladderfish;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab34_Solutions;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Lab2FluidMixing;
+);

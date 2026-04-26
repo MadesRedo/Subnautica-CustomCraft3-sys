@@ -1,0 +1,127 @@
+AliasRecipes:
+(
+ItemID: multiplywhitemushroomspore;
+DisplayName: "Deep Shroom Spore (x10)";
+Tooltip: "Deep Shroom Spore. Multiplied in the BioGarden.";
+FunctionalID: whitemushroomspore;
+SpriteItemID: whitemushroomspore;
+AmountCrafted: 0;
+LinkedItemIDs: whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore, whitemushroomspore;
+Ingredients:
+(
+ItemID: whitemushroomspore;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: whitemushroomspore;
+),
+(
+ItemID: multiplyorangemushroomspore;
+DisplayName: "Jaffa Cup Seed (x10)";
+Tooltip: "Jaffa Cup Seed. Multiplied in the BioGarden.";
+FunctionalID: orangemushroomspore;
+SpriteItemID: orangemushroomspore;
+AmountCrafted: 0;
+LinkedItemIDs: orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore, orangemushroomspore;
+Ingredients:
+(
+ItemID: orangemushroomspore;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: orangemushroomspore;
+),
+(
+ItemID: multiplysnakemushroomspore;
+DisplayName: "Jellyshroom Spore (x10)";
+Tooltip: "Jellyshroom Spore. Multiplied in the BioGarden.";
+FunctionalID: snakemushroomspore;
+SpriteItemID: snakemushroomspore;
+AmountCrafted: 0;
+LinkedItemIDs: snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore, snakemushroomspore;
+Ingredients:
+(
+ItemID: snakemushroomspore;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: snakemushroomspore;
+),
+(
+ItemID: multiplypinkmushroomspore;
+DisplayName: "Pink Cap Spore (x10)";
+Tooltip: "Pink Cap Spore. Multiplied in the BioGarden.";
+FunctionalID: pinkmushroomspore;
+SpriteItemID: pinkmushroomspore;
+AmountCrafted: 0;
+LinkedItemIDs: pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore, pinkmushroomspore;
+Ingredients:
+(
+ItemID: pinkmushroomspore;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: pinkmushroomspore;
+),
+(
+ItemID: multiplyacidmushroomspore;
+DisplayName: "Acid Mushroom Spore (x10)";
+Tooltip: "Acid Mushroom Spore. Multiplied in the BioGarden.";
+FunctionalID: acidmushroomspore;
+SpriteItemID: acidmushroomspore;
+AmountCrafted: 0;
+LinkedItemIDs: acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore, acidmushroomspore;
+Ingredients:
+(
+ItemID: acidmushroomspore;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: acidmushroomspore;
+),
+(
+ItemID: multiplyjellyplantseed;
+DisplayName: "Gel Sack Spores (x10)";
+Tooltip: "Gel Sack Spores. Multiplied in the BioGarden.";
+FunctionalID: jellyplantseed;
+SpriteItemID: jellyplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed, jellyplantseed;
+Ingredients:
+(
+ItemID: jellyplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: jellyplantseed;
+);

@@ -1,0 +1,421 @@
+#		PdaGroup: Resources | PdaCategory: AdvancedMaterials		#
+
+
+AliasRecipes:
+
+
+#	-----------------------------------------	#
+#				  COMPLEX INGOTS				#
+#	-----------------------------------------	#
+
+#	-----------	INFUSED INGOTS	-------------	#
+
+#_______	Silver-infused ingot	_______#
+(
+    ItemID: Alch_Infused_Silver_Ingot;
+	DisplayName: "Silver-infused ingot";
+	Tooltip: "Combination of Titanium and Silver enabling electrical conduction for large structures, even in difficult conditions. Used primarily in the manufacture of the Copper Oxide-charged ingot, the Seamoth MK1 depth module, and the Neptune launch platform. The manufacture of alchemical ingots requires a high level of knowledge. They must be handled with care.";
+    LinkedItemIDs: Alch_Infused_Silver_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_InfusedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Infused_Silver_Ingot;
+    Ingredients:
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Silver_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Gold;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+
+#_______	Gold-infused ingot	_______#
+(
+    ItemID: Alch_Infused_Gold_Ingot;
+	DisplayName: "Gold-infused ingot";
+	Tooltip: "A combination of Titanium and Gold, it serves as preparation for extreme conditions. Mainly useful in the manufacture of the Sulfur Crystal-charged ingot and the Neptune launch platform. Gold's excellent electrical and thermal conductivity makes it almost impervious to oxidation. An indispensable ally for structures that withstand combustion and high pressures.";
+    LinkedItemIDs: Alch_Infused_Gold_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_InfusedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Infused_Gold_Ingot;
+    Ingredients:
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Gold_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Silver;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+
+#_______	Organic Titanium Infused Ingot	_______#
+(
+    ItemID: Alch_Infused_OrganicTitanium_Ingot;
+	DisplayName: "Organic Titanium Infused ingot";
+	Tooltip: "A surprising and unique marriage of Titanium. The versatility of organic Titanium makes it indispensable in combination with powerful energy sources that can be very dangerous. With unparalleled energy stability, it is vital to the balance of the Bioreactor for the slow and gradual diffusion of the energy generated. But also, and above all, in the manufacture of the Radium-charged ingot, where it acts as a protective matrix, retaining the radioactive particles of Radium when it releases its energy.";
+    LinkedItemIDs: Alch_Infused_OrganicTitanium_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_InfusedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Infused_OrganicTitanium_Ingot;
+    Ingredients:
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: JeweledDiskPiece;
+        Required: 2;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    );
+),
+
+#_______	Aluminum-infused ingot	_______#
+(
+    ItemID: Alch_Infused_AluminumRaw_Ingot;
+	DisplayName: "Aluminum-infused ingot";
+	Tooltip: "An alloy of Titanium and liquid Aluminum, combining the strength of the former with the versatility of the latter. High heat dissipation capacity, excellent thermal conductor, and also very good electrical insulator. Aluminum is a durable material that is highly resistant to corrosion. Once oxidized, it produces alumina, or aluminum oxide, which is even stronger. Ideal for protective coatings, it can withstand temperatures of up to 1500°C. You will need it for Neptune's launch pad and, above all, for the Aluminique-charged Carbon ingot.";
+    LinkedItemIDs: Alch_Infused_AluminumRaw_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_InfusedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Infused_AluminumRaw_Ingot;
+    Ingredients:
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Lithium_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw_Roll;
+        Required: 1;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+
+#_______	Magnetic Iron Infused Ingot		_______#
+(
+    ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+	DisplayName: "Magnetic Iron Infused ingot";
+	Tooltip: "A specific blend with unique ferromagnetic properties, fundamental for energy channeling. The ferromagnetism of Magnetic Iron powder brings together and isolates molten particles, acting as a safeguard but also as a capacitor: it magnetizes energy, which prevents losses while containing it, thus maintaining a long-term reserve. Useful for Neptune's launch pad as well as in other applications, it is especially essential for manufacturing the Magnetic-charged Carbon ingot.";
+    LinkedItemIDs: Alch_Infused_IronMagneticPowder_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_InfusedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Infused_IronMagneticPowder_Ingot;
+    Ingredients:
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Lead_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder_Bag;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+
+#_______	Pink Vegetable Salt-Infused Ingot	_______#
+(
+    ItemID: Alch_Infused_PinkSalt_Ingot;
+	DisplayName: "Pink Vegetable Salt-Infused ingot";
+	Tooltip: "An alloy with mysterious properties. Titanium infused with Pink Vegetable Salt teaches us about the limits of our physical abilities to withstand almost unattainable pressures. The minerals discovered in the salt of 4546B only form at unfathomable depths. Thanks to the currents, it rises to the surface in the form of the famous salt deposits that are well known and finally within reach. Although these minerals cannot yet be classified in the periodic table of elements, their essence can still be exploited. First, the Seamoth's MK2 module will need it, and then the Corundum-charged ingot.";
+    LinkedItemIDs: Alch_Infused_PinkSalt_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_InfusedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Infused_PinkSalt_Ingot;
+    Ingredients:
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 2;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    );
+),
+
+
+#	-----------	CHARGED INGOTS	-------------	#
+
+#_______	Copper Oxide-charged Ingot	_______#
+(
+    ItemID: Alch_Charged_CopperOxide_Ingot;
+	DisplayName: "Copper Oxide-charged ingot";
+	Tooltip: "Charged ingots follow a logical progression and are superior to infused ingots. Even denser and more sophisticated, their concentric and energetic properties are unmatched. The Copper Oxide loaded into this ingot greatly benefits Neptune's thrusters, without which the rocket simply could not take off. However, it will not be enough on its own; it will need to be combined with another energy alloy in order to achieve takeoff.";
+    LinkedItemIDs: Alch_Charged_CopperOxide_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_CopperOxide_Ingot;
+    Ingredients:
+    (
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+
+#_______	Sulfur Crystal-Charged Ingot 	_______#
+(
+    ItemID: Alch_Charged_SulphurCrystals_Ingot;
+	DisplayName: "Sulfur Crystal-Charged ingot";
+	Tooltip: "Reserved for combustion and extreme conditions. This ingot is particularly beneficial for the Cyclops' MK2 depth module, where the depth level and its constraints require the use of an energy source capable of pulling the submarine despite the enormous pressure on the hull, which multiplies its weight. It will also release energy that is essential for rocket takeoff, where conditions are equally extreme, hence its mandatory inclusion in the recipe for manufacturing Neptune Fuel Reserve.";
+    LinkedItemIDs: Alch_Charged_SulphurCrystals_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_SulphurCrystals_Ingot;
+    Ingredients:
+    (
+        ItemID: Alch_Infused_Gold_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+
+#_______	Corundum-charged ingot 	_______#
+(
+    ItemID: Alch_Charged_CorundumGem_Ingot;
+	DisplayName: "Corundum-charged ingot";
+	Tooltip: "We finally flirt with the mysteries of this incredible gem to uncover the full extent of its capabilities. One might assume that the Sulfur Crystal-Charged ingot would be used for the PRAWN's MK1 depth module, but it proves too dangerous for such a small structure. Just like in science fiction, this metamorphic gem makes the impossible possible through this ingot. Capable of meeting conflicting requirements, such as moving with ease, recycling oxygen from water while withstanding incredible pressures. It is THE solution, yet it remains a mystery to this day, a true paradox...";
+    LinkedItemIDs: Alch_Charged_CorundumGem_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_CorundumGem_Ingot;
+    Ingredients:
+    (
+        ItemID: Alch_Infused_PinkSalt_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+
+#_______	Aluminique-charged Carbon ingot  	_______#
+(
+    ItemID: Alch_Charged_Alumina_Carbon_Ingot;
+	DisplayName: "Aluminique-charged Carbon ingot";
+	Tooltip: "Powerful insulating and conductive properties, contradictory at first glance... Alumina is a powerful electrical insulator, and this ingot is prized for its ability to contain any source of electrical energy passing through it. But it is also a thermal superconductor, making it an incredible source of thermal energy. It traps electrical energy, which generates a lot of heat, and then efficiently recovers it, as it can withstand temperatures exceeding 1500°C. It serves as a thermal power plant for the Seamoth's MK3 depth module and Neptune's thrusters, but also as a catalyst for the manufacture of the Radium-charged ingot.";
+    LinkedItemIDs: Alch_Charged_Alumina_Carbon_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_Alumina_Carbon_Ingot;
+    Ingredients:
+    (
+        ItemID: Alch_Infused_AluminumRaw_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw_Discs;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    );
+),
+
+#_______	Magnetic-charged Carbon ingot  	_______#
+(
+    ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+	DisplayName: "Magnetic-charged Carbon ingot";
+	Tooltip: "Essential compound for the manufacture of the Master Alchemist's ingot. An infused ingot with magnetic iron and then charged with carbon, giving rise to this supreme capacitor, a key compound to be used in parallel with the Radium-charged ingot. Without it, its radioactivity would not be contained under extreme conditions of use, in addition to losing all its energy efficiency. It serves as a mandatory protective capsule during intensive operation of the charged Radium. One does not become an Master Alchemist's without security, so there is no need to emphasize the importance, value, and vital nature of this ingot...";
+    LinkedItemIDs: Alch_Charged_Magnetic_Carbon_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_Magnetic_Carbon_Ingot;
+    Ingredients:
+    (
+        ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw_Discs;
+        Required: 1;
+    ),
+	(
+        ItemID: Benzene;
+        Required: 1;
+    );
+),
+
+#_______	Radium-charged ingot 	_______#
+(
+    ItemID: Alch_Charged_RadiumCrystal_Ingot;
+	DisplayName: "Radium-charged ingot";
+	Tooltip: "The ultimate source of energy... at least for humans. Alchemy cannot be compared to the technological advances of the Precursors... nevertheless, it offers incredible potential through this ingot. We can guess at the concerto-like work of Alumina and its ability to contain and redistribute the energy of Radium, with the versatility of organic Titanium to retain radioactive particles. Under normal conditions, this ingot is an invaluable source of energy that requires no special precautions, as is the case with the Nuclear Reactor. On the other hand, you would need to be a Master Alchemist to handle it in extreme conditions.";
+    LinkedItemIDs: Alch_Charged_RadiumCrystal_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_RadiumCrystal_Ingot;
+    Ingredients:
+	(
+        ItemID: Alch_Infused_OrganicTitanium_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Charged_Alumina_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+
+#_______	Master Alchemist's Ingot 	_______#
+(
+    ItemID: Alch_Charged_AlchemyMaster_Ingot;
+	DisplayName: "Master Alchemist's Ingot";
+	Tooltip: "Thus, by combining the protection of the Magnetic-charged Carbon ingot with the powerful energy source of the Radium-charged ingot, we obtain the incredible Master Alchemist's ingot. You will also need to add a little Kyanite and Nickel to finalize this precious and unique component. You will never leave this planet without it, because it can withstand the most extreme depths as well as space travel. A concentration of solutions combined into a single compound that can finally be exploited thanks to Alchemy, which has no more complex materials to reveal to you after this one.... You are now a Master Alchemist!";
+    LinkedItemIDs: Alch_Charged_AlchemyMaster_Ingot;
+	FunctionalID: PlasteelIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alch_ComplexIngots/Alch_ChargedIngots;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Charged_AlchemyMaster_Ingot;
+    Ingredients:
+	(
+        ItemID: Alch_Charged_RadiumCrystal_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Nickel_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Kyanite_Plates;
+        Required: 1;
+    );
+);

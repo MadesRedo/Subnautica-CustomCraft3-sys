@@ -1,0 +1,36 @@
+
+
+
+ModifiedRecipes: 
+
+
+(
+	ItemID: Alch_Titanium;
+	UnlockedBy: SeaTreaderPoop, FarmingTray, PlanterBox;
+	Unlocks: Alch_Titanium_Alloy;
+),
+(
+	ItemID: Alch_OrganicTitanium;
+	Unlocks: Alch_Copper;
+),
+(
+	ItemID: Alch_Copper;
+	Unlocks: Alch_Copper_Mix;
+),
+(
+	ItemID: Alch_CopperOxide;
+	Unlocks: Alch_Quartz, Alch_CrashPowder;
+),
+(
+	ItemID: Alch_Quartz;
+	Unlocks: Alch_Quartz_X;
+),
+(
+	ItemID: Alch_CrashPowder;
+	Unlocks: Alch_Sulphur_Mix;
+),
+(
+	ItemID: Alch_Salt; 
+	UnlockedBy: BaseFiltrationMachine;
+	Unlocks: Alch_Salt_Mix;
+);

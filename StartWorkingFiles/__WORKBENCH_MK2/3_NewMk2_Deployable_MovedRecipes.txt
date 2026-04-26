@@ -1,0 +1,60 @@
+
+# 		DEPLOYABLE 	#
+
+MovedRecipes:
+
+(
+	ItemID: Seaglide;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: Constructor;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: Beacon;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: SmallStorage;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: Gravsphere;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: EnhancedGravSphere;				#	EnhancedGravTrap "Indigocoder" - 1340	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/Deployable;
+),
+(
+	ItemID: PipeSurfaceFloater;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: CyclopsDecoy;
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: telepingbeacon;					#	Warp Chip "EldritchCarMaker" - 1948		#
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: DWEBPowerglide;					#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+),
+(
+	ItemID: DepthCharge;					#	Alterra Weaponry "mdownsxy" - 2944		#
+	NewPath: Workbench_MK2/Deployable;
+	Copied: Yes;
+);

@@ -1,0 +1,426 @@
+AliasRecipes:
+(
+	ItemID: BuyOneCrashpowder;
+	DisplayName: "Purchase 1 Cave Sulfur";
+	Tooltip: " ";
+	LinkedItemIDs: crashpowder;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneCrashpowder;
+	DisplayName: "Sell 1 Cave Sulfur";
+	Tooltip: " ";
+	SpriteItemID: crashpowder;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: crashpowder;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneCopper;
+	DisplayName: "Purchase 1 Copper Ore";
+	Tooltip: " ";
+	LinkedItemIDs: copper;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneCopper;
+	DisplayName: "Sell 1 Copper Ore";
+	Tooltip: " ";
+	SpriteItemID: copper;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: copper;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+	(
+	ItemID: BuyOneSulphur;
+	DisplayName: "Purchase 1 Crystalline Sulfur";
+	Tooltip: " ";
+	LinkedItemIDs: sulphur;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneSulphur;
+	DisplayName: "Sell 1 Crystalline Sulfur";
+	Tooltip: " ";
+	SpriteItemID: sulphur;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: sulphur;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneDiamond;
+	DisplayName: "Purchase 1 Diamond";
+	Tooltip: " ";
+	LinkedItemIDs: diamond;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneDiamond;
+	DisplayName: "Sell 1 Diamond";
+	Tooltip: " ";
+	SpriteItemID: diamond;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: diamond;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneGold;
+	DisplayName: "Purchase 1 Gold";
+	Tooltip: " ";
+	LinkedItemIDs: gold;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneGold;
+	DisplayName: "Sell 1 Gold";
+	Tooltip: " ";
+	SpriteItemID: gold;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: gold;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOnePrecursorIonCrystal;
+	DisplayName: "Purchase 1 Ion Cube";
+	Tooltip: " ";
+	LinkedItemIDs: precursorioncrystal;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOnePrecursorIonCrystal;
+	DisplayName: "Sell 1 Ion Cube";
+	Tooltip: " ";
+	SpriteItemID: precursorioncrystal;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: precursorioncrystal;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneKyanite;
+	DisplayName: "Purchase 1 Kyanite";
+	Tooltip: " ";
+	LinkedItemIDs: kyanite;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneKyanite;
+	DisplayName: "Sell 1 Kyanite";
+	Tooltip: " ";
+	SpriteItemID: kyanite;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: kyanite;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneLead;
+	DisplayName: "Purchase 1 Lead";
+	Tooltip: " ";
+	LinkedItemIDs: lead;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneLead;
+	DisplayName: "Sell 1 Lead";
+	Tooltip: " ";
+	SpriteItemID: lead;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: lead;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneLithium;
+	DisplayName: "Purchase 1 Lithium";
+	Tooltip: " ";
+	LinkedItemIDs: lithium;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneLithium;
+	DisplayName: "Sell 1 Lithium";
+	Tooltip: " ";
+	SpriteItemID: lithium;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: lithium;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneMagnetite;
+	DisplayName: "Purchase 1 Magnetite";
+	Tooltip: " ";
+	LinkedItemIDs: magnetite;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneMagnetite;
+	DisplayName: "Sell 1 Magnetite";
+	Tooltip: " ";
+	SpriteItemID: magnetite;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: magnetite;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneNickel;
+	DisplayName: "Purchase 1 Nickel Ore";
+	Tooltip: " ";
+	LinkedItemIDs: nickel;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneNickel;
+	DisplayName: "Sell 1 Nickel Ore";
+	Tooltip: " ";
+	SpriteItemID: nickel;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: nickel;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneQuartz;
+	DisplayName: "Purchase 1 Quartz";
+	Tooltip: " ";
+	LinkedItemIDs: quartz;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneQuartz;
+	DisplayName: "Sell 1 Quartz";
+	Tooltip: " ";
+	SpriteItemID: quartz;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: quartz;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneAluminumOxide;
+	DisplayName: "Purchase 1 Ruby";
+	Tooltip: " ";
+	LinkedItemIDs: aluminumoxide;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneAluminumOxide;
+	DisplayName: "Sell 1 Ruby";
+	Tooltip: " ";
+	SpriteItemID: aluminumoxide;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: aluminumoxide;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneSalt;
+	DisplayName: "Purchase 1 Salt Deposit";
+	Tooltip: " ";
+	LinkedItemIDs: salt;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneSalt;
+	DisplayName: "Sell 1 Salt Deposit";
+	Tooltip: " ";
+	SpriteItemID: salt;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: salt;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneSilver;
+	DisplayName: "Purchase 1 Silver Ore";
+	Tooltip: " ";
+	LinkedItemIDs: silver;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneSilver;
+	DisplayName: "Sell 1 Silver Ore";
+	Tooltip: " ";
+	SpriteItemID: silver;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: silver;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneTitanium;
+	DisplayName: "Purchase 1 Titanium";
+	Tooltip: " ";
+	LinkedItemIDs: titanium;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneTitanium;
+	DisplayName: "Sell 1 Titanium";
+	Tooltip: " ";
+	SpriteItemID: titanium;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: titanium;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+),
+(
+	ItemID: BuyOneUraniniteCrystal;
+	DisplayName: "Purchase 1 Uraninite Crystal";
+	Tooltip: " ";
+	LinkedItemIDs: uraninitecrystal;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyOne/OreBuyOne;
+),
+(
+	ItemID: SellOneUraniniteCrystal;
+	DisplayName: "Sell 1 Uraninite Crystal";
+	Tooltip: " ";
+	SpriteItemID: uraninitecrystal;
+	LinkedItemIDs: CopperCredit;
+	Ingredients:
+	(
+		ItemID: uraninitecrystal;
+		Required: 1;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellOne/OreSellOne;
+);

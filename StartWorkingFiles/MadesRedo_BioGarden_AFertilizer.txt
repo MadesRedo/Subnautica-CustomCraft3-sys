@@ -1,0 +1,24 @@
+AliasRecipes:
+(
+ItemID: MR_Fertilizer;
+DisplayName: "Fertilizer";
+Tooltip: "Can be used in growing-plant recipes or as a fuel in Bioreactor.";
+AmountCrafted: 4;
+Ingredients:
+(
+ItemID: acidmushroom;
+Required: 1;
+),
+(
+ItemID: creepvinepiece;
+Required: 1;
+),
+(
+ItemID: hangingfruit;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_ChemLab;
+PdaGroup: Resources;
+PdaCategory: AdvancedMaterials;
+ForceUnlockAtStart: YES;
+);

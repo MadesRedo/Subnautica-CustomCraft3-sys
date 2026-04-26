@@ -1,0 +1,84 @@
+
+#	Fabricator/Survival/Water		==> 	Copied 	to		==>		Alch_Fab/Alch_Survival/Alch_Water		#
+
+MovedRecipes:
+
+
+(
+	ItemID: FilteredWater;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: DisinfectedWater;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+
+# ---	Alterra Ways "Johnyele" - 1516		--- #
+(
+	ItemID: PlantFilteredWater;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: CreepvineTea;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: MintTea;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: FruitTea;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: KooshTea;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: CoffeeAmericano;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: CoffeeLatte;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: CoffeeMocha;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+(
+	ItemID: CoffeeRaf;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+
+# ---	Additions for CC3 "FlaFsteR1991" - 1477		--- #
+(
+	ItemID: Thermos;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+),
+
+# ---	ALCHEMY REMASTERED	#
+(
+	ItemID: Alch_BigFilteredWater;
+	OldPath: Alch_Fab/Alch_Organics;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+),
+
+# ---	Alterra Ways "Johnyele" - 1516		--- #
+(
+	ItemID: DoubleFilteredWater;
+	NewPath: Alch_Fab/Alch_Survival/Alch_Water;
+	Copied: Yes;
+);

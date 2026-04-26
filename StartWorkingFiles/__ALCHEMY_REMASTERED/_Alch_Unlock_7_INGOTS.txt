@@ -1,0 +1,60 @@
+
+
+
+ModifiedRecipes: 
+
+	#		INFUSED INGOTS		#
+(
+	ItemID: Alch_Infused_Silver_Ingot;
+	UnlockedBy: VehicleHullModule1;
+),
+(
+	ItemID: Alch_Infused_Gold_Ingot;
+	UnlockedBy: RocketBase;
+),
+(
+	ItemID: Alch_Infused_OrganicTitanium_Ingot;
+	UnlockedBy: BaseBioReactor;
+),
+(
+	ItemID: Alch_Infused_AluminumRaw_Ingot;
+	UnlockedBy: RocketBaseLadder;
+),
+(
+	ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+	UnlockedBy: RocketBaseLadder;
+),
+(
+	ItemID: Alch_Infused_PinkSalt_Ingot;
+	UnlockedBy: Alch_CorundumGem;
+),
+
+	#		CHARGED INGOTS		#
+(
+	ItemID: Alch_Charged_CopperOxide_Ingot;
+	UnlockedBy: RocketStage1;
+),
+(
+	ItemID: Alch_Charged_SulphurCrystals_Ingot;
+	UnlockedBy: RocketStage2;
+),
+(
+	ItemID: Alch_Charged_CorundumGem_Ingot;
+	UnlockedBy: CyclopsHullModule2;
+),
+(
+	ItemID: Alch_Charged_Alumina_Carbon_Ingot;
+	UnlockedBy: Alch_CarbonRaw;
+),
+(
+	ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+	UnlockedBy: Alch_CarbonRaw;
+),
+(
+	ItemID: Alch_Charged_RadiumCrystal_Ingot;
+	UnlockedBy: PrecursorKey_Orange;
+),
+(
+	ItemID: Alch_Charged_AlchemyMaster_Ingot;
+	UnlockedBy: Transfuser;
+);

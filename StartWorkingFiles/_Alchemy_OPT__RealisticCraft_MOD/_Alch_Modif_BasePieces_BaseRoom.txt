@@ -1,0 +1,238 @@
+#		PdaGroup: BasePieces | PdaCategory: BaseRoom		#
+
+
+ModifiedRecipes:
+
+
+#	------------	SALLE MULTIFONCTION	-----------	#
+(
+    ItemID: BaseRoom;
+    AmountCrafted: 1;
+    Ingredients: 
+	( 
+		ItemID: PlasteelIngot;
+		Required: 2; 
+	),
+	( 
+		ItemID: TitaniumIngot;
+		Required: 2; 
+	),
+	( 
+		ItemID: Lead;
+		Required: 2; 
+	),
+	( 
+		ItemID: CopperWire;
+		Required: 2; 
+	),
+	( 
+		ItemID: Silicone;
+		Required: 2; 
+	),
+	( 
+		ItemID: RedBasketPlantSeed;
+		Required: 2; 
+	);
+),
+
+#	------------	SALLE DE SCANNER	-----------	#
+(
+    ItemID: BaseMapRoom;
+    AmountCrafted: 1;
+    Ingredients: 
+	( 
+		ItemID: PlasteelIngot; 
+		Required: 2; 
+	),
+	( 
+		ItemID: TitaniumIngot; 
+		Required: 2; 
+	),
+	( 
+		ItemID: Lead; 
+		Required: 2; 
+	),
+	( 
+		ItemID: AdvancedWiringKit; 
+		Required: 1; 
+	),
+	( 
+		ItemID: WiringKit; 
+		Required: 2; 
+	),
+	( 
+		ItemID: ComputerChip; 
+		Required: 1; 
+	),
+	( 
+		ItemID: CopperWire; 
+		Required: 2; 
+	),
+	( 
+		ItemID: Silicone; 
+		Required: 2; 
+	),
+	( 
+		ItemID: RedBasketPlantSeed; 
+		Required: 2; 
+	);
+),
+
+#	------------	CHAMBRE D'IMMERSION	-----------	#
+(
+    ItemID: BaseMoonpool;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: PlasteelIngot; 
+		Required: 4; 
+	),
+	( 
+		ItemID: TitaniumIngot; 
+		Required: 4; 
+	),
+	( 
+		ItemID: Lead; 
+		Required: 4; 
+	),
+	( 
+		ItemID: AdvancedWiringKit; 
+		Required: 1; 
+	),
+	( 
+		ItemID: WiringKit; 
+		Required: 2; 
+	),
+	( 
+		ItemID: ComputerChip; 
+		Required: 1; 
+	),
+	( 
+		ItemID: CopperWire; 
+		Required: 2; 
+	),
+	( 
+		ItemID: Lubricant; 
+		Required: 2; 
+	),
+	( 
+		ItemID: Silicone; 
+		Required: 2; 
+	),
+	( 
+		ItemID: RedBasketPlantSeed; 
+		Required: 2; 
+	);
+),
+
+#	------------	OBSERVATOIRE	-----------	#
+(
+    ItemID: BaseObservatory;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: PlasteelIngot; 
+		Required: 1; 
+	),
+	( 
+		ItemID: EnameledGlass; 
+		Required: 4; 
+	),
+	( 
+		ItemID: CopperWire; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Silicone; 
+		Required: 4; 
+	),
+	( 
+		ItemID: EyesPlantSeed; 
+		Required: 2; 
+	);
+),
+
+#	------------	GRANDE SALLE	-----------	#
+(
+    ItemID: BaseLargeRoom;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: PlasteelIngot; 
+		Required: 4; 
+	),
+	( 
+		ItemID: TitaniumIngot; 
+		Required: 4; 
+	),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 3;
+    ),
+	( 
+		ItemID: Lead; 
+		Required: 3; 
+	),
+	( 
+		ItemID: CopperWire; 
+		Required: 3; 
+	),
+	( 
+		ItemID: Silicone; 
+		Required: 3; 
+	),
+	( 
+		ItemID: RedBasketPlantSeed; 
+		Required: 4; 
+	);
+),
+
+#	------------	DÔME EN VERRE : SALLE MULTI		-----------	#
+(
+    ItemID: BaseGlassDome;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	DÔME EN VERRE : GRANDE SALLE	-----------	#
+(
+    ItemID: BaseLargeGlassDome;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 2;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 8;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 3;
+    );
+);

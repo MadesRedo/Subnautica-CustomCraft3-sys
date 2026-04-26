@@ -1,0 +1,129 @@
+
+# 		COMMON VF UPGRADES		#
+
+MovedRecipes:
+
+		#	VF Depth - 859	#
+(
+	ItemID: ModVehicleDepthModule1;
+	NewPath: Workbench_MK2/VFUpgrades/VFDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ModVehicleDepthModule2;
+	NewPath: Workbench_MK2/VFUpgrades/VFDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ModVehicleDepthModule3;
+	NewPath: Workbench_MK2/VFUpgrades/VFDepthUpgrades;
+	Copied: YES;
+),
+		#	VF Speed - 1973   #
+(
+	ItemID: SpeedModuleVF1;
+	NewPath: Workbench_MK2/VFUpgrades/VFSpeedUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF2;
+	NewPath: Workbench_MK2/VFUpgrades/VFSpeedUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF3;
+	NewPath: Workbench_MK2/VFUpgrades/VFSpeedUpgrades;
+	Copied: YES;
+),
+		#	VF Stealth - 746  #
+(
+	ItemID: StealthModule1;
+	NewPath: Workbench_MK2/VFUpgrades/VFStealthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule2;
+	NewPath: Workbench_MK2/VFUpgrades/VFStealthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule3;
+	NewPath: Workbench_MK2/VFUpgrades/VFStealthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule4;
+	NewPath: Workbench_MK2/VFUpgrades/VFStealthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule5;
+	NewPath: Workbench_MK2/VFUpgrades/VFStealthUpgrades;
+	Copied: YES;
+),
+		#	VF Others	#
+(
+	ItemID: DrillArmVF;										#	1767	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ScannerArmVF;									#	1824	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SolarChargingModule;							#	1413	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ThermalChargingModule;							#	1768	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SelfRepairModule;								#	2880 	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MagnetBootsModule;								#	2283	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: FlightModule;									#	2224	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ImpulseSpeedBooster;							#	1403	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SonarModule;									#	1406	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CrabsquidModule;								#	1609	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: NanoWeaveBarrier;								#	1405	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: IonDefenseCapacitor;							#	1404	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: VoidDepthUpgrade;								#	1900	#
+	NewPath: Workbench_MK2/VFUpgrades/VFModuleUpgrades;
+	Copied: YES;
+);

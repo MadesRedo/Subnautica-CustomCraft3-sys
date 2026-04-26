@@ -1,0 +1,506 @@
+
+
+
+ModifiedRecipes:
+
+# ---	Seamoth Warp Module "mmmmAcErr" - 1196					TO DO	--- #
+
+# ---	More Seamoth Modules "Haishii" - 1295	--- #
+		#___ MK4 ___#
+(
+    ItemID: SeamothDepthModuleMK4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleHullModule3;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AluminumOxide;
+        Required: 2;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+		#___ MK5 ___#
+(
+    ItemID: SeamothDepthModuleMK5;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SeamothDepthModuleMK4;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_RadiumCrystal_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# ---	More Seamoth Depth Modules "MrPurple6411" - 1135	--- #
+		#___ MK4 ___#
+(
+    ItemID: SeamothHullModule4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleHullModule3;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AluminumOxide;
+        Required: 2;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+		#___ MK5 ___#
+(
+    ItemID: SeamothHullModule5;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SeamothHullModule4;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_RadiumCrystal_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# ---	DWEquipment "DaWrecka"	--- #
+(
+    ItemID: SeamothSolarModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SeamothSolarCharge;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Battery;
+        Required: 2;
+    );
+),
+
+# ---	Seamoth Thermal Reactor "MrPurple6411" - 1139	--- #
+(
+    ItemID: SeamothThermalModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# ---	Seamoth Energy Shield "senna7608" - 280		--- #
+(
+    ItemID: SeamothEnergyShield;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsShieldModule;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+# ---	Seamoth Hover Module "MrJumpscare" - 1809	--- #
+(
+    ItemID: SeamothHoverModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: Benzene;
+        Required: 1;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 2;
+    );
+),
+
+# ---	Seamoth Flare System "visolar6" - 2957	---		#
+(
+    ItemID: SeamothFlareModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    ),
+    (
+        ItemID: Crash;
+        Required: 1;
+    );
+),
+
+# ---	Laser Cannon "senna7608" - 136	---		#
+(
+    ItemID: LaserCannon;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RepulsionCannon;
+        Required: 1;
+    ),
+    (
+        ItemID: PropulsionCannon;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 2;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+),
+
+# ---	Seamoth Arms "senna7608" - 365	--- #
+		#___ Claw Arm ___#
+(
+    ItemID: SeamothClawArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+		#___ Drill Arm ___#
+(
+    ItemID: SeamothDrillArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 5;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 4;
+    );
+),
+		#___ Grappling Arm ___#
+(
+    ItemID: SeamothGrapplingArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Benzene;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+		#___ Propulsion Arm ___#
+(
+    ItemID: SeamothPropulsionArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 1;
+    );
+),
+		#___ Torpedo Arm ___#
+(
+    ItemID: SeamothTorpedoArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 1;
+    );
+),
+
+# ---	Seamoth Enhancement System "M3dicCookie" - 2524	--- #
+		#___ Electrical Enhancement ___#
+(
+    ItemID: ElectricalEnhancement;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+		#___ Electronic Enhancement ___#
+(
+    ItemID: ElectronicEnhancement;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehiclePowerUpgradeModule;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+		#___ Mechanical Enhancement ___#
+(
+    ItemID: MechanicalEnhancement;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 1;
+    );
+),
+		#___ Safety Module ___#
+(
+    ItemID: SafetyModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Floater;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+    (
+        ItemID: PurpleBrainCoralPiece;
+        Required: 1;
+    ),
+    (
+        ItemID: SpikePlantSeed;
+        Required: 1;
+    );
+),
+		#___ Seamoth Link ___#
+(
+    ItemID: SeamothLink;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ElectricalEnhancement;
+        Required: 1;
+    ),
+    (
+        ItemID: ElectronicEnhancement;
+        Required: 1;
+    ),
+    (
+        ItemID: MechanicalEnhancement;
+        Required: 1;
+    );
+),
+		#___ Seamoth Enhancement System Module ___#
+(
+    ItemID: SeamothEnhancementSystemModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ElectricalEnhancement;
+        Required: 1;
+    ),
+    (
+        ItemID: ElectronicEnhancement;
+        Required: 1;
+    ),
+    (
+        ItemID: MechanicalEnhancement;
+        Required: 1;
+    );
+);

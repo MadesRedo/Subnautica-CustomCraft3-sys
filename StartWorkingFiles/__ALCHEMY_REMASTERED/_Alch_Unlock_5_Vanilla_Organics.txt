@@ -1,0 +1,26 @@
+
+
+
+ModifiedRecipes:
+
+
+(
+	ItemID: Alch_StalkerTooth;
+	UnlockedBy: StalkerTooth;
+),
+(
+	ItemID: Alch_NutrientBlock;
+	UnlockedBy: Alch_PinkSalt;
+),
+(
+	ItemID: Alch_BigFilteredWater;
+	UnlockedBy: Alch_OrganicTitanium;
+),
+(
+	ItemID: Alch_GasPod;
+	UnlockedBy: GasPod;
+),
+(
+	ItemID: Alch_JeweledDiskPiece;
+	UnlockedBy: JeweledDiskPiece;
+);

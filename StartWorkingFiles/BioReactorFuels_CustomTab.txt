@@ -1,0 +1,66 @@
+CustomCraftingTabs:
+#======= V1.25 =======#
+#=====================#
+	(
+		TabID: bFBioFuels;
+		DisplayName: "Bio Fuels";
+		SpriteItemID: cyclopsfiresuppressionmodule;
+		ParentTabPath: Fabricator/Resources;
+	),
+
+	(
+		TabID: bFLaboratoryEquipment;
+		DisplayName: "Laboratory Equipment";
+		SpriteItemID: labequipment1;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	),
+
+	(
+		TabID: bFBioengineering;
+		DisplayName: "Bioengineering";
+		SpriteItemID: exosuitthermalreactormodule;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	),
+
+	(
+		TabID: bFAdvancedFuels;
+		DisplayName: "Advanced Fuels";
+		SpriteItemID: precursorionpowercell;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	),
+
+	(
+		TabID: bFAnimalBiomass;
+		DisplayName: "Animal Biomass";
+		SpriteItemID: arcadegorgetoy;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	),
+
+	(
+		TabID: bFPlantBiomass;
+		DisplayName: "Plant Biomass";
+		SpriteItemID: lubricant;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	),
+
+	(
+		TabID: bFFermentation;
+		DisplayName: "Fermentation";
+		SpriteItemID: hangingfruit;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	),
+
+	(
+		TabID: bFBasicLiquids;
+		DisplayName: "Basic Liquids";
+		SpriteItemID: disinfectedwater;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	   
+	),
+
+	(
+		TabID: bFDungFuels;
+		DisplayName: "Dung Fuels";
+		SpriteItemID: seatreaderpoop;
+		ParentTabPath: Fabricator/Resources/bFBioFuels;
+	);

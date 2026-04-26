@@ -1,0 +1,276 @@
+CustomFoods:
+(
+    ItemID: FloralFiltorbSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Floral Filtorb Sashimi";
+    UnlockedBy: FloralFiltorb;
+    Tooltip: "Salty and floral flavor. Slightly chewy texture.";
+    SpriteItemID: FloralFiltorbSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: FloralFiltorb;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:4;
+    FoodValue:5;
+    HealthValue:15;
+    FoodType: FloralFiltorb;
+    SpriteItemID: FloralFiltorb;
+),
+(
+    ItemID: FiltorbSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Filtorb Sashimi";
+    UnlockedBy: Filtorb;
+    Tooltip: "Salty flavor. Slightly chewy texture.";
+    SpriteItemID: FiltorbSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Filtorb;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:5;
+    FoodValue:5;
+    HealthValue:10;
+    FoodType: Filtorb;
+    SpriteItemID: Filtorb;
+),
+(
+    ItemID: JellySpinnerSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Jelly Spinner Sashimi";
+    UnlockedBy: JellySpinner;
+    Tooltip: "Tastes like plain gelatin with a texture to match";
+    SpriteItemID: JellySpinnerSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: JellySpinner;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:8;
+    HealthValue:2;
+    FoodType: JellySpinner;
+    SpriteItemID: JellySpinner;
+),
+(
+    ItemID: AxetailSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Axetail Sashimi";
+    UnlockedBy: Axetail;
+    Tooltip: "Bony structure with a pronounced sharp taste. Oily and meaty.";
+    SpriteItemID: AxetailSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Axetail;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:20;
+    HealthValue:13;
+    FoodType: Axetail;
+    SpriteItemID: Axetail;
+),
+(
+    ItemID: TrianglefishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Trianglefish Sashimi";
+    UnlockedBy: Trianglefish;
+    Tooltip: "Has a mild, slightly salty taste with a light flaky texture.";
+    SpriteItemID: TrianglefishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Trianglefish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:22;
+    HealthValue:3;
+    FoodType: Trianglefish;
+    SpriteItemID: Trianglefish;
+),
+(
+    ItemID: RibbonRaySashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Ribbon Ray Sashimi";
+    UnlockedBy: RibbonRay;
+    Tooltip: "The flesh of the Ribbon Rays body is chewy and thick but the tails are tender.";
+    SpriteItemID: RibbonRaySashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RibbonRay;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:36;
+    HealthValue:7;
+    FoodType: RibbonRay;
+    SpriteItemID: RibbonRay;
+),
+(
+    ItemID: AmberClownPincherSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Amber Clown Pincher Sashimi";
+    UnlockedBy: AmberClownPincher;
+    Tooltip: "Tastes watery with a hint of spice.";
+    SpriteItemID: AmberClownPincherSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AmberClownPincher;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:30;
+    HealthValue:9;
+    FoodType: AmberClownPincher;
+    SpriteItemID: AmberClownPincher;
+),
+(
+    ItemID: CitrineClownPincherSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Citrine Clown Pincher Sashimi";
+    UnlockedBy: CitrineClownPincher;
+    Tooltip: "Combines sweet and earthy flavors.";
+    SpriteItemID: CitrineClownPincherSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CitrineClownPincher;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:30;
+    HealthValue:8;
+    FoodType: CitrineClownPincher;
+    SpriteItemID: CitrineClownPincher;
+),
+(
+    ItemID: RubyClownPincherSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Ruby Clown Pincher Sashimi";
+    UnlockedBy: RubyClownPincher;
+    Tooltip: "Flaky soft and very spicy.";
+    SpriteItemID: RubyClownPincherSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RubyClownPincher;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:30;
+    HealthValue:9;
+    FoodType: RubyClownPincher;
+    SpriteItemID: RubyClownPincher;
+),
+(
+    ItemID: SapphireClownPincherSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Sapphire Clown Pincher Sashimi";
+    UnlockedBy: SapphireClownPincher;
+    Tooltip: "Has a very pungent sour smell and taste.";
+    SpriteItemID: SapphireClownPincherSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SapphireClownPincher;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:30;
+    HealthValue:9;
+    FoodType: SapphireClownPincher;
+    SpriteItemID: SapphireClownPincher;
+),
+(
+    ItemID: EmeraldClownPincherSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Emerald Clown Pincher Sashimi";
+    UnlockedBy: EmeraldClownPincher;
+    Tooltip: "Chewy and salty.";
+    SpriteItemID: EmeraldClownPincherSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EmeraldClownPincher;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:30;
+    HealthValue:9;
+    FoodType: EmeraldClownPincher;
+    SpriteItemID: EmeraldClownPincher;
+);

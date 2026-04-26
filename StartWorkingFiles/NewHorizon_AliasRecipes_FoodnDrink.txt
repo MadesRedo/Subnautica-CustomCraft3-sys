@@ -1,0 +1,337 @@
+#---------------------------------------------------------------#
+#			Crafts					#
+#---------------------------------------------------------------#
+	CustomFoods:
+					#---Drinks---#
+(
+	ItemID: NHIDrinks_WrithingWeed;
+	DecayRateMod: 0.0;
+	DisplayName: "Writhing Weed Filtered Water";
+	Tooltip: "H2O. 6oz. Filtered using organic matter. Vegetarian-friendly.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: purpletentacleseed;
+		Required: 5;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+		FoodValue:0;
+		WaterValue:20;
+	FoodType: FilteredWater;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: knife;
+),
+(
+	ItemID: NHIDrinks_Bulbo;
+	DecayRateMod: 0.0;
+	DisplayName: "Bulbo Filtered Water";
+	Tooltip: "H2O. 12oz. Filtered using organic matter. Vegetarian-friendly.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: bulbotreepiece;
+		Required: 3;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+		FoodValue:0;
+		WaterValue:34;
+	FoodType: FilteredWater;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: bulbotreepiece;
+),
+(
+	ItemID: NHIDrinks_BulbBush;
+	DecayRateMod: 0.0;
+	DisplayName: "Bulb Bush Filtered Water";
+	Tooltip: "H2O. 12oz. Filtered using organic matter. Vegetarian-friendly.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: kooshchunk;
+		Required: 3;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+		FoodValue:0;
+		WaterValue:31;
+	FoodType: FilteredWater;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: kooshchunk;
+),
+(
+	ItemID: NHIDrinks_MelonJuice;
+	DecayRateMod: 0.3;
+	DisplayName: "Melon Juice";
+	Tooltip: "Easy way to pack marble melons. Watchout, it's not sterilized.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: melon;
+		Required: 3;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+		FoodValue:36;
+		WaterValue:42;
+	FoodType: bigfilteredwater;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: melon;
+),
+(
+	ItemID: NHIDrinks_TeaCreepvine;
+	DecayRateMod: 0.0;
+	DisplayName: "Creepvine Tea";
+	Tooltip: "Warm and refreshing green tea. It hasn't got any green tea leafs in it but it is definitely green.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+		WaterValue:7;
+	FoodType: coffe;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: creepvinepiece;
+),
+(
+	ItemID: NHIDrinks_TeaVoxel;
+	DecayRateMod: 0.0;
+	DisplayName: "Voxel Tea";
+	Tooltip: "Warm and refreshing tea. Inspired from the Creepvine Tea.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	),
+	( 
+		ItemID: pinkflowerseed;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab12_Drinks;
+		WaterValue:16;
+	FoodType: coffe;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: pinkflowerseed;
+),
+					#---Packed-Food---#
+(
+	ItemID: NHIMetabo_Spiruline;		#---Metabolism---#
+	DecayRateMod: 0.0;
+	DisplayName: "Spirulina Powder";
+	Tooltip: "10g of dehydrated Spirulina Maxima bacteria. Looks weird... but can be eaten raw.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: NHIBacteria_Green;
+		Required: 3;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab43_Chemistry;
+		FoodValue:17;
+		WaterValue:3;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: NHIBacteria_Green;		#---Metabolism---#
+),
+(
+	ItemID: NHIFood_PastePeeper;
+	DecayRateMod: 0.0;
+	DisplayName: "Peeper paste";
+	Tooltip: "Packed and dehydrated peeper nutrient block ready for adventure!";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: peeper;
+		Required: 2;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:65;
+		WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: peeper;
+),
+(
+	ItemID: NHIFood_PasteOculus;
+	DecayRateMod: 0.0;
+	DisplayName: "Oculus paste";
+	Tooltip: "Packed and dehydrated oculus nutrient block ready for adventure!";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: oculus;
+		Required: 2;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:60;
+		WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: oculus;
+),
+(
+	ItemID: NHIFood_PasteReginald;
+	DecayRateMod: 0.0;
+	DisplayName: "Reginald paste";
+	Tooltip: "Packed and dehydrated reginald nutrient block ready for adventure!";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: reginald;
+		Required: 2;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:80;
+		WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: reginald;
+),
+(
+	ItemID: NHIFood_PasteSpirulina;
+	DecayRateMod: 0.0;
+	DisplayName: "Spirulina Nutrient Block";
+	Tooltip: "Packed and dehydrated spirulina nutrient block ready for adventure!";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: NHIMetabo_Spiruline;
+		Required: 4;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:75;
+		WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: NHIMetabo_Spiruline;
+),
+(
+	ItemID: NHIFood_SpiruBread;
+	DecayRateMod: 0.0;
+	DisplayName: "Spirulina Bread";
+	Tooltip: "Green bread made from some tasty bacteria. Hoping those bacteria are actually tasty.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: NHIMetabo_Spiruline;
+		Required: 3;
+	),
+	( 
+		ItemID: NHIBacteria_Green;
+		Required: 4;
+	),
+	( 
+		ItemID: NHIBio_Membrane;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:70;
+		WaterValue:25;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: NHIMetabo_Spiruline, NHIBacteria_Green;
+),
+(
+	ItemID: NHIFood_GelatineRed;
+	DecayRateMod: 0.2;
+	DisplayName: "Red Jelly";
+	Tooltip: "Red bouncy substance to keep the stomach full and warm the heart.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: NHIBio_Membrane;
+		Required: 2;
+	),
+	( 
+		ItemID: redbushseed;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:6;
+		WaterValue:16;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: NHIBio_Membrane, redbushseed;
+),
+(
+	ItemID: NHIFood_GelatineOrange;
+	DecayRateMod: 0.2;
+	DisplayName: "Orange Jelly";
+	Tooltip: "Orange bouncy substance to keep the stomach full and put a smile on the face.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: NHIBio_Membrane;
+		Required: 2;
+	),
+	( 
+		ItemID: melon;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:12;
+		WaterValue:30;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: NHIBio_Membrane, melon;
+),
+(
+	ItemID: NHIFood_GelatineGreen;
+	DecayRateMod: 0.2;
+	DisplayName: "Green Jelly";
+	Tooltip: "Green bouncy substance to keep the stomach full and make you wonder about what you just ate.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: NHIBio_Membrane;
+		Required: 2;
+	),
+	( 
+		ItemID: NHIMetabo_Spiruline;
+		Required: 1;
+	);
+	Path: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink/NHITab11_PackedFood;
+		FoodValue:20;
+		WaterValue:20;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: NHIMetabo_Spiruline;
+);

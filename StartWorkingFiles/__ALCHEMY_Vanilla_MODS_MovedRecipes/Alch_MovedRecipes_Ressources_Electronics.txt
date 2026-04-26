@@ -1,0 +1,45 @@
+
+#	Fabricator/Resources/Electronics		==> 	Copied 	to		==>		Alch_Fab/Alch_Resources/Alch_Electronics		#
+
+MovedRecipes:
+
+
+(
+	ItemID: CopperWire;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+),
+(
+	ItemID: ComputerChip;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+),
+(
+	ItemID: WiringKit;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+),
+(
+	ItemID: AdvancedWiringKit;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+),
+(
+	ItemID: ReactorRod;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+),
+
+# ---	Custom Reactor Rods "M3dicCookie" - 2011	 --- #
+(
+	ItemID: IonReactorRod;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+),
+
+# ---	Ion Reactor Rod "NamelessPlayer06" - 2187	 --- #
+(
+	ItemID: SuperRod;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Electronics;
+	Copied: Yes;
+);

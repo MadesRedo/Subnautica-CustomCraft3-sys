@@ -1,0 +1,25 @@
+CustomFoods:
+(
+    ItemID: Boomerushi;
+    DecayRateMod: 0.30; 
+    DisplayName: "Boomer-ushi";
+    Tooltip: "A delectable sushi roll made from locally sourced Boomerangs, wrapped in crisp creepvine leaves, and garnished with crunchy creepvine seeds. A perfect blend of ocean flavour's!";
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 2;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/CookedFood;
+    FoodValue:38;
+    WaterValue:18;
+    ForceUnlockAtStart: YES;
+),

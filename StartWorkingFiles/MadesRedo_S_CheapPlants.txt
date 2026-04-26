@@ -1,0 +1,240 @@
+AliasRecipes: 
+  (
+        ItemID: add_creepvinepiece;
+	DisplayName: "Creepvinepiece x4";
+	Tooltip: "Cheap Creepvinepiece";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece;
+	SpriteItemID: creepvinepiece;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_jellyplant;
+	DisplayName: "Gel Sack x4";
+	Tooltip: "Cheap Gel Sack";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, jellyplant, jellyplant, jellyplant, jellyplant;
+	SpriteItemID: jellyplant;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_jeweleddiskpiece;
+	DisplayName: "Table Coral x4";
+	Tooltip: "Cheap Table Coral";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece, jeweleddiskpiece;
+	SpriteItemID: jeweleddiskpiece;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_acidmushroom;
+	DisplayName: "Acid Mushroom x4";
+	Tooltip: "Cheap Acid Mushroom";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, acidmushroom, acidmushroom, acidmushroom, acidmushroom;
+	SpriteItemID: acidmushroom;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_coralchunk;
+	DisplayName: "Coral Tube Sample x4";
+	Tooltip: "Cheap Coral Tube Sample";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, coralchunk, coralchunk, coralchunk, coralchunk;
+	SpriteItemID: coralchunk;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_whitemushroom;
+	DisplayName: "Deep Shroom x4";
+	Tooltip: "Cheap Deep Shroom";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, whitemushroom, whitemushroom, whitemushroom, whitemushroom;
+	SpriteItemID: whitemushroom;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_treemushroompiece;
+	DisplayName: "Funghal Sample x4";
+	Tooltip: "Cheap Funghal Sample";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece;
+	SpriteItemID: treemushroompiece;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_bloodoil;
+	DisplayName: "Blood Oil x4";
+	Tooltip: "Cheap Blood Oil";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, bloodoil, bloodoil, bloodoil, bloodoil;
+	SpriteItemID: bloodoil;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_purplebraincoralpiece;
+	DisplayName: "Brain Coral Sample x4";
+	Tooltip: "Cheap Brain Coral Sample";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece;
+	SpriteItemID: purplebraincoralpiece;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_kooshchunk;
+	DisplayName: "Bulb Bush Sample x4";
+	Tooltip: "Cheap Bulb Bush Sample";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, kooshchunk, kooshchunk, kooshchunk, kooshchunk;
+	SpriteItemID: kooshchunk;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_bulbotreepiece;
+	DisplayName: "Bulbo Tree Sample x4";
+	Tooltip: "Cheap Bulbo Tree Sample";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece;
+	SpriteItemID: bulbotreepiece;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_purplevegetable;
+	DisplayName: "Chinese Potato x4";
+	Tooltip: "Cheap Chinese Potato";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, purplevegetable, purplevegetable, purplevegetable, purplevegetable;
+	SpriteItemID: purplevegetable;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_hangingfruit;
+	DisplayName: "Lantern Fruit x4";
+	Tooltip: "Cheap Lantern Fruit";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, hangingfruit, hangingfruit, hangingfruit, hangingfruit;
+	SpriteItemID: hangingfruit;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    ),
+  (
+        ItemID: add_melon;
+	DisplayName: "Marblemelon x4";
+	Tooltip: "Cheap Marblemelon";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, melon, melon, melon, melon;
+	SpriteItemID: melon;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapPlants;        
+    );
+	

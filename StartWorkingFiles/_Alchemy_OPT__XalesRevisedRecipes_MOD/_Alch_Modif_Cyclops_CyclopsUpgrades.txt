@@ -1,0 +1,213 @@
+#		PdaGroup: Cyclops | PdaCategory: CyclopsUpgrades		#
+
+
+ModifiedRecipes:
+
+
+#	------------	MODULE MK1 (500m + 400m => 900m)	-----------	#
+(
+    ItemID: CyclopsHullModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_CopperOxide_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 3;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE RENDEMENT MOTEUR	-----------	#
+(
+    ItemID: PowerUpgradeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Benzene;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    );
+),
+
+#	------------	MODULE GÉNÉRATEUR BOUCLIER	-----------	#
+(
+    ItemID: CyclopsShieldModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+    (
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE SONAR	-----------	#
+(
+    ItemID: CyclopsSonarModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 3;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE RÉPARATION	-----------	#
+(
+    ItemID: CyclopsSeamothRepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Silver;
+        Required: 3;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 2;
+    );
+),
+
+#	------------	SYSTÈME D'EXTINCTION D'INCENDIE	-----------	#
+(
+    ItemID: CyclopsFireSuppressionModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 1;
+    ),
+	(
+        ItemID: Sulphur;
+        Required: 2;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: JellyPlant;
+        Required: 3;
+    );
+),
+
+#	------------	AMÉLIORATION LANCEUR DE LEURRES	-----------	#
+(
+    ItemID: CyclopsDecoyModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 3;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE RÉACTEUR THERMIQUE	-----------	#
+(
+    ItemID: CyclopsThermalReactorModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 2;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 4;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    );
+);

@@ -1,0 +1,148 @@
+#		PdaGroup: Resources | PdaCategory: AdvancedMaterials		#
+
+
+ModifiedRecipes:
+
+
+#	------------	HATCHING ENZYMES : NEW RECIPE	--------------------	#
+(
+    ItemID: HatchingEnzymes;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Enzyme_Pink;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Enzyme_Blue;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Enzyme_Yellow;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Enzyme_Green;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Enzyme_Purple_Cyan;
+        Required: 1;
+    );
+),
+
+#	------------	UNLOCK CONDITIONS	--------------------	#
+(
+    ItemID: Alch_PrecursorKey_Red;
+	UnlockedBy: PrecursorKey_Red, ReaperLeviathan, SeaDragon;
+),
+(
+    ItemID: Alch_PrecursorKey_White;
+	UnlockedBy: PrecursorKey_White, GhostLeviathan;
+),
+(
+    ItemID: Alch_Compound_Pink;
+	UnlockedBy: CrabsnakeEgg, CrabsnakeEggUndiscovered;
+),
+(
+    ItemID: Alch_Compound_Blue;
+	UnlockedBy: ReefbackEgg;
+),
+(
+    ItemID: Alch_Compound_Yellow;
+	UnlockedBy: PrecursorKey_Red, MesmerEgg;
+),
+(
+    ItemID: Alch_Compound_Green;
+	UnlockedBy: LavaLizardEgg, LavaLizardEggUndiscovered;
+),
+(
+    ItemID: Alch_Compound_Purple_Cyan;
+	UnlockedBy: SeaCrownSeed, CrabsquidEgg, ShockerEgg;
+),
+(
+    ItemID: Alch_GenericEgg;
+	UnlockedBy: GenericEgg, CoveTree, Rockgrub;
+),
+(
+    ItemID: Alch_JumperEgg;
+	UnlockedBy: JumperEgg;
+),
+
+#	Complex Enzymes conditions  => 	UnlockedBy: ReefbackEgg;			#
+#	In each recipe into :	_Alch_AliasRecipes_5_NEW_SPECIALS.txt		#
+
+
+#	----------------------------------------------------	#
+#				TABLETS : NEW RECIPES						#
+#	----------------------------------------------------	#
+
+
+#	------------	PURPLE TABLET	--------------------	#
+(
+    ItemID: PrecursorKey_Purple;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Compound_Pink;
+        Required: 1;
+    );
+),
+
+#	------------	ORANGE TABLET	--------------------	#
+(
+    ItemID: PrecursorKey_Orange;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PrecursorKey_Purple;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorKey_Red;
+        Required: 1;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Compound_Purple_Cyan;
+        Required: 1;
+    );
+),	
+
+#	------------	BLUE TABLET		--------------------	#
+(
+    ItemID: PrecursorKey_Blue;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PrecursorKey_Red;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorKey_White;
+        Required: 1;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Compound_Green;
+        Required: 1;
+    );
+);

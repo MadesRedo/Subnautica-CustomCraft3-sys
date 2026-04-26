@@ -1,0 +1,726 @@
+AliasRecipes:
+(
+	ItemID: BuyTenShocker;
+	DisplayName: "Purchase 10 Ampeel";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: shocker,shocker,shocker,shocker,shocker,shocker,shocker,shocker,shocker,shocker;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenShocker;
+	DisplayName: "Sell 10 Ampeel";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: shocker;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: shocker;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenBladderfish;
+	DisplayName: "Purchase 10 Bladderfish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: bladderfish,bladderfish,bladderfish,bladderfish,bladderfish,bladderfish,bladderfish,bladderfish,bladderfish,bladderfish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenBladderfish;
+	DisplayName: "Sell 10 Bladderfish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: bladderfish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: bladderfish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenBoneshark;
+	DisplayName: "Purchase 10 Boneshark";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: boneshark,boneshark,boneshark,boneshark,boneshark,boneshark,boneshark,boneshark,boneshark,boneshark;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenBoneshark;
+	DisplayName: "Sell 10 Boneshark";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: boneshark;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: boneshark;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenBoomerang;
+	DisplayName: "Purchase 10 Boomerang";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: boomerang,boomerang,boomerang,boomerang,boomerang,boomerang,boomerang,boomerang,boomerang,boomerang;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenBoomerang;
+	DisplayName: "Sell 10 Boomerang";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: boomerang;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: boomerang;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenCrabsnake;
+	DisplayName: "Purchase 10 Crabsnake";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: crabsnake,crabsnake,crabsnake,crabsnake,crabsnake,crabsnake,crabsnake,crabsnake,crabsnake,crabsnake;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenCrabsnake;
+	DisplayName: "Sell 10 Crabsnake";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: crabsnake;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: crabsnake;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenCrabsquid;
+	DisplayName: "Purchase 10 Crabsquid";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: crabsquid,crabsquid,crabsquid,crabsquid,crabsquid,crabsquid,crabsquid,crabsquid,crabsquid,crabsquid;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenCrabsquid;
+	DisplayName: "Sell 10 Crabsquid";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: crabsquid;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: crabsquid;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenCrash;
+	DisplayName: "Purchase 10 Crashfish";
+	Tooltip: "Size 4(2x2) - Defensive";
+	LinkedItemIDs: crash,crash,crash,crash,crash,crash,crash,crash,crash,crash;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenCrash;
+	DisplayName: "Sell 10 Crashfish";
+	Tooltip: "Size 4(2x2) - Defensive";
+	SpriteItemID: crash;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: crash;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenCutefish;
+	DisplayName: "Purchase 10 Cutefish";
+	Tooltip: "DOES NOT BREED - Size 4(2x2) - Passive";
+	LinkedItemIDs: cutefish,cutefish,cutefish,cutefish,cutefish,cutefish,cutefish,cutefish,cutefish,cutefish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenCutefish;
+	DisplayName: "Sell 10 Cuddlefish";
+	Tooltip: "DOES NOT BREED - Size 4(2x2) - Passive";
+	SpriteItemID: cutefish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: cutefish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenEyeye;
+	DisplayName: "Purchase 10 Eyeye";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: eyeye,eyeye,eyeye,eyeye,eyeye,eyeye,eyeye,eyeye,eyeye,eyeye;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenEyeye;
+	DisplayName: "Sell 10 Eyeye";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: eyeye;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: eyeye;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenFloater;
+	DisplayName: "Purchase 10 Floater";
+	Tooltip: "Size 1 - Defensive";
+	LinkedItemIDs: floater,floater,floater,floater,floater,floater,floater,floater,floater,floater;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenFloater;
+	DisplayName: "Sell 10 Floater";
+	Tooltip: "Size 1 - Defensive";
+	SpriteItemID: floater;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: floater;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenGarryfish;
+	DisplayName: "Purchase 10 Garryfish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: garryfish,garryfish,garryfish,garryfish,garryfish,garryfish,garryfish,garryfish,garryfish,garryfish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenGarryfish;
+	DisplayName: "Sell 10 Garryfish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: garryfish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: garryfish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenGasopod;
+	DisplayName: "Purchase 10 Gasopod";
+	Tooltip: "Size 9(3x3) - Defensive";
+	LinkedItemIDs: gasopod,gasopod,gasopod,gasopod,gasopod,gasopod,gasopod,gasopod,gasopod,gasopod;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenGasopod;
+	DisplayName: "Sell 10 Gasopod";
+	Tooltip: "Size 9(3x3) - Defensive";
+	SpriteItemID: gasopod;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: gasopod;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenHolefish;
+	DisplayName: "Purchase 10 Holefish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: holefish,holefish,holefish,holefish,holefish,holefish,holefish,holefish,holefish,holefish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenHolefish;
+	DisplayName: "Sell 10 Holefish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: holefish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: holefish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenHoopfish;
+	DisplayName: "Purchase 10 Hoopfish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: hoopfish,hoopfish,hoopfish,hoopfish,hoopfish,hoopfish,hoopfish,hoopfish,hoopfish,hoopfish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenHoopfish;
+	DisplayName: "Sell 10 Hoopfish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: hoopfish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: hoopfish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenHoverfish;
+	DisplayName: "Purchase 10 Hoverfish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: hoverfish,hoverfish,hoverfish,hoverfish,hoverfish,hoverfish,hoverfish,hoverfish,hoverfish,hoverfish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenHoverfish;
+	DisplayName: "Sell 10 Hoverfish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: hoverfish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: hoverfish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenJellyray;
+	DisplayName: "Purchase 10 Jellyray";
+	Tooltip: "Size 9(3x3) - Passive";
+	LinkedItemIDs: jellyray,jellyray,jellyray,jellyray,jellyray,jellyray,jellyray,jellyray,jellyray,jellyray;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenJellyray;
+	DisplayName: "Sell 10 Jellyray";
+	Tooltip: "Size 9(3x3) - Passive";
+	SpriteItemID: jellyray;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jellyray;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenLavaLizard;
+	DisplayName: "Purchase 10 Lava Lizard";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: lavalizard,lavalizard,lavalizard,lavalizard,lavalizard,lavalizard,lavalizard,lavalizard,lavalizard,lavalizard;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenLavaLizard;
+	DisplayName: "Sell 10 Lava Lizard";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: lavalizard;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: lavalizard;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenLavaBoomerang;
+	DisplayName: "Purchase 10 Magmarang";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang,lavaboomerang;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenLavaBoomerang;
+	DisplayName: "Sell 10 Magmarang";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: lavaboomerang;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: lavaboomerang;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenMesmer;
+	DisplayName: "Purchase 10 Mesmer";
+	Tooltip: "Size 4(2x2) - Agressive";
+	LinkedItemIDs: mesmer,mesmer,mesmer,mesmer,mesmer,mesmer,mesmer,mesmer,mesmer,mesmer;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenMesmer;
+	DisplayName: "Sell 10 Mesmer";
+	Tooltip: "Size 4(2x2) - Agressive";
+	SpriteItemID: mesmer;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: mesmer;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenOculus;
+	DisplayName: "Purchase 10 Oculus";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: oculus,oculus,oculus,oculus,oculus,oculus,oculus,oculus,oculus,oculus;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenOculus;
+	DisplayName: "Sell 10 Oculus";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: oculus;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: oculus;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenPeeper;
+	DisplayName: "Purchase 10 Peeper";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: peeper,peeper,peeper,peeper,peeper,peeper,peeper,peeper,peeper,peeper;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenPeeper;
+	DisplayName: "Sell 10 Peeper";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: peeper;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: peeper;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenRabbitRay;
+	DisplayName: "Purchase 10 Rabbit Ray";
+	Tooltip: "Size 4(2x2) - Passive";
+	LinkedItemIDs: rabbitray,rabbitray,rabbitray,rabbitray,rabbitray,rabbitray,rabbitray,rabbitray,rabbitray,rabbitray;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenRabbitRay;
+	DisplayName: "Sell 10 Rabbit Ray";
+	Tooltip: "Size 4(2x2) - Passive";
+	SpriteItemID: rabbitray;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: rabbitray;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenReefback;
+	DisplayName: "Purchase 10 Reefback";
+	Tooltip: "Size 16(4x4) - Passive";
+	LinkedItemIDs: reefback,reefback,reefback,reefback,reefback,reefback,reefback,reefback,reefback,reefback;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenReefback;
+	DisplayName: "Sell 10 Reefback";
+	Tooltip: "Size 16(4x4) - Passive";
+	SpriteItemID: reefback;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: reefback;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenLavaEyeye;
+	DisplayName: "Purchase 10 Red Eyeye";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye,lavaeyeye;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenLavaEyeye;
+	DisplayName: "Sell 10 Red Eyeye";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: lavaeyeye;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: lavaeyeye;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenReginald;
+	DisplayName: "Purchase 10 Reginald";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: reginald,reginald,reginald,reginald,reginald,reginald,reginald,reginald,reginald,reginald;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenReginald;
+	DisplayName: "Sell 10 Reginald";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: reginald;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: reginald;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenSandShark;
+	DisplayName: "Purchase 10 Sand Shark";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: sandshark,sandshark,sandshark,sandshark,sandshark,sandshark,sandshark,sandshark,sandshark,sandshark;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenSandShark;
+	DisplayName: "Sell 10 Sand Shark";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: sandshark;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: sandshark;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenSpadefish;
+	DisplayName: "Purchase 10 Spadefish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: spadefish,spadefish,spadefish,spadefish,spadefish,spadefish,spadefish,spadefish,spadefish,spadefish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenSpadefish;
+	DisplayName: "Sell 10 Spadefish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: spadefish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spadefish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenSpinefish;
+	DisplayName: "Purchase 10 Spinefish";
+	Tooltip: "Size 1 - Passive";
+	LinkedItemIDs: spinefish,spinefish,spinefish,spinefish,spinefish,spinefish,spinefish,spinefish,spinefish,spinefish;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenSpinefish;
+	DisplayName: "Sell 10 Spinefish";
+	Tooltip: "Size 1 - Passive";
+	SpriteItemID: spinefish;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spinefish;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+),
+(
+	ItemID: BuyTenStalker;
+	DisplayName: "Purchase 10 Stalker";
+	Tooltip: "Size 9(3x3) - Agressive";
+	LinkedItemIDs: stalker,stalker,stalker,stalker,stalker,stalker,stalker,stalker,stalker,stalker;
+	Ingredients:
+	(
+		ItemID: DiamondCredit;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyTen/FaunaBuyTen;
+),
+(
+	ItemID: SellTenStalker;
+	DisplayName: "Sell 10 Stalker";
+	Tooltip: "Size 9(3x3) - Agressive";
+	SpriteItemID: stalker;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: stalker;
+		Required: 10;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellTen/FaunaSellTen;
+);

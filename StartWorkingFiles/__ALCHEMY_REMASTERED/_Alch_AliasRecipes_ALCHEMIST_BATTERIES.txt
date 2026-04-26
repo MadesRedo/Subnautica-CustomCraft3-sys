@@ -1,0 +1,150 @@
+
+
+
+AliasRecipes:
+
+#	Alch_Recycled_Batteries_PurpleTentacle	#
+(
+	ItemID: Alch_Recharged_Batt_PurpleTentacle;
+	DisplayName: "Refill for a 'Writhing Weed' Battery";
+	Tooltip: "Recharge a 'Writhing Weed' Battery (90% of a Battery).";
+    LinkedItemIDs: Alch_1_Battery_PurpleTentacle;
+	FunctionalID: Alch_1_Battery_PurpleTentacle;
+	PdaGroup: Resources;
+	PdaCategory: Electronics;
+	Path: Fabricator/Resources/BatteryTab;
+	UnlockedBy: Alch_1_Battery_PurpleTentacle;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Recharged_Batt_PurpleTentacle;
+    Ingredients:
+    (
+        ItemID: Alch_1_Battery_PurpleTentacle;
+        Required: 1;
+    ),
+	(
+        ItemID: PurpleTentacleSeed;
+        Required: 3;
+    );
+),
+(
+	ItemID: Alch_Recharged_PCell_PurpleTentacle;
+	DisplayName: "Refill for a 'Writhing Weed' Power cell";
+	Tooltip: "Recharge a 'Writhing Weed' Power cell (90% of a Power Cell).";
+    LinkedItemIDs: Alch_1_PowerCell_PurpleTentacle;
+	FunctionalID: Alch_1_PowerCell_PurpleTentacle;
+	PdaGroup: Resources;
+	PdaCategory: Electronics;
+	Path: Fabricator/Resources/PowCellTab;
+	UnlockedBy: Alch_1_PowerCell_PurpleTentacle;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Recharged_PCell_PurpleTentacle;
+    Ingredients:
+    (
+        ItemID: Alch_1_PowerCell_PurpleTentacle;
+        Required: 1;
+    ),
+	(
+        ItemID: PurpleTentacleSeed;
+        Required: 2;
+    );
+),
+
+#	Alch_Enriched_Batteries_Creepvine	#
+(
+	ItemID: Alch_Recharged_Batt_Creepvine;
+	DisplayName: "Refill for a 'Creepvine' Battery";
+	Tooltip: "Recharge a 'Creepvine' Battery (150% of a Battery).";
+    LinkedItemIDs: Alch_2_Battery_Creepvine;
+	FunctionalID: Alch_2_Battery_Creepvine;
+	PdaGroup: Resources;
+	PdaCategory: Electronics;
+	Path: Fabricator/Resources/BatteryTab;
+	UnlockedBy: Alch_2_Battery_Creepvine;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Recharged_Batt_Creepvine;
+    Ingredients:
+    (
+        ItemID: Alch_2_Battery_Creepvine;
+        Required: 1;
+    ),
+	(
+        ItemID: CreepvineSeedCluster;
+        Required: 3;
+    );
+),
+(
+	ItemID: Alch_Recharged_PCell_Creepvine;
+	DisplayName: "Refill for a 'Creepvine' Power cell";
+	Tooltip: "Recharge a 'Creepvine' Power cell (150% of a Power Cell).";
+    LinkedItemIDs: Alch_2_PowerCell_Creepvine;
+	FunctionalID: Alch_2_PowerCell_Creepvine;
+	PdaGroup: Resources;
+	PdaCategory: Electronics;
+	Path: Fabricator/Resources/PowCellTab;
+	UnlockedBy: Alch_2_PowerCell_Creepvine;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Recharged_PCell_Creepvine;
+    Ingredients:
+    (
+        ItemID: Alch_2_PowerCell_Creepvine;
+        Required: 1;
+    ),
+	(
+        ItemID: CreepvineSeedCluster;
+        Required: 2;
+    );
+),
+
+#	Alch_Ultimate_Batteries_RadiumCrystal	#
+(
+	ItemID: Alch_Recharged_Batt_RadiumCrystal;
+	DisplayName: "Refill for an Alchemist's Ultimate Battery";
+	Tooltip: "Recharge an Alchemist's Ultimate Battery (200% of an Ion Battery).";
+    LinkedItemIDs: Alch_7_Battery_RadiumCrystal;
+	FunctionalID: Alch_7_Battery_RadiumCrystal;
+	PdaGroup: Resources;
+	PdaCategory: Electronics;
+	Path: Fabricator/Resources/BatteryTab;
+	UnlockedBy: Alch_7_Battery_RadiumCrystal;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Recharged_Batt_RadiumCrystal;
+    Ingredients:
+    (
+        ItemID: Alch_7_Battery_RadiumCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    );
+),
+(
+	ItemID: Alch_Recharged_PCell_RadiumCrystal;
+	DisplayName: "Refill for an Alchemist's Ultimate Power Cell";
+	Tooltip: "Recharge an Alchemist's Ultimate Power Cell (200% of an Ion Power Cell).";
+    LinkedItemIDs: Alch_7_PowerCell_RadiumCrystal;
+	FunctionalID: Alch_7_PowerCell_RadiumCrystal;
+	PdaGroup: Resources;
+	PdaCategory: Electronics;
+	Path: Fabricator/Resources/PowCellTab;
+	UnlockedBy: Alch_7_PowerCell_RadiumCrystal;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Recharged_PCell_RadiumCrystal;
+    Ingredients:
+    (
+        ItemID: Alch_7_PowerCell_RadiumCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 4;
+    );
+);

@@ -1,0 +1,238 @@
+
+# 		SPECIFIC-VEHICLE UPGRADES		#
+
+MovedRecipes:
+
+		#	ARCHON - 2509	#
+(
+	ItemID: ArchonDepthModule1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonDepthModule2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonDepthModule3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonRepairModuleMk1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonRepairUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonRepairModuleMk2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonRepairUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonRepairModuleMk3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonRepairUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonEmergencyTeleportationModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonSpecificUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonTeleportationModuleA;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonSpecificUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ArchonDockingModuleMk1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades/ArchonSpecificUpgrades;
+	Copied: YES;
+),
+
+		#	ECHELON - 2153	#
+(
+	ItemID: EchelonDriveMk1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonDriveUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonDriveMk2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonDriveUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonDriveMk3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonDriveUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonRepairModuleMk1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonRepairUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonRepairModuleMk2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonRepairUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonRepairModuleMk3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonRepairUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonNuclearBatteryModule0;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonBatteryUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonNuclearBatteryModule1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonBatteryUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonRailgunMk1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonRailGunUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonRailgunMk2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonRailGunUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonTorpedoModule0;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonTorpedoUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonTorpedoModule1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonTorpedoUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EchelonTorpedoModule2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades/EchelonTorpedoUpgrades;
+	Copied: YES;
+),
+
+		#	SEAL (Discord)	#
+(
+	ItemID: SealHullModule1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades/SealDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SealHullModule2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades/SealDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SealHullModule3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades/SealDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SealSolarChargeModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades/SealModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SealThermalChargeModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades/SealModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: SealSpeedModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades/SealModuleUpgrades;
+	Copied: YES;
+),
+
+		#	BELUGA - 1748	#
+(
+	ItemID: BelugaSpeedUpgradeModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BelugaUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: BelugaThermalRepairModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BelugaUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: BelugaDockedVehicleRepairModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BelugaUpgrades;
+	Copied: YES;
+),
+
+		#	BLOSSOM - 1977	#
+(
+	ItemID: MesmerizerPower1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MesmerizerPower2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MesmerizerPower3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MesmerizerRange1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MesmerizerRange2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MesmerizerRange3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: EnzymeDistributor;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: BlossomScanner;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/BlossomUpgrades;
+	Copied: YES;
+),
+
+		#	CHAMELEON - 1598	#
+(
+	ItemID: ChameleonHullModule1;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ChameleonUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ChameleonHullModule2;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ChameleonUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ChameleonHullModule3;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ChameleonUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ChameleonThermalModule;
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/ChameleonUpgrades;
+	Copied: YES;
+),
+
+		#	CRUSH DRONE - 1654	#
+(
+	ItemID: DroneRangeModule;										#	1733	#
+	NewPath: Workbench_MK2/SpecificVehicleUpgrades/CrushUpgrades;
+	Copied: YES;
+);

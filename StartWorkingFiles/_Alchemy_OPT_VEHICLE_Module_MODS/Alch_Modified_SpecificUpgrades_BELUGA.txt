@@ -1,0 +1,93 @@
+#	BELUGA SPECIFIC UPGRADES	#
+
+
+ModifiedRecipes:
+
+# ---	SPEED MODULE	--- #
+(
+    ItemID: BelugaSpeedUpgradeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 3;
+    ),
+    (
+        ItemID: PrecursorIonBattery;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 5;
+    );
+),
+
+# ---	THERMAL REPAIR MODULE	--- #
+(
+    ItemID: BelugaThermalRepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 2;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: CrashPowder;
+        Required: 7;
+    ),
+    (
+        ItemID: JeweledDiskPiece;
+        Required: 7;
+    );
+),
+
+# ---	DOCKED VEHICLE REPAIR MODULE	--- #
+(
+    ItemID: BelugaDockedVehicleRepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 1;
+    );
+);

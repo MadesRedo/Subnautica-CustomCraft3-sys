@@ -1,0 +1,24 @@
+AddedRecipes: 
+(
+    ItemID: NutrientBlock;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CuredReginald;
+        Required: 1;
+    ),
+    (
+        ItemID: PurpleVegetable;
+        Required: 2;
+    ),
+    (
+        ItemID: HangingFruit;
+        Required: 2;
+    ),
+    (
+        ItemID: Salt;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    Path: Fabricator/Survival/CuredFood;
+);

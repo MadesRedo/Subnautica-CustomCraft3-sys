@@ -1,0 +1,143 @@
+#---------------------------------------------------------------#
+#			Custom Tabs				#
+#---------------------------------------------------------------#
+
+	CustomCraftingTabs:
+	(
+		TabID: NHITab00_NewHorizon;
+		DisplayName: "New Horizon Industries";
+		SpriteItemID: NHITab00_NewHorizon;
+		ParentTabPath: Fabricator;
+	),
+	(
+		TabID: NHITab10_FoodnDrink;
+		DisplayName: "Sustenance";
+		SpriteItemID: NHITab10_FoodnDrink;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon;
+	),
+	(
+		TabID: NHITab11_PackedFood;
+		DisplayName: "Packed Food";
+		SpriteItemID: NHITab11_PackedFood;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink;
+	),
+	(
+		TabID: NHITab12_Drinks;
+		DisplayName: "Drinks";
+		SpriteItemID: NHITab12_Drinks;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab10_FoodnDrink;
+	),
+	(
+		TabID: NHITab20_Biochemistry;
+		DisplayName: "Biochemistry";
+		SpriteItemID: NHITab20_Biochemistry;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon;
+	),
+	(
+		TabID: NHITab21_Garden;
+		DisplayName: "Garden";
+		SpriteItemID: NHITab21_Garden;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry;
+	),
+	(
+		TabID: NHITab22_BioSynthesis;
+		DisplayName: "Biological Synthesis";
+		SpriteItemID: NHITab22_BioSynthesis;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry;
+	),
+	(
+		TabID: NHITab23_BioFuel;
+		DisplayName: "BioFuels";
+		SpriteItemID: NHITab23_BioFuel;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab20_Biochemistry;
+	),
+	(
+		TabID: NHITab30_Genomic;
+		DisplayName: "Genomic";
+		SpriteItemID: NHITab30_Genomic;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon;
+	),
+	(
+		TabID: NHITab31_CommonGenes;
+		DisplayName: "Common Genes";
+		SpriteItemID: NHITab31_CommonGenes;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic;
+	),
+	(
+		TabID: NHITab32_Genomes;
+		DisplayName: "Specific Genomes";
+		SpriteItemID: NHITab32_Genomes;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic;
+	),
+	(
+		TabID: NHITab33_Eggs;
+		DisplayName: "Bioengineered Eggs";
+		SpriteItemID: NHITab33_Eggs;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic;
+	),
+	(
+		TabID: NHITab34_Solutions;
+		DisplayName: "Biological solutions";
+		SpriteItemID: NHITab34_Solutions;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic;
+	),
+	(
+		TabID: NHITab35_LabEquipments;
+		DisplayName: "Lab Equipments";
+		SpriteItemID: NHITab35_LabEquipments;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic;
+	);
+	(
+		TabID: NHITab40_Bioengineering;
+		DisplayName: "Bioengineering";
+		SpriteItemID: NHITab40_Bioengineering;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon;
+	),
+	(
+		TabID: NHITab41_OrganismManip;
+		DisplayName: "Organism Manipulation";
+		SpriteItemID: NHITab41_OrganismManip;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering;
+	),
+	(
+		TabID: NHITab42_Metabolism;
+		DisplayName: "Metabolism";
+		SpriteItemID: NHITab42_Metabolism;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering;
+	),
+	(
+		TabID: NHITab43_Chemistry;
+		DisplayName: "Chemistry";
+		SpriteItemID: NHITab43_Chemistry;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering;
+	),
+	(
+		TabID: NHITab50_Industrial;
+		DisplayName: "Industrial";
+		SpriteItemID: NHITab50_Industrial;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon;
+	),
+	(
+		TabID: NHITab51_Artifacts;
+		DisplayName: "Artifacts";
+		SpriteItemID: NHITab51_Artifacts;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial;
+	),
+	(
+		TabID: NHITab52_MineralSynth;
+		DisplayName: "Mineral Synthesis";
+		SpriteItemID: NHITab52_MineralSynth;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial;
+	),
+	(
+		TabID: NHITab53_Tech;
+		DisplayName: "Tech";
+		SpriteItemID: NHITab53_Tech;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial;
+	),
+	(
+		TabID: NHITab54_Manufacture;
+		DisplayName: "Manufacture";
+		SpriteItemID: NHITab54_Manufacture;
+		ParentTabPath: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial;
+	);

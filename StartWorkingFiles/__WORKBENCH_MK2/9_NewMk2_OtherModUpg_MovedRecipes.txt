@@ -1,0 +1,194 @@
+
+# 		OTHER COMMON & MOD UPGRADES		#
+
+MovedRecipes:
+
+		#	Common Modules	#
+(
+	ItemID: VehicleArmorPlating;
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: VehiclePowerUpgradeModule;
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: VehicleStorageModule;
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: RepairModule;												#	Repair Module "senna7608" - 133 	#
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: ScannerModule;												#	Scanner Module "senna7608" - 131 	#
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: VehicleSpeedUpgradeMK1;										#	Vehicle Speed Upgrade "AshFoxJp" - 2602 	#
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: VehicleSpeedUpgradeMK2;										#	Vehicle Speed Upgrade "AshFoxJp" - 2602 	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+),
+(
+	ItemID: VehicleRepairModule;										#	Automatic Vehicle Repair "Marslandare" - 1402	#
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: VehicleDepthInf;											#	Infinite vehicle Depth "rjacobvogel" - 1541 	==> NEED A FIX !	#
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+(
+	ItemID: BitchGonRain;												#	Cloudy With A Chance Of Torpedoes "EldritchCarMaker" - 1931 	#
+	NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;
+	Copied: YES;
+),
+
+		#	Upgraded Vehicles "MrPurple6411" - 1468 	#
+			#	Boost Speed	#
+(
+	ItemID: SpeedModule;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVSpeedBoost;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleMK2;
+	OldPath: Workbench/SpeedModules;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVSpeedBoost;
+),
+(
+	ItemID: SpeedModuleMK3;
+	OldPath: Workbench/SpeedModules;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVSpeedBoost;
+),
+(
+	ItemID: SpeedModuleMK4;
+	OldPath: Workbench/SpeedModules;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVSpeedBoost;
+),
+			#	Armor Plating	#
+(
+	ItemID: HullArmorMk2;
+	OldPath: Workbench/HullArmor;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVArmorPlating;
+),
+(
+	ItemID: HullArmorMk3;
+	OldPath: Workbench/HullArmor;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVArmorPlating;
+),
+(
+	ItemID: HullArmorMk4;
+	OldPath: Workbench/HullArmor;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVArmorPlating;
+),
+			#	Power	#
+(
+	ItemID: VehiclePowerUpgradeModuleMK2;
+	OldPath: Workbench/PowerModules;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVPower;
+),
+(
+	ItemID: VehiclePowerUpgradeModuleMK3;
+	OldPath: Workbench/PowerModules;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVPower;
+),
+(
+	ItemID: VehiclePowerUpgradeModuleMK4;
+	OldPath: Workbench/PowerModules;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV/MrPurpleUVPower;
+),
+
+		#	Better Vehicle Storage "MrPurple6411" - 1471	#
+(
+	ItemID: StorageModuleMk2;
+	OldPath: Workbench/Storage;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleBVS;
+),
+(
+	ItemID: StorageModuleMk3;
+	OldPath: Workbench/Storage;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleBVS;
+),
+(
+	ItemID: StorageModuleMk4;
+	OldPath: Workbench/Storage;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleBVS;
+),
+(
+	ItemID: StorageModuleMk5;
+	OldPath: Workbench/Storage;
+	NewPath: Workbench_MK2/OtherModUpgrades/MrPurpleBVS;
+),
+
+		#	Remote Control Vehicles "EldritchCarMaker" - 1943	#
+(
+	ItemID: VehicleRemoteControl;
+	#NewPath: Workbench_MK2/OtherModUpgrades/CommonModules;#
+	NewPath: Workbench_MK2/OtherModUpgrades/EldritchCarMakerRCV;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsRemoteControl;
+	#NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;#
+	NewPath: Workbench_MK2/OtherModUpgrades/EldritchCarMakerRCV;
+	Copied: YES;
+),
+(
+	ItemID: DroneControlRemote;
+	#NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;#
+	NewPath: Workbench_MK2/OtherModUpgrades/EldritchCarMakerRCV;
+	Copied: Yes;
+),
+(
+	ItemID: RemoteControlCar;
+	#NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;#
+	NewPath: Workbench_MK2/OtherModUpgrades/EldritchCarMakerRCV;
+	Copied: Yes;
+),
+(
+	ItemID: RemoteControlAurora;
+	#NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;#
+	NewPath: Workbench_MK2/OtherModUpgrades/EldritchCarMakerRCV;
+	Copied: Yes;
+),
+
+		#	Hull Reinforcement Fix "Indigocoder" - 1348 	#
+(
+	ItemID: HullReinforcementMK2;
+	NewPath: Workbench_MK2/OtherModUpgrades/IndigocoderHRF;
+	Copied: YES;
+),
+(
+	ItemID: HullReinforcementMK3;
+	NewPath: Workbench_MK2/OtherModUpgrades/IndigocoderHRF;
+	Copied: YES;
+),
+
+		#	Torpedoes	#
+(
+	ItemID: WhirlpoolTorpedo;
+	NewPath: Workbench_MK2/OtherModUpgrades/Torpedoes;
+	Copied: YES;
+),
+(
+	ItemID: GasTorpedo;
+	NewPath: Workbench_MK2/OtherModUpgrades/Torpedoes;
+	Copied: YES;
+),
+(
+	ItemID: ExplosiveTorpedo;											#	Alterra Weaponry "mdownsxy" - 2944		#
+	NewPath: Workbench_MK2/OtherModUpgrades/Torpedoes;
+	Copied: YES;
+);

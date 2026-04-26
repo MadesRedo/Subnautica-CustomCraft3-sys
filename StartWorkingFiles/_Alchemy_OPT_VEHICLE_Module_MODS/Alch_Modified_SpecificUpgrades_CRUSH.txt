@@ -1,0 +1,23 @@
+#	CRUSH DRONE SPECIFIC UPGRADES	#
+
+
+ModifiedRecipes:
+
+# ---	DRONE RANGE MODULE	--- #
+(
+    ItemID: DroneRangeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    );
+);

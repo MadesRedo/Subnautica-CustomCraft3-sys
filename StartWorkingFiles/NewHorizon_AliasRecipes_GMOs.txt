@@ -1,0 +1,568 @@
+#---------------------------------------------------------------#
+#			Crafts					#
+#---------------------------------------------------------------#
+	AliasRecipes:
+					#---Equipment---#
+(					#MineralSynth.#
+    ItemID: NHITech_Rutile;
+    DisplayName: "Rutile";
+    Tooltip: "Mineral composed primarily of titanium dioxide (TiO2).
+(Restored item)";
+    AmountCrafted: 4;
+#    LinkedItemIDs: NHITech_Rutile;#
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : titanium;
+),					#MineralSynth.#
+(
+    ItemID: NHILab_BotanicalAnalysisMachine;
+    DisplayName: "Botanical Analysis Machine";
+    Tooltip: "Sort of a small alien containment unit designed for studying local flora. Ancestor of the scanner.
+Hum... can I use it for bacterial analysis too ? Should do the job...
+(Restored item)";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine;
+    Ingredients: 
+    (
+        ItemID: advancedwiringkit;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 2;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 6;
+    ),
+    (
+        ItemID: bigfilteredwater;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab30_Genomic/NHITab35_LabEquipments;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : scanner, basewaterpark;
+),
+					#---Chemitry---#
+(
+    ItemID: NHIMetabo_Ethanol;
+    DisplayName: "Ethanol";
+    Tooltip: "C2H6O. Organic chemical compound with many applications.
+-worth 560ϟ-";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIMetabo_Ethanol;
+    Ingredients: 
+    (
+        ItemID: melon;
+        Required: 1;
+    ),
+    (
+        ItemID: treemushroompiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab43_Chemistry;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : melon, treemushroompiece;
+),
+(
+    ItemID: NHIMetabo_Ethylene;
+    DisplayName: "Ethylene";
+    Tooltip: "C2H4. Flammable gas widely used in the chemical industry.";
+    AmountCrafted: 2;
+#    LinkedItemIDs: NHIMetabo_Ethylene, NHIMetabo_Ethylene;#
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethanol;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    ),
+    (
+        ItemID: jeweleddiskpiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab43_Chemistry;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethanol, jeweleddiskpiece;
+),
+					#---Chemitry/Others---#
+(
+    ItemID: NHIMetabo_EthanolAidKit;
+    DisplayName: "First Aid Kit (x3)";
+    Tooltip: "Treated bandages. Apply to staunch blood-flow and sanitize wounds.";
+    FunctionalID: firstaidkit;
+    SpriteItemID: firstaidkit;
+    AmountCrafted: 0;
+    LinkedItemIDs: firstaidkit, firstaidkit, firstaidkit;
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethanol;
+        Required: 1;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab43_Chemistry;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethanol;
+),
+(
+    ItemID: NHIMetabo_EthyleneFlare;
+    DisplayName: "Flare (x3)";
+    Tooltip: "Disposable light source, useful for distracting certain predators.";
+    FunctionalID: flare;
+    SpriteItemID: flare;
+    AmountCrafted: 0;
+    LinkedItemIDs: flare, flare, flare;
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethylene;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab43_Chemistry;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethylene;
+),
+(
+    ItemID: NHIMetabo_EthyleneAerogel;
+    DisplayName: "Aerogel";
+    Tooltip: "Light, porous, dried gel. High heat insulation.";
+    FunctionalID: aerogel;
+    SpriteItemID: aerogel;
+    AmountCrafted: 0;
+    LinkedItemIDs: aerogel;
+    Ingredients: 
+    (
+        ItemID: NHIMetabo_Ethylene;
+        Required: 1;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab43_Chemistry;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIMetabo_Ethylene;
+),
+					#---OrgaManip---#
+(
+    ItemID: NHIBacteria_Green;
+    DisplayName: "Spirulina Maxima";
+    Tooltip: "Cyanobacteria found at the surface of shallow, tropical waters. Many alimentary applications.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBacteria_Green, Lab1GenomeSequencer;
+    Ingredients: 
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN4_terrestrialPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN5_shallowseaPlant;
+        Required: 2;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab41_OrganismManip;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : seamoth;
+),
+(
+    ItemID: NHIBacteria_Cyan;
+    DisplayName: "Halanaerobium praevalens";
+    Tooltip: "Bacteria having the tendency of accelerating the natural salt crystalization process.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBacteria_Cyan, Lab1GenomeSequencer;
+    Ingredients: 
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN5_shallowseaPlant;
+        Required: 2;
+    ),
+    (
+        ItemID: NHIADN6_deepseaPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab41_OrganismManip;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : ultraglidefins;
+),
+(
+    ItemID: NHIBacteria_Blue;
+    DisplayName: "Sarcina ventriculi";
+    Tooltip: "Genetically modified Sarcina ventriculi strain capable of producing different kinds of fibers depending on what the bacteria are fed.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBacteria_Blue, Lab1GenomeSequencer;
+    Ingredients: 
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN5_shallowseaPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN6_deepseaPlant;
+        Required: 2;
+    ),
+    (
+        ItemID: NHIBio_Membrane;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab41_OrganismManip;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : doubletank;
+),
+(
+    ItemID: NHIBacteria_Orange;
+    DisplayName: "Alicycliphilus Nitrificansis";
+    Tooltip: "Genetically modified Alicycliphilus Denitrificans strain capable of producing numerous chemicals.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBacteria_Orange, Lab1GenomeSequencer;
+    Ingredients: 
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 2;
+    ),
+    (
+        ItemID: NHIADN5_shallowseaPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: bloodoil;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab41_OrganismManip;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : reinforceddivesuit;
+),
+(
+    ItemID: NHIBacteria_Purple;
+    DisplayName: "Rhodospirillum rubrum";
+    Tooltip: "Bacteria specialized into alcohol and gas production.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIBacteria_Purple, Lab1GenomeSequencer;
+    Ingredients: 
+    (
+        ItemID: Lab1GenomeSequencer;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN1_herbivore;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIADN6_deepseaPlant;
+        Required: 2;
+    ),
+    (
+        ItemID: gaspod;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab41_OrganismManip;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : cyclops;
+),
+					#---Metabo---#
+(
+    ItemID: NHIMetaboMult_Green2;
+    DisplayName: "Spirulina Maxima (x8)";
+    Tooltip: "Cyanobacteria found at the surface of shallow, tropical waters. Many alimentary applications.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Green;
+        Required: 1;
+    ),
+    (
+        ItemID: bigfilteredwater;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Green;
+),
+(
+    ItemID: NHIMetaboMult_Green1;
+    DisplayName: "Spirulina Maxima (x4)";
+    Tooltip: "Cyanobacteria found at the surface of shallow, tropical waters. Many alimentary applications.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green, NHIBacteria_Green;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Green;
+        Required: 1;
+    ),
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Green;
+),
+(
+    ItemID: NHIMetaboMult_Cyan1;
+    DisplayName: "Salt Deposit (x2)";
+    Tooltip: "Salt crystalization using sea water, a bunch of bacteria and their food. Also alows the becteria to multiply.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, NHIBacteria_Cyan, NHIBacteria_Cyan, salt, salt;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Cyan;
+        Required: 1;
+    ),
+    (
+        ItemID: purplefanseed;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Cyan;
+),
+(
+    ItemID: NHIMetaboMult_Cyan2;
+    DisplayName: "Bleach";
+    Tooltip: "Bleach synthesis forcing a specific metabolism of this bacterium. Beware, this violent metabolism ends up killing the bacteria.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, bleach;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Cyan;
+        Required: 1;
+    ),
+    (
+        ItemID: purplefanseed;
+        Required: 3;
+    ),
+    (
+        ItemID: creepvineseedcluster;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Cyan;
+),
+(
+    ItemID: NHIMetaboMult_Blue1;
+    DisplayName: "Silicone Rubber (x3)";
+    Tooltip: "Metabolism which results in a component utilized for silicone rubber synthesis. Allows the bacteria to multiply exponentially.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, silicone, silicone, silicone, NHIBacteria_Blue, NHIBacteria_Blue, NHIBacteria_Blue;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Blue;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol4_Vitellus;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Blue;
+),
+(
+    ItemID: NHIMetaboMult_Blue2;
+    DisplayName: "Fiber Mesh (x3)";
+    Tooltip: "Metabolism which results in cellulose production. Allows the bacteria to multiply.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, fibermesh, fibermesh, fibermesh, NHIBacteria_Blue, NHIBacteria_Blue;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Blue;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol2_Amniotic;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Blue;
+),
+(
+    ItemID: NHIMetaboMult_Blue3;
+    DisplayName: "Synthetic Fibers (x3)";
+    Tooltip: "Metabolism which results in the production of a compound necessary to synthetic fibers production. Those bacteria seem to not like it though...";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, aramidfibers, aramidfibers, aramidfibers;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Blue;
+        Required: 1;
+    ),
+    (
+        ItemID: NHISol3_Shell;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Blue;
+),
+(
+    ItemID: NHIMetaboMult_Orange1;
+    DisplayName: "Benzene (x2)";
+    Tooltip: "Oil production by those bacteria is fascinating. Allows the bacteria to multiply.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, benzene, benzene, NHIBacteria_Orange, NHIBacteria_Orange;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Orange;
+        Required: 1;
+    ),
+    (
+        ItemID: melon;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvineseedcluster;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Orange;
+),
+(
+    ItemID: NHIMetaboMult_Orange2;
+    DisplayName: "Hydrochloric Acid";
+    Tooltip: "Genetically modified metabolism which results in hydrochloric acid production. Naturally kills the bacteria.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, hydrochloricacid;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Orange;
+        Required: 1;
+    ),
+    (
+        ItemID: gabesfeatherseed;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Orange;
+),
+(
+    ItemID: NHIMetaboMult_Purple1;
+    DisplayName: "Ethanol (x3)";
+    Tooltip: "Handy Metabolism which results in ethanol production. Allows bacterial proliferation.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, NHIMetabo_Ethanol, NHIMetabo_Ethanol, NHIMetabo_Ethanol, NHIBacteria_Purple, NHIBacteria_Purple;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Purple;
+        Required: 1;
+    ),
+    (
+        ItemID: melon;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Purple;
+),
+(
+    ItemID: NHIMetaboMult_Purple2;
+    DisplayName: "Ethylene (x5)";
+    Tooltip: "Forced metabolism which results in ethylene production. Inhibits bacterial proliferation.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHILab_BotanicalAnalysisMachine, NHIMetabo_Ethylene, NHIMetabo_Ethylene, NHIMetabo_Ethylene, NHIMetabo_Ethylene, NHIMetabo_Ethylene;
+    Ingredients: 
+    (
+        ItemID: NHILab_BotanicalAnalysisMachine;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBacteria_Purple;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIBio_compostcreepvine;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab40_Bioengineering/NHITab42_Metabolism;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIBacteria_Purple;
+);

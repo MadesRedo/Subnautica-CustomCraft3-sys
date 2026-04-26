@@ -1,0 +1,163 @@
+#		PdaGroup: Machines | PdaCategory: Machines		#
+
+
+ModifiedRecipes:
+
+
+#	------------	SEAGLIDE	-----------	#
+(
+    ItemID: Seaglide;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+	(
+        ItemID: Silver;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 3;
+    );
+),
+
+#	------------	BAIE À VÉHICULES MOBILES	-----------	#
+(
+    ItemID: Constructor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 2;
+    ),
+	(
+        ItemID: Gold;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    );
+),
+
+#	------------	BALISE DE NAVIGATION	-----------	#
+(
+    ItemID: Beacon;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	ARMOIRE IMPERMÉABLE	-----------	#
+(
+    ItemID: SmallStorage;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	PIÈGE À GRAVITÉ	-----------	#
+(
+    ItemID: Gravsphere;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	LEURRE À CRÉATURES	-----------	#
+(
+    ItemID: CyclopsDecoy;
+    AmountCrafted: 3;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    );
+);

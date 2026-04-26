@@ -1,0 +1,157 @@
+
+# ---	UPGRADES LIB "LawAbidingDeveloper" - 2430 	--- #
+
+MovedRecipes:
+
+# ---	Repair Tool Upgrades "LawAbidingDeveloper" - 2605 	--- #
+	#__ Speed __#
+(
+	ItemID: RepairToolSpeedUpgradeMk1;
+	OldPath: HandHeldToolsFabricator/Tools/RepairToolTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs/UpgLIB_RepairToolSpeed;
+),
+(
+	ItemID: RepairToolSpeedUpgradeMk2;
+	OldPath: HandHeldToolsFabricator/Tools/RepairToolTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs/UpgLIB_RepairToolSpeed;
+),
+(
+	ItemID: RepairToolSpeedUpgradeMk3;
+	OldPath: HandHeldToolsFabricator/Tools/RepairToolTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs/UpgLIB_RepairToolSpeed;
+),
+	#__ Efficiency __#
+(
+	ItemID: RepairToolEfficiencyUpgradeMk1;
+	OldPath: HandHeldToolsFabricator/Tools/RepairToolTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs/UpgLIB_RepairToolEfficiency;
+),
+(
+	ItemID: RepairToolEfficiencyUpgradeMk2;
+	OldPath: HandHeldToolsFabricator/Tools/RepairToolTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs/UpgLIB_RepairToolEfficiency;
+),
+(
+	ItemID: RepairToolEfficiencyUpgradeMk3;
+	OldPath: HandHeldToolsFabricator/Tools/RepairToolTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs/UpgLIB_RepairToolEfficiency;
+),
+
+# ---	Air Bladder Upgrades "LawAbidingDeveloper" - 3016 	--- #
+	#__ Capacity __#
+(
+	ItemID: AirBladderCapacityUpgradeMk1;
+	OldPath: HandHeldToolsFabricator/Tools/AirBladderTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs/UpgLIB_AirBladderCapacity;
+),
+(
+	ItemID: AirBladderCapacityUpgradeMk2;
+	OldPath: HandHeldToolsFabricator/Tools/AirBladderTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs/UpgLIB_AirBladderCapacity;
+),
+(
+	ItemID: AirBladderCapacityUpgradeMk3;
+	OldPath: HandHeldToolsFabricator/Tools/AirBladderTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs/UpgLIB_AirBladderCapacity;
+),
+	#__ Force __#
+(
+	ItemID: AirBladderForceUpgradeMk1;
+	OldPath: HandHeldToolsFabricator/Tools/AirBladderTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs/UpgLIB_AirBladderForce;
+),
+(
+	ItemID: AirBladderForceUpgradeMk2;
+	OldPath: HandHeldToolsFabricator/Tools/AirBladderTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs/UpgLIB_AirBladderForce;
+),
+(
+	ItemID: AirBladderForceUpgradeMk3;
+	OldPath: HandHeldToolsFabricator/Tools/AirBladderTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs/UpgLIB_AirBladderForce;
+),
+
+# ---	Literal Seaglide Upgrades "LawAbidingDeveloper" - 2254 	--- #
+	#__ Efficiency __#
+(
+	ItemID: SeaglideEfficiencyUpgradeMk1;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideEfficiency;
+),
+(
+	ItemID: SeaglideEfficiencyUpgradeMk2;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideEfficiency;
+),
+(
+	ItemID: SeaglideEfficiencyUpgradeMk3;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideEfficiency;
+),
+	#__ Speed 1 to 6 __#
+(
+	ItemID: SeaglideSpeedUpgradeMk1;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_1;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk2;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_1;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk3;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_1;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk4;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_1;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk5;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_1;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk6;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_1;
+),
+	#__ Speed 7 to 13 __#
+(
+	ItemID: SeaglideSpeedUpgradeMk7;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk8;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk9;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk10;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk11;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk12;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+),
+(
+	ItemID: SeaglideSpeedUpgradeMk13;
+	OldPath: HandHeldToolsFabricator/Tools/SeaglideTab/ExtraUpgrades;
+	NewPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs/UpgLIB_SeaglideSpeed_2;
+);

@@ -1,0 +1,79 @@
+
+#	Fabricator/Resources/AdvancedMaterials		==> 	Copied 	to		==>		Alch_Fab/Alch_Resources/Alch_Adv_Materials		#
+
+MovedRecipes:
+
+# ---	Additions for CC3 "FlaFsteR1991" - 1477	 (Copied) 	--- #
+(
+	ItemID: BioFuel;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: BioFuelPink;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: BioFuelRed;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+
+#	----------------------------------------------------	#
+(
+	ItemID: HydrochloricAcid;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Benzene;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: AramidFibers;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Aerogel;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Polyaniline;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+
+# ---	Alterra Ways "Johnyele" - 1516	(Copied)	--- #
+(
+	ItemID: SodiumBenzoate;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+
+# ---	Armor Suit "EldritchCarMaker" - 1947  (Copied)	--- #
+(
+	ItemID: IonFiber;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+
+# ---	Alterra Weaponry "mdownsxy" - 2944	 (Copied) 	--- #
+(
+	ItemID: BlackPowder;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Adv_Materials;
+	Copied: Yes;
+),
+
+#	_____		HATCHING ENZYMES	|	ENZYMES D'ÉCLOSION		_____ 	#
+
+#	moved to 		: Alchemy Fabricator	 	/	COMPLEX COMPOUNDS	/	Complex Enzymes		(Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes)	#
+#	déplacé vers 	: Fabricateur Alchimique	/	COMPOSÉS COMPLEXES	/	Enzymes Complexes	(Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes)	#
+(
+	ItemID: HatchingEnzymes;
+	OldPath: Fabricator/Resources/AdvancedMaterials;
+	NewPath: Alch_Fab/Alch_ComplexCompounds/Alch_Enzymes;
+);

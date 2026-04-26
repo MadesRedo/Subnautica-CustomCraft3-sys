@@ -1,0 +1,117 @@
+CustomFabricators: 
+(
+    ItemID: ReaddedFab;
+    Ingredients: 
+        ( ItemID: ComputerChip; Required: 1; ),
+        ( ItemID: magnetite; Required: 3; ),
+        ( ItemID: Titanium; Required: 4;);
+    ForceUnlockAtStart: YES; 
+    PdaGroup: InteriorModules;
+    PdaCategory: InteriorModule;
+    DisplayName: "Re-Added"; 
+    Tooltip: "This Fabricator re-add removed stuff.";
+    Model: fabricator; 
+    AllowedInBase: YES;
+    AllowedInCyclops: YES; 
+    ColorTint: 0.0, 0.0, 0.0 ;
+    CustomCraftingTabs: 
+    (
+        TabID: Readded; 
+        DisplayName: "Re-Added"; 
+        SpriteItemID: fabricator;
+        ParentTabPath: ReaddedFab; 
+    ),
+    (
+        TabID: Readded_Upgrades;
+        DisplayName: "Re-Added: Upgrades";
+        SpriteItemID: workbench;
+        ParentTabPath: ReaddedFab; 
+    ),
+    (
+        TabID: Readded_moved;
+        DisplayName: "Re-Added: moved";
+        SpriteItemID: swimchargefins;
+        ParentTabPath: ReaddedFab; 
+    ),
+    (
+        TabID: Readded_moved_tools;
+        DisplayName: "tools";
+        SpriteItemID: repulsioncannon;
+        ParentTabPath: ReaddedFab/Readded_moved;
+	),
+    (
+        TabID: Readded_Materials;
+        DisplayName: "Materials";
+        SpriteItemID: lithium;
+        ParentTabPath: ReaddedFab/Readded; 
+	),
+    (
+        TabID: Readded_Tools;
+        DisplayName: "Tools";
+        SpriteItemID: beacon;
+        ParentTabPath: ReaddedFab/Readded; 
+	),
+    (
+        TabID: Readded_Tablets;
+        DisplayName: "Tablets";
+        SpriteItemID: precursorkey_purple;
+        ParentTabPath: ReaddedFab/Readded; 
+	),
+    (
+        TabID: Readded_knifes;
+        DisplayName: "Knifes";
+        SpriteItemID: heatblade;
+        ParentTabPath: ReaddedFab/Readded_Upgrades; 
+    ); 
+    AddedRecipes:
+    (
+        ItemID: Unobtanium; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: titanium; Required: 1; ),
+            ( ItemID: acidmushroom; Required: 1; ); 
+        Path: ReaddedFab/Readded/Readded_Materials; 
+	),
+    (
+        ItemID: magnesium; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: salt; Required: 3; ); 
+        Path: ReaddedFab/Readded/Readded_Materials;
+	),
+    (
+        ItemID: precursorkey_red; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: precursorioncrystal; Required: 1; ),
+            ( ItemID: aluminumoxide; Required: 2; ); 
+        Path: ReaddedFab/Readded/Readded_Tablets; 
+	),
+    (
+        ItemID: precursorkey_white; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: precursorioncrystal; Required: 1; ),
+            ( ItemID: silver; Required: 2; ); 
+        Path: ReaddedFab/Readded/Readded_Tablets; 
+	),
+    (
+        ItemID: terraformer; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: advancedwiringkit; Required: 1; ),
+            ( ItemID: battery; Required: 1; ); 
+        Path: ReaddedFab/Readded/Readded_Tools; 
+	),
+    (
+        ItemID: diamondblade; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: knife; Required: 1; ),
+            ( ItemID: diamond; Required: 1; ); 
+        Path: ReaddedFab/Readded_Upgrades/Readded_knifes; 
+	),
+    (
+        ItemID: transfuser; AmountCrafted: 1;
+        Ingredients:
+            ( ItemID: scrapmetal; Required: 1; ),
+			( ItemID: diamond; Required: 1; ),
+			( ItemID: copper; Required: 1; ),
+            ( ItemID: Unobtanium; Required: 1; ); 
+        Path: ReaddedFab/Readded/Readded_Tools; 
+	);
+); 

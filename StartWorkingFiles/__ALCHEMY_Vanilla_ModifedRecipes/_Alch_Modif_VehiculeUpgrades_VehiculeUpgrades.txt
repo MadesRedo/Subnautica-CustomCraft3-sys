@@ -1,0 +1,433 @@
+#		PdaGroup: VehicleUpgrades | PdaCategory: VehicleUpgrades		#
+
+
+ModifiedRecipes:
+
+
+#	------------	MODULE MK1 SEAMOTH (200m + 100m => 300m)	------------	#
+(
+    ItemID: VehicleHullModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 2;
+    );
+),
+
+#	------------	RENFORT DE COQUE	------------	#
+(
+    ItemID: VehicleArmorPlating;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Lead;
+        Required: 3;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 3;
+    );
+),
+
+#	------------	RENDEMENT MOTEUR	------------	#
+(
+    ItemID: VehiclePowerUpgradeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE STOCKAGE	------------	#
+(
+    ItemID: VehicleStorageModule;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: Titanium;
+        Required: 5;
+    ),
+	(
+        ItemID: Silver;
+        Required: 2;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 3;
+    );
+),
+
+#	------------	CHARGEUR SOLAIRE SEAMOTH	------------	#
+(
+    ItemID: SeamothSolarCharge;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+#	------------	SYSTÈME DÉFENSE SEAMOTH	------------	#
+(
+    ItemID: SeamothElectricalDefense;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: AluminumOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 3;
+    );
+),
+
+#	------------	SYSTÈME TORPILLES SEAMOTH	------------	#
+(
+    ItemID: SeamothTorpedoModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+
+#	------------	SYSTÈME SONAR SEAMOTH	------------	#
+(
+    ItemID: SeamothSonarModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 3;
+    );
+),
+
+#	------------	MODULE MK1 PRAWN (900m + 400m => 1300m)	------------	#
+(
+    ItemID: ExoHullModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_CorundumGem_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 3;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 4;
+    );
+),
+
+#	------------	RÉACTEUR THERMIQUE PRAWN	------------	#
+(
+    ItemID: ExosuitThermalReactorModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    );
+),
+
+#	------------	AMÉLIO. PROPULSEUR PRAWN	------------	#
+(
+    ItemID: ExosuitJetUpgradeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 2;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 4;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 6;
+    );
+),
+
+#	------------	CANON À PROPULSION PRAWN	------------	#
+(
+    ItemID: ExosuitPropulsionArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 5;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_CopperOxide;
+        Required: 3;
+    );
+),
+
+#	------------	BRAS GRAPPIN PRAWN	----------------	#
+(
+    ItemID: ExosuitGrapplingArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Benzene;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_IronMagneticPowder;
+        Required: 4;
+    );
+),
+
+#	------------	BRAS FORAGE PRAWN	----------------	#
+(
+    ItemID: ExosuitDrillArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 5;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 3;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+),
+
+#	------------	BRAS TORPILLES PRAWN	----------------	#
+(
+    ItemID: ExosuitTorpedoArmModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 4;
+    );
+),
+
+#	------------	TORPILLE VORTEX	----------------	#
+(
+    ItemID: WhirlpoolTorpedo;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_IronMagneticPowder;
+        Required: 3;
+    );
+),
+
+
+#	------------	TORPILLE À GAZ	----------------	#
+(
+    ItemID: GasTorpedo;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+    (
+        ItemID: GasPod;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 3;
+    );
+);

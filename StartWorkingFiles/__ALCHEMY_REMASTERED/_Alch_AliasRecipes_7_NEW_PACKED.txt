@@ -1,0 +1,614 @@
+#		PdaGroup: Resources | PdaCategory: BasicMaterials			#
+#		PdaGroup: Resources | PdaCategory: AdvancedMaterials		#
+
+AliasRecipes:
+
+
+#	-----------------------------------------	#
+#				PACKED MATERIALS				#
+#	-----------------------------------------	#
+
+#	-----------	BASIC MATERIALS -------------	#
+
+#_______	Synthetic Fertilizer Bag	_______#
+(
+    ItemID: Alch_SyntheticManure_Bag;
+	DisplayName: "Synthetic Fertilizer Bag";
+	Tooltip: "10 Synthetic Manure units compacted into 1 Synthetic Fertilizer Bag. Bioreactor: +2200";
+    LinkedItemIDs: Alch_SyntheticManure_Bag;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_SyntheticManure_Bag;
+	UnlockedBy: Alch_SyntheticManure;
+    Ingredients:
+    (
+        ItemID: Alch_SyntheticManure;
+        Required: 10;
+    );
+),
+
+#_______	Organic Fertilizer Bag		_______#
+(
+    ItemID: Alch_OrganicManure_Bag;
+	DisplayName: "Organic Fertilizer Bag";
+	Tooltip: "10 Organic Manure units compacted into 1 Organic Fertilizer Bag. Bioreactor: +3000";
+    LinkedItemIDs: Alch_OrganicManure_Bag;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_OrganicManure_Bag;
+	UnlockedBy: Alch_OrganicManure;
+    Ingredients:
+    (
+        ItemID: Alch_OrganicManure;
+        Required: 10;
+    );
+),
+
+#_______	Magnesium Block		_______#
+(
+    ItemID: Alch_Magnesium_Block;
+	DisplayName: "Magnesium Block";
+	Tooltip: "10 Magnesium units compacted into 1 Magnesium Block. Bioreactor: +1000";
+    LinkedItemIDs: Alch_Magnesium_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnesium_Block;
+	UnlockedBy: Alch_Magnesium;
+    Ingredients:
+    (
+        ItemID: Magnesium;
+        Required: 10;
+    );
+),
+
+#_______	Cinnabar Powder Vial	_______#
+(
+    ItemID: Alch_CinnabarPowder_Vial;
+	DisplayName: "Cinnabar Powder Vial";
+	Tooltip: "10 Mercury Ore compacted into 1 Cinnabar Powder Vial. Bioreactor: +1000";
+    LinkedItemIDs: Alch_CinnabarPowder_Vial;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CinnabarPowder_Vial;
+	UnlockedBy: Alch_MercuryOre;
+    Ingredients:
+    (
+        ItemID: MercuryOre;
+        Required: 10;
+    );
+),
+
+#_______	Copper Ingot 	_______#
+(
+    ItemID: Alch_Copper_Ingot;
+	DisplayName: "Copper Ingot";
+	Tooltip: "10 Copper units compacted into 1 Copper Ingot. Bioreactor: +2000";
+    LinkedItemIDs: Alch_Copper_Ingot;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Copper_Ingot;
+	UnlockedBy: Alch_Copper;
+    Ingredients:
+    (
+        ItemID: Copper;
+        Required: 10;
+    );
+),
+
+#_______	Quartz Block 	_______#
+(
+    ItemID: Alch_Quartz_Block;
+	DisplayName: "Quartz Block";
+	Tooltip: "10 Quartz units compacted into 1 Quartz Block. Bioreactor: +2000";
+    LinkedItemIDs: Alch_Quartz_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Quartz_Block;
+	UnlockedBy: Alch_Quartz;
+    Ingredients:
+    (
+        ItemID: Quartz;
+        Required: 10;
+    );
+),
+
+#_______	Glass Block 	_______#
+(
+    ItemID: Alch_Glass_Block;
+	DisplayName: "Glass Block";
+	Tooltip: "10 Glass units compacted into 1 Glass Block. Bioreactor: +2000";
+    LinkedItemIDs: Alch_Glass_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Glass_Block;
+	UnlockedBy: Quartz;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 10;
+    );
+),
+
+#_______	Enameled Glass Block 	_______#
+(
+    ItemID: Alch_EnameledGlass_Block;
+	DisplayName: "Enameled Glass Block";
+	Tooltip: "10 Enameled Glass units compacted into 1 Enameled Glass Block. Bioreactor: +2000";
+    LinkedItemIDs: Alch_EnameledGlass_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_EnameledGlass_Block;
+	UnlockedBy: EnameledGlass;
+    Ingredients:
+    (
+        ItemID: EnameledGlass;
+        Required: 10;
+    );
+),
+
+#_______	Cave Sulfur Bag 	_______#
+(
+    ItemID: Alch_CrashPowder_Bag;
+	DisplayName: "Cave Sulfur Bag";
+	Tooltip: "10 Cave Sulfur units compacted into 1 Cave Sulfur Bag. Bioreactor: +2200";
+    LinkedItemIDs: Alch_CrashPowder_Bag;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CrashPowder_Bag;
+	UnlockedBy: Alch_CrashPowder;
+    Ingredients:
+    (
+        ItemID: CrashPowder;
+        Required: 10;
+    );
+),
+
+#_______	Salt Block 	_______#
+(
+    ItemID: Alch_Salt_Block;
+	DisplayName: "Salt Block";
+	Tooltip: "10 Salt Deposit units compacted into 1 Salt Block. Bioreactor: +2200";
+    LinkedItemIDs: Alch_Salt_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Salt_Block;
+	UnlockedBy: Alch_Salt;
+    Ingredients:
+    (
+        ItemID: Salt;
+        Required: 10;
+    );
+),
+
+#_______	Lead Block	_______#
+(
+    ItemID: Alch_Lead_Block;
+	DisplayName: "Lead Block";
+	Tooltip: "10 Lead units compacted into 1 Lead Block. Bioreactor: +3500";
+    LinkedItemIDs: Alch_Lead_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lead_Block;
+	UnlockedBy: Alch_Lead;
+    Ingredients:
+    (
+        ItemID: Lead;
+        Required: 10;
+    );
+),
+
+#_______	Silver Ingot	_______#
+(
+    ItemID: Alch_Silver_Ingot;
+	DisplayName: "Silver Ingot";
+	Tooltip: "10 Silver units compacted into 1 Silver Ingot. Bioreactor: +3800";
+    LinkedItemIDs: Alch_Silver_Ingot;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Silver_Ingot;
+	UnlockedBy: Alch_Silver;
+    Ingredients:
+    (
+        ItemID: Silver;
+        Required: 10;
+    );
+),
+
+#_______	Gold Ingot 	_______#
+(
+    ItemID: Alch_Gold_Ingot;
+	DisplayName: "Gold Ingot";
+	Tooltip: "10 Gold units compacted into 1 Gold Ingot. Bioreactor: +3800";
+    LinkedItemIDs: Alch_Gold_Ingot;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Gold_Ingot;
+	UnlockedBy: Alch_Gold;
+    Ingredients:
+    (
+        ItemID: Gold;
+        Required: 10;
+    );
+),
+
+#_______	Lithium Block 	_______#
+(
+    ItemID: Alch_Lithium_Block;
+	DisplayName: "Lithium Block";
+	Tooltip: "10 Lithium units compacted into 1 Lithium Block. Bioreactor: +4000";
+    LinkedItemIDs: Alch_Lithium_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lithium_Block;
+	UnlockedBy: Alch_Lithium;
+    Ingredients:
+    (
+        ItemID: Lithium;
+        Required: 10;
+    );
+),
+
+#_______	Diamond Block 	_______#
+(
+    ItemID: Alch_Diamond_Block;
+	DisplayName: "Diamond Block";
+	Tooltip: "10 Diamond units compacted into 1 Diamond Block. Bioreactor: +5000";
+    LinkedItemIDs: Alch_Diamond_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Diamond_Block;
+	UnlockedBy: Alch_Diamond;
+    Ingredients:
+    (
+        ItemID: Diamond;
+        Required: 10;
+    );
+),
+
+#_______	Ruby Block 	_______#
+(
+    ItemID: Alch_AluminumOxide_Block;
+	DisplayName: "Ruby Block";
+	Tooltip: "10 Ruby units compacted into 1 Ruby Block. Bioreactor: +6000";
+    LinkedItemIDs: Alch_AluminumOxide_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_AluminumOxide_Block;
+	UnlockedBy: Alch_AluminumOxide;
+    Ingredients:
+    (
+        ItemID: AluminumOxide;
+        Required: 10;
+    );
+),
+
+#_______	Magnetite Block 	_______#
+(
+    ItemID: Alch_Magnetite_Block;
+	DisplayName: "Magnetite Block";
+	Tooltip: "10 Magnetite units compacted into 1 Magnetite Block. Bioreactor: +6000";
+    LinkedItemIDs: Alch_Magnetite_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Magnetite_Block;
+	UnlockedBy: Alch_Magnetite;
+    Ingredients:
+    (
+        ItemID: Magnetite;
+        Required: 10;
+    );
+),
+
+#_______	Crystalline Sulfur Block 	_______#
+(
+    ItemID: Alch_Sulphur_Block;
+	DisplayName: "Crystalline Sulfur Block";
+	Tooltip: "10 Crystalline Sulfur units compacted into 1 Crystalline Sulfur Block. Bioreactor: +6000";
+    LinkedItemIDs: Alch_Sulphur_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Sulphur_Block;
+	UnlockedBy: Alch_Sulphur;
+    Ingredients:
+    (
+        ItemID: Sulphur;
+        Required: 10;
+    );
+),
+
+#_______	Nickel Ingot 	_______#
+(
+    ItemID: Alch_Nickel_Ingot;
+	DisplayName: "Nickel Ingot";
+	Tooltip: "10 Nickel units compacted into 1 Nickel Ingot. Bioreactor: +7000";
+    LinkedItemIDs: Alch_Nickel_Ingot;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Nickel_Ingot;
+	UnlockedBy: Alch_Nickel;
+    Ingredients:
+    (
+        ItemID: Nickel;
+        Required: 10;
+    );
+),
+
+#_______	Kyanite Plates 	_______#
+(
+    ItemID: Alch_Kyanite_Plates;
+	DisplayName: "Kyanite Plates";
+	Tooltip: "10 Kyanite units compacted into Kyanite Plates. Bioréacteur : +8000";
+    LinkedItemIDs: Alch_Kyanite_Plates;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Kyanite_Plates;
+	UnlockedBy: Alch_Kyanite;
+    Ingredients:
+    (
+        ItemID: Kyanite;
+        Required: 10;
+    );
+),
+
+#_______	Uraninite Crystal Block 	_______#
+(
+    ItemID: Alch_UraniniteCrystal_Block;
+	DisplayName: "Uraninite Crystal Block";
+	Tooltip: "10 Uraninite Crystal units compacted into 1 Uraninite Crystal Block. Bioréacteur : +9000";
+    LinkedItemIDs: Alch_UraniniteCrystal_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_UraniniteCrystal_Block;
+	UnlockedBy: Alch_UraniniteCrystal;
+    Ingredients:
+    (
+        ItemID: UraniniteCrystal;
+        Required: 10;
+    );
+),
+
+
+#	-----------	ADVANCED MATERIALS -------------	#
+
+#_______	Organic Titanium Block 	_______#
+(
+    ItemID: Alch_OrganicTitanium_Block;
+	DisplayName: "Organic Titanium Block";
+	Tooltip: "10 Organic Titanium units compacted into 1 Organic Titanium Block. Bioreactor: +1000";
+    LinkedItemIDs: Alch_OrganicTitanium_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_OrganicTitanium_Block;
+	UnlockedBy: Alch_OrganicTitanium;
+    Ingredients:
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 10;
+    );
+),
+
+#_______	Copper Oxide Block	_______#
+(
+    ItemID: Alch_CopperOxide_Block;
+	DisplayName: "Copper Oxide Block";
+	Tooltip: "10 Copper Oxide units compacted into 1 Copper Oxide Block. Bioreactor: +1000";
+    LinkedItemIDs: Alch_CopperOxide_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CopperOxide_Block;
+	UnlockedBy: Alch_CopperOxide;
+    Ingredients:
+    (
+        ItemID: Alch_CopperOxide;
+        Required: 10;
+    );
+),
+
+#_______	Sulphur Crystals Block	_______#
+(
+    ItemID: Alch_SulphurCrystals_Block;
+	DisplayName: "Sulphur Crystals Block";
+	Tooltip: "10 Sulphur Crystals units compacted into 1 Sulphur Crystals Block. Bioreactor: +1000";
+    LinkedItemIDs: Alch_SulphurCrystals_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_SulphurCrystals_Block;
+	UnlockedBy: Alch_SulphurCrystals;
+    Ingredients:
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 10;
+    );
+),
+
+#_______	Pink Sea Salt Block 	_______#
+(
+    ItemID: Alch_PinkSalt_Block;
+	DisplayName: "Pink Sea Salt Block";
+	Tooltip: "10 Pink Sea Salt units compacted into 1 Pink Sea Salt Block. Bioreactor: +1000";
+    LinkedItemIDs: Alch_PinkSalt_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_PinkSalt_Block;
+	UnlockedBy: Alch_PinkSalt;
+    Ingredients:
+    (
+        ItemID: Alch_PinkSalt;
+        Required: 10;
+    );
+),
+
+#_______	Iron Magnetic Powder Bag	_______#
+(
+    ItemID: Alch_IronMagneticPowder_Bag;
+	DisplayName: "Iron Magnetic Powder Bag";
+	Tooltip: "10 Iron Magnetic Powder units compacted into 1 Iron Magnetic Powder Bag. Bioreactor: +1800";
+    LinkedItemIDs: Alch_IronMagneticPowder_Bag;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_IronMagneticPowder_Bag;
+	UnlockedBy: Alch_IronMagneticPowder;
+    Ingredients:
+    (
+        ItemID: Alch_IronMagneticPowder;
+        Required: 10;
+    );
+),
+
+#_______	Aluminum Roll 	_______#
+(
+    ItemID: Alch_AluminumRaw_Roll;
+	DisplayName: "Aluminum Roll";
+	Tooltip: "10 Aluminum Raw units compacted into 1 Aluminum Roll. Bioreactor: +2000";
+    LinkedItemIDs: Alch_AluminumRaw_Roll;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_AluminumRaw_Roll;
+	UnlockedBy: Alch_AluminumRaw;
+    Ingredients:
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 10;
+    );
+),
+
+#_______	Carbon Discs	_______#
+(
+    ItemID: Alch_CarbonRaw_Discs;
+	DisplayName: "Carbon Discs";
+	Tooltip: "10 Carbon Raw units compacted into Carbon Discs. Bioreactor: +4000";
+    LinkedItemIDs: Alch_CarbonRaw_Discs;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CarbonRaw_Discs;
+	UnlockedBy: Alch_CarbonRaw;
+    Ingredients:
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 10;
+    );
+),
+
+#_______	Corundum Gem Block  	_______#
+(
+    ItemID: Alch_CorundumGem_Block;
+	DisplayName: "Corundum Gem Block";
+	Tooltip: "10 Corundum Gem units compacted into 1 Corundum Gem Block. Bioreactor: +4500";
+    LinkedItemIDs: Alch_CorundumGem_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_CorundumGem_Block;
+	UnlockedBy: Alch_CorundumGem;
+    Ingredients:
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 10;
+    );
+),
+
+#_______	Radium Crystal Block		_______#
+(
+    ItemID: Alch_RadiumCrystal_Block;
+	DisplayName: "Radium Crystal Block";
+	Tooltip: "10 Radium Crystal units compacted into 1 Radium Crystal Block. Bioreactor: +12000";
+    LinkedItemIDs: Alch_RadiumCrystal_Block;
+	FunctionalID: TitaniumIngot;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+	Path: Alch_Fab/Alchemy/Alch_Pack;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_RadiumCrystal_Block;
+	UnlockedBy: Alch_RadiumCrystal;
+    Ingredients:
+    (
+        ItemID: Alch_RadiumCrystal;
+        Required: 10;
+    );
+);

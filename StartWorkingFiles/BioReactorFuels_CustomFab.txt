@@ -1,0 +1,598 @@
+CustomFabricators:
+#======= V1.25 =======#
+#=====================#
+(
+    ItemID: bFBioFuelsFab;
+    Ingredients:
+        (
+			ItemID: precursorkey_white;
+			Required: 10;
+		);
+    ForceUnlockAtStart: NO;
+    UnlockedBy: nanowires;
+    PdaGroup: InteriorModules;
+    PdaCategory: InteriorModule;
+    DisplayName:"More Bioreactor Fuels - Developer Fabricator";
+    Tooltip: "You dont need this, It sould be allways locked. There is additional code inside in order the mode to function correctly.";
+    Model: MoonPool;
+    ColorTint: 0.0, 0.75, 1.0;
+    AllowedInBase: YES;
+    AllowedInCyclops: YES;
+
+#============CUSTOM CRAFTING TABS==============#
+#==============================================#
+	CustomCraftingTabs:
+		(
+			TabID: bFDeveloperTabFab;
+			DisplayName: "DeveloperTab";
+			SpriteItemID: Peeper;
+			ParentTabPath: bFBioFuelsFab;
+		);
+#=================CUSTOM FOODS=================#
+#==============================================#
+   CustomFoods:
+  
+#____________ bFBasicLiquids ____________#
+
+	(
+		ItemID: bFCODistilledWater;
+		FoodType: filteredwater;
+		DisplayName: "Carboy of Distilled Water";
+		Tooltip: "Water that has been mechanically processed to remove impurities and make it suitable for use.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		FoodValue: -40;
+		WaterValue: 75;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFBODistilledWater;
+		FoodType: filteredwater;
+		DecayRateMod: 0;
+		DisplayName: "Bottle of Distilled Water";
+		Tooltip: "Caution, drink distilled Water leaches minerals from your body and could put your health at risk! Long term use not advised.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		FoodValue: -55;
+		WaterValue: 50;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFSeaWater;
+		FoodType: disinfectedwater;
+		DecayRateMod: 0;
+		DisplayName: "Sea Water";
+		Tooltip: "Water from the sea, compound of dissolved salts 1000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		FoodValue: 0;
+		WaterValue: -10;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFBasicLiquids ____________#
+#____________ bFFermentation ____________#
+
+	(
+		ItemID: bFYeast;
+		FunctionalID: nutrientblock;
+		DisplayName: "Yeast";
+		Tooltip: "Eukaryotic single-celled microorganisms, with the ability to convert sugar into ethanol
+13 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		FoodValue: 55;
+		WaterValue: -5;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFFermentation ____________#
+#____________ bFPlantBiomass ____________#
+
+	(
+		ItemID: bFBOPlantOil;
+		FoodType: filteredwater;
+		DecayRateMod: 0;
+		DisplayName: "Bottle Of Plant Oil";
+		Tooltip: "Like most food fats, plant oils help improve the palatability of foods and serve as a medium for cooking 300ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		FoodValue: 60;
+		WaterValue: -15;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFPlantBiomass ____________#
+#____________ bFAdvancedFuels ___________#
+
+	(
+		ItemID: bFAmmonia;
+		FoodType: filteredwater;
+		DisplayName: "Ammonia";
+		Tooltip: "Ammonia is used as a refrigerant gas, for purification of water supplies, and in the manufacture of plastics, explosives, textiles, pesticides, dyes and other chemicals 11 000ϟ.";
+		DecayRateMod: 0;
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		FoodValue: 0;
+		WaterValue: -50;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	);
+
+#____________ bFAdvancedFuels ___________#
+
+#=================ALIAS RECIPES=================#
+#===============================================#
+   AliasRecipes:
+
+#____________ bFDungFuels ____________#
+
+	(
+		ItemID: bFDryDungCakes;
+		FunctionalID: seatreaderpoop;
+		DisplayName: "Dry Dung Cakes";
+		Tooltip: "Feces in order to be used as a fuel source
+1 000 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFDungCake;
+		FunctionalID: seatreaderpoop;
+		DisplayName: "Dung Cake";
+		Tooltip: "Solid remains of food that could not be digested 100 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFDryDung;
+		FunctionalID:seatreaderpoop;
+		DisplayName: "Dry Dung";
+		Tooltip: "Dehydrated alien feces 7 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFDungFuels _______________#
+#____________ bFPlantBiomass ____________#
+
+	(
+		ItemID: bFPlantOilBarrel;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Plant Oil Barrel";
+		Tooltip: "Container of oil, designed for storage and transport 9 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFCOPlantOil;
+		FunctionalID: lubricant;
+		DisplayName: "Carboy Of Plant Oil Locked";
+		Tooltip: "Fats taken from plants 3 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFPlantBiomass ____________#
+#____________ bFAnimalBiomass ___________#
+	(
+		ItemID: bFTallowBarrel;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Tallow Barrel";
+		Tooltip: "Fuel produced through contemporary processes from biomass 24 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFTallow;
+		FunctionalID: aerogel;
+		DisplayName: "Tallow";
+		Tooltip: "Hard fatty substance made from rendered animal fat 4 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+#____________ bFAnimalBiomass ___________#
+#____________ bFAdvancedFuels ___________#
+
+	(
+		ItemID: bFParticleTrap;
+		FunctionalID: reactorrod;
+		DisplayName: "Particle Trap";
+		Tooltip: "Device for the storage of charged particles using strong magnetic and electric fileds.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFBiodieselBarrel;
+		FunctionalID: pipesurfacefloater;
+		DisplayName: "Biodiesel Barrel";
+		Tooltip: "Fuel produced through contemporary processes from biomass 120 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFHydrazinePowerCell;
+		FunctionalID: hullreinforcementmodule;
+		DisplayName: "Hydrazine Power Cell";
+		Tooltip: "Store away from sources of heat or ignition, should be connected to earth 40 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFHydrazineCan;
+		FunctionalID: bleach;
+		DisplayName: "Hydrazine Can";
+		Tooltip: "Originally used as a rocket fuel during World War II 70 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFAnammoxBacteria;
+		FunctionalID: benzene;
+		DisplayName: "Anammox Bacteria";
+		Tooltip: "Known for their ability to convert ammonium into nitrogen gas without using oxygen.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFAdvancedFuels ___________#
+#____________ bFBioengineering __________#
+	(
+		ItemID: bFOptimuspade;
+		FunctionalID: spadefish;
+		DisplayName: "Optimuspade";
+		Tooltip: "Organism with multiple genetic modifications in order to provide maximum goods 840ϟ.";
+		AmountCrafted: 2;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFFatspade;
+		FunctionalID: spadefish;
+		DisplayName: "Fatspade";
+		Tooltip: "Genetically modified fish that can be used for biomass manufacturing 600ϟ.";
+		AmountCrafted: 2;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFWetspade;
+		FunctionalID: spadefish;
+		DisplayName: "Wetspade";
+		Tooltip: "Genetically modified fish that can be used for water supply 530ϟ.";
+		AmountCrafted: 2;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+	
+	(
+		ItemID: bFBloodspadefishEgg;
+		FunctionalID: bloodoil;
+		DisplayName: "Bloodspade Egg";
+		Tooltip: "Triglyceride environment form organism vulnerable to mutations. Further research is needed 12 000ϟ.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFLeviathanDNA;
+		FunctionalID: labcontainer3;
+		DisplayName: "Leviathan DNA";
+		Tooltip: "Contains the genetic code of a leviathan organisms.";
+		AmountCrafted: 1;
+		Ingredients:
+			( 
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFFatspadeDNA;
+		FunctionalID: labcontainer3;
+		DisplayName: "Fatspade DNA";
+		Tooltip: "Contains the genetic code of a Fatspade fish.";
+		AmountCrafted: 1;
+		Ingredients:
+			( 
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFWetspadeDNA;
+		FunctionalID: labcontainer3;
+		DisplayName: "Wetspade DNA";
+		Tooltip: "Contains the genetic code of a Wetspade fish.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFCrabsquidDNA;
+		FunctionalID: labcontainer3;
+		DisplayName: "Crabsquid DNA";
+		Tooltip: "Contains the genetic code of a Crabsquid.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFBladderfishDNA;
+		FunctionalID: labcontainer3;
+		DisplayName: "Bladderfish DNA";
+		Tooltip: "Contains the genetic code of a Bladderfish.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+#____________ bFBioengineering __________#
+#_________ bFLaboratoryEquipment ________#
+
+	(
+		ItemID: bFSampleAnalyzer;
+		FunctionalID: labequipment3;
+		DisplayName: "Sample Analyzer";
+		Tooltip: "Fully operational matter analysis device.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFFluidAnalyzer;
+		FunctionalID: labequipment2;
+		DisplayName: "Fluid Analyzer";
+		Tooltip: "Fully operational liquid analysis device.";
+		AmountCrafted: 1;
+		Ingredients:
+			( 
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFMicroscope;
+		FunctionalID: labequipment1;
+		DisplayName: "Microscope";
+		Tooltip: "Fully operational genetic modification device.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFPowerSupplyCell;
+		FunctionalID: vehiclehullmodule1;
+		DisplayName: "Power Supply Cell";
+		Tooltip: "Device consisting of one or more electrochemical cells provided to power electrical devices.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	),
+
+	(
+		ItemID: bFLithiumPowerCell;
+		FunctionalID: vehiclehullmodule1;
+		DisplayName: "Lithium Power Cell";
+		Tooltip: "Convert chemical energy directly to electrical energy.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: precursorkey_white;
+				Required: 10;
+			);
+		Path: bFBioFuelsFab/bFDeveloperTabFab;
+		ForceUnlockAtStart: NO; #----- Locked Forever, Do Not Delete -----#
+		UnlockedBy: nanowires;
+	);
+
+#_________ bFLaboratoryEquipment ________#
+
+);

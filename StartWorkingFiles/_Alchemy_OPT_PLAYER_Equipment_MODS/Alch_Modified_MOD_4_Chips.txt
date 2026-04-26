@@ -1,0 +1,398 @@
+
+# 		PERSONAL EQUIPMENT	 	#
+
+ModifiedRecipes:
+
+	#-----------------------------------#
+	#			--- CHIPS ---			#
+	#-----------------------------------#
+	
+# ---	Warp Chip (4 items)		:		+ 1 deployable (DONE) + 1 module (TO DO => need update for this one)	--- #
+# ---	DWEquipment "DaWrecka"			TO DO	--- #
+
+# ---	MoreIngots "M3dicCookie" - 196	--- #
+	#__ Compress __#
+(
+    ItemID: UICompress_Chip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Builder;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    );
+),
+	#__ Decompress __#
+(
+    ItemID: UIDeCompress_Chip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: LaserCutter;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_Gold_Ingot;
+        Required: 1;
+    );
+),
+
+# ---	Immersive Outcrop Break "M3dicCookie" - 2519	--- #
+	#__ LoTech glove chip __#
+(
+    ItemID: LoTechGloveChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 2;
+    );
+),
+	#__ MidTech glove chip __#
+(
+    ItemID: MidTechGloveChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: LoTechGloveChip;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: MercuryOre;
+        Required: 2;
+    );
+),
+	#__ HiTech glove chip __#
+(
+    ItemID: HiTechGloveChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: MidTechGloveChip;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+
+# ---	Better Hud Info "M3dicCookie" - 2517	--- #
+(
+    ItemID: EnhancedHUDChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    );
+),
+
+# ---	Oxygen Audio Monitor "M3dicCookie" - 2522	--- #
+(
+    ItemID: OxygenAudioMonitorChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: StalkerTooth;
+        Required: 2;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 2;
+    );
+),
+
+# ---	Headlamp Chip "Alexius25" - 2901	--- #
+(
+    ItemID: HeadLampChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Flashlight;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    );
+),
+
+# ---	Night Vision Chip "MrJumpscare" - 1811	--- #
+(
+    ItemID: NightVisionChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+
+# ---	Regeneration chip "subqq" - 1711	--- #
+	#__ Health Recovery Chip MK1 __#
+(
+    ItemID: HealthRecoveryChipMK1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: FirstAidKit;
+        Required: 5;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+	#__ Health Recovery Chip MK2 __#
+(
+    ItemID: HealthRecoveryChipMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HealthRecoveryChipMK1;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    );
+),	
+	#__ Health Recovery Chip MK3 __#
+(
+    ItemID: HealthRecoveryChipMK3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HealthRecoveryChipMK2;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+    (
+        ItemID: Gold;
+        Required: 2;
+    ),
+	(
+        ItemID: AluminumOxide;
+        Required: 3;
+    );
+),
+
+# ---	Recharger Chips "EldritchCarMaker" - 1940	--- #
+	#__ Solar Charger Chip __#
+(
+    ItemID: SolarChargerChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 5;
+    ),
+    (
+        ItemID: Copper;
+        Required: 2;
+    );
+),
+	#__ Thermal Charger Chip __#
+(
+    ItemID: ThermalChargerChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 4;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+	#__ Combo Charger Chip __#
+(
+    ItemID: ComboChargerChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SolarChargerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: ThermalChargerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 3;
+    );
+),
+
+# ---	Sonar Chip "EldritchCarMaker" - 1955	--- #
+(
+    ItemID: SonarChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 3;
+    ),
+    (
+        ItemID: SpikePlantSeed;
+        Required: 2;
+    );
+),
+
+# ---	Warp Chip "EldritchCarMaker" - 1948		--- #
+	#__ Warp Chip __#
+(
+    ItemID: WarpChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonBattery;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    );
+),
+	#__ Ultimate Warp Chip __#
+(
+    ItemID: UltimateWarpChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WarpChip;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 5;
+    ),
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    );
+);

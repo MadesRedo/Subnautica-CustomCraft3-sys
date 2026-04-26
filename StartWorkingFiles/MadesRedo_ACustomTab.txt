@@ -1,0 +1,49 @@
+CustomCraftingTabs:
+(
+    TabID: MR_Craft;
+    DisplayName: "MadesRedo EasierCraft";
+    ParentTabPath: Fabricator;
+    SpriteItemID: CuteFishEgg;
+),
+(
+    TabID: MR_Crystals;
+    DisplayName: "MadesRedo Stones";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: Diamond;
+),
+(
+    TabID: MR_Elements2;
+    DisplayName: "MadesRedo Elements";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: Magnetite;
+),
+(
+    TabID: MR_Food;
+    DisplayName: "MadesRedo Foods";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: NutrientBlock;
+),
+(
+    TabID: MR_ChemLab;
+    DisplayName: "MadesRedo Chemistry";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: Benzene;
+),
+(
+    TabID: MR_BioGarden;
+    DisplayName: "MadesRedo BioGarden";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: CreepvineSeedCluster;
+),
+(
+    TabID: MR_Eggs;
+    DisplayName: "MadesRedo Eggs";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: Shockeregg;
+),
+(
+    TabID: MR_ScrapTab;
+    DisplayName: "MadesRedo BetterSalvage";
+    ParentTabPath: Fabricator/MR_Craft;
+    SpriteItemID: ScrapMetal;
+);

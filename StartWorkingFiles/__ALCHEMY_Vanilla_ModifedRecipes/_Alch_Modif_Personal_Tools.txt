@@ -1,0 +1,341 @@
+#		PdaGroup: Personal | PdaCategory: Tools		#
+
+
+ModifiedRecipes:
+
+
+#	------------	SCANNER	-----------	#
+(
+    ItemID: Scanner;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 2;
+    ),
+	(
+        ItemID: Copper;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	OUTIL DE RÉPARATION	-----------	#
+(
+    ItemID: Welder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: CrashPowder;
+        Required: 2;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	LAMPE TORCHE	-----------	#
+(
+    ItemID: Flashlight;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	COUTEAU DE SURVIE	-----------	#
+(
+    ItemID: Knife;
+    AmountCrafted: 1;
+    Ingredients:
+	( 
+		ItemID: Silicone; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Titanium; 
+		Required: 2; 
+	);
+),
+
+#	------------	OUTIL DE REPÉRAGE	-----------	#
+(
+    ItemID: DiveReel;
+    AmountCrafted: 1;
+    Ingredients:
+	( 
+		ItemID: Battery; 
+		Required: 1; 
+	),
+	( 
+		ItemID: WiringKit; 
+		Required: 1; 
+	),
+	( 
+		ItemID: CopperWire; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Silicone; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Glass; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Titanium; 
+		Required: 1; 
+	);
+),
+
+#	------------	POCHE D'AIR		-----------	#
+(
+    ItemID: AirBladder;
+    AmountCrafted: 1;
+    Ingredients:
+	( 
+		ItemID: Silicone; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Bladderfish; 
+		Required: 2; 
+	);
+),
+
+#	------------	FUSÉES ÉCLAIRANTES	-----------	#
+(
+    ItemID: Flare;
+    AmountCrafted: 5;
+    Ingredients: 
+    (
+        ItemID: Pipe;
+        Required: 5;
+    ),
+	(
+        ItemID: CrashPowder;
+        Required: 2;
+    );
+),
+
+#	------------	CONSTRUCTEUR HABITAT	-----------	#
+(
+    ItemID: Builder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	DÉCOUPEUR LASER	-----------	#
+(
+    ItemID: LaserCutter;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 3;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	FUSIL À STASE	-----------	#
+(
+    ItemID: StasisRifle;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+
+#	------------	CANON À PROPULSION	-----------	#
+(
+    ItemID: PropulsionCannon;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 4;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+
+#	------------	BÂTON LUMINEUX	-----------	#
+(
+    ItemID: LEDLight;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: Glass;
+        Required: 1;
+    );
+);

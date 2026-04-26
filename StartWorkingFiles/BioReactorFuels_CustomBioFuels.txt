@@ -1,0 +1,87 @@
+CustomBioFuels: 
+#======= V1.25 =======#
+#=====================#
+(
+    ItemID: bFAmmonia;
+    Energy: 11000;
+),
+(
+    ItemID: bFBiodieselBarrel;
+    Energy: 120000;
+),
+(
+    ItemID: bFBloodspadefishEgg;
+    Energy: 12000;
+),
+(
+    ItemID: bFBOPlantOil;
+    Energy: 300;
+),
+(
+    ItemID: bFCOPlantOil;
+    Energy: 3000;
+),
+(
+    ItemID: bFDarkBiomass;
+    Energy: 400000;
+),
+(
+    ItemID: bFDryDung;
+    Energy: 7000;
+),
+(
+    ItemID: bFDryDungCakes;
+    Energy: 1000000;
+),
+(
+    ItemID: bFDungCake;
+    Energy: 100000;
+),
+(
+    ItemID: bFDungCakePile;
+    Energy: 6000000;
+),
+(
+    ItemID: bFEthanolBarrel;
+    Energy: 21000;
+),
+(
+    ItemID: bFFatspade;
+    Energy: 600;
+),
+(
+    ItemID: bFHydrazineCan;
+    Energy: 70000;
+),
+(
+    ItemID: bFHydrazinePowerCell;
+    Energy: 40000;
+),
+(
+    ItemID: bFOptimuspade;
+    Energy: 840;
+),
+(
+    ItemID: bFPlantOilBarrel;
+    Energy: 9000;
+),
+(
+    ItemID: bFSeaWater;
+    Energy: 1000;
+),
+(
+    ItemID: bFTallow;
+    Energy: 4000;
+),
+(
+    ItemID: bFTallowBarrel;
+    Energy: 24000;
+),
+(
+    ItemID: bFWetspade;
+    Energy: 530;
+),
+(
+    ItemID: bFYeast;
+    Energy: 13000;
+);

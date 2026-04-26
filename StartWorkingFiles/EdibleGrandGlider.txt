@@ -1,0 +1,45 @@
+CustomFoods:
+(
+    ItemID: CookedGrandGlider;
+    DecayRateMod: 1; 
+    DisplayName: "Cooked Grand glider";
+    UnlockedBy: GrandGlider;
+    Tooltip: "Meaty and dense with a creamy melt in your mouth texture. A very hefty meal.";
+    SpriteItemID: CookedGrandGlider;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: GrandGlider;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/CookedFood;
+    ForceUnlockAtStart: NO;
+    WaterValue:10;
+    FoodValue:85;
+    FoodType: GrandGlider;
+    SpriteItemID: GrandGlider;
+),
+(
+    ItemID: CuredGrandGlider;
+    DecayRateMod: 0; 
+    DisplayName: "Cured Grand glider";
+    UnlockedBy: GrandGlider;
+    Tooltip: "Richly flavored with a deeply complex salty umami flavor. Dehydrating, but keeps well.";
+    SpriteItemID: CuredGrandGlider;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: GrandGlider;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 2;
+    );
+    Path: Fabricator/Survival/CuredFood;
+    ForceUnlockAtStart: NO;
+    WaterValue:-5;
+    FoodValue:85;
+    FoodType: GrandGlider;
+    SpriteItemID: GrandGlider;
+);

@@ -1,0 +1,56 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Helmets	#
+(
+	ItemID: FlashlightHelmet;													#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/HelmetMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+),
+(
+	ItemID: Rebreather;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: RadiationHelmet;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: RebreatherRadiationHelmet;											#	__ Helmet : Reinforced Radiation Suit "Indigocoder" - 1512	#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: IlluminatedRebreather;												#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/HelmetMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+),
+(
+	ItemID: LightRadHelmet;														#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/HelmetMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+),
+(
+	ItemID: AcidHelmet;															#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/HelmetMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+),
+(
+	ItemID: Blueprint_LightRadHelmetPlusRebreather;								#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+),
+(
+	ItemID: Blueprint_LightRebreatherPlus;										#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+),
+(
+	ItemID: Blueprint_LightRadHelmetToUltimateHelmet;							#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerHelmetUpgrades;
+);

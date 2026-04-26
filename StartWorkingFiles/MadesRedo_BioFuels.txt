@@ -1,0 +1,45 @@
+CustomBioFuels:
+(
+    ItemID: MR_Fertilizer;
+    Energy: 2200;
+),
+(
+    ItemID: MR_BioEthanol;
+    Energy: 4000;
+),
+(
+    ItemID: MR_BioGas;
+    Energy: 8000;
+),
+(
+    ItemID: MR_CompostCreepVine;
+    Energy: 2500;
+),
+(
+    ItemID: MR_BioAlgae;
+    Energy: 3200;
+),
+(
+    ItemID: MR_FishOil;
+    Energy: 8000;
+),
+(
+    ItemID: MR_Ethanol;
+    Energy: 2000;
+),
+(
+    ItemID: MR_Ethylene;
+    Energy: 1500;
+),
+(
+    ItemID: MR_Hydrazine;
+    Energy: 12000;
+),
+(
+    ItemID: MR_EggShell;
+    Energy: 120;
+),
+(
+    ItemID: MR_OrganicBaseMaterial;
+    Energy: 600;
+);

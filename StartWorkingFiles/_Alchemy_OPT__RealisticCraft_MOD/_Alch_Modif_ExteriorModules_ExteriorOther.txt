@@ -1,0 +1,36 @@
+﻿#		PdaGroup: ExteriorModules | PdaCategory: ExteriorOther		#
+
+
+ModifiedRecipes:
+
+
+#	------------	BAC À CULTURE EXTÉRIEUR	-----------	#
+(
+    ItemID: FarmingTray;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SyntheticManure;
+        Required: 2;
+    );
+),
+
+#	------------	POMPE À AIR MURALE	-----------	#
+(
+    ItemID: BasePipeConnector;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    );
+);
+

@@ -1,0 +1,154 @@
+#		PdaGroup: BasePieces | PdaCategory: BaseRoom		#
+
+
+ModifiedRecipes:
+
+
+#	------------	SALLE MULTIFONCTION	-----------	#
+(
+    ItemID: BaseRoom;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    );
+),
+
+#	------------	SALLE DE SCANNER	-----------	#
+(
+    ItemID: BaseMapRoom;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 5;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+    (
+        ItemID: Gold;
+        Required: 2;
+    );
+),
+
+#	------------	CHAMBRE D'IMMERSION	-----------	#
+(
+    ItemID: BaseMoonpool;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 2;
+    ),
+	(
+        ItemID: Lubricant;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 3;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    );
+),
+
+#	------------	OBSERVATOIRE	-----------	#
+(
+    ItemID: BaseObservatory;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    );
+),
+
+#	------------	GRANDE SALLE	-----------	#
+(
+    ItemID: BaseLargeRoom;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PlasteelIngot;
+        Required: 2;
+    ),
+	(
+        ItemID: Copper;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 3;
+    );
+),
+
+#	------------	DÔME EN VERRE : SALLE MULTI		-----------	#
+(
+    ItemID: BaseGlassDome;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_Glass_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    );
+),
+
+#	------------	DÔME EN VERRE : GRANDE SALLE	-----------	#
+(
+    ItemID: BaseLargeGlassDome;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 5;
+    ),
+	(
+        ItemID: Alch_EnameledGlass_Block;
+        Required: 1;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+);

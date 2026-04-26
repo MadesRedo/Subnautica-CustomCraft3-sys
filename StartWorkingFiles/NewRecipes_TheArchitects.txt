@@ -1,0 +1,38 @@
+AddedRecipes:
+(
+    ItemID: PrecursorKey_White;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: magnetite;
+        Required: 3;
+    ),
+    (
+        ItemID: diamond;
+        Required: 2;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy: PrecursorKey_White;
+    Path: Fabricator/PrecursorTab/PrecursorKeysTab;
+),
+(
+    ItemID: PrecursorKey_Red;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: aluminumoxide;
+        Required: 5;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy: PrecursorKey_Red;
+    Path: Fabricator/PrecursorTab/PrecursorKeysTab;
+),
+

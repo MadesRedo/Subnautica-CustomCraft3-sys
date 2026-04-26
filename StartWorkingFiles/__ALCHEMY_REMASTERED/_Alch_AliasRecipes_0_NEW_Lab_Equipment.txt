@@ -1,0 +1,145 @@
+
+
+
+AliasRecipes:
+
+
+	#-----------------------------#
+	#		 EQUIPEMENT LAB.	  #
+	#-----------------------------#
+
+#---------		ANALYZERS		---------#
+
+	#---	Sample analyzer	 	---#
+(
+	ItemID: Alch_LabEquipment3;
+	DisplayName: "Sample analyzer";
+	Tooltip: "Sample analyzer. Alterra is lying to you! They don't want you to learn the secrets of Alchemy! Contrary to its description, it turns out to be FUNCTIONAL & INDISPENSABLE. Useful in some Alchemical recipes, from Basic to Standard.";
+    LinkedItemIDs: LabEquipment3;
+	FunctionalID: LabEquipment3;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_LabEquipment;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_LabEquipment3;
+    Ingredients:
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    );
+),
+
+	#---	Microscope	   ---#
+(
+	ItemID: Alch_LabEquipment1;
+	DisplayName: "Microscope";
+	Tooltip: "Microscope. Alterra is lying to you! They don't want you to learn the secrets of Alchemy! Contrary to its description, it turns out to be FUNCTIONAL & INDISPENSABLE. The specific ally of Advanced Alchemy, but also of Master Alchemy.";
+	SpriteItemID: LabEquipment1;
+    LinkedItemIDs: LabEquipment1;
+	FunctionalID: LabEquipment1;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_LabEquipment;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_LabEquipment1;
+    Ingredients:
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+	#---	Fluid analyzer		---#
+(
+	ItemID: Alch_LabEquipment2;
+	DisplayName: "Fluid analyzer";
+	Tooltip: "Fluid analyzer. Alterra is lying to you! They don't want you to learn the secrets of Alchemy! Contrary to its description, it turns out to be FUNCTIONAL & INDISPENSABLE. Exclusive to the creation of fluids and 'Strange Compounds'.";
+	SpriteItemID: LabEquipment2;
+    LinkedItemIDs: LabEquipment2;
+	FunctionalID: LabEquipment2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_LabEquipment;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_LabEquipment2;
+    Ingredients:
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 2;
+    );
+),
+
+#--------------		CONTAINERS		---------------#
+
+	#---	Cylindrical sample bottle	 ---#
+(
+	ItemID: Alch_LabContainer3;
+	DisplayName: "Cylindrical sample bottle";
+	Tooltip: "Cylindrical sample bottle (x2). Small glass test container, exclusively used to obtain Alchemical Quartz, which requires 2.";
+    LinkedItemIDs: Alch_LabContainer3, Alch_LabContainer3;
+	FunctionalID: LabContainer3;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_LabEquipment;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_LabContainer3;
+    Ingredients:
+	(
+        ItemID: Glass;
+        Required: 1;
+    );
+),
+
+	#---	Alchemist's Flask	 ---#
+(
+	ItemID: Alch_LabContainer2;
+	DisplayName: "Alchemist's Flask";
+	Tooltip: "Alchemist's Flask (x2). Made of glass, the chemist's flask is essential for certain recipes with unstable pH levels during the manufacturing process.";
+    LinkedItemIDs: Alch_LabContainer2, Alch_LabContainer2;
+	FunctionalID: LabContainer2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_LabEquipment;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_LabContainer2;
+    Ingredients:
+	(
+        ItemID: Glass;
+        Required: 1;
+    );
+),
+
+	#---	Large element mixer	 	---#
+(
+	ItemID: Alch_LabContainer;
+	DisplayName: "Large element mixer";
+	Tooltip: "Large element mixer. Glass container, specifically for making rarer alchemical recipes.";
+    LinkedItemIDs: Alch_LabContainer;
+	FunctionalID: LabContainer;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_LabEquipment;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_LabContainer;
+    Ingredients:
+	(
+        ItemID: Glass;
+        Required: 1;
+    );
+);

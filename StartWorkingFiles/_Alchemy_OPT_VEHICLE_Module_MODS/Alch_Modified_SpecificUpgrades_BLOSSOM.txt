@@ -1,0 +1,202 @@
+#	BLOSSOM SPECIFIC UPGRADES	#
+
+
+ModifiedRecipes:
+
+# ---	MESMERIZER POWER MODULES	--- #
+	#__ POWER MK1 __#
+(
+    ItemID: MesmerizerPower1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: StalkerTooth;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_Compound_Pink;
+        Required: 1;
+    ),
+    (
+        ItemID: MesmerEgg;
+        Required: 1;
+    );
+),
+	#__ POWER MK2 __#
+(
+    ItemID: MesmerizerPower2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: MesmerizerPower1;
+        Required: 1;
+    ),
+	(
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_Compound_Yellow;
+        Required: 1;
+    ),
+    (
+        ItemID: RedGreenTentacleSeed;
+        Required: 1;
+    );
+),
+	#__ POWER MK3 __#
+(
+    ItemID: MesmerizerPower3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: MesmerizerPower2;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonBattery;
+        Required: 1;
+    ),
+	(
+        ItemID: Sulphur;
+        Required: 3;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_Compound_Blue;
+        Required: 1;
+    );
+),
+
+# ---	MESMERIZER RANGE MODULES	--- #
+	#__ RANGE MK1 __#
+(
+    ItemID: MesmerizerRange1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    ),
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 1;
+    );
+),
+	#__ RANGE MK2 __#
+(
+    ItemID: MesmerizerRange2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: MesmerizerRange1;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 4;
+    ),
+    (
+        ItemID: SnakeMushroomSpore;
+        Required: 1;
+    );
+),
+	#__ RANGE MK3 __#
+(
+    ItemID: MesmerizerRange3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: MesmerizerRange2;
+        Required: 1;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Compound_Purple_Cyan;
+        Required: 1;
+    ),
+    (
+        ItemID: SeaCrownSeed;
+        Required: 1;
+    );
+),
+
+# ---	ENZYME DISTRIBUTOR MODULE	--- #
+(
+    ItemID: EnzymeDistributor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+    (
+        ItemID: Peeper;
+        Required: 1;
+    );
+),
+
+# ---	SCANNER MODULE	--- #
+(
+    ItemID: BlossomScanner;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Scanner;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+);

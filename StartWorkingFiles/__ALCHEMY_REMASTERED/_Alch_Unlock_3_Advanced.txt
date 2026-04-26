@@ -1,0 +1,35 @@
+
+
+
+ModifiedRecipes: 
+
+
+(
+	ItemID: Alch_Diamond;
+	UnlockedBy: SeaTreaderPoop, CutefishEgg, CutefishEggUndiscovered;
+	Unlocks: Alch_Diamond_&_Carbon;
+),
+(
+	ItemID: Alch_CarbonRaw;
+	Unlocks: Alch_Magnetite;
+),
+(
+	ItemID: Alch_AluminumOxide;
+	UnlockedBy: Alch_AluminumRaw;
+	Unlocks: Alch_Ruby_&_Corundum;
+),
+(
+	ItemID: Alch_Magnetite;
+	UnlockedBy: VehicleHullModule2;
+	Unlocks: Alch_Magnetite_X;
+),
+(
+	ItemID: Alch_Sulphur;
+	UnlockedBy: ExosuitJetUpgradeModule;
+	Unlocks: Alch_Sulphur_X;
+),
+(
+	ItemID: Alch_Nickel;
+	UnlockedBy: CyclopsHullModule2;
+	Unlocks: Alch_Nickel_X;
+);

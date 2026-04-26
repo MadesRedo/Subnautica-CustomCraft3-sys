@@ -1,0 +1,53 @@
+AliasRecipes:
+    (
+        ItemID: add_seamoth_sonar;
+        DisplayName: "Seamoth Sonar";
+        Tooltip: "Cheap Seamoth Sonar";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, seamothsonarmodule;
+        SpriteItemID: seamothsonarmodule;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_cyclops_sonar;
+        DisplayName: "Cyclops Sonar Upgrade";
+        Tooltip: "Cheap Cyclops Sonar";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopssonarmodule;
+        SpriteItemID: cyclopssonarmodule;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    ),
+    (
+        ItemID: add_cyclops_shield;
+        DisplayName: "Cyclops Shield Generator";
+        Tooltip: "Cheap Cyclops Shield Generator";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, cyclopsshieldmodule;
+        SpriteItemID: cyclopsshieldmodule;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapVehicleUpgrades;
+    );
+	

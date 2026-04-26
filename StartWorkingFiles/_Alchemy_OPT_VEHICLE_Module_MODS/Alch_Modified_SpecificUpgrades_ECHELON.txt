@@ -1,0 +1,332 @@
+#	ECHELON SPECIFIC UPGRADES	#
+
+
+ModifiedRecipes:
+
+# ---	DRIVE MODULES	--- #
+	#__ DRIVE MK1 __#
+(
+    ItemID: EchelonDriveMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 2;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Copper;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+	#__ DRIVE MK2 __#
+(
+    ItemID: EchelonDriveMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonDriveMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    );
+),
+	#__ DRIVE MK3 __#
+(
+    ItemID: EchelonDriveMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonDriveMk2;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 4;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# ---	REPAIR MODULES	--- #
+	#__ REPAIR MK1 __#
+(
+    ItemID: EchelonRepairModuleMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+	#__ REPAIR MK2 __#
+(
+    ItemID: EchelonRepairModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonRepairModuleMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+	#__ REPAIR MK3 __#
+(
+    ItemID: EchelonRepairModuleMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonRepairModuleMk2;
+        Required: 1;
+    ),
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 2;
+    );
+),
+
+# ---	NUCLEAR BATTERY MODULES	--- #
+	#__ BATTERY MODULE 0 __#
+(
+    ItemID: EchelonNuclearBatteryModule0;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: UraniniteCrystal;
+        Required: 3;
+    ),
+	(
+        ItemID: Lead;
+        Required: 4;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+	#__ BATTERY MODULE 1 __#
+(
+    ItemID: EchelonNuclearBatteryModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonNuclearBatteryModule0;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: UraniniteCrystal;
+        Required: 9;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    );
+),
+
+# ---	RAILGUN MODULES	--- #
+	#__ RAILGUN MK1 __#
+(
+    ItemID: EchelonRailgunMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+	#__ RAILGUN MK2 __#
+(
+    ItemID: EchelonRailgunMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonRailgunMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Magnetic_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# ---	TORPEDO MODULES	--- #
+	#__ TORPEDO MODULE 0 __#
+(
+    ItemID: EchelonTorpedoModule0;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: CrashPowder;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    );
+),
+	#__ TORPEDO MODULE 1 __#
+(
+    ItemID: EchelonTorpedoModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonTorpedoModule0;
+        Required: 1;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    );
+),
+	#__ TORPEDO MODULE 2 __#
+(
+    ItemID: EchelonTorpedoModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EchelonTorpedoModule1;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    );
+);

@@ -1,0 +1,35 @@
+AddedRecipes: 
+(
+    ItemID: NutrientBlock;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Melon;
+        Required: 1;
+    ),
+    (
+        ItemID: CuredPeeper;
+        Required: 1;
+    ),
+    (
+        ItemID: HangingFruit;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Survival;
+    PdaCategory: CookedFood;
+    Path: Fabricator/IMCCraft/IMCHealth;
+),
+(
+    ItemID: BigFilteredWater;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: FilteredWater;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Survival;
+    PdaCategory: Water;
+    Path: Fabricator/IMCCraft/IMCHealth;
+);

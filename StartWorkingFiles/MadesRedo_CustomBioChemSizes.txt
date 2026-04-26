@@ -1,0 +1,38 @@
+CustomSizes:
+(
+    ItemID: MR_BioEthanol;
+    Width: 2;
+    Height: 2;
+),
+(
+    ItemID: MR_BioGas;
+    Width: 2;
+    Height: 2;
+),
+(
+    ItemID: MR_BioAlgae;
+    Width: 2;
+    Height: 2;
+),
+(
+    ItemID: MR_FishOil;
+    Width: 2;
+    Height: 2;
+),
+(
+    ItemID: MR_Hydrazine;
+    Width: 2;
+    Height: 2;
+),
+(
+    ItemID: MR_FluidAnalyzer;
+    Width: 2;
+    Height: 2;
+),
+(
+    ItemID: MR_DissolvingDevice;
+    Width: 2;
+    Height: 2;
+);
+
+

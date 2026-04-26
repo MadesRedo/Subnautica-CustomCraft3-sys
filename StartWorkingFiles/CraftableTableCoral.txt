@@ -1,0 +1,9 @@
+AddedRecipes:
+(
+    ItemID:JeweledDiskPiece;
+    AmountCrafted: 3;
+    Ingredients:
+        ( ItemID:AcidMushroom; Required:3; );
+    Path:Fabricator/Resources/BasicMaterials;
+    ForceUnlockAtStart: YES;
+);

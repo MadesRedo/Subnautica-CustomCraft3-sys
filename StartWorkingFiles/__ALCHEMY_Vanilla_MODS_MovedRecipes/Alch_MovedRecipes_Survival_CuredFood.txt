@@ -1,0 +1,133 @@
+
+#	Fabricator/Survival/CuredFood		==> 	Copied 	to		==>		Alch_Fab/Alch_Survival/Alch_CuredFood		#
+
+MovedRecipes:
+
+
+(
+	ItemID: CuredHoleFish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredPeeper;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredBladderfish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredGarryFish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredHoverfish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredReginald;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredSpadefish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredBoomerang;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredLavaBoomerang;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredEyeye;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredLavaEyeye;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredOculus;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredHoopfish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredSpinefish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+
+# ---	De-Extinction 2.0 "Kallie23" - 640		--- #
+(
+	ItemID: CuredFiltorb;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredFloralFiltorb;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredAxetail;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredJellySpinner;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredRibbonRay;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredTriangleFish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredRubyClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredSapphireClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredEmeraldClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredAmberClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+),
+(
+	ItemID: CuredCitrineClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CuredFood;
+	Copied: Yes;
+);

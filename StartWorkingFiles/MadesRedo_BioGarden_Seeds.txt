@@ -1,0 +1,503 @@
+AliasRecipes:
+(
+ItemID: multiplycreepvineseedcluster;
+DisplayName: "Creepvine Seed Cluster (x10)";
+Tooltip: "Creepvine Seed. Multiplied in the BioGarden.";
+FunctionalID: creepvineseedcluster;
+SpriteItemID: creepvineseedcluster;
+AmountCrafted: 0;
+LinkedItemIDs: creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster, creepvineseedcluster;
+Ingredients:
+(
+ItemID: creepvineseedcluster;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: YES;
+),
+(
+ItemID: multiplyeyesplantseed;
+DisplayName: "Eye Stalk Seed (x10)";
+Tooltip: "Eye Stalk Seed. Multiplied in the BioGarden.";
+FunctionalID: eyesplantseed;
+SpriteItemID: eyesplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed, eyesplantseed;
+Ingredients:
+(
+ItemID: eyesplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: YES;
+),
+(
+ItemID: multiplyfernpalmseed;
+DisplayName: "Fern Palm Seed (x10)";
+Tooltip: "Fern Palm Seed. Multiplied in the BioGarden.";
+FunctionalID: fernpalmseed;
+SpriteItemID: fernpalmseed;
+AmountCrafted: 0;
+LinkedItemIDs: fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed, fernpalmseed;
+Ingredients:
+(
+ItemID: fernpalmseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: fernpalmseed;
+),
+(
+ItemID: multiplymelonseed;
+DisplayName: "Marblemelon Seed (x10)";
+Tooltip: "Marblemelon Seed. Multiplied in the BioGarden.";
+FunctionalID: melonseed;
+SpriteItemID: melonseed;
+AmountCrafted: 0;
+LinkedItemIDs: melonseed, melonseed, melonseed, melonseed, melonseed, melonseed, melonseed, melonseed, melonseed, melonseed;
+Ingredients:
+(
+ItemID: melonseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: melonseed;
+),
+(
+ItemID: multiplypurplebranchesseed;
+DisplayName: "Cave Bush Seed (x10)";
+Tooltip: "Cave Bush Seed. Multiplied in the BioGarden.";
+FunctionalID: purplebranchesseed;
+SpriteItemID: purplebranchesseed;
+AmountCrafted: 0;
+LinkedItemIDs: purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed, purplebranchesseed;
+Ingredients:
+(
+ItemID: purplebranchesseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplebranchesseed;
+),
+(
+ItemID: multiplypurplestalkseed;
+DisplayName: "Violet Beau Seed (x10)";
+Tooltip: "Violet Beau Seed. Multiplied in the BioGarden.";
+FunctionalID: purplestalkseed;
+SpriteItemID: purplestalkseed;
+AmountCrafted: 0;
+LinkedItemIDs: purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed, purplestalkseed;
+Ingredients:
+(
+ItemID: purplestalkseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplestalkseed;
+),
+(
+ItemID: multiplypurplevegetable;
+DisplayName: "Chinese Potato (x10)";
+Tooltip: "Chinese Potato. Multiplied in the BioGarden.";
+FunctionalID: purplevegetable;
+SpriteItemID: purplevegetable;
+AmountCrafted: 0;
+LinkedItemIDs: purplevegetable, purplevegetable, purplevegetable, purplevegetable, purplevegetable, purplevegetable, purplevegetable, purplevegetable, purplevegetable, purplevegetable;
+Ingredients:
+(
+ItemID: purplevegetable;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplevegetable;
+),
+(
+ItemID: multiplyredbushseed;
+DisplayName: "Redwort Seed (x10)";
+Tooltip: "Redwort Seed. Multiplied in the BioGarden.";
+FunctionalID: redbushseed;
+SpriteItemID: redbushseed;
+AmountCrafted: 0;
+LinkedItemIDs: redbushseed, redbushseed, redbushseed, redbushseed, redbushseed, redbushseed, redbushseed, redbushseed, redbushseed, redbushseed;
+Ingredients:
+(
+ItemID: redbushseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: redbushseed;
+),
+(
+ItemID: multiplyredrollplantseed;
+DisplayName: "Furled Papyrus Seed (x10)";
+Tooltip: "Furled Papyrus Seed. Multiplied in the BioGarden.";
+FunctionalID: redrollplantseed;
+SpriteItemID: redrollplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed, redrollplantseed;
+Ingredients:
+(
+ItemID: redrollplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: redrollplantseed;
+),
+(
+ItemID: multiplygabesfeatherseed;
+DisplayName: "Gabe's Feather Seed (x10)";
+Tooltip: "Gabe's Feather Seed. Multiplied in the BioGarden.";
+FunctionalID: gabesfeatherseed;
+SpriteItemID: gabesfeatherseed;
+AmountCrafted: 0;
+LinkedItemIDs: gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed, gabesfeatherseed;
+Ingredients:
+(
+ItemID: gabesfeatherseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: gabesfeatherseed;
+),
+(
+ItemID: multiplyspottedleavesplantseed;
+DisplayName: "Spotted Dockleaf Seed (x10)";
+Tooltip: "Spotted Dockleaf Seed. Multiplied in the BioGarden.";
+FunctionalID: spottedleavesplantseed;
+SpriteItemID: spottedleavesplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed, spottedleavesplantseed;
+Ingredients:
+(
+ItemID: spottedleavesplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: spottedleavesplantseed;
+),
+(
+ItemID: multiplyredgreententacleseed;
+DisplayName: "Ghost Weed Seed (x10)";
+Tooltip: "Ghost Weed Seed. Multiplied in the BioGarden.";
+FunctionalID: redgreententacleseed;
+SpriteItemID: redgreententacleseed;
+AmountCrafted: 0;
+LinkedItemIDs: redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed, redgreententacleseed;
+Ingredients:
+(
+ItemID: redgreententacleseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: redgreententacleseed;
+),
+(
+ItemID: multiplyorangepetalsplantseed;
+DisplayName: "Grub Basket Seed (x10)";
+Tooltip: "Grub Basket Seed. Multiplied in the BioGarden.";
+FunctionalID: orangepetalsplantseed;
+SpriteItemID: orangepetalsplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed, orangepetalsplantseed;
+Ingredients:
+(
+ItemID: orangepetalsplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: orangepetalsplantseed;
+),
+(
+ItemID: multiplymembraintreeseed;
+DisplayName: "Membrain Tree Seed (x10)";
+Tooltip: "Membrain Tree Seed. Multiplied in the BioGarden.";
+FunctionalID: membraintreeseed;
+SpriteItemID: membraintreeseed;
+AmountCrafted: 0;
+LinkedItemIDs: membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed, membraintreeseed;
+Ingredients:
+(
+ItemID: membraintreeseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: membraintreeseed;
+),
+(
+ItemID: multiplypurplevaseplantseed;
+DisplayName: "Ming Plant Seed (x10)";
+Tooltip: "Ming Plant Seed. Multiplied in the BioGarden.";
+FunctionalID: purplevaseplantseed;
+SpriteItemID: purplevaseplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed, purplevaseplantseed;
+Ingredients:
+(
+ItemID: purplevaseplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplevaseplantseed;
+),
+(
+ItemID: multiplysmallfanseed;
+DisplayName: "Pygmy Fan Seed (x10)";
+Tooltip: "Pygmy Fan Seed. Multiplied in the BioGarden.";
+FunctionalID: smallfanseed;
+SpriteItemID: smallfanseed;
+AmountCrafted: 0;
+LinkedItemIDs: smallfanseed, smallfanseed, smallfanseed, smallfanseed, smallfanseed, smallfanseed, smallfanseed, smallfanseed, smallfanseed, smallfanseed;
+Ingredients:
+(
+ItemID: smallfanseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: smallfanseed;
+),
+(
+ItemID: multiplyredconeplantseed;
+DisplayName: "Regress Shell Seed (x10)";
+Tooltip: "Regress Shell Seed. Multiplied in the BioGarden.";
+FunctionalID: redconeplantseed;
+SpriteItemID: redconeplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed, redconeplantseed;
+Ingredients:
+(
+ItemID: redconeplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: redconeplantseed;
+),
+(
+ItemID: multiplyredbasketplantseed;
+DisplayName: "Rouge Cradle Seed (x10)";
+Tooltip: "Rouge Cradle Seed. Multiplied in the BioGarden.";
+FunctionalID: redbasketplantseed;
+SpriteItemID: redbasketplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed, redbasketplantseed;
+Ingredients:
+(
+ItemID: redbasketplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: redbasketplantseed;
+),
+(
+ItemID: multiplyseacrownseed;
+DisplayName: "Sea Crown Seed (x10)";
+Tooltip: "Sea Crown Seed. Multiplied in the BioGarden.";
+FunctionalID: seacrownseed;
+SpriteItemID: seacrownseed;
+AmountCrafted: 0;
+LinkedItemIDs: seacrownseed, seacrownseed, seacrownseed, seacrownseed, seacrownseed, seacrownseed, seacrownseed, seacrownseed, seacrownseed, seacrownseed;
+Ingredients:
+(
+ItemID: seacrownseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: seacrownseed;
+),
+(
+ItemID: multiplyshellgrassseed;
+DisplayName: "Spiked Horn Grass Seed (x10)";
+Tooltip: "Spiked Horn Grass Seed. Multiplied in the BioGarden.";
+FunctionalID: shellgrassseed;
+SpriteItemID: shellgrassseed;
+AmountCrafted: 0;
+LinkedItemIDs: shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed, shellgrassseed;
+Ingredients:
+(
+ItemID: shellgrassseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: shellgrassseed;
+),
+(
+ItemID: multiplyspikeplantseed;
+DisplayName: "Tiger Plant Seed (x10)";
+Tooltip: "Tiger Plant Seed. Multiplied in the BioGarden.";
+FunctionalID: spikeplantseed;
+SpriteItemID: spikeplantseed;
+AmountCrafted: 0;
+LinkedItemIDs: spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed, spikeplantseed;
+Ingredients:
+(
+ItemID: spikeplantseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: spikeplantseed;
+),
+(
+ItemID: multiplypurplefanseed;
+DisplayName: "Veined Nettle Seed (x10)";
+Tooltip: "Veined Nettle Seed. Multiplied in the BioGarden.";
+FunctionalID: purplefanseed;
+SpriteItemID: purplefanseed;
+AmountCrafted: 0;
+LinkedItemIDs: purplefanseed, purplefanseed, purplefanseed, purplefanseed, purplefanseed, purplefanseed, purplefanseed, purplefanseed, purplefanseed, purplefanseed;
+Ingredients:
+(
+ItemID: purplefanseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplefanseed;
+),
+(
+ItemID: multiplypinkflowerseed;
+DisplayName: "Voxel Shrub (x10)";
+Tooltip: "Voxel Shrub. Multiplied in the BioGarden.";
+FunctionalID: pinkflowerseed;
+SpriteItemID: pinkflowerseed;
+AmountCrafted: 0;
+LinkedItemIDs: pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed, pinkflowerseed;
+Ingredients:
+(
+ItemID: pinkflowerseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: pinkflowerseed;
+),
+(
+ItemID: multiplypurpletentacleseed;
+DisplayName: "Writhing Weed Seed (x10)";
+Tooltip: "Writhing Weed Seed. Multiplied in the BioGarden.";
+FunctionalID: purpletentacleseed;
+SpriteItemID: purpletentacleseed;
+AmountCrafted: 0;
+LinkedItemIDs: purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed, purpletentacleseed;
+Ingredients:
+(
+ItemID: purpletentacleseed;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purpletentacleseed;
+);

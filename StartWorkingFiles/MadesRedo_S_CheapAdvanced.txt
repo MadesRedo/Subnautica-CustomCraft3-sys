@@ -1,0 +1,138 @@
+AliasRecipes: 
+    (
+        ItemID: add_aramidfibers;
+	DisplayName: "Synthetic Fibers x2";
+	Tooltip: "Cheap Synthetic Fibers";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, aramidfibers, aramidfibers;
+	SpriteItemID: aramidfibers;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_aerogel;
+	DisplayName: "Aerogel x2";
+	Tooltip: "Cheap Aerogel";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, aerogel, aerogel;
+	SpriteItemID: aerogel;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_benzene;
+	DisplayName: "Benzene x2";
+	Tooltip: "Cheap Benzene";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, benzene, benzene;
+	SpriteItemID: benzene;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_hydrochloricacid;
+	DisplayName: "Hydrochloric Acid x2";
+	Tooltip: "Cheap Hydrochloric Acid";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, hydrochloricacid, hydrochloricacid;
+	SpriteItemID: hydrochloricacid;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_hydraulicfluid;
+	DisplayName: "Hydraulic Fluid x2";
+	Tooltip: "Cheap Hydraulic Fluid";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, hydraulicfluid, hydraulicfluid;
+	SpriteItemID: hydraulicfluid;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_polyaniline;
+	DisplayName: "Polyaniline x2";
+	Tooltip: "Cheap Polyaniline";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, polyaniline, polyaniline;
+	SpriteItemID: polyaniline;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_precursorioncrystal;
+	DisplayName: "Ion Cube x2";
+	Tooltip: "Cheap Ion Cube";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, precursorioncrystal, precursorioncrystal;
+	SpriteItemID: precursorioncrystal;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    ),
+    (
+        ItemID: add_firstaidkit;
+	DisplayName: "First Aid Kit x2";
+	Tooltip: "Cheap First Aid Kit";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, firstaidkit, firstaidkit;
+	SpriteItemID: firstaidkit;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAdvanced;        
+    );
+	

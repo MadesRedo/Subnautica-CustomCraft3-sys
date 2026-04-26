@@ -1,0 +1,26 @@
+
+
+
+ModifiedRecipes: 
+
+
+(
+	ItemID: Alch_Kyanite;
+	UnlockedBy: CyclopsHullModule3;
+),
+(
+	ItemID: Alch_Kyanite_X;
+	UnlockedBy: ExosuitThermalReactorModule;
+),
+(
+	ItemID: Alch_UraniniteCrystal;
+	UnlockedBy: ExoHullModule2;
+),
+(
+	ItemID: Alch_Uraninite_&_Radium;
+	UnlockedBy: PrecursorKey_Orange;
+),
+(
+	ItemID: Alch_PrecursorIonCrystal;
+	UnlockedBy: PrecursorKey_Blue;
+);

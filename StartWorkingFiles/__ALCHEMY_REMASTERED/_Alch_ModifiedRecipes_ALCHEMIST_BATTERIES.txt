@@ -1,0 +1,239 @@
+
+
+
+ModifiedRecipes:
+
+
+#	------------	BATTERIES	-----------	#
+	#	1 - Recycled Purple Tentacle		#
+(
+    ItemID: Alch_1_Battery_PurpleTentacle;
+	UnlockedBy: CrashEgg, CrashEggUndiscovered;
+),
+	#	2 - Enriched Creepvine		#
+(
+    ItemID: Alch_2_Battery_Creepvine;
+	UnlockedBy: StalkerEgg, StalkerEggUndiscovered;
+),
+	#	3a - Reinforced Snake Mushroom		#
+(
+    ItemID: Alch_3a_Battery_SnakeMushroom;
+    AmountCrafted: 1;
+	UnlockedBy: Crabsnake, CrabsnakeEgg, CrabsnakeEggUndiscovered;
+    Ingredients: 
+	(
+        ItemID: Alch_1_Battery_PurpleTentacle;
+        Required: 1;
+    ),
+	(
+        ItemID: SnakeMushroomSpore;
+        Required: 4;
+    );
+),
+	#	3b - Reinforced Copper Oxide	#
+(
+    ItemID: Alch_3b_Battery_CopperOxide;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_CopperOxide;
+    Ingredients: 
+	(
+        ItemID: Alch_2_Battery_Creepvine;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+	#	4a - Enriched Lantern Tree		#
+(
+    ItemID: Alch_4a_Battery_LanternTree;
+	UnlockedBy: SeaTreader, SeaTreaderPoop;
+),
+	#	4b - Reinforced Sulfur Crystals		#
+(
+    ItemID: Alch_4b_Battery_SulphurCrystals;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_SulphurCrystals;
+    Ingredients: 
+	(
+        ItemID: Alch_4a_Battery_LanternTree;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+	#	5a - Enriched Bulb Bush		#
+(
+    ItemID: Alch_5a_Battery_BulbBush;
+	UnlockedBy: ShockerEgg;
+),
+	#	5b - Reinforced Pink Salt	#
+(
+    ItemID: Alch_5b_Battery_PinkSalt;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_PinkSalt;
+    Ingredients: 
+	(
+        ItemID: Alch_5a_Battery_BulbBush;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    );
+),
+	#	6a - Enriched Blood Vine 	#
+(
+    ItemID: Alch_6a_Battery_BloodVine;
+	UnlockedBy: CrabsquidEgg;
+),
+	#	6b - Reinforced Iron Magnetic Powder	#
+(
+    ItemID: Alch_6b_Battery_IronMagneticPowder;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_IronMagneticPowder;
+    Ingredients: 
+	(
+        ItemID: Alch_6a_Battery_BloodVine;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 3;
+    );
+),
+	#	7 - Alchemist's Ultimate 	#
+(
+    ItemID: Alch_7_Battery_RadiumCrystal;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_Uraninite_&_Radium;
+    Ingredients: 
+	(
+        ItemID: PrecursorIonBattery;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    );
+),
+
+#	------------	POWER CELL  	-----------	#
+	#	1 - Recycled Purple Tentacle		#
+(
+    ItemID: Alch_1_PowerCell_PurpleTentacle;
+	UnlockedBy: CrashEgg, CrashEggUndiscovered;
+),
+	#	2 - Enriched Creepvine		#
+(
+    ItemID: Alch_2_PowerCell_Creepvine;
+	UnlockedBy: StalkerEgg, StalkerEggUndiscovered;
+),
+	#	3a - Reinforced Snake Mushroom		#
+(
+    ItemID: Alch_3a_PowerCell_SnakeMushroom;
+    AmountCrafted: 1;
+	UnlockedBy: Crabsnake, CrabsnakeEgg;
+    Ingredients: 
+	(
+        ItemID: Alch_1_PowerCell_PurpleTentacle;
+        Required: 1;
+    ),
+	(
+        ItemID: SnakeMushroomSpore;
+        Required: 4;
+    );
+),
+	#	3b - Reinforced Copper Oxide	#
+(
+    ItemID: Alch_3b_PowerCell_CopperOxide;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_CopperOxide;
+    Ingredients: 
+	(
+        ItemID: Alch_2_PowerCell_Creepvine;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+	#	4a - Enriched Lantern Tree		#
+(
+    ItemID: Alch_4a_PowerCell_LanternTree;
+	UnlockedBy: SeaTreader, SeaTreaderPoop;
+),
+	#	4b - Reinforced Sulfur Crystals		#
+(
+    ItemID: Alch_4b_PowerCell_SulphurCrystals;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_SulphurCrystals;
+    Ingredients: 
+	(
+        ItemID: Alch_4a_PowerCell_LanternTree;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+	#	5a - Enriched Bulb Bush		#
+(
+    ItemID: Alch_5a_PowerCell_BulbBush;
+	UnlockedBy: ShockerEgg;
+),
+	#	5b - Reinforced Pink Salt	#
+(
+    ItemID: Alch_5b_PowerCell_PinkSalt;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_PinkSalt;
+    Ingredients: 
+	(
+        ItemID: Alch_5a_PowerCell_BulbBush;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 3;
+    );
+),
+	#	6a - Enriched Blood Vine 	#
+(
+    ItemID: Alch_6a_PowerCell_BloodVine;
+	UnlockedBy: CrabsquidEgg;
+),
+	#	6b - Reinforced Iron Magnetic Powder	#
+(
+    ItemID: Alch_6b_PowerCell_IronMagneticPowder;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_IronMagneticPowder;
+    Ingredients: 
+	(
+        ItemID: Alch_6a_PowerCell_BloodVine;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 3;
+    );
+),
+	#	7 - Alchemist's Ultimate	#
+(
+    ItemID: Alch_7_PowerCell_RadiumCrystal;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_Uraninite_&_Radium;
+    Ingredients: 
+	(
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    );
+);

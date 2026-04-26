@@ -1,0 +1,188 @@
+#		PdaGroup: Resources | PdaCategory: Electronics		#
+
+
+ModifiedRecipes:
+
+
+#	------------	BOBINE CUIVRE	-----------	#
+(
+    ItemID: CopperWire;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Copper;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	CIRCUIT INTÉGRÉ	-----------	#
+(
+    ItemID: ComputerChip;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: JeweledDiskPiece;
+        Required: 2;
+    ),
+	(
+        ItemID: AcidMushroomSpore;
+        Required: 3;
+    ),
+    (
+        ItemID: Gold;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    );
+),
+
+#	------------	KIT DE CÂBLAGE	-----------	#
+(
+    ItemID: WiringKit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Silver;
+        Required: 2;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 2;
+    );
+),
+
+#	------------	KIT DE CÂBLAGE AVANCÉ	-----------	#
+(
+    ItemID: AdvancedWiringKit;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: PurpleBrainCoralPiece;
+        Required: 3;
+    ),
+    (
+        ItemID: Gold;
+        Required: 2;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    );
+),
+
+#	------------	PILE	-----------	#
+(
+    ItemID: Battery;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroom;
+        Required: 3;
+    ),
+    (
+        ItemID: Copper;
+        Required: 1;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 1;
+    );
+),
+
+#	------------	BATTERIE HAUTE CAPACITÉ	-----------	#
+(
+    ItemID: PowerCell;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 2;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 2;
+    );
+),
+
+#	------------	PILE ION	-----------	#
+(
+    ItemID: PrecursorIonBattery;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Silver;
+        Required: 2;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 2;
+    );
+),
+
+#	------------	BATTERIE ION HAUTE CAPACITÉ	-----------	#
+(
+    ItemID: PrecursorIonPowerCell;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: PrecursorIonBattery;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Gold;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+
+#	------------	BARRE DE RÉACTEUR	-----------	#
+(
+    ItemID: ReactorRod;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: UraniniteCrystal;
+        Required: 3;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+);

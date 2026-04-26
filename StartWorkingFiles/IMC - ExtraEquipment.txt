@@ -1,0 +1,241 @@
+AddedRecipes:
+(
+    ItemID: LuggageBag;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required: 1;
+    ), 
+    (
+        ItemID: Silicone;
+        Required: 4;
+    ),
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: LabContainer;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 5;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: LabContainer2;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: LabContainer3;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 3;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: LabEquipment1;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 4;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: LabEquipment2;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 3;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 2;
+    ),
+    (
+        ItemID: FilteredWater;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: LabEquipment3;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Glass;
+        Required: 3;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 2;
+    ),
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 4;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: Cap1;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+    (
+        ItemID: PurpleTentacleSeed;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: Cap2;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+    (
+        ItemID: BluePalmSeed;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: ToyCar;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: ArcadeGorgeToy;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+    (
+        ItemID: OrangePetalsPlantSeed;
+        Required: 1;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+),
+(
+    ItemID: StarShipSouvenir;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 2;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 2;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 2;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Miscellaneous;
+    PdaCategory: Misc;
+    Path: Fabricator/IMCCraft/IMCTools;
+);

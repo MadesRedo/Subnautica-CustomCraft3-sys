@@ -1,0 +1,98 @@
+#		PdaGroup: InteriorPieces | PdaCategory: InteriorRoom		#
+
+
+ModifiedRecipes:
+
+
+#	------------	BIORÉACTEUR	-----------	#
+(
+    ItemID: BaseBioReactor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_OrganicTitanium_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Lubricant;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    );
+),
+
+#	------------	RÉACTEUR NUCLÉAIRE	-----------	#
+(
+    ItemID: BaseNuclearReactor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_RadiumCrystal_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Lead_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+		ItemID: Alch_IronMagneticPowder;
+		Required: 2;
+	),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 3;
+    );
+),
+
+#	------------	UNITÉ DE CONFINEMENT POUR ALIENS	-----------	#
+(
+    ItemID: BaseWaterPark;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Glass;
+        Required: 5;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 3;
+    );
+);

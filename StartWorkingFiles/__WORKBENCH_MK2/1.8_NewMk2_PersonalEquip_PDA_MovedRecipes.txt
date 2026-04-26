@@ -1,0 +1,52 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+	#	PDA		#
+(
+	ItemID: PdaPocketDimensionUpgradeMk1;										#	PDA Upgrade Chips "Kallie23" - 2400		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PdaPocketDimensionUpgradeMk2;										#	PDA Upgrade Chips "Kallie23" - 2400		#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+),
+(
+	ItemID: PdaPocketDimensionUpgradeMk3;										#	PDA Upgrade Chips "Kallie23" - 2400		#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+),
+(
+	ItemID: PdaMusicUpgrade;													#	PDA Upgrade Chips "Kallie23" - 2400		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PdaColorizerUpgrade;												#	PDA Upgrade Chips "Kallie23" - 2400		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PdaAmbientLightUpgrade;												#	PDA Upgrade Chips "Kallie23" - 2400		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PdaMinimapUpgrade;													#	PDA Upgrade Chips "Kallie23" - 2400		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PdaLeviathanDetectorUpgrade;										#	PDA Upgrade Chips "Kallie23" - 2400		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerPDAUpgrades;
+	Copied: Yes;
+);

@@ -1,0 +1,91 @@
+AddedRecipes:
+(
+    ItemID: AluminumOxide;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: hoverfish;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Crystals;
+),
+(
+    ItemID: Diamond;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: spinefish;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Crystals;
+),
+(
+    ItemID: Kyanite;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: diamond;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Crystals;
+),
+(
+    ItemID: Quartz;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: bladderfish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Crystals;
+),
+(
+    ItemID: Salt;
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: oculus;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Crystals;
+),
+(
+    ItemID: UraniniteCrystal;
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: hoopfish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Crystals;
+);

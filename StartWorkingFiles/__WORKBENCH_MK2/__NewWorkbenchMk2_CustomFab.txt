@@ -1,0 +1,543 @@
+#	Model: 	Fabricator	MoonPool	Workbench	#
+
+
+CustomFabricators:
+
+
+(
+    ItemID: Workbench_MK2;
+    DisplayName: "Workbench MK2";
+    Tooltip: "Advanced Workbench MK2: much better organized than the basic one! To try it is to adopt it ^^";
+    Model: Workbench;
+    ColorTint: 0, 0.5, 0.7, 0.5;
+	PdaGroup: InteriorModules;
+    PdaCategory: InteriorModule;
+    AllowedInBase: YES;
+    AllowedInCyclops: YES;
+	ForceUnlockAtStart: YES;
+	UnlockedBy: Workbench;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    );
+	
+	CustomCraftingTabs: 
+	
+	#	----------- DEPLOYABLE -----------	#
+	(
+		TabID: Deployable; 
+		DisplayName: "DEPLOYABLE EQUIPMENT"; 
+		SpriteItemID: Gravsphere; 
+		ParentTabPath: Workbench_MK2;
+	),
+	
+	#	----------- ENERGY -----------	#
+	(
+		TabID: EnergyUpgrades;
+		DisplayName: "ENERGY";
+		SpriteItemID: LithiumIonBattery;
+		ParentTabPath: Workbench_MK2;
+	),
+	
+			#	Nuclear		#
+		(
+			TabID: NuclearEnergyUpgrades;
+			DisplayName: "Nuclear Energy";
+			SpriteItemID: ReactorRod;
+			ParentTabPath: Workbench_MK2/EnergyUpgrades;
+		),
+	
+			#	Batteries	#
+		(
+			TabID: BatteriesUpgrades;
+			DisplayName: "Batteries";
+			SpriteItemID: PrecursorIonBattery;
+			ParentTabPath: Workbench_MK2/EnergyUpgrades;
+		),
+			(
+				TabID: BattVU;														#	Vanilla & Unique	#
+				DisplayName: "Vanilla & Unique";
+				SpriteItemID: Battery;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattAR;														#	ALCHEMY REMASTERED (CC3) "MamylaPuce" - 2000	#
+				DisplayName: "Alchemy Remastered 'MamylaPuce'";
+				SpriteItemID: Alch_3b_Battery_CopperOxide;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattLOB;														#	Lots of Batteries "slyFOX3517" - 1488	#
+				DisplayName: "Lots of Batteries 'slyFOX3517'";
+				SpriteItemID: BloodOilBattery;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattOBP;														#	Organisms Battery Pack "Teo8nx" - 1011	#
+				DisplayName: "Organisms Battery Pack 'Teo8nx'";
+				SpriteItemID: AmpBattery;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattVBP;														#	Variety Battery Pack "Alomare" - 580	#
+				DisplayName: "Variety Battery Pack 'Alomare'";
+				SpriteItemID: BloodBattery;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattABP;														#	Alien Batteries "Alexius25" - 1871	#
+				DisplayName: "Alien Batteries 'Alexius25'";
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattMK2;														#	Battery MK2 "Alomare" - 1854	#
+				DisplayName: "Battery MK2 'Alomare'";
+				SpriteItemID: IonBattery2;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+			(
+				TabID: BattPHB;														#	Phazon Batteries "SparkleArts" - 1461	#
+				DisplayName: "Phazon Batteries 'SparkleArts'";
+				SpriteItemID: PhazonBattery;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/BatteriesUpgrades;
+			),
+	
+			#	PowerCell	#
+		(
+			TabID: PowerCellUpgrades;
+			DisplayName: "Power Cells";
+			SpriteItemID: PrecursorIonPowerCell;
+			ParentTabPath: Workbench_MK2/EnergyUpgrades;
+		),
+			(
+				TabID: PCellVU;														#	Vanilla & Unique	#
+				DisplayName: "Vanilla & Unique";
+				SpriteItemID: PowerCell;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellAR;														#	ALCHEMY REMASTERED (CC3) "MamylaPuce" - 2000	#
+				DisplayName: "Alchemy Remastered 'MamylaPuce'";
+				SpriteItemID: Alch_3b_PowerCell_CopperOxide;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellLOB;													#	Lots of Batteries "slyFOX3517" - 1488	#
+				DisplayName: "Lots of Batteries 'slyFOX3517'";
+				SpriteItemID: BloodOilPowerCell;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellOBP;													#	Organisms Battery Pack "Teo8nx" - 1011	#
+				DisplayName: "Organisms Battery Pack 'Teo8nx'";
+				SpriteItemID: AmpPowerCell;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellVBP;													#	Variety Battery Pack "Alomare" - 580	#
+				DisplayName: "Variety Battery Pack 'Alomare'";
+				SpriteItemID: BloodPowerCell;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellABP;													#	Alien Batteries "Alexius25" - 1871	#
+				DisplayName: "Alien Batteries 'Alexius25'";
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellMK2;													#	Battery MK2 "Alomare" - 1854	#
+				DisplayName: "Battery MK2 'Alomare'";
+				SpriteItemID: IonPowerCell2;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+			(
+				TabID: PCellPHB;													#	Phazon Batteries "SparkleArts" - 1461	#
+				DisplayName: "Phazon Batteries 'SparkleArts'";
+				SpriteItemID: PhazonPowerCell;
+				ParentTabPath: Workbench_MK2/EnergyUpgrades/PowerCellUpgrades;
+			),
+	
+	#	----------- PERSONAL EQUIPMENT -----------	#
+	(
+		TabID: PlayerEquipmentUpgrades;
+		DisplayName: "PERSONAL EQUIPMENT";
+		ParentTabPath: Workbench_MK2;
+	),
+		(
+			TabID: PlayerHelmetUpgrades;
+			DisplayName: "Helmets";
+			SpriteItemID: RadiationHelmet;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerSuitUpgrades;
+			DisplayName: "Suits";
+			SpriteItemID: ReinforcedDiveSuit;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerGloveUpgrades;
+			DisplayName: "Gloves";
+			SpriteItemID: RadiationGloves;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerFinsUpgrades;
+			DisplayName: "Fins";
+			SpriteItemID: UltraGlideFins;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerTankUpgrades;
+			DisplayName: "Tanks O₂";
+			SpriteItemID: HighCapacityTank;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerToolUpgrades;
+			DisplayName: "Tools";
+			SpriteItemID: Scanner;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerChipUpgrades;
+			DisplayName: "Chips";
+			SpriteItemID: MapRoomHUDChip;
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+		(
+			TabID: PlayerPDAUpgrades;
+			DisplayName: "PDA Chips";
+			ParentTabPath: Workbench_MK2/PlayerEquipmentUpgrades;
+		),
+	
+	#	----------- SEAMOTH Upgrades -----------	#
+	(
+		TabID: SeamothUpgrades; 
+		DisplayName: "Seamoth upgrades"; 
+		SpriteItemID: Seamoth; 
+		ParentTabPath: Workbench_MK2;
+	),
+		(
+			TabID: SeamothDepthUpgrades; 
+			DisplayName: "Depth modules"; 
+			SpriteItemID: VehicleHullModule1; 
+			ParentTabPath: Workbench_MK2/SeamothUpgrades;
+		),
+		(
+			TabID: SeamothModuleUpgrades; 
+			DisplayName: "Vanilla & Mods modules"; 
+			ParentTabPath: Workbench_MK2/SeamothUpgrades;
+		),
+		(
+			TabID: Seamoth_SES_Upgrades; 
+			DisplayName: "Seamoth Enhancement System 'M3dicCookie'";
+			SpriteItemID: SeamothEnhancementSystemModule;			
+			ParentTabPath: Workbench_MK2/SeamothUpgrades;
+		),
+		(
+			TabID: Seamoth_VF_Speed; 
+			DisplayName: "VF Speed modules"; 
+			SpriteItemID: SpeedModuleVF3; 
+			ParentTabPath: Workbench_MK2/SeamothUpgrades;
+		),
+		(
+			TabID: Seamoth_VF_Stealth; 
+			DisplayName: "VF Stealth modules"; 
+			ParentTabPath: Workbench_MK2/SeamothUpgrades;
+		),
+		(
+			TabID: Seamoth_VF_Others; 
+			DisplayName: "Other VF modules"; 
+			ParentTabPath: Workbench_MK2/SeamothUpgrades;
+		),
+	
+	#	----------- PRAWN Upgrades -----------	#
+	(
+		TabID: ExosuitUpgrades; 
+		DisplayName: "Prawn suit upgrades"; 
+		SpriteItemID: Exosuit; 
+		ParentTabPath: Workbench_MK2;
+	),
+		(
+			TabID: ExosuitDepthUpgrades; 
+			DisplayName: "Depth modules"; 
+			SpriteItemID: ExoHullModule1; 
+			ParentTabPath: Workbench_MK2/ExosuitUpgrades;
+		),
+		(
+			TabID: ExosuitModuleUpgrades; 
+			DisplayName: "Vanilla & Mods modules"; 
+			ParentTabPath: Workbench_MK2/ExosuitUpgrades;
+		),
+		(
+			TabID: Exosuit_VF_Speed; 
+			DisplayName: "VF Speed modules"; 
+			SpriteItemID: SpeedModuleVF3; 
+			ParentTabPath: Workbench_MK2/ExosuitUpgrades;
+		),
+		(
+			TabID: Exosuit_VF_Stealth; 
+			DisplayName: "VF Stealth modules"; 
+			ParentTabPath: Workbench_MK2/ExosuitUpgrades;
+		),
+		(
+			TabID: Exosuit_VF_Others; 
+			DisplayName: "Other VF modules"; 
+			ParentTabPath: Workbench_MK2/ExosuitUpgrades;
+		),
+	
+	#	----------- CYCLOPS Upgrades -----------	#
+	(
+		TabID: CyclopsUpgrades; 
+		DisplayName: "Cyclops upgrades"; 
+		SpriteItemID: Cyclops; 
+		ParentTabPath: Workbench_MK2;
+	),
+		(
+			TabID: CyclopsDepthUpgrades; 
+			DisplayName: "Depth modules"; 
+			SpriteItemID: CyclopsHullModule1; 
+			ParentTabPath: Workbench_MK2/CyclopsUpgrades;
+		),
+		(
+			TabID: CyclopsModuleUpgrades; 
+			DisplayName: "Vanilla & Mods modules"; 
+			ParentTabPath: Workbench_MK2/CyclopsUpgrades;
+		),
+		(
+			TabID: Cyclops_VF_Speed; 
+			DisplayName: "VF Speed modules"; 
+			SpriteItemID: SpeedModuleVF3; 
+			ParentTabPath: Workbench_MK2/CyclopsUpgrades;
+		),
+		(
+			TabID: Cyclops_VF_Stealth; 
+			DisplayName: "VF Stealth modules"; 
+			ParentTabPath: Workbench_MK2/CyclopsUpgrades;
+		),
+		(
+			TabID: Cyclops_VF_Others; 
+			DisplayName: "Other VF modules"; 
+			ParentTabPath: Workbench_MK2/CyclopsUpgrades;
+		),
+	
+	#	----------- SPECIFIC-VEHICLE Upgrades -----------	#
+	(
+		TabID: SpecificVehicleUpgrades; 
+		DisplayName: "Specific-Vehicle upgrades"; 
+		ParentTabPath: Workbench_MK2;
+	),
+	
+				#	 ARCHON		#
+		(
+			TabID: ArchonUpgrades; 
+			DisplayName: "Archon modules";
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+			(
+				TabID: ArchonDepthUpgrades;
+				DisplayName: "Depth modules";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades;
+			),
+			(
+				TabID: ArchonRepairUpgrades;
+				DisplayName: "Repair modules";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades;
+			),
+			(
+				TabID: ArchonSpecificUpgrades;
+				DisplayName: "Teleportation & Docking";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/ArchonUpgrades;
+			),
+			
+				#	ECHELON		#
+		(
+			TabID: EchelonUpgrades; 
+			DisplayName: "Echelon modules";
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+			(
+				TabID: EchelonDriveUpgrades;
+				DisplayName: "Drive modules";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades;
+			),
+			(
+				TabID: EchelonRepairUpgrades;
+				DisplayName: "Repair modules";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades;
+			),
+			(
+				TabID: EchelonBatteryUpgrades;
+				DisplayName: "Nuclear battery";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades;
+			),
+			(
+				TabID: EchelonRailGunUpgrades;
+				DisplayName: "Railgun";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades;
+			),
+			(
+				TabID: EchelonTorpedoUpgrades;
+				DisplayName: "Torpedoes";
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/EchelonUpgrades;
+			),
+	
+				#	SEAL	#
+		(
+			TabID: SealUpgrades; 
+			DisplayName: "Seal modules";
+			SpriteItemID: SealSub;
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+			(
+				TabID: SealDepthUpgrades;
+				DisplayName: "Depth modules";
+				SpriteItemID: CyclopsHullModule1; 
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades;
+			),
+			(
+				TabID: SealModuleUpgrades;
+				DisplayName: "Other modules"; 
+				ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades/SealUpgrades;
+			),
+	
+				#	 BELUGA 	#
+		(
+			TabID: BelugaUpgrades; 
+			DisplayName: "Beluga modules"; 
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+	
+				#	 BLOSSOM 	#
+		(
+			TabID: BlossomUpgrades; 
+			DisplayName: "Blossom modules";
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+	
+				#	 CHAMELEON 		#
+		(
+			TabID: ChameleonUpgrades; 
+			DisplayName: "Chameleon modules"; 
+			SpriteItemID: Chameleon; 
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+	
+				#	 CRUSH Drone	#
+		(
+			TabID: CrushUpgrades; 
+			DisplayName: "Crush Drone modules"; 
+			ParentTabPath: Workbench_MK2/SpecificVehicleUpgrades;
+		),
+	
+	#	----------- COMMON VF Upgrades -----------	#
+	(
+		TabID: VFUpgrades; 
+		DisplayName: "Common VF upgrades"; 
+		ParentTabPath: Workbench_MK2;
+	),
+		(
+			TabID: VFDepthUpgrades; 
+			DisplayName: "VF Depth"; 
+			SpriteItemID: CyclopsHullModule1; 
+			ParentTabPath: Workbench_MK2/VFUpgrades;
+		),
+		(
+			TabID: VFSpeedUpgrades; 
+			DisplayName: "VF Speed"; 
+			SpriteItemID: SpeedModuleVF3; 
+			ParentTabPath: Workbench_MK2/VFUpgrades;
+		),
+		(
+			TabID: VFStealthUpgrades; 
+			DisplayName: "VF Stealth"; 
+			SpriteItemID: StealthModule5; 
+			ParentTabPath: Workbench_MK2/VFUpgrades;
+		),
+		(
+			TabID: VFModuleUpgrades; 
+			DisplayName: "VF Others"; 
+			ParentTabPath: Workbench_MK2/VFUpgrades;
+		),
+	
+	#	----------- OTHER COMMON & MOD Upgrades -----------	#
+	(
+		TabID: OtherModUpgrades; 
+		DisplayName: "Common modules & other Mods"; 
+		ParentTabPath: Workbench_MK2;
+	),
+		(
+			TabID: CommonModules;
+			DisplayName: "Common modules"; 
+			ParentTabPath: Workbench_MK2/OtherModUpgrades;
+		),
+		(
+			TabID: MrPurpleUV; 											#	Upgraded Vehicles "MrPurple6411" - 1468		#
+			DisplayName: "Upgraded Vehicles 'MrPurple6411'"; 
+			ParentTabPath: Workbench_MK2/OtherModUpgrades;
+		),
+			(
+				TabID: MrPurpleUVSpeedBoost; 								#	1468	#
+				DisplayName: "Speed Boost"; 
+				SpriteItemID: SpeedModuleMK4; 
+				ParentTabPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV;
+			),
+			(
+				TabID: MrPurpleUVArmorPlating; 								#	1468	#
+				DisplayName: "Hull Reinforcement"; 
+				SpriteItemID: VehicleArmorPlating; 
+				ParentTabPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV;
+			),
+			(
+				TabID: MrPurpleUVPower; 									#	1468	#
+				DisplayName: "Engine Efficiency"; 
+				SpriteItemID: VehiclePowerUpgradeModule; 
+				ParentTabPath: Workbench_MK2/OtherModUpgrades/MrPurpleUV;
+			),
+		(
+			TabID: MrPurpleBVS; 										#	Better Vehicle Storage "MrPurple6411" - 1471	#
+			DisplayName: "Better Vehicle Storage 'MrPurple6411'"; 
+			SpriteItemID: VehicleStorageModule; 
+			ParentTabPath: Workbench_MK2/OtherModUpgrades;
+		),
+		(
+			TabID: EldritchCarMakerRCV; 								#	Remote Control Vehicles "EldritchCarMaker" - 1943	#
+			DisplayName: "Remote Control Vehicles 'EldritchCarMaker'"; 
+			SpriteItemID: VehicleRemoteControl;
+			ParentTabPath: Workbench_MK2/OtherModUpgrades;
+		),
+		(
+			TabID: IndigocoderHRF; 										#	Hull Reinforcement Fix "Indigocoder" - 1348		#
+			DisplayName: "Hull Reinforcement Fix 'Indigocoder'";
+			SpriteItemID: VehicleArmorPlating;
+			ParentTabPath: Workbench_MK2/OtherModUpgrades;
+		),
+		(
+			TabID: Torpedoes;
+			DisplayName: "Torpedoes"; 
+			SpriteItemID: WhirlpoolTorpedo;
+			ParentTabPath: Workbench_MK2/OtherModUpgrades;
+		),
+	
+	#	----------- MAP ROOM -----------	#
+	(
+		TabID: WMK2_MapRoomUpgrades; 
+		DisplayName: "Scanner room"; 
+		SpriteItemID: MapRoomCamera; 
+		ParentTabPath: Workbench_MK2;
+	);
+);

@@ -1,0 +1,22 @@
+CustomFoods:
+(
+    ItemID: Kelpkombucha;
+    DecayRateMod: 0.0; 
+    DisplayName: "Kelp Kombucha";
+    Tooltip: "A probiotic fermented from creepvine samples. Healthy and Refreshing.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: creepvinepiece;
+        Required: 2;
+    ),
+    (
+        ItemID: FilteredWater;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Water;
+    FoodValue:7;
+    WaterValue:32;
+    HealthValue:15;
+    ForceUnlockAtStart: YES;
+),

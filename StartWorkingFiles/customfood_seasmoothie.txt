@@ -1,0 +1,25 @@
+CustomFoods:
+(
+    ItemID: Seasmoothie;
+    DecayRateMod: 0.0; 
+    DisplayName: "Sea Smoothie";
+    Tooltip: "Sea Smoothie. Just because you're deserted, doesn't mean you don't deserve 'good' sustenance.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: JeweledDiskPiece;
+        Required: 2;
+    ),
+    (
+        ItemID: Bleach;
+        Required: 1;
+    ),
+    (
+        ItemID: CreepvinePiece;
+        Required: 3;
+    );
+    Path: Fabricator/Survival/Water;
+    FoodValue:21;
+    WaterValue:69;
+    ForceUnlockAtStart: YES;
+),

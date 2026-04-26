@@ -1,0 +1,298 @@
+#	Model: 	Fabricator		MoonPool	Workbench	#
+
+
+CustomFabricators:
+
+
+(
+    ItemID: Alch_Fab;
+    DisplayName: "Alchemic Fabricator";
+    Tooltip: "Unlock the powerful secrets of Alchemy... at more than 700m far, for the first basic element: follow the fuselage, to the south it's cold, to the north it's hot. Dive down to the Sea Treaders where a 'deep shit' awaits you. That's the minimum required to access Alchemy...";
+    Model: MoonPool;
+    ColorTint: 1, 1, 1, 1;
+	PdaGroup: InteriorModules;
+    PdaCategory: InteriorModule;
+    AllowedInBase: YES;
+    AllowedInCyclops: YES;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: FarmingTray;
+    Ingredients: 
+	(
+		ItemID: AdvancedWiringKit;
+		Required: 1;
+	),
+	(
+		ItemID: CreepVineSeedCluster;
+		Required: 1;
+	),
+	(
+		ItemID: HangingFruit;
+		Required: 1;
+	),
+	(
+		ItemID: KooshChunk;
+		Required: 1;
+	),
+	(
+		ItemID: BloodOil;
+		Required: 1;
+	),
+	(
+		ItemID: Titanium;
+		Required: 4;
+	),
+	(
+		ItemID: Lead;
+		Required: 1;
+	),
+	(
+		ItemID: Lithium;
+		Required: 2;
+	),
+	(
+		ItemID: Diamond;
+		Required: 1;
+	);
+	
+	CustomCraftingTabs: 
+	
+	#	--- COMPLEX COMPOUNDS ---		#
+	(
+		TabID: Alch_ComplexCompounds;
+		DisplayName: "COMPLEX COMPOUNDS";
+		ParentTabPath: Alch_Fab;
+	),
+	
+		#		__ Complex Enzymes __		#
+		(
+			TabID: Alch_Enzymes;
+			DisplayName: "Complex Enzymes";
+			ParentTabPath: Alch_Fab/Alch_ComplexCompounds;
+		),
+	
+		#		__ Strange Organic Compounds __		#
+		(
+			TabID: Alch_StrangeOrganicCompounds;
+			DisplayName: "Strange Organic Compounds";
+			ParentTabPath: Alch_Fab/Alch_ComplexCompounds;
+		),
+	
+	#	--- LABORATORY EQUIPMENT ---		#
+	(
+		TabID: Alch_LabEquipment;
+		DisplayName: "LABORATORY EQUIPMENT";
+		SpriteItemID: LabEquipment1;
+		ParentTabPath: Alch_Fab;
+	),
+	
+	#	--- EASTER EGGS ---		#
+	(
+		TabID: Alch_Eggs;
+		DisplayName: "♥ EASTER EGGS ♥";
+		SpriteItemID: Cutefish;
+		ParentTabPath: Alch_Fab;
+	),
+	
+	#	--- COMPLEX INGOTS ---		#
+	(
+		TabID: Alch_ComplexIngots;
+		DisplayName: "COMPLEX INGOTS";
+		ParentTabPath: Alch_Fab;
+	),
+	
+		#		__ Infused Ingots __		#
+		(
+			TabID: Alch_InfusedIngots;
+			DisplayName: "Infused Ingots";
+			ParentTabPath: Alch_Fab/Alch_ComplexIngots;
+		),
+	
+		#		__ Charged Ingots __		#
+		(
+			TabID: Alch_ChargedIngots;
+			DisplayName: "Charged Ingots";
+			ParentTabPath: Alch_Fab/Alch_ComplexIngots;
+		),
+	
+	#	--- ALCHEMIST'S ENERGIES ---		#
+	(
+		TabID: Alch_Energies;
+		DisplayName: "ALCHEMIST'S ENERGIES";
+		SpriteItemID: Alch_6b_PowerCell_IronMagneticPowder;
+		ParentTabPath: Alch_Fab;
+	),
+	
+		#		__ Energy Recharges __		#
+		(
+			TabID: Alch_Energy_Recharge;
+			DisplayName: "Energy Recharges";
+			ParentTabPath: Alch_Fab/Alch_Energies;
+		),
+		
+		#		__ Alchemist's Batteries __		#
+		(
+			TabID: Alch_Batt;
+			DisplayName: "Alchemist's Batteries";
+			SpriteItemID: Alch_3b_Battery_CopperOxide;
+			ParentTabPath: Alch_Fab/Alch_Energies;
+		),
+	
+		#		__ Alchemist's Power cells __		#
+		(
+			TabID: Alch_PCell;
+			DisplayName: "Alchemist's Power cells";
+			SpriteItemID: Alch_3b_PowerCell_CopperOxide;
+			ParentTabPath: Alch_Fab/Alch_Energies;
+		),
+		
+		#		__ Alchemist's Reactor rods __		#
+		(
+			TabID: Alch_Rods;
+			DisplayName: "Alchemist's Reactor rods";
+			SpriteItemID: Alch_RadiumCrystal_Rod;
+			ParentTabPath: Alch_Fab/Alch_Energies;
+		),
+		
+	#	--- { ALCHEMY } ---		#
+	(
+		TabID: Alchemy;
+		DisplayName: "{ ALCHEMY }";
+		ParentTabPath: Alch_Fab;
+	),
+	
+		#	 	__ Unpacked __ 	#
+		(
+			TabID: Alch_Unpack;
+			DisplayName: "Unpacked";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+	
+		#	 	__ Packed __ 	#
+		(
+			TabID: Alch_Pack;
+			DisplayName: "Packed";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+
+		#	 	__ Alchemical raw materials __ 	#
+		(
+			TabID: Alch_Materials;
+			DisplayName: "Alchemical raw materials";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+
+		#	 	__ Basic Alchemy __ 		#
+		(
+			TabID: Alch_Basic;
+			DisplayName: "Basic Alchemy";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+
+		#	 	__ Standard Alchemy __ 		#
+		(
+			TabID: Alch_Standard;
+			DisplayName: "Standard Alchemy";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+
+		#	 	__ Advanced Alchemy __ 		#
+		(
+			TabID: Alch_Advanced;
+			DisplayName: "Advanced Alchemy";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+
+		#	 	__ Master Alchemy __ 		#
+		(
+			TabID: Alch_Master;
+			DisplayName: "Master Alchemy";
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+	
+		#	 	__ Tablets __ 			#
+		(
+			TabID: Alch_Tablets;
+			DisplayName: "Tablets";
+			SpriteItemID: PrecursorKey_White;
+			ParentTabPath: Alch_Fab/Alchemy;
+		),
+	
+	#	--- ORGANIC ALCHEMY ---		#
+	(
+		TabID: Alch_Organics;
+		DisplayName: "ORGANIC ALCHEMY";
+		SpriteItemID: SeaTreaderPoop;
+		ParentTabPath: Alch_Fab;
+	),
+	
+	#	--- RESOURCES ---		#
+	(
+		TabID: Alch_Resources;
+		DisplayName: "RESOURCES";
+		#SpriteItemID: Salt;#
+		ParentTabPath: Alch_Fab;
+	),
+	
+		#	 	__ Basic materials __ 	#
+		(
+			TabID: Alch_Bas_Materials;
+			DisplayName: "Basic materials";
+			#SpriteItemID: Titanium;#
+			ParentTabPath: Alch_Fab/Alch_Resources;
+		),
+	
+		#	 	__ Advanced materials __ 	#
+		(
+			TabID: Alch_Adv_Materials;
+			DisplayName: "Advanced materials";
+			#SpriteItemID: AramidFibers;#
+			ParentTabPath: Alch_Fab/Alch_Resources;
+		),
+	
+		#	 	__ Electronics __ 	#
+		(
+			TabID: Alch_Electronics;
+			DisplayName: "Electronics";
+			#SpriteItemID: WiringKit;#
+			ParentTabPath: Alch_Fab/Alch_Resources;
+		),
+	
+	#	--- FOOD ---		#
+	(
+		TabID: Alch_Survival;
+		DisplayName: "SUSTENANCE";
+		#SpriteItemID: Peeper;#
+		ParentTabPath: Alch_Fab;
+	),
+	
+		#	 	__ Cooked Food __ 	#
+		(
+			TabID: Alch_CookedFood;
+			DisplayName: "Cooked Food";
+			#SpriteItemID: CookedBladderfish;#
+			ParentTabPath: Alch_Fab/Alch_Survival;
+		),
+	
+		#	 	__ Cured Food __ 	#
+		(
+			TabID: Alch_CuredFood;
+			DisplayName: "Cured Food";
+			#SpriteItemID: CuredPeeper;#
+			ParentTabPath: Alch_Fab/Alch_Survival;
+		),
+		
+		#	 	__ Eaux __ 	#
+		(
+			TabID: Alch_Water;
+			DisplayName: "Water";
+			#SpriteItemID: BigFilteredWater;#
+			ParentTabPath: Alch_Fab/Alch_Survival;
+		),
+	
+		#	 	__ Cooking Food __ 	#
+		(
+			TabID: Alch_CookingFood;
+			DisplayName: "Cooking Food";
+			ParentTabPath: Alch_Fab/Alch_Survival;
+		);
+);

@@ -1,0 +1,46 @@
+
+# 		ENERGY	-	Reactor rod OldPath: Fabricator/Resources/Electronics;	#
+
+MovedRecipes:
+
+		#	NUCLEAR ENERGY	#
+(
+	ItemID: ReactorRod;
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Enriched_CopperOxide_Rod;										#	ALCHEMY REMASTERED	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Enriched_SulphurCrystals_Rod;									#	ALCHEMY REMASTERED	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Enriched_PinkSalt_Rod;											#	ALCHEMY REMASTERED	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Enriched_IronMagneticPowder_Rod;								#	ALCHEMY REMASTERED	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_RadiumCrystal_Rod;												#	ALCHEMY REMASTERED	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: SuperRod;															#	CustomReactorRods "M3dicCookie" - 2011	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: IonReactorRod;														#	Ion Reactor Rod "NamelessPlayer06" - 2187	#
+	NewPath: Workbench_MK2/EnergyUpgrades/NuclearEnergyUpgrades;
+	Copied: Yes;
+);

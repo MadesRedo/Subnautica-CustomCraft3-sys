@@ -1,0 +1,42 @@
+
+# 		CORRECTIONS		=>		removing unnecessary created items & submenus from the (useless) Workbench		#
+
+MovedRecipes:
+
+# ---	Tanks	--- #
+(
+	ItemID: PlasteelTank;
+	OldPath: Workbench/TankMenu;
+	Hidden: Yes;
+),
+(
+	ItemID: HighCapacityTank;
+	OldPath: Workbench/TankMenu;
+	Hidden: Yes;
+),
+
+# ---	Fins	--- #
+(
+	ItemID: UltraGlideFins;
+	OldPath: Workbench/FinsMenu;
+	Hidden: Yes;
+),
+(
+	ItemID: SwimChargeFins;
+	OldPath: Workbench/FinsMenu;
+	Hidden: Yes;
+),
+
+# ---	Blade	--- #
+(
+	ItemID: HeatBlade;
+	OldPath: Workbench/KnifeMenu;
+	Hidden: Yes;
+),
+
+# ---	Exosuit Hull Module		--- #
+(
+	ItemID: ExoHullModule2;
+	OldPath: Workbench/ExosuitMenu;
+	Hidden: Yes;
+);

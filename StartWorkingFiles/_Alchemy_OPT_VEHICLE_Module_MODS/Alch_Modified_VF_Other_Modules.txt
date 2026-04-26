@@ -1,0 +1,315 @@
+
+
+
+ModifiedRecipes:
+
+# -----------	VF Drill Arm - 1767		----------- #
+(
+    ItemID: DrillArmVF;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 5;
+    ),
+    (
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    );
+),
+
+# -----------	VF Scanner Arm - 1824	----------- #
+(
+    ItemID: ScannerArmVF;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_PinkSalt_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    );
+),
+
+# -----------	Solar Charging Module - 1413	----------- #
+(
+    ItemID: SolarChargingModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    );
+),
+
+# -----------	Thermal Charging Module - 1768		----------- #
+(
+    ItemID: ThermalChargingModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    );
+),
+
+# -----------	Self Repair Module - 2880	----------- #
+(
+    ItemID: SelfRepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 4;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 1;
+    );
+),
+
+# -----------	Magnet Boots Module - 2283		----------- #
+(
+    ItemID: MagnetBootsModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+
+# -----------	Flight Module - 2224	----------- #
+(
+    ItemID: FlightModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    );
+),
+
+# -----------	Impulse Speed Booster - 1403	----------- #
+(
+    ItemID: ImpulseSpeedBooster;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PowerCell;
+        Required: 2;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+
+# -----------	Sonar Module - 1406		----------- #
+(
+    ItemID: SonarModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 3;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    );
+),
+
+# -----------	Crabsquid Module - 1609		----------- #
+(
+    ItemID: CrabsquidModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PowerCell;
+        Required: 2;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+),
+
+# -----------	Nano Weave Barrier - 1405	----------- #
+(
+    ItemID: NanoWeaveBarrier;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_Gold_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+# -----------	Ion Defense Capacitor - 1404	----------- #
+(
+    ItemID: IonDefenseCapacitor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 2;
+    );
+),
+
+# -----------	Void Depth Upgrade - 1900	----------- #
+(
+    ItemID: VoidDepthUpgrade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_CorundumGem_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 2;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 2;
+    ),
+    (
+        ItemID: RedGreenTentacleSeed;
+        Required: 1;
+    );
+);

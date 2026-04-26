@@ -1,0 +1,20 @@
+CustomCraftingTabs:
+    (
+        TabID: MR_Cheats_Stations;
+        DisplayName: "MadesRedo Cheating (Stations)";
+        ParentTabPath: VehicleUpgradeConsole;
+        SpriteItemID: titanium;
+    ),
+    (
+        TabID: MR_CheapVehicleUpgrades_Console;
+        DisplayName: "Cheap Vehicle Upgrades";
+        ParentTabPath: VehicleUpgradeConsole/MR_Cheats_Stations;
+        SpriteItemID: SeamothDepthModule1;
+    ),
+    (
+        TabID: MR_CheapVehicleUpgrades_Cyclops;
+        DisplayName: "Cheap Cyclops Upgrades";
+        ParentTabPath: CyclopsFabricator;
+        SpriteItemID: CyclopsDepthModule1;
+    );
+

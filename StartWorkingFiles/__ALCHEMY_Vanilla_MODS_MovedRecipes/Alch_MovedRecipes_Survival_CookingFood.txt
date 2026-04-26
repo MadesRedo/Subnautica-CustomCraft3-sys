@@ -1,0 +1,73 @@
+
+#	Fabricator/Survival/ExtraFood		==> 	Copied 	to		==>		Alch_Fab/Alch_Survival/Alch_CookingFood		#
+
+MovedRecipes:
+
+# ---	Additions for CC3 "FlaFsteR1991" - 1477		--- #
+(
+	ItemID: FruitSalad;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: VegetableSalad;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+
+# ---	Alterra Ways "Johnyele" - 1516		--- #
+(
+	ItemID: NutrientBlockCraft;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: FruitNutrientBlock;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: SweetFruitJam;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: SpicyFruitSalad;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: CrabSalad;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: FishDish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: PotatoDish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: ScrambledEggs;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: ReefbackDish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: ChocolateBar;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+),
+(
+	ItemID: NutrientKit;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookingFood;
+	Copied: Yes;
+);

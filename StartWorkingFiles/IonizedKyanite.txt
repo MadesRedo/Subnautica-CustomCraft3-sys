@@ -1,0 +1,27 @@
+﻿AliasRecipes:
+(	
+    ItemID: IonizedKyanite;
+    DisplayName: "Ionized kyanite";
+    Tooltip: "Kyanite charged with the energy of an ion cube.";
+    LinkedItemIDs: IonizedKyanite;
+	SpriteItemID: Kyanite;
+	FunctionalID: Kyanite;
+	Ingredients:
+    (
+        ItemID: kyanite;
+        Required:3;
+	),
+	(
+        ItemID: precursorioncrystal;
+        Required:2;
+	),
+	(
+        ItemID: aluminumoxide;
+        Required:1;
+	);
+	ForceUnlockAtStart: NO;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	UnlockedBy: none;
+    Path: Fabricator/Resources/BasicMaterials;
+),

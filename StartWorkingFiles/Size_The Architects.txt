@@ -1,0 +1,6 @@
+CustomSizes:
+(
+    ItemID: PrecursorKey_White;
+    Width: 1;
+    Height: 1;
+);

@@ -1,0 +1,17 @@
+CustomFoods: 
+(
+    ItemID:NutrientBlockCClone;
+    DisplayName: "Nutrient Block";
+    Tooltip: "Dense, processed food recovered from the Aurora.";
+    AmountCrafted:1;
+    Ingredients:
+        ( ItemID: Melon; Required:1;)
+	, ( ItemID: CookedPeeper; Required:1;)
+	, (ItemID: Salt; Required:1;)
+    ;
+    FoodValue:75;
+    WaterValue:0;
+    ForceUnlockAtStart:False;
+    UnlockedBy:CookedPeeper;
+    Path: Fabricator/Survival/CookedFood;
+),

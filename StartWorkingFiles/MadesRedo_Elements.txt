@@ -1,0 +1,145 @@
+AddedRecipes:
+(
+    ItemID: Copper;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+),
+(
+    ItemID: Gold;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Reginald;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+),
+(
+    ItemID: Lead;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Hoverfish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+    UnlockedBy:
+    (
+        ItemID: Hoverfish;
+    );
+),
+(
+    ItemID: Lithium;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Hoopfish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+    UnlockedBy:
+    (
+        ItemID: Hoopfish;
+    );
+),
+(
+    ItemID: Magnetite;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Oculus;
+        Required: 1;
+    ),
+    (
+        ItemID: Boomerang;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+    UnlockedBy:
+    (
+        ItemID: Oculus;
+    );
+),
+(
+    ItemID: Nickel;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Holefish;
+        Required: 1;
+    ),
+    (
+        ItemID: Spinefish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+    UnlockedBy:
+    (
+        ItemID: Spinefish;
+    );
+),
+(
+    ItemID: Silver;
+    AmountCrafted: 6;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+    UnlockedBy:
+    (
+        ItemID: Peeper;
+    );
+),
+(
+    ItemID: PrecursorIonCrystal;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Hoopfish;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Spinefish;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    Path: Fabricator/MR_Craft/MR_Elements2;
+    UnlockedBy:
+    (
+        ItemID: UraniniteCrystal;
+    );
+);

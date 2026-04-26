@@ -1,0 +1,30 @@
+CustomFoods:
+(
+    ItemID: WaterElixir;
+    DecayRateMod: 0.0; 
+    DisplayName: "Hydration Elixir";
+    Tooltip: "Instantly restores full hydration. Highly purified water source with maximum efficiency.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: bloodoil;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    ),
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    ),
+    (
+        ItemID: purplevegetable;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Water;
+    FoodValue:-9;
+    WaterValue:100;
+    HealthValue:12;
+    ForceUnlockAtStart: YES;
+),

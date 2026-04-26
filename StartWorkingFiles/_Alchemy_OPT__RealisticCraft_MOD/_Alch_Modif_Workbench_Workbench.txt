@@ -1,0 +1,281 @@
+#		PdaGroup: Workbench | PdaCategory: Workbench		#
+
+
+ModifiedRecipes:
+
+
+#	------------	LAME THERMIQUE	-----------	#
+(
+    ItemID: HeatBlade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Knife;
+        Required: 1;
+    ),
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+
+#	------------	LÉGER RÉSERVOIR HAUTE CAPACITÉ	-----------	#
+(
+    ItemID: PlasteelTank;
+    AmountCrafted: 1;
+    Ingredients:
+	( 
+		ItemID: DoubleTank; 
+		Required: 1; 
+	),
+	( 
+		ItemID: Floater; 
+		Required: 4; 
+	),
+	( 
+		ItemID: AluminumOxide; 
+		Required: 2; 
+	),
+	( 
+		ItemID: Alch_AluminumRaw_Roll; 
+		Required: 1; 
+	);
+),
+
+#	------------	RÉSERVOIR TRÉS HAUTE CAPACITÉ	-----------	#
+(
+    ItemID: HighCapacityTank;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: DoubleTank;
+        Required: 1;
+    ),
+	( 
+		ItemID: Floater; 
+		Required: 4; 
+	),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 1;
+    );
+),
+
+#	------------	PALMES ULTRA-GLISSANTES	-----------	#
+(
+    ItemID: UltraGlideFins;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Fins;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: RedGreenTentacleSeed;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+
+#	------------	PALMES DE CHARGE	------------	#
+(
+    ItemID: SwimChargeFins;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Fins;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    );
+),
+
+#	------------	CANON À RÉPULSION	------------	#
+(
+    ItemID: RepulsionCannon;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PropulsionCannon;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 3;
+    ),
+	(
+        ItemID: SpottedLeavesPlantSeed;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE MK2 SEAMOTH (200m + 300m => 500m)	------------	#
+(
+    ItemID: VehicleHullModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleHullModule1;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_PinkSalt_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE MK3 SEAMOTH (200m + 700m => 900m)	------------	#
+(
+    ItemID: VehicleHullModule3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleHullModule2;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Alumina_Carbon_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+	(
+        ItemID: MembrainTreeSeed;
+        Required: 2;
+    ),
+	(
+        ItemID: AluminumOxide;
+        Required: 3;
+    );
+),
+
+#	------------	MODULE MK2 CYCLOPS (500m + 800m => 1300m)	------------	#
+(
+    ItemID: CyclopsHullModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsHullModule1;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_SulphurCrystals_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: MembrainTreeSeed;
+        Required: 6;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 3;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 2;
+    );
+),
+
+#	------------	MODULE MK3 CYCLOPS (500m + 1200m => 1700m)	------------	#
+(
+    ItemID: CyclopsHullModule3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsHullModule2;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_AlchemyMaster_Ingot;
+        Required: 1;
+    );
+),
+
+#	------------	MODULE MK2 PRAWN (900m + 800m => 1700m)	------------	#
+(
+    ItemID: ExoHullModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExoHullModule1;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_AlchemyMaster_Ingot;
+        Required: 1;
+    );
+),
+
+#	------------	POWERGLIDE		------------	#
+(
+    ItemID:  PowerGlide;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID:  Seaglide;
+        Required:  1;
+    ),
+    (
+        ItemID:  AdvancedWiringKit;
+        Required:  1;
+    );
+);

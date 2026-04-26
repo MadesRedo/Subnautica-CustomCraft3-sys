@@ -1,0 +1,77 @@
+
+# ---	UPGRADES LIB "LawAbidingDeveloper" - 2430 	--- #
+
+CustomCraftingTabs: 
+
+# ---	Repair Tool Upgrades "LawAbidingDeveloper" - 2605 	--- #
+(
+	TabID: UpgLIB_RepairToolTabs;
+	DisplayName: "Repair Tool Upgrades";
+	SpriteItemID: Welder;
+	ParentTabPath: HandHeldToolsFabricator;
+),
+	#__ Speed __#
+	(
+		TabID: UpgLIB_RepairToolSpeed;
+		DisplayName: "Repair Speed";
+		SpriteItemID: Welder;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs;
+	),
+	#__ Efficiency __#
+	(
+		TabID: UpgLIB_RepairToolEfficiency;
+		DisplayName: "Repair Efficiency";
+		SpriteItemID: Welder;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_RepairToolTabs;
+	),
+	
+# ---	Air Bladder Upgrades "LawAbidingDeveloper" - 3016 	--- #
+(
+	TabID: UpgLIB_AirBladderTabs;
+	DisplayName: "Air Bladder Upgrades";
+	SpriteItemID: AirBladder;
+	ParentTabPath: HandHeldToolsFabricator;
+),
+	#__ Capacity __#
+	(
+		TabID: UpgLIB_AirBladderCapacity;
+		DisplayName: "Air Bladder Capacity";
+		SpriteItemID: AirBladder;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs;
+	),
+	#__ Force __#
+	(
+		TabID: UpgLIB_AirBladderForce;
+		DisplayName: "Air Bladder Force";
+		SpriteItemID: AirBladder;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_AirBladderTabs;
+	),
+	
+# ---	Literal Seaglide Upgrades "LawAbidingDeveloper" - 2254 	--- #
+(
+	TabID: UpgLIB_SeaglideTabs;
+	DisplayName: "Seaglide Upgrades";
+	SpriteItemID: Seaglide;
+	ParentTabPath: HandHeldToolsFabricator;
+),
+	#__ Efficiency __#
+	(
+		TabID: UpgLIB_SeaglideEfficiency;
+		DisplayName: "Seaglide Efficiency";
+		SpriteItemID: PowerUpgradeModule;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs;
+	),
+	#__ Speed 1 to 6 __#
+	(
+		TabID: UpgLIB_SeaglideSpeed_1;
+		DisplayName: "Speed ​​from Mk1 to Mk6";
+		SpriteItemID: Seaglide;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs;
+	),
+	#__ Speed 7 to 13 __#
+	(
+		TabID: UpgLIB_SeaglideSpeed_2;
+		DisplayName: "Speed ​​from Mk7 to Mk13";
+		SpriteItemID: Seaglide;
+		ParentTabPath: HandHeldToolsFabricator/UpgLIB_SeaglideTabs;
+	);

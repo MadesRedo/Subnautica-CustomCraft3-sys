@@ -1,0 +1,138 @@
+AliasRecipes: 
+    (
+        ItemID: add_enameledglass;
+	DisplayName: "Enamedglass x2";
+	Tooltip: "Cheap Enamedglass - hardened glass";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, enameledglass, enameledglass;
+	SpriteItemID: enameledglass;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_fibermesh;
+	DisplayName: "Fibermesh x2";
+	Tooltip: "Cheap Fibermesh";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, fibermesh, fibermesh;
+	SpriteItemID: fibermesh;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_glass;
+	DisplayName: "Glass x2";
+	Tooltip: "Cheap Glass";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, glass, glass;
+	SpriteItemID: glass;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_lubricant;
+	DisplayName: "Lubricant x2";
+	Tooltip: "Cheap Lubricant";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, lubricant, lubricant;
+	SpriteItemID: lubricant;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_silicone;
+	DisplayName: "Silicone Rubber x2";
+	Tooltip: "Cheap Silicone Rubber";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, silicone, silicone;
+	SpriteItemID: silicone;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_titaniumingot;
+	DisplayName: "Titanium Ingot x2";
+	Tooltip: "Cheap Titanium Ingot";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, titaniumingot, titaniumingot;
+	SpriteItemID: titaniumingot;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_plasteelingot;
+	DisplayName: "Plasteel Ingot x2";
+	Tooltip: "Cheap Plasteel Ingot";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, plasteelingot, plasteelingot;
+	SpriteItemID: plasteelingot;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    ),
+    (
+        ItemID: add_scrapmetal;
+	DisplayName: "Scrap Metal x4";
+	Tooltip: "Cheap Scrap Metal";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, scrapmetal, scrapmetal, scrapmetal, scrapmetal;
+	SpriteItemID: scrapmetal;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapAlloys;        
+    );
+	

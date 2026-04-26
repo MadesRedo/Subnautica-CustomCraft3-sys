@@ -1,0 +1,21 @@
+CustomFabricators:
+(
+    ItemID:Ndecomp;
+    Ingredients:
+        (ItemID:magnesium;Required:1;),
+        (ItemID:advancedwiringkit;Required:1;),
+        (ItemID:mercuryore;Required:3;),
+        (ItemID:nickel;Required:2;);
+    ForceUnlockAtStart:NO;
+    UnlockedBy:Workbench,BaseUpgradeConsole,Cyclops;
+    PdaGroup:InteriorModules;
+    PdaCategory:InteriorModule;
+    DisplayName:"Nuclear Decomposer";
+    Tooltip:"Breaks down alien resources into Uranium";
+    Model:MoonPool;
+    ColorTint: 0.0, 0.5, 0.0, 1.0;
+    AllowedInBase:YES;
+    AllowedInCyclops:YES;
+    CustomCraftingTabs:
+       (TabID:Decomp;DisplayName:"Decompose";SpriteItemID:Peeper;ParentTabPath:Ndecomp;);
+   );

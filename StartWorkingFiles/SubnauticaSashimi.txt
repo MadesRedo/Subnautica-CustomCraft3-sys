@@ -1,0 +1,352 @@
+CustomFoods:
+(
+    ItemID: PeeperSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Peeper Sashimi";
+    UnlockedBy: Peeper;
+    Tooltip: "Its diet of corals and tough vegetation has given the peeper a sweet delicate flavor. A healthy rich meal.";
+    SpriteItemID: PeeperSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:32;
+    HealthValue:5;
+    FoodType: Peeper;
+    SpriteItemID: Peeper;
+),
+(
+    ItemID: BladderfishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Bladderfish Sashimi";
+    UnlockedBy: Bladderfish;
+    Tooltip: "Texture similar to squid or octopus, special care is taken to keep bladder intact. Clean and bright in flavor.";
+    SpriteItemID: BladderfishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Bladderfish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:16;
+    OxygenValue:10;
+    HealthValue:4;
+    FoodType: Bladderfish;
+    SpriteItemID: Bladderfish;
+),
+(
+    ItemID: BoomerangSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Boomerang Sashimi";
+    UnlockedBy: Boomerang;
+    Tooltip: "Cartilaginous fins are slightly soft, Light with no peculiar taste. Less fat than other fish.";
+    SpriteItemID: BoomerangSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:21;
+    HealthValue:3;
+    FoodType: Boomerang;
+    SpriteItemID: Boomerang;
+),
+(
+    ItemID: EyeyeSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Eyeye Sashimi";
+    UnlockedBy: Eyeye;
+    Tooltip: "Fleshy giant eyeball, consists of hard sclera holding lens iris and gelatinous fluid. Inner contents of the eye can be easily sucked out.";
+    SpriteItemID: EyeyeSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Eyeye;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:18;
+    HealthValue:10;
+    FoodType: Eyeye;
+    SpriteItemID: Eyeye;
+),
+(
+    ItemID: GarryfishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Garryfish Sashimi";
+    UnlockedBy: Garryfish;
+    Tooltip: "Soft and fat belly meat is buttery and rich flavor.";
+    SpriteItemID: GarryfishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Garryfish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:18;
+    HealthValue:5;
+    FoodType: Garryfish;
+    SpriteItemID: Garryfish;
+),
+(
+    ItemID: HolefishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Holefish Sashimi";
+    UnlockedBy: Holefish;
+    Tooltip: "A delicate blend of sweet umami and sublime briny taste. Rich creamy texture.";
+    SpriteItemID: HolefishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Holefish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:21;
+    HealthValue:3;
+    FoodType: Holefish;
+    SpriteItemID: Holefish;
+),
+(
+    ItemID: HoopfishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Hoopfish Sashimi";
+    UnlockedBy: Hoopfish;
+    Tooltip: "Firm flesh very low in fat tastes almost like whitefish, subtle yet powerful. Never eat the antennae.";
+    SpriteItemID: HoopfishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Hoopfish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:23;
+    HealthValue:3;
+    FoodType: Hoopfish;
+    SpriteItemID: Hoopfish;
+),
+(
+    ItemID: HoverfishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Hoverfish Sashimi";
+    UnlockedBy: Hoverfish;
+    Tooltip: "Low-fat meat with a mild slightly fishy taste and a delicate tender texture.";
+    SpriteItemID: HoverfishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Hoverfish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:-2;
+    FoodValue:23;
+    HealthValue:3;
+    FoodType: Hoverfish;
+    SpriteItemID: Hoverfish;
+),
+(
+    ItemID: LavaboomerangSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Magmarang Sashimi";
+    UnlockedBy: Lavaboomerang;
+    Tooltip: "Cartilaginous fins are slightly chewy, Mild with a rather spicy taste. Less fat than other fish.";
+    SpriteItemID: LavaboomerangSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Lavaboomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:20;
+    HealthValue:4;
+    FoodType: Lavaboomerang;
+    SpriteItemID: Lavaboomerang;
+),
+(
+    ItemID: OculusSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Oculus Sashimi";
+    UnlockedBy: Oculus;
+    Tooltip: "Sweet dense meat strong in flavor. A healthy rich meal.";
+    SpriteItemID: OculusSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Oculus;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:30;
+    HealthValue:6;
+    FoodType: Oculus;
+    SpriteItemID: Oculus;
+),
+(
+    ItemID: LavaeyeyeSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Red Eyeye Sashimi";
+    UnlockedBy: Lavaeyeye;
+    Tooltip: "Red giant eyeball, consists of hard sclera holding lens iris and extremely spicy fluid. Inner contents of the eye can be sucked out.";
+    SpriteItemID: LavaeyeyeSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Lavaeyeye;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:18;
+    HealthValue:8;
+    FoodType: Lavaeyeye;
+    SpriteItemID: Lavaeyeye;
+),
+(
+    ItemID: ReginaldSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Reginald Sashimi";
+    UnlockedBy: Reginald;
+    Tooltip: "Offers tender flaky flesh with a pungent nutty flavor. Super filling.";
+    SpriteItemID: ReginaldSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Reginald;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:44;
+    HealthValue:8;
+    FoodType: Reginald;
+    SpriteItemID: Reginald;
+),
+(
+    ItemID: SpadefishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Spadefish Sashimi";
+    UnlockedBy: Spadefish;
+    Tooltip: "Salty gamey flavor with a firm texture.";
+    SpriteItemID: SpadefishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Spadefish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:1;
+    FoodValue:23;
+    HealthValue:5;
+    FoodType: Spadefish;
+    SpriteItemID: Spadefish;
+),
+(
+    ItemID: SpinefishSashimi;
+    DecayRateMod: 1.5; 
+    DisplayName: "Spinefish Sashimi";
+    UnlockedBy: Spinefish;
+    Tooltip: "Distinct ammonia-like flavor. Bony oily texture. Never eat the antennae.";
+    SpriteItemID: SpinefishSashimi;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Spinefish;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Sashimi;
+    ForceUnlockAtStart: NO;
+    WaterValue:0;
+    FoodValue:12;
+    HealthValue:1;
+    FoodType: Spinefish;
+    SpriteItemID: Spinefish;
+);

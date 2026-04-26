@@ -1,0 +1,211 @@
+
+
+
+AliasRecipes:
+
+
+#	----------------------------------------	#
+#				ORGANIC ALCHEMY					#
+#	----------------------------------------	#
+
+
+#	----------	ORGANIC MANURE X3  		(Alien feces)	------------	#
+(
+    ItemID: Alch_OrganicManure;
+	DisplayName: "Organic Manure";
+	Tooltip: "Organic Manure (x3): organic component, the long-awaited recipe for making... big poo!! Very rich in minerals, it is essential to obtain Alchemic Diamond. Bioreactor: +300";
+    LinkedItemIDs: SeaTreaderPoop, SeaTreaderPoop, SeaTreaderPoop;
+	FunctionalID: SeaTreaderPoop;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_OrganicManure;
+    Ingredients:
+	(
+        ItemID: SpottedLeavesPlantSeed;
+        Required: 2;
+    ),
+	(
+        ItemID: PurpleStalkSeed;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_SyntheticManure;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: BigFilteredWater;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    );
+),
+
+#	------------	LARGE FILTERED WATER	-----------	#
+
+#	moved to : 	Alchemy Fabricator / FOOD / Water	(Alch_Fab/Alch_Survival/Alch_Water)		#
+#	see in	 : _Alch_MovedRecipes_Survival_Water.txt										#
+(
+    ItemID: Alch_BigFilteredWater;
+	DisplayName: "Large filtered water";
+	Tooltip: "Organic Alchemy. To obtain +1 Large filtered water";
+    LinkedItemIDs: BigFilteredWater;
+	FunctionalID: BigFilteredWater;
+	PdaGroup: Survival;
+	PdaCategory: Water;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_BigFilteredWater;
+    Ingredients:
+    (
+        ItemID: Melon;
+        Required: 1;
+    ),
+	(
+        ItemID: KooshChunk;
+        Required: 1;
+    ),
+	(
+        ItemID: JellyPlant;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	----------	NUTRIENT BLOCK	-----------	#
+(
+    ItemID: Alch_NutrientBlock;
+    DisplayName: "Nutrient block (x3)";
+	Tooltip: "Organic Alchemy. To obtain +3 Nutrient block";
+	LinkedItemIDs: NutrientBlock, NutrientBlock, NutrientBlock;
+	FunctionalID: NutrientBlock;
+	PdaGroup: Survival;
+	PdaCategory: CuredFood;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_NutrientBlock;
+    Ingredients:
+    (
+        ItemID: BulboTreePiece;
+        Required: 2;
+    ),
+	(
+        ItemID: SmallFanseed;
+        Required: 2;
+    ),
+    (
+        ItemID: CookedPeeper;
+        Required: 2;
+    ),
+	(
+        ItemID: CuredSpadefish;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+#	----------	STALKER TOOTH	------------	#
+(
+    ItemID: Alch_StalkerTooth;
+    DisplayName: "Synthetic Stalker tooth (x4)";
+	Tooltip: "Organic Alchemy. To synthesize +4 Stalker tooth";
+	LinkedItemIDs: StalkerTooth, StalkerTooth, StalkerTooth, StalkerTooth;
+	FunctionalID: StalkerTooth;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_StalkerTooth;
+    Ingredients:
+    (
+        ItemID: StalkerTooth;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    );
+),
+
+#	----------	GAS POD	------------	#
+(
+    ItemID: Alch_GasPod;
+    DisplayName: "Synthetic Gas pod (x4)";
+	Tooltip: "Organic Alchemy. To synthesize +4 Gas pod";
+	LinkedItemIDs: GasPod, GasPod, GasPod, GasPod;
+	FunctionalID: GasPod;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_GasPod;
+    Ingredients:
+    (
+        ItemID: GasPod;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 1;
+    ),
+	(
+        ItemID: CrashPowder;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+
+#	----------	TABLE CORAL SAMPLE	------------	#
+(
+    ItemID: Alch_JeweledDiskPiece;
+    DisplayName: "Table coral sample (x4)";
+	Tooltip: "Organic Alchemy. To synthesize +4 Table coral sample";
+	LinkedItemIDs: JeweledDiskPiece, JeweledDiskPiece, JeweledDiskPiece, JeweledDiskPiece;
+	FunctionalID: JeweledDiskPiece;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+	Path: Alch_Fab/Alch_Organics;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_JeweledDiskPiece;
+    Ingredients:
+    (
+        ItemID: JeweledDiskPiece;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+);

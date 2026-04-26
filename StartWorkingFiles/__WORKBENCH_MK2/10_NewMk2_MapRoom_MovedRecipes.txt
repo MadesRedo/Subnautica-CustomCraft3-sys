@@ -1,0 +1,68 @@
+
+# 		MAP ROOM		#
+
+MovedRecipes:
+
+
+(
+	ItemID: MapRoomUpgradeScanRange;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomUpgradeScanSpeed;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCamera;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: MapRoomHUDChip;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MobileResourceScanner;											#	Mobile Resource Scanner "aedenthorn" - 1234		#
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	-----	Camera Drone Upgrades AIO "EldritchCarMaker" - 1914   -----		#
+(
+	ItemID: MapRoomCameraDefenseUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCameraFlightUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCameraRepairUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCameraShieldUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCameraSpeedUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCameraStasisUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MapRoomCameraStealthUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+);

@@ -1,0 +1,253 @@
+AliasRecipes:
+(
+ItemID: multiplycreepvinepiece;
+DisplayName: "Creepvine Sample (x10)";
+Tooltip: "Creepvine Sample. Multiplied in the BioGarden.";
+FunctionalID: creepvinepiece;
+SpriteItemID: creepvinepiece;
+AmountCrafted: 0;
+LinkedItemIDs: creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece, creepvinepiece;
+Ingredients:
+(
+ItemID: creepvinepiece;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: creepvinepiece;
+),
+(
+ItemID: multiplyacidmushroom;
+DisplayName: "Acid Mushroom (x10)";
+Tooltip: "Acid Mushroom. Multiplied in the BioGarden.";
+FunctionalID: acidmushroom;
+SpriteItemID: acidmushroom;
+AmountCrafted: 0;
+LinkedItemIDs: acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom, acidmushroom;
+Ingredients:
+(
+ItemID: acidmushroom;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: acidmushroom;
+),
+(
+ItemID: multiplycoralchunk;
+DisplayName: "Coral Tube Sample (x10)";
+Tooltip: "Coral Tube Sample. Multiplied in the BioGarden.";
+FunctionalID: coralchunk;
+SpriteItemID: coralchunk;
+AmountCrafted: 0;
+LinkedItemIDs: coralchunk, coralchunk, coralchunk, coralchunk, coralchunk, coralchunk, coralchunk, coralchunk, coralchunk, coralchunk;
+Ingredients:
+(
+ItemID: coralchunk;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: coralchunk;
+),
+(
+ItemID: multiplywhitemushroom;
+DisplayName: "Deep Shroom (x10)";
+Tooltip: "Deep Shroom. Multiplied in the BioGarden.";
+FunctionalID: whitemushroom;
+SpriteItemID: whitemushroom;
+AmountCrafted: 0;
+LinkedItemIDs: whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom, whitemushroom;
+Ingredients:
+(
+ItemID: whitemushroom;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: whitemushroom;
+),
+(
+ItemID: multiplytreemushroompiece;
+DisplayName: "Funghal Sample (x10)";
+Tooltip: "Funghal Sample. Multiplied in the BioGarden.";
+FunctionalID: treemushroompiece;
+SpriteItemID: treemushroompiece;
+AmountCrafted: 0;
+LinkedItemIDs: treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece, treemushroompiece;
+Ingredients:
+(
+ItemID: treemushroompiece;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: treemushroompiece;
+),
+(
+ItemID: multiplyjellyplant;
+DisplayName: "Gel Sack (x10)";
+Tooltip: "Gel Sack. Multiplied in the BioGarden.";
+FunctionalID: jellyplant;
+SpriteItemID: jellyplant;
+AmountCrafted: 0;
+LinkedItemIDs: jellyplant, jellyplant, jellyplant, jellyplant, jellyplant, jellyplant, jellyplant, jellyplant, jellyplant, jellyplant;
+Ingredients:
+(
+ItemID: jellyplant;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: jellyplant;
+),
+(
+ItemID: multiplybloodoil;
+DisplayName: "Blood Oil (x10)";
+Tooltip: "Blood Oil. Multiplied in the BioGarden.";
+FunctionalID: bloodoil;
+SpriteItemID: bloodoil;
+AmountCrafted: 0;
+LinkedItemIDs: bloodoil, bloodoil, bloodoil, bloodoil, bloodoil, bloodoil, bloodoil, bloodoil, bloodoil, bloodoil;
+Ingredients:
+(
+ItemID: bloodoil;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: bloodoil;
+),
+(
+ItemID: multiplymelon;
+DisplayName: "Marblemelon (x10)";
+Tooltip: "Marblemelon. Multiplied in the BioGarden.";
+FunctionalID: melon;
+SpriteItemID: melon;
+AmountCrafted: 0;
+LinkedItemIDs: melon, melon, melon, melon, melon, melon, melon, melon, melon, melon;
+Ingredients:
+(
+ItemID: melon;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: melon;
+),
+(
+ItemID: multiplypurplebraincoralpiece;
+DisplayName: "Brain Coral Sample (x10)";
+Tooltip: "Brain Coral Sample. Multiplied in the BioGarden.";
+FunctionalID: purplebraincoralpiece;
+SpriteItemID: purplebraincoralpiece;
+AmountCrafted: 0;
+LinkedItemIDs: purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece, purplebraincoralpiece;
+Ingredients:
+(
+ItemID: purplebraincoralpiece;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: purplebraincoralpiece;
+),
+(
+ItemID: multiplykooshchunk;
+DisplayName: "Bulb Bush Sample (x10)";
+Tooltip: "Bulb Bush Sample. Multiplied in the BioGarden.";
+FunctionalID: kooshchunk;
+SpriteItemID: kooshchunk;
+AmountCrafted: 0;
+LinkedItemIDs: kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk, kooshchunk;
+Ingredients:
+(
+ItemID: kooshchunk;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: kooshchunk;
+),
+(
+ItemID: multiplybulbotreepiece;
+DisplayName: "Bulbo Tree Sample (x10)";
+Tooltip: "Bulbo Tree Sample. Multiplied in the BioGarden.";
+FunctionalID: bulbotreepiece;
+SpriteItemID: bulbotreepiece;
+AmountCrafted: 0;
+LinkedItemIDs: bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece, bulbotreepiece;
+Ingredients:
+(
+ItemID: bulbotreepiece;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: bulbotreepiece;
+),
+(
+ItemID: multiplyhangingfruit;
+DisplayName: "Lantern Fruit (x10)";
+Tooltip: "Lantern Fruit. Multiplied in the BioGarden.";
+FunctionalID: hangingfruit;
+SpriteItemID: hangingfruit;
+AmountCrafted: 0;
+LinkedItemIDs: hangingfruit, hangingfruit, hangingfruit, hangingfruit, hangingfruit, hangingfruit, hangingfruit, hangingfruit, hangingfruit, hangingfruit;
+Ingredients:
+(
+ItemID: hangingfruit;
+Required: 1;
+),
+(
+ItemID: MR_Fertilizer;
+Required: 1;
+);
+Path: Fabricator/MR_Craft/MR_BioGarden;
+ForceUnlockAtStart: NO;
+UnlockedBy: hangingfruit;
+);

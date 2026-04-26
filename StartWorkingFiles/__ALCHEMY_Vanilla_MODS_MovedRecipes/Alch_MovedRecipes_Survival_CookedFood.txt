@@ -1,0 +1,133 @@
+
+#	Fabricator/Survival/CookedFood		==> 	Copied 	to		==>		Alch_Fab/Alch_Survival/Alch_CookedFood		#
+
+MovedRecipes:
+
+
+(
+	ItemID: CookedHoleFish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedPeeper;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedBladderfish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedGarryFish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedHoverfish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedReginald;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedSpadefish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedBoomerang;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedLavaBoomerang;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedEyeye;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedLavaEyeye;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedOculus;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedHoopfish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedSpinefish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+
+# ---	De-Extinction 2.0 "Kallie23" - 640		--- #
+(
+	ItemID: CookedFiltorb;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedFloralFiltorb;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedAxetail;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedJellySpinner;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedRibbonRay;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedTriangleFish;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedRubyClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedSapphireClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedEmeraldClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedAmberClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+),
+(
+	ItemID: CookedCitrineClownPincher;
+	NewPath: Alch_Fab/Alch_Survival/Alch_CookedFood;
+	Copied: Yes;
+);

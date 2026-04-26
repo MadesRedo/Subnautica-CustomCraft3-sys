@@ -1,0 +1,270 @@
+#		PdaGroup: Personal | PdaCategory: Equipment		#
+
+
+ModifiedRecipes:
+
+
+#	------------	RÉSERVOIR OXYGÈNE STANDARD	-----------	#
+(
+    ItemID: Tank;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+	(
+        ItemID: Silver;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	RÉSERVOIR OXYGÈNE HAUTE CAPACITÉ	-----------	#
+(
+    ItemID: DoubleTank;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Tank;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: Gold;
+        Required: 1;
+    );
+),
+
+#	------------	PALMES	-----------	#
+(
+    ItemID: Fins;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Silicone;
+        Required: 3;
+    );
+),
+
+#	------------	COMBI. ANTI-RADIATIONS	-----------	#
+(
+	ItemID: RadiationSuit;
+	AmountCrafted: 1;
+	Ingredients: 
+    (
+        ItemID: FiberMesh;
+        Required: 4;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    );
+	LinkedItemIDs: RadiationHelmet, RadiationGloves;
+),
+
+#	------------	COMBI. RENFORCÉE	-----------	#
+(
+    ItemID: ReinforcedDiveSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AramidFibers;
+        Required: 3;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 4;
+    );
+	LinkedItemIDs: ReinforcedGloves;
+),
+
+#	------------	COMBI. FILTRATION D'EAU	-----------	#
+(
+    ItemID: WaterFiltrationSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 2;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+#	------------	KIT DE SOINS	--------------------	#
+(
+    ItemID: FirstAidKit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Bleach;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    );
+),
+
+#	------------	EXCTINCTEUR	--------------------	#
+(
+    ItemID: FireExtinguisher;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: CrashPowder;
+        Required: 2;
+    );
+),
+
+#	------------	RECYCLEUR D'AIR	--------------------	#
+(
+    ItemID: Rebreather;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+#	------------	BOUSSOLE	--------------------	#
+(
+    ItemID: Compass;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+
+#	------------	THERMOMÈTRE	--------------------	#
+(
+    ItemID: Thermometer;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    );
+),
+
+#	------------	TUYAU	--------------------	#
+(
+    ItemID: Pipe;
+    AmountCrafted: 5;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+),
+
+#	------------	POMPE À AIR FLOTTANTE	--------------------	#
+(
+    ItemID: PipeSurfaceFloater;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AirBladder;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 2;
+    );
+);

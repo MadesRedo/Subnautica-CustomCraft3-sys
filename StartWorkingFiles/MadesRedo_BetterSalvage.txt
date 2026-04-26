@@ -1,0 +1,182 @@
+AliasRecipes: 
+(
+    ItemID: SalvTitanium;
+    DisplayName: "Titanium (x15)";
+    Tooltip: "Titanium from Metal Salvage";
+    LinkedItemIDs: titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvCopper;
+    DisplayName: "Copper (x8)";
+    Tooltip: "Copper from Metal Salvage";
+    LinkedItemIDs: copper,copper,copper,copper,copper,copper,copper,copper;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvSilver;
+    DisplayName: "Silver (x8)";
+    Tooltip: "Silver from Metal Salvage";
+    LinkedItemIDs: silver,silver,silver,silver,silver,silver,silver,silver;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvLead;
+    DisplayName: "Lead (x8)";
+    Tooltip: "Lead from Metal Salvage";
+    LinkedItemIDs: lead,lead,lead,lead,lead,lead,lead,lead;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvLithium;
+    DisplayName: "Lithium (x8)";
+    Tooltip: "Lithium from Metal Salvage";
+    LinkedItemIDs: lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvSalt;
+    DisplayName: "Salt (x7)";
+    Tooltip: "Salt from Metal Salvage";
+    LinkedItemIDs: salt,salt,salt,salt,salt,salt,salt;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvGold;
+    DisplayName: "Gold (x6)";
+    Tooltip: "Gold from Metal Salvage";
+    LinkedItemIDs: gold,gold,gold,gold,gold,gold;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvRuby;
+    DisplayName: "Ruby (x5)";
+    Tooltip: "Ruby from Metal Salvage";
+    LinkedItemIDs: aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide;
+    AmountCrafted: 0;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Workbench;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvMagnetite;
+    DisplayName: "Magnetite (x5)";
+    Tooltip: "Magnetite from 2 Metal Salvages";
+    LinkedItemIDs: magnetite,magnetite,magnetite,magnetite,magnetite;
+    AmountCrafted: 0;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Workbench;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvDiamond;
+    DisplayName: "Diamond (x4)";
+    Tooltip: "Diamond from 2 Metal Salvages";
+    LinkedItemIDs: diamond,diamond,diamond,diamond;
+    AmountCrafted: 0;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Workbench;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvNickel;
+    DisplayName: "Nickel (x4)";
+    Tooltip: "Nickel from 2 Metal Salvages";
+    LinkedItemIDs: nickel,nickel,nickel,nickel;
+    AmountCrafted: 0;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Workbench;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvKyanite;
+    DisplayName: "Kyanite (x3)";
+    Tooltip: "Kyanite from 2 Metal Salvages";
+    LinkedItemIDs: kyanite,kyanite,kyanite;
+    AmountCrafted: 0;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Workbench;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+),
+(
+    ItemID: SalvIonCube;
+    DisplayName: "IonCube";
+    Tooltip: "IonCube from 3 Metal Salvages";
+    LinkedItemIDs: precursorioncrystal;
+    AmountCrafted: 0;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Workbench,Cyclops;
+    Ingredients: 
+    (
+        ItemID: scrapmetal;
+        Required: 3;
+    );
+    Path: Fabricator/MR_Craft/MR_ScrapTab;
+);

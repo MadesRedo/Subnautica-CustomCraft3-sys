@@ -1,0 +1,17 @@
+CustomFoods:
+(
+    ItemID: Cookedpeeperpatty;
+    DecayRateMod: 0.21; 
+    DisplayName: "Cooked Peeper Patty";
+    Tooltip: "Why have a Peeper Patty raw, when you can cook it. Tastes similar to Cod from Earth.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeperpatty;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/CookedFood;
+    FoodValue:45;
+    WaterValue:12;
+    ForceUnlockAtStart: YES;
+),

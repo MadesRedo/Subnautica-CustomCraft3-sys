@@ -1,0 +1,252 @@
+
+
+
+CustomBioFuels: 
+
+#	--------	Organique	--------	#
+(
+    ItemID: Alch_SyntheticManure;
+    Energy: 220;
+),
+(
+    ItemID: Alch_SyntheticManure_Bag;
+    Energy: 2200;
+),
+(
+    ItemID: Alch_OrganicManure_Bag;		#	SeaTreaderPoop = 300	#
+    Energy: 3000;
+),
+
+#	--------	Matériaux de base	--------	#
+(
+    ItemID: Magnesium;
+    Energy: 100;
+),
+(
+    ItemID: Alch_Magnesium_Block;
+    Energy: 1000;
+),
+(
+    ItemID: MercuryOre;
+    Energy: 100;
+),
+(
+    ItemID: Alch_CinnabarPowder_Vial;
+    Energy: 1000;
+),
+
+#	--------	Alchimie de Base	--------	#
+(
+    ItemID: Alch_Titanium;
+    Energy: 300;
+),
+(
+    ItemID: TitaniumIngot;
+    Energy: 3000;
+),
+(
+    ItemID: Alch_Copper;
+    Energy: 200;
+),
+(
+    ItemID: Alch_Copper_Ingot;
+    Energy: 2000;
+),
+(
+    ItemID: Alch_Quartz;
+    Energy: 200;
+),
+(
+    ItemID: Alch_Quartz_Block;
+    Energy: 2000;
+),
+(
+    ItemID: Alch_Glass_Block;
+    Energy: 2000;
+),
+(
+    ItemID: Alch_EnameledGlass_Block;
+    Energy: 2000;
+),
+(
+    ItemID: Alch_CrashPowder;
+    Energy: 220;
+),
+(
+    ItemID: Alch_CrashPowder_Bag;
+    Energy: 2200;
+),
+(
+    ItemID: Alch_Salt;
+    Energy: 220;
+),
+(
+    ItemID: Alch_Salt_Block;
+    Energy: 2200;
+),
+(
+    ItemID: Alch_OrganicTitanium;
+    Energy: 100;
+),
+(
+    ItemID: Alch_OrganicTitanium_Block;
+    Energy: 1000;
+),
+(
+    ItemID: Alch_CopperOxide;
+    Energy: 100;
+),
+(
+    ItemID: Alch_CopperOxide_Block;
+    Energy: 1000;
+),
+(
+    ItemID: Alch_SulphurCrystals;
+    Energy: 100;
+),
+(
+    ItemID: Alch_SulphurCrystals_Block;
+    Energy: 1000;
+),
+(
+    ItemID: Alch_PinkSalt;
+    Energy: 100;
+),
+(
+    ItemID: Alch_PinkSalt_Block;
+    Energy: 1000;
+),
+
+#	--------	Alchimie Standard	--------	#
+(
+    ItemID: Alch_Lead;
+    Energy: 350;
+),
+(
+    ItemID: Alch_Lead_Block;
+    Energy: 3500;
+),
+(
+    ItemID: Alch_Silver;
+    Energy: 380;
+),
+(
+    ItemID: Alch_Silver_Ingot;
+    Energy: 3800;
+),
+(
+    ItemID: Alch_Gold;
+    Energy: 380;
+),
+(
+    ItemID: Alch_Gold_Ingot;
+    Energy: 3800;
+),
+(
+    ItemID: Alch_Lithium;
+    Energy: 400;
+),
+(
+    ItemID: Alch_Lithium_Block;
+    Energy: 4000;
+),
+(
+    ItemID: Alch_IronMagneticPowder;
+    Energy: 180;
+),
+(
+    ItemID: Alch_IronMagneticPowder_Bag;
+    Energy: 1800;
+),
+(
+    ItemID: Alch_AluminumRaw;
+    Energy: 200;
+),
+(
+    ItemID: Alch_AluminumRaw_Roll;
+    Energy: 2000;
+),
+
+#	--------	Alchimie Avancée	--------	#
+(
+    ItemID: Alch_Diamond;
+    Energy: 500;
+),
+(
+    ItemID: Alch_Diamond_Block;
+    Energy: 5000;
+),
+(
+    ItemID: Alch_AluminumOxide;
+    Energy: 600;
+),
+(
+    ItemID: Alch_AluminumOxide_Block;
+    Energy: 6000;
+),
+(
+    ItemID: Alch_Magnetite;
+    Energy: 600;
+),
+(
+    ItemID: Alch_Magnetite_Block;
+    Energy: 6000;
+),
+(
+    ItemID: Alch_Sulphur;
+    Energy: 600;
+),
+(
+    ItemID: Alch_Sulphur_Block;
+    Energy: 6000;
+),
+(
+    ItemID: Alch_Nickel;
+    Energy: 700;
+),
+(
+    ItemID: Alch_Nickel_Ingot;
+    Energy: 7000;
+),
+(
+    ItemID: Alch_CarbonRaw;
+    Energy: 400;
+),
+(
+    ItemID: Alch_CarbonRaw_Discs;
+    Energy: 4000;
+),
+(
+    ItemID: Alch_CorundumGem;
+    Energy: 450;
+),
+(
+    ItemID: Alch_CorundumGem_Block;
+    Energy: 4500;
+),
+
+#	--------	Alchimie de Maître	--------	#
+(
+    ItemID: Alch_Kyanite;
+    Energy: 800;
+),
+(
+    ItemID: Alch_Kyanite_Plates;
+    Energy: 8000;
+),
+(
+    ItemID: Alch_UraniniteCrystal;
+    Energy: 900;
+),
+(
+    ItemID: Alch_UraniniteCrystal_Block;
+    Energy: 9000;
+),
+(
+    ItemID: Alch_RadiumCrystal;
+    Energy: 1200;
+),
+(
+    ItemID: Alch_RadiumCrystal_Block;
+    Energy: 12000;
+);

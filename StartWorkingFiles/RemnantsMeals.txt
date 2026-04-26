@@ -1,0 +1,100 @@
+CustomFoods:
+(
+    ItemID: Enotburger;
+    DecayRateMod: 0.5; 
+    DisplayName: "Enot Burger";
+    Tooltip: "A perfect blend of meat and plants. This hearty burger will satisfy your hunger.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: cookedoculus;
+        Required: 1;
+    ),
+    (
+        ItemID: melon;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Fods;
+    FoodValue:50;
+    WaterValue:0;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Pwater;
+    DecayRateMod: 0.0; 
+    DisplayName: "Purified Water";
+    Tooltip: "Water purified from Mercury. Very rehydrating.";
+    AmountCrafted: 5;
+    Ingredients: 
+    (
+        ItemID: Ptablet;
+        Required: 1;
+    ),
+    (
+        ItemID: bigfilteredwater;
+        Required: 5;
+    );
+    Path: Fabricator/Survival/Fods;
+    FoodValue:0;
+    WaterValue:85;
+    ForceUnlockAtStart: NO;
+),
+(
+    ItemID: Protein;
+    DecayRateMod: 0.0; 
+    DisplayName: "Purified Protein";
+    Tooltip: "Grounded protein purified from mercury. Metallic taste, but greatly replenishes hunger.";
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: Ptablet;
+        Required: 1;
+    ),
+    (
+        ItemID: cookedpeeper;
+        Required: 1;
+    ),
+    (
+        ItemID: cookedboomerang;
+        Required: 1;
+    ),
+    (
+        ItemID: cookedhoverfish;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Fods;
+    FoodValue:85;
+    WaterValue:0;
+    ForceUnlockAtStart: NO;
+),
+(
+    ItemID: delight;
+    DecayRateMod: 0.0; 
+    DisplayName: "Herbivore's Delight";
+    Tooltip: "A perfect gift for your vegetarian sister. Satisfies hunger and thirst.";
+    AmountCrafted: 4;
+    Ingredients: 
+    (
+        ItemID: Ptablet;
+        Required: 1;
+    ),
+    (
+        ItemID: kooshchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: melonseed;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Fods;
+    FoodValue:55;
+    WaterValue:55;
+    ForceUnlockAtStart: NO;
+),
+
+
+

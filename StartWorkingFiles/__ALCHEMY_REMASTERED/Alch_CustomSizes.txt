@@ -1,0 +1,11 @@
+
+
+
+CustomSizes:
+
+
+(
+  ItemID: Alch_SyntheticManure; 
+     Width: 1;
+    Height: 1;
+);

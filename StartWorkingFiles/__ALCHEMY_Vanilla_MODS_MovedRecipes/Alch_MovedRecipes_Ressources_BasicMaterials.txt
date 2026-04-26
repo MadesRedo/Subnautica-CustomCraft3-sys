@@ -1,0 +1,79 @@
+
+#	Fabricator/Resources/BasicMaterials		==> 	Copied 	to		==>		Alch_Fab/Alch_Resources/Alch_Bas_Materials		#
+
+MovedRecipes:
+
+
+(
+	ItemID: Titanium;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: TitaniumIngot;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: FiberMesh;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Silicone;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Glass;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Bleach;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Lubricant;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: EnameledGlass;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: PlasteelIngot;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+
+# ---	Alterra Weaponry "mdownsxy" - 2944	 (Copied) 	--- #
+(
+	ItemID: Coal;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+#	----------------------------------------------------	#
+(
+	ItemID: Alch_Magnesium;
+	NewPath: Fabricator/Resources/BasicMaterials;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_Magnesium;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_MercuryOre;
+	NewPath: Fabricator/Resources/BasicMaterials;
+	Copied: Yes;
+),
+(
+	ItemID: Alch_MercuryOre;
+	NewPath: Alch_Fab/Alch_Resources/Alch_Bas_Materials;
+	Copied: Yes;
+);

@@ -1,0 +1,280 @@
+
+
+
+ModifiedRecipes:
+
+# ---	Prawn Repulsion Cannon Arm "senna7608" - 301	--- #
+(
+    ItemID: ExosuitRepulsionCannonArm;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitPropulsionArmModule;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+
+# ---	Upgraded Grappling Arm "Indigocoder" - 1315		--- #
+(
+    ItemID: GrapplingArmUpgradeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitGrapplingArmModule;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 1;
+    );
+),
+
+# ---	Prawn Drill Arm Upgrades "NxtCracky" - 2847		--- #
+		#___ MK2 ___#
+(
+    ItemID: PrawnDrillArmMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitDrillArmModule;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 3;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 4;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 4;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: PrawnDrillArmMK3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PrawnDrillArmMK2;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 4;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 5;
+    );
+),
+
+# ---	Prawn Plasma Canon Arm "senna7608" - 302	--- #
+(
+    ItemID: ExosuitPlasmaCannonArm;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_RadiumCrystal_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    );
+),
+
+# ---	Upgraded Jump Jet Module "Indigocoder" - 1316	--- #
+(
+    ItemID: UpgradedJumpJetModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitJetUpgradeModule;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 3;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+
+# ---	Prawn Suit Speed Module "LeeTwentyThree" / "Kallie23" - 1298	--- #
+(
+    ItemID: PrawnSuitSpeedModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ReactorRod;
+        Required: 1;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 2;
+    );
+),
+
+# ---	Prawn Suit Speed Modules "Maxichigo" - 2639		--- #
+		#___ MK1 ___#
+(
+    ItemID: ExosuitSpeedModuleMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+		#___ MK2 ___#
+(
+    ItemID: ExosuitSpeedModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitSpeedModuleMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: ExosuitSpeedModuleMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitSpeedModuleMk2;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Benzene;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: UraniniteCrystal;
+        Required: 2;
+    );
+),
+
+# ---	Alterra Weaponry "mdownsxy" - 2944		--- #
+(
+    ItemID: PrawnSelfDefenseModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: PowerCell;
+        Required: 2;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+    (
+        ItemID: MercuryOre;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+);

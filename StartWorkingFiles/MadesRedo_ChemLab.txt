@@ -1,0 +1,596 @@
+AliasRecipes:
+(
+    ItemID: MR_Fertilizer2;
+    DisplayName: "Fertilizer (x5)";
+    Tooltip: "Can be used in growing-plant recipes or as a fuel in Bioreactor.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_Fertilizer, MR_Fertilizer, MR_Fertilizer,  MR_Fertilizer, MR_Fertilizer;
+    Ingredients: 
+    (
+        ItemID: creepvineseedcluster;
+        Required: 1;
+    ),
+    (
+        ItemID: whitemushroom;
+        Required: 2;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : whitemushroom,creepvineseedcluster,hangingfruit;
+),
+(
+    ItemID: MR_Fertilizer3;
+    DisplayName: "Fertilizer (x6)";
+    Tooltip: "Can be used in growing-plant recipes or as a fuel in Bioreactor.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer;
+    Ingredients: 
+    (
+        ItemID: bloodoil;
+        Required: 1;
+    ),
+    (
+        ItemID: purplevegetable;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : bloodoil,purplevegetable,hangingfruit;
+),
+(
+    ItemID: MR_Ethanol;
+    DisplayName: "Ethanol";
+    Tooltip: "Organic chemical compound with many applications.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_Ethanol;
+    Ingredients: 
+    (
+        ItemID: melonseed;
+        Required: 1;
+    ),
+    (
+        ItemID: eyesplantseed;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : melonseed, eyesplantseed;
+),
+(
+    ItemID: MR_LabBeaker;
+    DisplayName: "Large Lab Beaker";
+    Tooltip: "Usefull container for various fluids.";
+    SpriteItemID: MR_LabBeaker;
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: glass;
+        Required: 2;
+    ),
+    (
+        ItemID: titanium;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : glass;
+),
+(
+    ItemID: MR_Hydrazine;
+    FunctionalID: Benzene;
+    DisplayName: "Hydrazine";
+    Tooltip: "Originally used as a rocket fuel and as a mean to sequentionize DNA";
+    LinkedItemIDs: MR_Hydrazine;
+    AmountCrafted: 0;
+    Ingredients:
+	(
+		ItemID: bloodoil;
+		Required: 3;
+	),
+	(
+		ItemID: filteredwater;
+		Required: 2;
+	),
+	(
+		ItemID: salt;
+		Required: 3;
+	);
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    ForceUnlockAtStart: NO;
+    UnlockedBy: bloodoil,filteredwater;
+),
+(
+    ItemID: MR_FluidAnalyzer;
+    DisplayName: "Fluid Analyzer";
+    Tooltip: "Fluids examination.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_FluidAnalyzer;
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: MR_Hydrazine;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: lithium;
+        Required: 1;
+    ),
+    (
+        ItemID: hydrochloricacid;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : hydrochloricacid,MR_Hydrazine,lithium;
+),
+(
+    ItemID: MR_DissolvingDevice;
+    DisplayName: "Fluid dissolving device";
+    SpriteItemID : MR_DissolvingDevice;
+    Tooltip: "Usefull device allowing to synthesize or dissolve any kind of biological fluid.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_DissolvingDevice;
+    Ingredients: 
+    (
+        ItemID: MR_FluidAnalyzer;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: wiringkit;
+        Required: 1;
+    ),
+    (
+        ItemID: battery;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_FluidAnalyzer,glass,wiringkit,battery;
+),
+(
+    ItemID: MR_WateryFluid;
+    DisplayName: "Watery Fluid";
+    Tooltip: "This weird substance appears to be biological stabilizing fluid.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_WateryFluid, MR_DissolvingDevice;
+    Ingredients: 
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvineseedcluster;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebranchesseed;
+        Required: 1;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_DissolvingDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : jellyplant,filteredwater,creepvineseedcluster,purplebranchesseed,MR_DissolvingDevice;
+),
+(
+    ItemID: MR_Ethylene;
+    DisplayName: "Ethylene";
+    Tooltip: "Flammable gas used in the chemical industry.";
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: MR_Ethanol;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: JeweledDiskPiece;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Ethanol, JeweledDiskPiece,MR_WateryFluid;
+),
+(
+    ItemID: MR_Fertilizer4;
+    DisplayName: "Fertilizer (x10)";
+    SpriteItemID : MR_Fertilizer;
+    Tooltip: "Can be used in growing-plant recipes or as a fuel in Bioreactor.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer, MR_Fertilizer;
+    Ingredients: 
+    (
+        ItemID: MR_Ethylene;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Ethylene,hangingfruit;
+),
+(
+    ItemID: MR_BioEthanol;
+    DisplayName: "Bioethanol";
+    Tooltip: "Fermentation of variuos plants produces bio alcohols like ethanol.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_BioEthanol;
+    Ingredients: 
+    (
+        ItemID: kooshchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: eyesplantseed;
+        Required: 3;
+    ),
+    (
+        ItemID: acidmushroomspore;
+        Required: 3;
+    ),
+    (
+        ItemID: purplevegetable;
+        Required: 2;
+    ),
+    (
+        ItemID: melonseed;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : kooshchunk,eyesplantseed,acidmushroomspore,purplevegetable,melonseed;
+),
+(
+    ItemID: MR_BioEthanol2;
+    DisplayName: "Bioethanol x3";
+    Tooltip: "Blood Oil can be a good source of Bioethanol when treated by Ethanol";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_BioEthanol, MR_BioEthanol, MR_BioEthanol;
+    Ingredients: 
+    (
+        ItemID: MR_Ethanol;
+        Required: 2;
+    ),
+    (
+        ItemID: bloodoil;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Ethanol,bloodoil;
+),
+(
+    ItemID: MR_BioGas;
+    DisplayName: "Biogas";
+    Tooltip: "One of the best sources of bioenergy";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_BioGas;
+    Ingredients: 
+    (
+        ItemID: fernpalmseed;
+        Required: 1;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 3;
+    ),
+    (
+        ItemID: redrollplantseed;
+        Required: 3;
+    ),
+    (
+        ItemID: gabesfeatherseed;
+        Required: 3;
+    ),
+    (
+        ItemID: jellyplantseed;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : fernpalmseed,jellyplant,redrollplantseed,gabesfeatherseed,jellyplantseed;
+),
+(
+    ItemID: MR_BioGas2;
+    DisplayName: "Biogas";
+    Tooltip: "One of the best sources of bioenergy";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_BioGas;
+    Ingredients: 
+    (
+        ItemID: MR_Ethylene;
+        Required: 2;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    ),
+    (
+        ItemID: whitemushroomspore;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Ethylene,jellyplant,whitemushroomspore;
+),
+(
+    ItemID: MR_compostcreepvine;
+    DisplayName: "Creepvine Compost";
+    Tooltip: "Creepvine Pieces broken down into source of bioenergy";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_compostcreepvine;
+    Ingredients: 
+    (
+        ItemID: creepvinepiece;
+        Required: 3;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : coralchunk;
+),
+(
+    ItemID: MR_BioAlgae;
+    DisplayName: "Algae Based BioFuel";
+    Tooltip: "Another source of bioenergy";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_BioAlgae;
+    Ingredients: 
+    (
+        ItemID: creepvinepiece;
+        Required: 3;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 3;
+    ),
+    (
+        ItemID: redbushseed;
+        Required: 2;
+    ),
+    (
+        ItemID: purplestalkseed;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : purplebraincoralpiece,redbushseed,purplestalkseed;
+),
+(
+    ItemID: MR_FishOil;
+    DisplayName: "Oil from Fish";
+    Tooltip: "This is the best Energy source ever";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_FishOil;
+    Ingredients: 
+    (
+        ItemID: bladderfish;
+        Required: 3;
+    ),
+    (
+        ItemID: garryfish;
+        Required: 3;
+    ),
+    (
+        ItemID: hoopfish;
+        Required: 2;
+    ),
+    (
+        ItemID: eyeye;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : bladderfish, garryfish, hoopfish, eyeye;
+),
+(
+    ItemID: MR_tablecoralsample;
+    DisplayName: "Table Coral Sample";
+    Tooltip: "Used in Computer Chip production.";
+    AmountCrafted: 0;
+    LinkedItemIDs: jeweleddiskpiece;
+    Ingredients: 
+    (
+        ItemID: purplestalkseed;
+        Required: 1;
+    ),
+    (
+        ItemID: whitemushroom;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : jeweleddiskpiece, purplestalkseed, whitemushroom;
+),
+(
+    ItemID: MR_Microscope;
+    DisplayName: "Microscope";
+    SpriteItemID : MR_Microscope;
+    Tooltip: "Very usefull device in a chemical lab.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_Microscope;
+    Ingredients: 
+    (
+        ItemID: scanner;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 3;
+    ),
+    (
+        ItemID: quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: silicone;
+        Required: 2;
+    ),
+    (
+        ItemID: battery;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : Scanner,glass,battery;
+),
+(
+    ItemID: MR_EggShell;
+    DisplayName: "Shell Constitution";
+    Tooltip: "Fluid capable of polymerization into a shell-like structure.";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_EggShell, MR_DissolvingDevice;
+    Ingredients: 
+    (
+        ItemID: MR_DissolvingDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_DissolvingDevice,filteredwater,coralchunk;
+),
+(
+    ItemID: MR_OrganicBaseMaterial;
+    DisplayName: "Organic Base Material";
+    Tooltip: "Base material for DNA manipulation";
+    AmountCrafted: 0;
+    LinkedItemIDs: MR_OrganicBaseMaterial, MR_DissolvingDevice;
+    Ingredients: 
+    (
+        ItemID: MR_DissolvingDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_Hydrazine;
+        Required: 1;
+    ),
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: bladderfish;
+        Required: 1;
+    ),
+    (
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_ChemLab;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_DissolvingDevice,MR_Hydrazine,filteredwater,peeper,bladderfish,hangingfruit;
+);

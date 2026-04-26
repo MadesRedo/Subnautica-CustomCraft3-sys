@@ -1,0 +1,152 @@
+
+# 		PERSONAL EQUIPMENT	 	#
+
+ModifiedRecipes:
+
+	#-----------------------------------#
+	#			--- TOOLS ---			#
+	#-----------------------------------#
+	
+# ---	Variable Gravity Cannon "Indigocoder" - 1505		TO DO	--- #
+# ---	Remote Control Vehicles "EldritchCarMaker" - 1943	--- #
+		#___ Drone Control Remote 		=>		Alch_Modified_Misc_MOD_Vehicle_Modules.txt	___#
+		#___ Remote Control Car 		=>		Alch_Modified_Misc_MOD_Vehicle_Modules.txt	___#
+		#___ Remote Control Aurora 		=>		Alch_Modified_Misc_MOD_Vehicle_Modules.txt	___#
+
+# ---	Hydronautica's Rock Hammer Mod "hydronautica" - 2450	--- #
+(
+    ItemID: RockHammer;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: GasPod;
+        Required: 2;
+    );
+),
+
+# ---	Ancient Sword "senna7608" - 226	--- #
+(
+    ItemID: AncientSword;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    );
+),
+
+# ---	Tech Pistol "MrPurple6411" - 1141	--- #
+(
+    ItemID: TechPistol;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Lubricant;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+# ---	Spy Watch "EldritchCarMaker" - 1949		--- #
+(
+    ItemID: SpyWatchItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 1;
+    ),
+    (
+        ItemID: Glass;
+        Required: 1;
+    );
+),
+
+# ---	Teleport Vehicle "AshFoxJp" - 2571		--- #
+(
+    ItemID: VehicleTeleporter;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Scanner;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 2;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+),
+
+# ---	Ionic Light Saber "Maxichigo" - 2658	--- #
+(
+    ItemID: LightSaber;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HeatBlade;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+);

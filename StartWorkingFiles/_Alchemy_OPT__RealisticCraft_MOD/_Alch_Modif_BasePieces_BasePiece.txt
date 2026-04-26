@@ -1,0 +1,203 @@
+#		PdaGroup: BasePieces | PdaCategory: BasePiece		#
+
+
+ModifiedRecipes:
+
+
+#	------------	FONDATIONS	-----------	#
+(
+    ItemID: BaseFoundation;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    );
+),
+
+#	------------	SECTION DE BASE 	-----------	#
+(
+    ItemID: BaseCorridor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 4;
+    );
+),
+
+#	------------	JONCTION EN I	-----------	#
+(
+    ItemID: BaseCorridorI;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: Titanium;
+		Required: 4; 
+	),
+	( 
+		ItemID: CopperWire;
+		Required: 1; 
+	),
+	( 
+		ItemID: Silicone;
+		Required: 1; 
+	),
+	( 
+		ItemID: EyesPlantSeed;
+		Required: 2; 
+	);
+),
+
+#	------------	JONCTION EN L	-----------	#
+(
+    ItemID: BaseCorridorL;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: Titanium;
+		Required: 4; 
+	),
+	( 
+		ItemID: CopperWire;
+		Required: 1;
+	),
+	( 
+		ItemID: Silicone;
+		Required: 1;
+	),
+	( 
+		ItemID: EyesPlantSeed;
+		Required: 2;
+	);
+),
+
+#	------------	JONCTION EN T	-----------	#
+(
+    ItemID: BaseCorridorT;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: Titanium;
+		Required: 6;
+	),
+	( 
+		ItemID: CopperWire;
+		Required: 1;
+	),
+	( 
+		ItemID: Silicone;
+		Required: 1;
+	),
+	( 
+		ItemID: EyesPlantSeed;
+		Required: 2;
+	);
+),
+
+#	------------	JONCTION EN X	-----------	#
+(
+    ItemID: BaseCorridorX;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: Titanium;
+		Required: 8;
+	),
+	( 
+		ItemID: CopperWire;
+		Required: 2;
+	),
+	( 
+		ItemID: Silicone;
+		Required: 1;
+	),
+	( 
+		ItemID: EyesPlantSeed;
+		Required: 2;
+	);
+),
+
+#	------------	JONCTION EN VERRE	-----------	#
+(
+    ItemID: BaseCorridorGlass;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Glass;
+        Required: 2;
+    ),
+	( 
+		ItemID: Titanium;
+		Required: 2;
+	);
+),
+
+#	------------	JONCTION EN VERRE EN I	-----------	#
+(
+    ItemID: BaseCorridorGlassI;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: Titanium;
+		Required: 2;
+	),
+	( 
+		ItemID: CopperWire;
+		Required: 1;
+	),
+	( 
+		ItemID: Glass;
+		Required: 2;
+	),
+	( 
+		ItemID: Silicone;
+		Required: 2;
+	),
+	( 
+		ItemID: EyesPlantSeed;
+		Required: 2;
+	);
+),
+
+#	------------	JONCTION EN VERRE EN L	-----------	#
+(
+    ItemID: BaseCorridorGlassL;
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+		ItemID: Titanium; 
+		Required: 2;
+	),
+	( 
+		ItemID: CopperWire; 
+		Required: 1;
+	),
+	( 
+		ItemID: Glass; 
+		Required: 2;
+	),
+	( 
+		ItemID: Silicone; 
+		Required: 2;
+	),
+	( 
+		ItemID: EyesPlantSeed; 
+		Required: 2;
+	);
+),
+
+#	------------	CONNECTEUR VERTICAL	-----------	#
+(
+    ItemID: BaseConnector;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    );
+);

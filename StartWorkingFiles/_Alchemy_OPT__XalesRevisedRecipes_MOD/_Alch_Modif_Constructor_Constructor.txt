@@ -1,0 +1,306 @@
+#		PdaGroup: Constructor | PdaCategory: Constructor		#
+
+
+ModifiedRecipes:
+
+
+#	------------	SEAMOTH	-----------	#
+(
+    ItemID: Seamoth;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 2;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Lubricant;
+        Required: 4;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    );
+),
+
+#	------------	PRAWN	-----------	#
+(
+    ItemID: Exosuit;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: Alch_Infused_OrganicTitanium_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 2;
+    ),
+	(
+        ItemID: PowerCell;
+        Required: 2;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 3;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Lubricant;
+        Required: 4;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    );
+),
+
+#	------------	PLATEFORME LANCEMENT NEPTUNE	-----------	#
+(
+    ItemID: RocketBase;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_Silver_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_Gold_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 5;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 4;
+    ),
+	(
+        ItemID: AirBladder;
+        Required: 8;
+    );
+),
+
+#	------------	RAMPE LANCEMENT NEPTUNE	-----------	#
+(
+    ItemID: RocketBaseLadder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_AluminumRaw_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 3;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 5;
+    );
+),
+
+#	------------	PROPULSEURS DU NEPTUNE	-----------	#
+(
+    ItemID: RocketStage1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_CopperOxide_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Alumina_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 3;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 4;
+    ),
+	(
+        ItemID: Sulphur;
+        Required: 2;
+    );
+),
+
+#	------------	RÉSERVE DE FUEL DU NEPTUNE	-----------	#
+(
+    ItemID: RocketStage2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Charged_AlchemyMaster_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_SulphurCrystals_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: PrecursorIonPowerCell;
+        Required: 2;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 2;
+    );
+),
+
+#	------------	COCKPIT DU NEPTUNE	-----------	#
+(
+    ItemID: RocketStage3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsShieldModule;
+        Required: 1;
+    ),
+	(
+        ItemID: CyclopsFireSuppressionModule;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_AlchemyMaster_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Charged_CorundumGem_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 4;
+    ),
+	(
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_EnameledGlass_Block;
+        Required: 1;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 2;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 2;
+    );
+);

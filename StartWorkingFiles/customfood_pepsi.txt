@@ -1,0 +1,25 @@
+CustomFoods:
+(
+    ItemID: pepsi;
+    DecayRateMod: 0.1; 
+    DisplayName: "Pepsi";
+    Tooltip: "Pepsi! ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Water;
+    FoodValue:2;
+    WaterValue:80;
+    ForceUnlockAtStart: YES;
+),

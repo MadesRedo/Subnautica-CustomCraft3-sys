@@ -1,0 +1,21 @@
+CustomFoods:
+(
+    ItemID: Peeperdecker;
+    DecayRateMod: 0.15; 
+    DisplayName: "Peeper-Decker";
+    Tooltip: "Peeper-Decker. A simple delight, made from peepers and creepvine.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 2;
+    ),
+    (
+        ItemID: CreepvinePiece;
+        Required: 4;
+    );
+    Path: Fabricator/Survival/CookedFood;
+    FoodValue:60;
+    WaterValue:33;
+    ForceUnlockAtStart: YES;
+),

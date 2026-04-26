@@ -1,0 +1,155 @@
+AliasRecipes: 
+    (
+        ItemID: add_advancedwiringkit;
+	DisplayName: "Advanced Wiring Kit x2";
+	Tooltip: "Cheap Advanced Wiring Kit";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, advancedwiringkit, advancedwiringkit;
+	SpriteItemID: advancedwiringkit;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_battery;
+	DisplayName: "Battery x2";
+	Tooltip: "Cheap Battery";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, battery, battery;
+	SpriteItemID: battery;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_computerchip;
+	DisplayName: "Computer Chip x2";
+	Tooltip: "Cheap Computer Chip";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, computerchip, computerchip;
+	SpriteItemID: computerchip;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_copperwire;
+	DisplayName: "Copperwire x2";
+	Tooltip: "Cheap Copperwire";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, copperwire, copperwire;
+	SpriteItemID: copperwire;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_precursorionbattery;
+	DisplayName: "Ion Battery x2";
+	Tooltip: "Cheap Ion Battery";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, precursorionbattery, precursorionbattery;
+	SpriteItemID: precursorionbattery;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_precursorionpowercell;
+	DisplayName: "Ion Power Cell x2";
+	Tooltip: "Cheap Ion Power Cell";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, precursorionpowercell, precursorionpowercell;
+	SpriteItemID: precursorionpowercell;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_powercell;
+	DisplayName: "Power Cell x2";
+	Tooltip: "Cheap Power Cell";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, powercell, powercell;
+	SpriteItemID: powercell;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_reactorrod;
+	DisplayName: "Reactor Rod x2";
+	Tooltip: "Cheap Reactor Rod";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, reactorrod, reactorrod;
+	SpriteItemID: reactorrod;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    ),
+    (
+        ItemID: add_wiringkit;
+	DisplayName: "Wiring Kit x2";
+	Tooltip: "Cheap Wiring Kit";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, wiringkit, wiringkit;
+	SpriteItemID: wiringkit;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapElectronics;        
+    );
+	

@@ -1,0 +1,289 @@
+AddedRecipes:
+(
+    ItemID: StalkerEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StalkerTooth;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: SpadeFishEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: EyesPlantSeed;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: JumperEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Floater;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: SandSharkEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StalkerTooth;
+        Required: 1;
+    ),
+    (
+        ItemID: AcidMushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: ReefBackEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SpikePlantSeed;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: RabbitRayEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: Mesmeregg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: LavaLizardEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Sulphur;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: JellyRayEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TreeMushroomPiece;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: GasoPodEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: GasPod;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: CuteFishEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PinkMushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: ALuminumOxide;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: CrashEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CrashPowder;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: CrabSquidEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RedConePlantSeed;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: CrabSnakeEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WhiteMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: BoneSharkEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StalkerTooth;
+        Required: 5;
+    ),
+    (
+        ItemID: EyesPlantSeed;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+),
+(
+    ItemID: ShockerEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: KooshChunk;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonBattery;
+        Required: 1;
+    ),
+    (
+        ItemID: IMCEggBase;
+        Required: 1;
+    );
+    ForceUnlockAtStart: YES;
+    PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+    Path: Fabricator/IMCCraft/IMCEggs/IMCCEggs;
+);

@@ -1,0 +1,75 @@
+
+# 		DEPLOYABLE	 	#
+
+ModifiedRecipes:
+
+	#---------------------------------------#
+	#			--- DEPLOYABLE ---			#
+	#---------------------------------------#
+	
+# ---	Warp Chip (4 items) 	:		+ 2 chips (DONE) + 1 module (TO DO => need update for this one)	--- #
+
+# ---	EnhancedGravTrap "Indigocoder" - 1340	--- #
+(
+    ItemID: EnhancedGravSphere;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Gravsphere;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+
+# ---	Warp Chip "EldritchCarMaker" - 1948	--- #
+(
+    ItemID: telepingbeacon;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Beacon;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    );
+),
+
+# ---	Alterra Weaponry "mdownsxy" - 2944	--- #
+(
+    ItemID: DepthCharge;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: BlackPowder;
+        Required: 2;
+    ),
+    (
+        ItemID: Copper;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    );
+);

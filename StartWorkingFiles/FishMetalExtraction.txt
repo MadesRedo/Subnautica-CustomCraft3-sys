@@ -1,0 +1,205 @@
+AliasRecipes: 
+(
+    ItemID: PeeperTitanium;
+    DisplayName: "Titanium";
+    Tooltip: "Titanium extracted from the organs of a Peeper.";
+    FunctionalID: Titanium;
+    SpriteItemID: Titanium;
+    UnlockedBy: Titanium;
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: BladderfishCopper;
+    DisplayName: "Copper";
+    Tooltip: "Copper extracted from the organs of a Bladderfish.";
+	FunctionalID: Titanium;
+    SpriteItemID: Copper;
+    UnlockedBy: Copper;
+    AmountCrafted: 0;
+    LinkedItemIDs: Copper;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: bladderfish;
+        Required: 3;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: BoomerangQuartz;
+    DisplayName: "Quartz";
+    Tooltip: "Quartz extracted from the organs of a Boomerang.";
+    FunctionalID: Titanium;
+    SpriteItemID: Quartz;
+    UnlockedBy: Quartz;
+    AmountCrafted: 0;
+    LinkedItemIDs: Quartz;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 2;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: HoverFishGold;
+    DisplayName: "Gold";
+    Tooltip: "Gold extracted from the organs of a Hoverfish.";
+    FunctionalID: Titanium;
+    SpriteItemID: Gold;
+    UnlockedBy: Gold;
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: hoverfish;
+        Required: 3;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: SpadefishSilver;
+    DisplayName: "Silver";
+    Tooltip: "Silver extracted from the organs of a Spadefish.";
+    FunctionalID: Titanium;
+    SpriteItemID: Silver;
+    UnlockedBy: Silver;
+    AmountCrafted: 0;
+    LinkedItemIDs: Silver;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: spadefish;
+        Required: 4;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: ReginaldDiamond;
+    DisplayName: "Diamond";
+    Tooltip: "Diamond extracted from the organs of a Reginald.";
+    FunctionalID: Titanium;
+    SpriteItemID: Diamond;
+    UnlockedBy: Diamond;
+    AmountCrafted: 0;
+    LinkedItemIDs: Diamond;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: reginald;
+        Required: 4;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: EyeyeMagnetite;
+    DisplayName: "Magnetite";
+    Tooltip: "Magnetite extracted from the organs of an Eyeye.";
+    FunctionalID: Titanium;
+    SpriteItemID: Magnetite;
+    UnlockedBy: Magnetite;
+    AmountCrafted: 0;
+    LinkedItemIDs: Magnetite;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: eyeye;
+        Required: 4;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: OculusLithium;
+    DisplayName: "Lithium";
+    Tooltip: "Lithium extracted from the organs of an Oculus.";
+    FunctionalID: Titanium;
+    SpriteItemID: Lithium;
+    UnlockedBy: Lithium;
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithium;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: Oculus;
+        Required: 3;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: HoopfishLead;
+    DisplayName: "Lead";
+    Tooltip: "Lead extracted from the organs of a Hoopfish.";
+    FunctionalID: Titanium;
+    SpriteItemID: Lead;
+    UnlockedBy: Lead;
+    AmountCrafted: 0;
+    LinkedItemIDs: Lead;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: HoopFish;
+        Required: 3;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: SpinefishNickel;
+    DisplayName: "Nickel";
+    Tooltip: "Nickel extracted from the organs of a Spinefish.";
+    FunctionalID: Titanium;
+    SpriteItemID: Nickel;
+    UnlockedBy: Nickel;
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickel;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: spinefish;
+        Required: 4;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: MagmarangRuby;
+    DisplayName: "Ruby";
+    Tooltip: "Ruby extracted from the organs of a Magmarang.";
+    FunctionalID: Titanium;
+    SpriteItemID: aluminumoxide;
+    UnlockedBy: aluminumoxide;
+    AmountCrafted: 0;
+    LinkedItemIDs: aluminumoxide;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: lavaboomerang;
+        Required: 3;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+),
+(
+    ItemID: RedEyeeyeUraninite;
+    DisplayName: "Uraninite";
+    Tooltip: "Uraninite extracted from the organs of a Red Eyeye.";
+    FunctionalID: Titanium;
+    SpriteItemID: uraninitecrystal;
+    UnlockedBy: uraninitecrystal;
+    AmountCrafted: 0;
+    LinkedItemIDs: uraninitecrystal;
+    ForceUnlockAtStart: NO;
+    Ingredients: 
+    (
+        ItemID: lavaeyeye;
+        Required: 3;
+    );
+    Path: Fabricator/Resources/FishMetalExtraction/;
+);

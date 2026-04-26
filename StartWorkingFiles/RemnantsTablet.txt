@@ -1,0 +1,25 @@
+CustomFoods: 
+(
+    ItemID: Ptablet;
+    DecayRateMod: 0.0; 
+    DisplayName: "Mercury Purification Tablet";
+    Tooltip: "DO NOT EAT. Used to purify Alterra's finest meals";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: mercuryore;
+        Required: 2;
+    ),
+    (
+        ItemID: salt;
+        Required: 3;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/Electronics;
+    FoodValue: -100;
+    WaterValue: -100;
+    ForceUnlockAtStart: NO;
+),

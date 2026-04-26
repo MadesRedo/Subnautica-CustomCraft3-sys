@@ -1,0 +1,23 @@
+ModifiedRecipes:
+(
+    ItemID:seamoth; 
+    Unlocks: Ptablet;
+),
+(
+    ItemID:powercell; 
+    Unlocks: lithiumionbattery;
+),
+(
+    ItemID:basefiltrationmachine; 
+    Unlocks: Pwater;
+),
+(
+    ItemID:heatblade; 
+    Unlocks: Protein;
+),
+(
+    ItemID:farmingtray; 
+    Unlocks: delight;
+);
+
+

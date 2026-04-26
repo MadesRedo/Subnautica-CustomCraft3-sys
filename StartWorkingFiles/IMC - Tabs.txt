@@ -1,0 +1,52 @@
+CustomCraftingTabs: 
+(
+    TabID: IMCCraft;
+    DisplayName: "ConvenientCrafts by IMC";  
+    ParentTabPath: Fabricator/;
+    SpriteItemID: CuteFishEgg;
+), 
+(
+    TabID: IMCRawMat;
+    DisplayName: "RawMaterials by IMC";  
+    ParentTabPath: Fabricator/IMCCraft;
+    SpriteItemID: CrashPowder;
+),
+(
+    TabID: IMCCrystals;
+    DisplayName: "PreciousStones by IMC";  
+    ParentTabPath: Fabricator/IMCCraft;
+    SpriteItemID: Diamond;
+),
+(
+    TabID: IMCHealth;
+    DisplayName: "SustenanceCraft by IMC";  
+    ParentTabPath: Fabricator/IMCCraft;
+    SpriteItemID: Coffee;
+),
+(
+    TabID: IMCTools;
+    DisplayName: "ExtraEquipment by IMC";  
+    ParentTabPath: Fabricator/IMCCraft;
+    SpriteItemID: LuggageBag;
+),
+(
+    TabID: IMCElements;
+    DisplayName: "ElementsCraft by IMC";  
+    ParentTabPath: Fabricator/IMCCraft;
+    SpriteItemID: Magnetite;
+),
+(
+    TabID: IMCEggs;
+    DisplayName: "ArtificalEggs by IMC";
+    ParentTabPath: Fabricator/IMCCraft;
+),
+(
+    TabID: IMCEggsBase;
+    DisplayName: "NublarProcess by IMC";
+    ParentTabPath: Fabricator/IMCCraft/IMCEggs;
+),
+(
+    TabID: IMCCEggs;
+    DisplayName: "Artificial CreatureEggs by IMC";
+    ParentTabPath: Fabricator/IMCCraft/IMCEggs;
+);

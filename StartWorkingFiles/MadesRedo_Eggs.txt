@@ -1,0 +1,529 @@
+AliasRecipes:
+(
+    ItemID: MR_shockeregg;
+    DisplayName: "Ampeel Egg";
+    Tooltip: "Ampeel can be born from these.";
+    FunctionalID: shockeregg;
+    SpriteItemID: shockeregg;
+    AmountCrafted: 0;
+    LinkedItemIDs: shockeregg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_bonesharkegg;
+    DisplayName: "Boneshark Egg";
+    Tooltip: "Boneshark can be born from these.";
+    FunctionalID: bonesharkegg;
+    SpriteItemID: bonesharkegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: bonesharkegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_crabsnakeegg;
+    DisplayName: "Crabsnake Egg";
+    Tooltip: "Crabsnake can be born from these.";
+    FunctionalID: crabsnakeegg;
+    SpriteItemID: crabsnakeegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: crabsnakeegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 2;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_crabsquidegg;
+    DisplayName: "Crabsquid Egg";
+    Tooltip: "Crabsquid can be born from these.";
+    FunctionalID: crabsquidegg;
+    SpriteItemID: crabsquidegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: crabsquidegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_crashegg;
+    DisplayName: "Crashfish Egg";
+    Tooltip: "Crashfish can be born from these.";
+    FunctionalID: crashegg;
+    SpriteItemID: crashegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: crashegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_cutefishegg;
+    DisplayName: "Cuddlefish Egg";
+    Tooltip: "Cuddlefish can be born from these.";
+    FunctionalID: cutefishegg;
+    SpriteItemID: cutefishegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: cutefishegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 3;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 3;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_gasopodegg;
+    DisplayName: "Gasopod Egg";
+    Tooltip: "Gasopod can be born from these.";
+    FunctionalID: gasopodegg;
+    SpriteItemID: gasopodegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: gasopodegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_jellyrayegg;
+    DisplayName: "Jellyray Egg";
+    Tooltip: "Jellyray can be born from these.";
+    FunctionalID: jellyrayegg;
+    SpriteItemID: jellyrayegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: jellyrayegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_lavalizardegg;
+    DisplayName: "Lava Lizard Egg";
+    Tooltip: "Lava Lizard can be born from these.";
+    FunctionalID: lavalizardegg;
+    SpriteItemID: lavalizardegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: lavalizardegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_mesmeregg;
+    DisplayName: "Mesmer Egg";
+    Tooltip: "Mesmer can be born from these.";
+    FunctionalID: mesmeregg;
+    SpriteItemID: mesmeregg;
+    AmountCrafted: 0;
+    LinkedItemIDs: mesmeregg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_rabbitrayegg;
+    DisplayName: "Rabbit Ray Egg";
+    Tooltip: "Rabbit Ray can be born from these.";
+    FunctionalID: rabbitrayegg;
+    SpriteItemID: rabbitrayegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: rabbitrayegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_reefbackegg;
+    DisplayName: "Reefback Leviathan Egg";
+    Tooltip: "Reefback Leviathan can be born from these.";
+    FunctionalID: reefbackegg;
+    SpriteItemID: reefbackegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: reefbackegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_sandsharkegg;
+    DisplayName: "Sandshark Egg";
+    Tooltip: "Sandshark can be born from these.";
+    FunctionalID: sandsharkegg;
+    SpriteItemID: sandsharkegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: sandsharkegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 2;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 2;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_jumperegg;
+    DisplayName: "Shuttlebug Egg";
+    Tooltip: "Shuttlebug can be born from these.";
+    FunctionalID: jumperegg;
+    SpriteItemID: jumperegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: jumperegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 3;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 3;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_spadefishegg;
+    DisplayName: "Spadefish Egg";
+    Tooltip: "Spadefish can be born from these.";
+    FunctionalID: spadefishegg;
+    SpriteItemID: spadefishegg;
+    AmountCrafted: 0;
+    LinkedItemIDs: spadefishegg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+),
+(
+    ItemID: MR_stalkeregg;
+    DisplayName: "Stalker Egg";
+    Tooltip: "Stalker can be born from these.";
+    FunctionalID: stalkeregg;
+    SpriteItemID: stalkeregg;
+    AmountCrafted: 0;
+    LinkedItemIDs: stalkeregg, MR_Microscope, MR_LabBeaker;
+    Ingredients: 
+    (
+        ItemID: MR_Microscope;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_LabBeaker;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_WateryFluid;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_EggShell;
+        Required: 1;
+    ),
+    (
+        ItemID: MR_OrganicBaseMaterial;
+        Required: 1;
+    );
+    Path: Fabricator/MR_Craft/MR_Eggs;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : MR_Microscope,MR_WateryFluid,MR_EggShell,MR_OrganicBaseMaterial;
+);

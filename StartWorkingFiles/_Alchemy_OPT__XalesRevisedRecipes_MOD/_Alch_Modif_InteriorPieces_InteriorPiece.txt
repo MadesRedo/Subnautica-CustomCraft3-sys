@@ -1,0 +1,140 @@
+#		PdaGroup: InteriorPieces | PdaCategory: InteriorPiece		#
+
+
+ModifiedRecipes:
+
+
+#	------------	ÉCHELLE	-----------	#
+(
+    ItemID: BaseLadder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 2;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 1;
+    );
+),
+
+#	------------	APPAREIL DE FILTRATION D'EAU	-----------	#
+(
+    ItemID: BaseFiltrationMachine;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 2;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 4;
+    ),
+	(
+        ItemID: Pipe;
+        Required: 2;
+    ),
+	(
+        ItemID: Glass;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+
+#	------------	PORTE ÉTANCHE	-----------	#
+(
+    ItemID: BaseBulkhead;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 6;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Silicone;
+        Required: 2;
+    );
+),
+
+#	------------	CONSOLE AMÉLIORATION VÉHICULES	-----------	#
+(
+    ItemID: BaseUpgradeConsole;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Glass;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    );
+),
+
+#	------------	SÉPARATEUR DE GRANDE PIÈCE	-----------	#
+(
+    ItemID: BasePartition;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+),
+
+#	------------	PORTE POUR SÉPARATEUR DE GRANDE PIÈCE	-----------	#
+(
+    ItemID: BasePartitionDoor;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 1;
+    );
+);
+

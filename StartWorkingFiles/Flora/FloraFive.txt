@@ -1,0 +1,1226 @@
+AliasRecipes:
+(
+	ItemID: BuyFiveAcidMushroom;
+	DisplayName: "Purchase 5 Acid Mushroom";
+	Tooltip: " ";
+	LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveAcidMushroom;
+	DisplayName: "Sell 5 Acid Mushroom";
+	Tooltip: " ";
+	SpriteItemID: acidmushroom;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: acidmushroom;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveAcidMushroomSpore;
+	DisplayName: "Purchase 5 Acid Mushroom Spore";
+	Tooltip: " ";
+	LinkedItemIDs: acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore,acidmushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveAcidMushroomSpore;
+	DisplayName: "Sell 5 Acid Mushroom Spore";
+	Tooltip: " ";
+	SpriteItemID: acidmushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: acidmushroomspore;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSeaTreaderPoop;
+	DisplayName: "Purchase 5 Alien Feces";
+	Tooltip: " ";
+	LinkedItemIDs: seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop,seatreaderpoop;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSeaTreaderPoop;
+	DisplayName: "Sell 5 Alien Feces";
+	Tooltip: " ";
+	SpriteItemID: seatreaderpoop;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: seatreaderpoop;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveBluePalmSeed;
+	DisplayName: "Purchase 5 Blue Palm Seed";
+	Tooltip: " ";
+	LinkedItemIDs: bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed,bluepalmseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveBluePalmSeed;
+	DisplayName: "Sell 5 Blue Palm Seed";
+	Tooltip: " ";
+	SpriteItemID: bluepalmseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: bluepalmseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleBrainCoralPiece;
+	DisplayName: "Purchase 5 Brain Coral Sample";
+	Tooltip: " ";
+	LinkedItemIDs: purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece,purplebraincoralpiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleBrainCoralPiece;
+	DisplayName: "Sell 5 Brain Coral Sample";
+	Tooltip: " ";
+	SpriteItemID: purplebraincoralpiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplebraincoralpiece;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveKooshChunk;
+	DisplayName: "Purchase 5 Bulb Bush Sample";
+	Tooltip: " ";
+	LinkedItemIDs: kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveKooshChunk;
+	DisplayName: "Sell 5 Bulb Bush Sample";
+	Tooltip: " ";
+	SpriteItemID: kooshchunk;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: kooshchunk;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveBulboTreePiece;
+	DisplayName: "Purchase 5 Bulbo Tree Sample";
+	Tooltip: " ";
+	LinkedItemIDs: bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveBulboTreePiece;
+	DisplayName: "Sell 5 Bulbo Tree Sample";
+	Tooltip: " ";
+	SpriteItemID: bulbotreepiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: bulbotreepiece;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleBranchesSeed;
+	DisplayName: "Purchase 5 Cave Bush Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed,purplebranchesseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleBranchesSeed;
+	DisplayName: "Sell 5 Cave Bush Seed";
+	Tooltip: " ";
+	SpriteItemID: purplebranchesseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplebranchesseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleVegetable;
+	DisplayName: "Purchase 5 Chinese Potato";
+	Tooltip: " ";
+	LinkedItemIDs: purplevegetable,purplevegetable,purplevegetable,purplevegetable,purplevegetable;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleVegetable;
+	DisplayName: "Sell 5 Chinese Potato";
+	Tooltip: " ";
+	SpriteItemID: purplevegetable;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplevegetable;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveCoralChunk;
+	DisplayName: "Purchase 5 Coral Tube Sample";
+	Tooltip: " ";
+	LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveCoralChunk;
+	DisplayName: "Sell 5 Coral Tube Sample";
+	Tooltip: " ";
+	SpriteItemID: coralchunk;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: coralchunk;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveCreepVinePiece;
+	DisplayName: "Purchase 5 Creepvine Sample";
+	Tooltip: " ";
+	LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveCreepVinePiece;
+	DisplayName: "Sell 5 Creepvine Sample";
+	Tooltip: " ";
+	SpriteItemID: creepvinepiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: creepvinepiece;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveCreepVineSeedCluster;
+	DisplayName: "Purchase 5 Creepvine Seed Cluster";
+	Tooltip: " ";
+	LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveCreepVineSeedCluster;
+	DisplayName: "Sell 5 Creepvine Seed Cluster";
+	Tooltip: " ";
+	SpriteItemID: creepvineseedcluster;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: creepvineseedcluster;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveWhiteMushroom;
+	DisplayName: "Purchase 5 Deep Shroom";
+	Tooltip: " ";
+	LinkedItemIDs: whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveWhiteMushroom;
+	DisplayName: "Sell 5 Deep Shroom";
+	Tooltip: " ";
+	SpriteItemID: whitemushroom;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: whitemushroom;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveWhiteMushroomSpore;
+	DisplayName: "Purchase 5 Deep Shroom Spore";
+	Tooltip: " ";
+	LinkedItemIDs: whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore,whitemushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveWhiteMushroomSpore;
+	DisplayName: "Sell 5 Deep Shroom Spore";
+	Tooltip: " ";
+	SpriteItemID: whitemushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: whitemushroomspore;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveEyesPlantSeed;
+	DisplayName: "Purchase 5 Eye Stalk Seed";
+	Tooltip: " ";
+	LinkedItemIDs: eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveEyesPlantSeed;
+	DisplayName: "Sell 5 Eye Stalk Seed";
+	Tooltip: " ";
+	SpriteItemID: eyesplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: eyesplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveFernPalmSeed;
+	DisplayName: "Purchase 5 Fern Palm Seed";
+	Tooltip: " ";
+	LinkedItemIDs: fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed,fernpalmseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveFernPalmSeed;
+	DisplayName: "Sell 5 Fern Palm Seed";
+	Tooltip: " ";
+	SpriteItemID: fernpalmseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: fernpalmseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveTreeMushroomPiece;
+	DisplayName: "Purchase 5 Fungal Sample";
+	Tooltip: " ";
+	LinkedItemIDs: treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveTreeMushroomPiece;
+	DisplayName: "Sell 5 Fungal Sample";
+	Tooltip: " ";
+	SpriteItemID: treemushroompiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: treemushroompiece;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveRedRollPlantSeed;
+	DisplayName: "Purchase 5 Furled Papyrus Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed,redrollplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveRedRollPlantSeed;
+	DisplayName: "Sell 5 Furled Papyrus Seed";
+	Tooltip: " ";
+	SpriteItemID: redrollplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redrollplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveGabesFeatherSeed;
+	DisplayName: "Purchase 5 Gabe's Feather Seed";
+	Tooltip: " ";
+	LinkedItemIDs: gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed,gabesfeatherseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveGabesFeatherSeed;
+	DisplayName: "Sell 5 Gabe's Feather Seed";
+	Tooltip: " ";
+	SpriteItemID: gabesfeatherseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: gabesfeatherseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveGasPod;
+	DisplayName: "Purchase 5 Gas Pod";
+	Tooltip: " ";
+	LinkedItemIDs: gaspod,gaspod,gaspod,gaspod,gaspod;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveGasPod;
+	DisplayName: "Sell 5 Gas Pod";
+	Tooltip: " ";
+	SpriteItemID: gaspod;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: gaspod;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveJellyPlant;
+	DisplayName: "Purchase 5 Gel Sack";
+	Tooltip: " ";
+	LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveJellyPlant;
+	DisplayName: "Sell 5 Gel Sack";
+	Tooltip: " ";
+	SpriteItemID: jellyplant;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jellyplant;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveJellyPlantSeed;
+	DisplayName: "Purchase 5 Gel Sack Spores";
+	Tooltip: " ";
+	LinkedItemIDs: jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed,jellyplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveJellyPlantSeed;
+	DisplayName: "Sell 5 Gel Sack Spores";
+	Tooltip: " ";
+	SpriteItemID: jellyplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jellyplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveRedGreenTentacleSeed;
+	DisplayName: "Purchase 5 Ghost Weed Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveRedGreenTentacleSeed;
+	DisplayName: "Sell 5 Ghost Weed Seed";
+	Tooltip: " ";
+	SpriteItemID: redgreententacleseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redgreententacleseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveOrangePetalsPlantSeed;
+	DisplayName: "Purchase 5 Grub Basket Seed";
+	Tooltip: " ";
+	LinkedItemIDs: orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed,orangepetalsplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveOrangePetalsPlantSeed;
+	DisplayName: "Sell 5 Grub Basket Seed";
+	Tooltip: " ";
+	SpriteItemID: orangepetalsplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: orangepetalsplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveOrangeMushroomSpore;
+	DisplayName: "Purchase 5 Jaffa Cup Seed";
+	Tooltip: " ";
+	LinkedItemIDs: orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore,orangemushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveOrangeMushroomSpore;
+	DisplayName: "Sell 5 Jaffa Cup Seed";
+	Tooltip: " ";
+	SpriteItemID: orangemushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: orangemushroomspore;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSnakeMushroomSpore;
+	DisplayName: "Purchase 5 Jellyshroom Spore";
+	Tooltip: " ";
+	LinkedItemIDs: snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore,snakemushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSnakeMushroomSpore;
+	DisplayName: "Sell 5 Jellyshroom Spore";
+	Tooltip: " ";
+	SpriteItemID: snakemushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: snakemushroomspore;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveHangingFruit;
+	DisplayName: "Purchase 5 Lantern Fruit";
+	Tooltip: " ";
+	LinkedItemIDs: hangingfruit,hangingfruit,hangingfruit,hangingfruit,hangingfruit;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveHangingFruit;
+	DisplayName: "Sell 5 Lantern Fruit";
+	Tooltip: " ";
+	SpriteItemID: hangingfruit;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: hangingfruit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSmallMelon;
+	DisplayName: "Purchase 5 Small Marblemelon";
+	Tooltip: " ";
+	LinkedItemIDs: smallmelon,smallmelon,smallmelon,smallmelon,smallmelon;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSmallMelon;
+	DisplayName: "Sell 5 Small Marblemelon";
+	Tooltip: " ";
+	SpriteItemID: smallmelon;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: smallmelon;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveMelon;
+	DisplayName: "Purchase 5 Marblemelon";
+	Tooltip: " ";
+	LinkedItemIDs: melon,melon,melon,melon,melon;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveMelon;
+	DisplayName: "Sell 5 Marblemelon";
+	Tooltip: " ";
+	SpriteItemID: melon;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: melon;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveMelonSeed;
+	DisplayName: "Purchase 5 Marblemelon Seeds";
+	Tooltip: " ";
+	LinkedItemIDs: melonseed,melonseed,melonseed,melonseed,melonseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveMelonSeed;
+	DisplayName: "Sell 5 Marblemelon Seeds";
+	Tooltip: " ";
+	SpriteItemID: melonseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: melonseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveMembrainTreeSeed;
+	DisplayName: "Purchase 5 Membrain Tree Seed";
+	Tooltip: " ";
+	LinkedItemIDs: membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed,membraintreeseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveMembrainTreeSeed;
+	DisplayName: "Sell 5 Membrain Tree Seed";
+	Tooltip: " ";
+	SpriteItemID: membraintreeseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: membraintreeseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleVasePlantSeed;
+	DisplayName: "Purchase 5 Ming Plant Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed,purplevaseplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleVasePlantSeed;
+	DisplayName: "Sell 5 Ming Plant Seed";
+	Tooltip: " ";
+	SpriteItemID: purplevaseplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplevaseplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePinkMushroom;
+	DisplayName: "Purchase 5 Pink Cap";
+	Tooltip: " ";
+	LinkedItemIDs: pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom,pinkmushroom;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePinkMushroom;
+	DisplayName: "Sell 5 Pink Cap Seed";
+	Tooltip: " ";
+	SpriteItemID: pinkmushroom;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: pinkmushroom;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePinkMushroomSpore;
+	DisplayName: "Purchase 5 Pink Cap Spore";
+	Tooltip: " ";
+	LinkedItemIDs: pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore,pinkmushroomspore;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePinkMushroomSpore;
+	DisplayName: "Sell 5 Pink Cap Spore";
+	Tooltip: " ";
+	SpriteItemID: pinkmushroomspore;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: pinkmushroomspore;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSmallFanSeed;
+	DisplayName: "Purchase 5 Pygmy Fan Seed";
+	Tooltip: " ";
+	LinkedItemIDs: smallfanseed,smallfanseed,smallfanseed,smallfanseed,smallfanseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSmallFanSeed;
+	DisplayName: "Sell 5 Pygmy Fan Seed";
+	Tooltip: " ";
+	SpriteItemID: smallfanseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: smallfanseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveRedBushSeed;
+	DisplayName: "Purchase 5 Redwort Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redbushseed,redbushseed,redbushseed,redbushseed,redbushseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveRedBushSeed;
+	DisplayName: "Sell 5 Redwort Seed";
+	Tooltip: " ";
+	SpriteItemID: redbushseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redbushseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveRedConePlantSeed;
+	DisplayName: "Purchase 5 Regress Shell Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed,redconeplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveRedConePlantSeed;
+	DisplayName: "Sell 5 Regress Shell Seed";
+	Tooltip: " ";
+	SpriteItemID: redconeplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redconeplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveRedBasketPlantSeed;
+	DisplayName: "Purchase 5 Rouge Cradle Seed";
+	Tooltip: " ";
+	LinkedItemIDs: redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed,redbasketplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveRedBasketPlantSeed;
+	DisplayName: "Sell 5 Rogue Cradle Seed";
+	Tooltip: " ";
+	SpriteItemID: redbasketplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: redbasketplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSeaCrownSeed;
+	DisplayName: "Purchase 5 Sea Crown Seed";
+	Tooltip: " ";
+	LinkedItemIDs: seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSeaCrownSeed;
+	DisplayName: "Sell 5 Sea Crown Seed";
+	Tooltip: " ";
+	SpriteItemID: seacrownseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: seacrownseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleRattle;
+	DisplayName: "Purchase 5 Speckled Rattler";
+	Tooltip: " ";
+	LinkedItemIDs: purplerattle,purplerattle,purplerattle,purplerattle,purplerattle;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleRattle;
+	DisplayName: "Sell 5 Speckled Rattler";
+	Tooltip: " ";
+	SpriteItemID: purplerattle;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplerattle;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveShellGrassSeed;
+	DisplayName: "Purchase 5 Spiked Horn Grass Seed";
+	Tooltip: " ";
+	LinkedItemIDs: shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed,shellgrassseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveShellGrassSeed;
+	DisplayName: "Sell 5 Spiked Horn Grass Seed";
+	Tooltip: " ";
+	SpriteItemID: shellgrassseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: shellgrassseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSpottedLeavesPlantSeed;
+	DisplayName: "Purchase 5 Spotted Dockleaf Seed";
+	Tooltip: " ";
+	LinkedItemIDs: spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed,spottedleavesplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSpottedLeavesPlantSeed;
+	DisplayName: "Sell 5 Spotted Dockleaf Seed";
+	Tooltip: " ";
+	SpriteItemID: spottedleavesplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spottedleavesplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveStalkerTooth;
+	DisplayName: "Purchase 5 Stalker Teeth";
+	Tooltip: " ";
+	LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveStalkerTooth;
+	DisplayName: "Sell 5 Stalker Teeth";
+	Tooltip: " ";
+	SpriteItemID: stalkertooth;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: stalkertooth;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveJeweledDiskPiece;
+	DisplayName: "Purchase 5 Table Coral Sample";
+	Tooltip: " ";
+	LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveJeweledDiskPiece;
+	DisplayName: "Sell 5 Table Coral Sample";
+	Tooltip: " ";
+	SpriteItemID: jeweleddiskpiece;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: jeweleddiskpiece;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFiveSpikePlantSeed;
+	DisplayName: "Purchase 5 Tiger Plant Seed";
+	Tooltip: " ";
+	LinkedItemIDs: spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed,spikeplantseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFiveSpikePlantSeed;
+	DisplayName: "Sell 5 Tiger Plant Seed";
+	Tooltip: " ";
+	SpriteItemID: spikeplantseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: spikeplantseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleFanSeed;
+	DisplayName: "Purchase 5 Veined Nettle Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplefanseed,purplefanseed,purplefanseed,purplefanseed,purplefanseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleFanSeed;
+	DisplayName: "Sell 5 Veined Nettle Seed";
+	Tooltip: " ";
+	SpriteItemID: purplefanseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplefanseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleStalkSeed;
+	DisplayName: "Purchase 5 Violet Beau Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed,purplestalkseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleStalkSeed;
+	DisplayName: "Sell 5 Violet Beau Seed";
+	Tooltip: " ";
+	SpriteItemID: purplestalkseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purplestalkseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePinkFlowerSeed;
+	DisplayName: "Purchase 5 Voxel Shrub Seed";
+	Tooltip: " ";
+	LinkedItemIDs: pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed,pinkflowerseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePinkFlowerSeed;
+	DisplayName: "Sell 5 Voxel Shrub Seed";
+	Tooltip: " ";
+	SpriteItemID: pinkflowerseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: pinkflowerseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+),
+(
+	ItemID: BuyFivePurpleTentacleSeed;
+	DisplayName: "Purchase 5 Writhing Weed Seed";
+	Tooltip: " ";
+	LinkedItemIDs: purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed,purpletentacleseed;
+	Ingredients:
+	(
+		ItemID: CopperCredit;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopBuy/BuyFive/FloraBuyFive;
+),
+(
+	ItemID: SellFivePurpleTentacleSeed;
+	DisplayName: "Sell 5 Writhing Weed Seed";
+	Tooltip: " ";
+	SpriteItemID: purpletentacleseed;
+	LinkedItemIDs: CopperCredit,CopperCredit,CopperCredit,CopperCredit,CopperCredit;
+	Ingredients:
+	(
+		ItemID: purpletentacleseed;
+		Required: 5;
+	);
+	Path: ResourceMarket/ShopMenu/ShopSell/SellFive/FloraSellFive;
+);

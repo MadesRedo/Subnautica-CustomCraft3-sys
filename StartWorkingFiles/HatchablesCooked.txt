@@ -1,0 +1,129 @@
+CustomFoods:
+(
+    ItemID: cookedcutefish;
+    DecayRateMod: 0.5; 
+    DisplayName: "Cooked Cuddlefish";
+    Tooltip: "Always wanted to do this.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: cutefish;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/hatchables;
+    FoodValue:90;
+    WaterValue:55;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cookedcrabsnake;
+    DecayRateMod: 0.1; 
+    DisplayName: "Cooked Crabsnake";
+    Tooltip: "It's like jelly";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: crabsnake;
+        Required: 1;
+    ),
+    (
+        ItemID: snakemushroomspore;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/hatchables;
+    FoodValue:75;
+    WaterValue:75;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cookedrabbitray;
+    DecayRateMod: 0.5; 
+    DisplayName: "Cooked Rabbit Ray";
+    Tooltip: "It doesn't look like a rabbit.";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: rabbitray;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/hatchables;
+    FoodValue:90;
+    WaterValue:50;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cookedmesmer;
+    DecayRateMod: 0.5; 
+    DisplayName: "Cooked Mesmer";
+    Tooltip: "Hypnotizing.";
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: mesmer;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/hatchables;
+    FoodValue:78;
+    WaterValue:87;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cookedstalker;
+    DecayRateMod: 0.5;
+    DisplayName: "Cooked Stalker";
+    ToolTip: "The theeth taste horibble don't try them.";
+    AmountCrafted: 1;
+    Ingredients:
+    (
+       ItemID: stalker;
+       Required: 1;
+    ),
+    (
+       ItemID: salt;
+       Required: 1;
+    );
+    Path: Fabricator/Survival/hatchables;
+    FoodValue: 60;
+    WaterValue: 60;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cookedcrabsquid;
+    DecayRateMod: 0.0;
+    DisplayName: "Cooked Crabsquid";
+    ToolTip: How do you like that huh?.;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+      ItemID: crabsquid;
+      Required: 1;
+    ),
+    (
+      ItemID: salt;
+      Required: 2;
+    ),
+    (
+      ItemID: bloodoil;
+      Required: 1;
+    );
+    Path: Fabricator/Survival/hatchables;
+    FoodValue: 95;
+    WaterValue: 80;
+    ForceUnlockAtStart: YES;
+),

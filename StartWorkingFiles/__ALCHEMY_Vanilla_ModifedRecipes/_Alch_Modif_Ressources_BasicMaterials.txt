@@ -1,0 +1,120 @@
+#		PdaGroup: Resources | PdaCategory: BasicMaterials		#
+
+
+ModifiedRecipes:
+
+
+#	------------	DÉBRIS MÉTALLIQUES	-----------	#
+(
+    ItemID: Titanium;
+    AmountCrafted: 5;
+    Ingredients: 
+    (
+        ItemID: ScrapMetal;
+        Required: 1;
+    );
+),
+
+#	------------	LINGOT DE TITANE	-----------	#
+(
+    ItemID: TitaniumIngot;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 10;
+    );
+),
+
+#	------------	MAILLE DE FIBRE	-----------	#
+(
+	ItemID: FiberMesh;
+	AmountCrafted: 1;
+	Ingredients: 
+    (
+        ItemID: CreepvinePiece;
+        Required: 3;
+    );
+),
+
+#	------------	SILICONE	----------------	#
+(
+    ItemID: Silicone;
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 3;
+    );
+),
+
+#	------------	VERRE	----------------	#
+(
+    ItemID: Glass;
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: Quartz;
+        Required: 5;
+    );
+),
+
+#	------------	JAVEL	--------------------	#
+(
+    ItemID: Bleach;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 4;
+    );
+),
+
+#	------------	LUBRIFIANT	----------------	#
+(
+    ItemID: Lubricant;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 2;
+    );
+),
+
+#	------------	VERRE ÉMAILLÉ	----------------	#
+(
+    ItemID: EnameledGlass;
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: StalkerTooth;
+        Required: 3;
+    ),
+    (
+        ItemID: Glass;
+        Required: 2;
+    );
+),
+
+#	------------	LINGOT PLASTACIER	----------	#
+(
+    ItemID: PlasteelIngot;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    );
+);

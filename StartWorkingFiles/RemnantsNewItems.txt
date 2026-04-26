@@ -1,0 +1,56 @@
+AddedRecipes: 
+(
+    ItemID: magnesium;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: gold;
+        Required: 1;
+    ),
+    (
+        ItemID: silver;
+        Required: 2;
+    );
+
+    ForceUnlockAtStart: YES;
+    Path: Fabricator/Resources/BasicMaterials;
+),
+(
+    ItemID: uranium;
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: precursorioncrystalmatrix;
+        Required: 1;
+    );
+    
+    ForceUnlockAtStart: YES;
+    Path: Ndecomp/Decomp;
+),
+
+(
+    ItemID: lithiumionbattery;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: battery;
+        Required: 1;
+    ),
+    (
+        ItemID: lithium;
+        Required: 2;
+    ),
+    (
+        ItemID: silver;
+        Required: 1;
+    );
+
+    ForceUnlockAtStart: NO;
+    Path: Workbench/VanillaWorkbench;
+ 
+);
+    

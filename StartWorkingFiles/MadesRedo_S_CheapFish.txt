@@ -1,0 +1,240 @@
+AliasRecipes: 
+    (
+        ItemID: add_peeper;
+	DisplayName: "Peeper x2";
+	Tooltip: "Cheap Peeper";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, peeper, peeper;
+	SpriteItemID: peeper;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_hoverfish;
+	DisplayName: "Hoverfish x2";
+	Tooltip: "Cheap Hoverfish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, hoverfish, hoverfish;
+	SpriteItemID: hoverfish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;        
+    ),
+    (
+        ItemID: add_bladderfish;
+	DisplayName: "Bladderfish x2";
+	Tooltip: "Cheap Bladderfish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, bladderfish, bladderfish;
+	SpriteItemID: bladderfish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_boomerang;
+	DisplayName: "Boomerang x2";
+	Tooltip: "Cheap Boomerang";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, boomerang, boomerang;
+	SpriteItemID: boomerang;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_oculusfish;
+	DisplayName: "Oculus fish x2";
+	Tooltip: "Cheap Oculus fish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, oculus, oculus;
+	SpriteItemID: oculus;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_holefish;
+	DisplayName: "Hole fish x2";
+	Tooltip: "Cheap Hole fish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, holefish, holefish;
+	SpriteItemID: holefish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_lavaboomerang;
+	DisplayName: "Magmarang x2";
+	Tooltip: "Cheap Magmarang fish (Red)";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, lavaboomerang, lavaboomerang;
+	SpriteItemID: lavaboomerang;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_hoopfish;
+	DisplayName: "Hoopfish x2";
+	Tooltip: "Cheap Hoopfish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, hoopfish, hoopfish;
+	SpriteItemID: hoopfish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_reginald;
+	DisplayName: "Reginald fish x2";
+	Tooltip: "Cheap Reginald Fish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, reginald, reginald;
+	SpriteItemID: reginald;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_spinefish;
+	DisplayName: "Spinefish x2";
+	Tooltip: "Cheap Spinefish Fish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, spinefish, spinefish;
+	SpriteItemID: spinefish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_spadefish;
+	DisplayName: "Spadefish x2";
+	Tooltip: "Cheap Spadefish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, spadefish, spadefish;
+	SpriteItemID: spadefish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_lavaeyeye;
+	DisplayName: "Red Eyeye x2";
+	Tooltip: "Cheap Red Eyeye";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, lavaeyeye, lavaeyeye;
+	SpriteItemID: lavaeyeye;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_garryfish;
+	DisplayName: "Garryfish x2";
+	Tooltip: "Cheap Garryfish";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, garryfish, garryfish;
+	SpriteItemID: garryfish;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    ),
+    (
+        ItemID: add_eyeye;
+	DisplayName: "Eyeye x2";
+	Tooltip: "Cheap Eyeye";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, eyeye, eyeye;
+	SpriteItemID: eyeye;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapFish;
+    );
+	

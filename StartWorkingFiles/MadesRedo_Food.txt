@@ -1,0 +1,319 @@
+CustomFoods:
+(
+	ItemID: MR_TBMushroom;
+	DecayRateMod: 0.0;
+	DisplayName: "Coral Tube Filtered Water";
+	Tooltip: "Vegetarian-friendly.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: coralchunk;
+		Required: 2;
+	);
+	FoodValue:0;
+	WaterValue:60;
+	FoodType: FilteredWater;
+	UseDrinkSound: YES;
+    	PdaGroup: Resources;
+        PdaCategory: Water;
+        Path: Fabricator/MR_Craft/MR_Food;
+	ForceUnlockAtStart: NO;	
+	UnlockedBy: knife;
+),
+(
+	ItemID: MR_LanternFruit;
+	DecayRateMod: 0.0;
+	DisplayName: "Lantern Fruit Filtered Water";
+	Tooltip: "Vegetarian-friendly.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: hangingfruit;
+		Required: 1;
+	);
+	FoodValue:0;
+	WaterValue:70;
+	FoodType: FilteredWater;
+	UseDrinkSound: YES;
+    	PdaGroup: Resources;
+        PdaCategory: Water;
+        Path: Fabricator/MR_Craft/MR_Food;
+	ForceUnlockAtStart: NO;	
+	UnlockedBy: hangingfruit;
+),
+(
+	ItemID: MR_CreepvineTea;
+	DecayRateMod: 0.0;
+	DisplayName: "Creepvine Tea";
+	Tooltip: "Green Tea.";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	WaterValue:30;
+	FoodType: coffe;
+	UseDrinkSound: YES;
+    	PdaGroup: Survival;
+    	PdaCategory: Water;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: creepvinepiece;
+),
+(
+	ItemID: MR_APeeperPaste;
+	DecayRateMod: 0.0;
+	DisplayName: "Peeper paste";
+	Tooltip: "Highly nutritious - 100 units";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: peeper;
+		Required: 1;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:100;
+	WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: peeper;
+),
+(
+	ItemID: MR_EyeyePaste;
+	DecayRateMod: 0.0;
+	DisplayName: "Eyeye paste";
+	Tooltip: "Highly nutritious - 90 units";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: eyeye;
+		Required: 1;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:90;
+	WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: eyeye;
+),
+(
+	ItemID: MR_SpinnerFishPaste;
+	DecayRateMod: 0.0;
+	DisplayName: "Spinefish paste";
+	Tooltip: "Highest nutrition value - 130 units";
+	AmountCrafted: 1;
+	Ingredients:
+	( 
+		ItemID: spinefish;
+		Required: 1;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:130;
+	WaterValue:0;
+    	PdaGroup: Survival;
+    	PdaCategory: CookedFood;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: spinefish;
+),
+(
+    	ItemID: MR_PeeperCake;
+   	DisplayName: "Peeper Cake";
+    	Tooltip: "Brain Coral Sample mixed with a Peeper. ";
+    	AmountCrafted: 1;
+    	Ingredients: 
+    	( 
+        	ItemID: peeper;
+        	Required: 1;
+    	),
+    	( 
+        	ItemID: purplebraincoralpiece;
+        	Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+    	FoodValue:65;
+    	WaterValue:5;
+    	DecayRateMod:0.4;
+    	ForceUnlockAtStart: NO;
+	UnlockedBy: peeper;
+),
+(
+	ItemID: MR_SeaWeed;
+	DisplayName: "Sea Weed";
+	Tooltip: "Weed from a sea plant.";
+	AmountCrafted: 1;
+	Ingredients:     
+	( 
+		ItemID: creepvinepiece;
+		Required: 1;
+	);   
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:8;
+	WaterValue:2;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: creepvinepiece;
+),
+(
+	ItemID: MR_Tortilla;
+    	DisplayName: "Tortilla";
+    	Tooltip: "A tortilla chip is a snack food made from corn tortillas, which are cut into wedges and then fried";
+    	AmountCrafted: 4;
+    	Ingredients: 
+    	( 
+        	ItemID: MR_SeaWeed;
+        	Required: 2;
+    	),
+   	( 
+        	ItemID: Salt;
+        	Required: 1;
+    	), 
+    	( 
+        	ItemID: HangingFruit;
+        	Required: 2;
+    	);
+  	Path: Fabricator/MR_Craft/MR_Food; 
+    	FoodValue:60;
+    	WaterValue:5;
+    	ForceUnlockAtStart: NO;
+	UnlockedBy: hangingfruit;
+),
+(
+    	ItemID: MR_ChineseFries;
+    	DisplayName: "Chinese Fries";
+    	Tooltip: "Chinese fries from Chinese Potatoes";
+    	AmountCrafted: 4;
+    	Ingredients: 
+    	( 
+        	ItemID: salt;
+        	Required: 1;
+    	),
+    	( 
+        	ItemID: purplevegetable;
+        	Required: 2;
+    	);
+  	Path: Fabricator/MR_Craft/MR_Food;
+    	FoodValue:55;
+    	WaterValue:5;
+    	ForceUnlockAtStart: NO;
+	UnlockedBy: purplevegetable;
+),
+(
+ 	ItemID: MR_ChinesePotatoCake;
+    	DisplayName: "Chinese Potato Cake";
+    	Tooltip: "Brain Coral Sample mixed with a Chinese Potato. ";
+    	AmountCrafted: 1;
+    	Ingredients: 
+    	( 
+        	ItemID: PurpleVegetable;
+        	Required: 1;
+    	),
+    	( 
+        	ItemID: purplebraincoralpiece;
+        	Required: 1;
+    	);
+    	Path: Fabricator/MR_Craft/MR_Food;
+    	FoodValue:45;
+    	WaterValue:5;
+    	DecayRateMod:0.4;
+    	ForceUnlockAtStart: NO;
+	UnlockedBy: PurpleVegetable;
+),
+(
+    	ItemID: MR_MelonJuice;
+    	DisplayName: "Marblemelon juice";
+    	Tooltip: "Water mixed with a Marblemelon";
+    	AmountCrafted: 1;
+    	Ingredients: 
+    	( 
+        	ItemID: MelonSeed;
+        	Required: 1;
+    	),
+    	( 
+        	ItemID: filteredwater;
+        	Required: 1;
+    	);
+    	Path: Fabricator/MR_Craft/MR_Food;
+    	FoodValue:10;
+    	WaterValue:70;
+    	ForceUnlockAtStart: NO;
+	UnlockedBy: MelonSeed;
+),
+(
+	ItemID: MR_PeeperBurger;
+	DisplayName: "Peeper Burger";
+	Tooltip: "PeeperBurger.  Made from arctic peepers and some SeaWeed.";
+	AmountCrafted: 1;
+	Ingredients: 
+	(
+        	ItemID: peeper;
+        	Required: 2;
+	),
+	(
+        	ItemID: MR_SeaWeed;
+        	Required: 2;
+	),
+	(
+        	ItemID: CreepvinePiece;
+        	Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:140;
+	WaterValue:10;
+	DecayRateMod:0.5;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: peeper;
+),
+(
+	ItemID: MR_Salad;
+	DisplayName: "Salad";
+	Tooltip: "A salad is a dish consisting of mixed ingredients, frequently vegetables.";
+	AmountCrafted: 4;
+	Ingredients: 
+	( 
+		ItemID: hangingfruit;
+		Required: 1;
+	),
+	( 
+		ItemID: creepvinepiece;
+		Required: 2;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:45;
+	WaterValue:10;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: hangingfruit;
+),
+(
+	ItemID: MR_LanternFruitJuice;
+	DisplayName: "Lantern Fruit Juice";
+	Tooltip: "Water mixed with a Lantern Fruit. ";
+	AmountCrafted: 1;
+	Ingredients: 
+	( 
+		ItemID: HangingFruit;
+		Required: 1;
+	),
+	( 
+		ItemID: filteredwater;
+		Required: 1;
+	);
+	Path: Fabricator/MR_Craft/MR_Food;
+	FoodValue:10;
+	WaterValue:75;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: HangingFruit;
+);

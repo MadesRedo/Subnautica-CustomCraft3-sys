@@ -1,0 +1,90 @@
+#             PdaGroup: MapRoomUpgrades | PdaCategory:MapRoomUpgrades              #
+
+
+ModifiedRecipes:
+
+
+#	------------	PUCE HUD	-----------	#
+(
+    ItemID: MapRoomHUDChip;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    );
+),
+
+#	------------	DRONE CAMÉRA	-----------	#
+(
+    ItemID: MapRoomCamera;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: Glass;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 1;
+    );
+),
+
+#	------------	AMÉLIO. PORTÉE DE SCAN	-----------	#
+(
+    ItemID: MapRoomUpgradeScanRange;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: Scanner;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    );
+),
+
+#	------------	AMÉLIO. VITESSE DE SCAN	-----------	#
+(
+    ItemID: MapRoomUpgradeScanSpeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Silver;
+        Required: 1;
+    ),
+    (
+        ItemID: Gold;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+);
+

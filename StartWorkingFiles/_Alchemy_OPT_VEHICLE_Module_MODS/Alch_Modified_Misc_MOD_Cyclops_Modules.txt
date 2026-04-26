@@ -1,0 +1,507 @@
+
+
+
+ModifiedRecipes:
+
+# ---	Cyclops Beacon Deployer "Indigocoder" - 1365			TO DO	--- #
+# ---	Remote Control Vehicles "EldritchCarMaker" - 1943	--- #
+		#___ Cyclops Remote Control		=>		Alch_Modified_Misc_MOD_Vehicle_Modules.txt	___#
+
+# ---	Automatic Vehicle Repair "Marslandare" - 1402	--- #
+(
+    ItemID: CyclopsRepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 2;
+    );
+),
+
+# ---	Vehicle Speed Upgrade "AshFoxJp" - 2602 	--- #
+	#___ Speed Mk1 ___#
+(
+    ItemID: CyclopsSpeedUpgradeMK1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 3;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: Copper;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+	#___ Speed Mk2 ___#
+(
+    ItemID: CyclopsSpeedUpgradeMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsSpeedUpgradeMK1;
+        Required: 1;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 3;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 1;
+    );
+),
+
+# ---	Flying Cyclops "MrJumpscare" - 1810		--- #
+(
+    ItemID: CyclopsFlyingModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 3;
+    ),
+	(
+        ItemID: Benzene;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 2;
+    );
+),
+
+# ---	Cyclops Solar Charger "aedenthorn" - 2072	--- #
+(
+    ItemID: CyclopsSolarCharger;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 3;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 2;
+    );
+),
+
+# ---	Cyclops Laser Cannon "senna7608" - 240		--- #
+(
+    ItemID: CyclopsLaserCannonModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitTorpedoArmModule;
+        Required: 2;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 2;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    );
+),
+
+# ---	Cyclops Torpedoes "EldritchCarMaker" - 1932		--- #
+(
+    ItemID: CyclopsTorpedoModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SeamothTorpedoModule;
+        Required: 1;
+    ),
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+
+#-----------------------------------------------------------#
+# ---	MORE CYCLOPS UPGRADES (1407) "MrPurple6411"		--- #
+#-----------------------------------------------------------#
+	#___ SPEED UPGRADES - 1427 ___#
+(
+    ItemID: CyclopsSpeedModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+	#___ ENGINE UPGRADES - 1428 ___#
+		#--- Engine Upgrade MK2 ---#
+(
+    ItemID: PowerUpgradeModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PowerUpgradeModule;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 4;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 2;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 1;
+    );
+),
+		#--- Engine Upgrade MK3 ---#
+(
+    ItemID: PowerUpgradeModuleMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PowerUpgradeModuleMk2;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_RadiumCrystal;
+        Required: 1;
+    );
+),
+	#___ CYCLOPS AUTOZAPPERS - 1429 ___#
+		#--- Anti Parasite Remover ---#
+(
+    ItemID: CyclopsAntiParasite;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+		#--- Auto Defense System Mk1 ---#
+(
+    ItemID: CyclopsZapperModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+		#--- Auto Defense System Mk2 ---#
+(
+    ItemID: CyclopsZapperModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsZapperModule;
+        Required: 1;
+    ),
+    (
+        ItemID: SeamothElectricalDefense;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnetite;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    );
+),
+	#___ NUCLEAR UPGRADE - 1430 ___#
+(
+    ItemID: CyclopsNuclearModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    );
+),
+
+#---------------------------------------------------#
+# ---	CYCLOPS'S MODULES (2659) "Maxichigo"	--- #
+#---------------------------------------------------#
+	#___ SPEED ___#
+		#--- Speed MK1 ---#
+(
+    ItemID: CyclopsSpeedMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: GasPod;
+        Required: 2;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 4;
+    );
+),
+		#--- Speed MK2 ---#
+(
+    ItemID: CyclopsSpeedMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsSpeedMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 3;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+		#--- Speed MK3 ---#
+(
+    ItemID: CyclopsSpeedMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsSpeedMk2;
+        Required: 1;
+    ),
+    (
+        ItemID: ReactorRod;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    ),
+    (
+        ItemID: Sulphur;
+        Required: 2;
+    );
+),
+	#___ DEFENSE ___#
+		#--- Defense MK1 ---#
+(
+    ItemID: CyclopsDefenseMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_Gold_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Silicone;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    ),
+    (
+        ItemID: Glass;
+        Required: 2;
+    );
+),
+		#--- Defense MK2 ---#
+(
+    ItemID: CyclopsDefenseMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsDefenseMk1;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_AluminumRaw_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 1;
+    ),
+    (
+        ItemID: AramidFibers;
+        Required: 2;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 2;
+    );
+),
+		#--- Defense MK3 ---#
+(
+    ItemID: CyclopsDefenseMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CyclopsDefenseMk2;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Charged_Alumina_Carbon_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PlasteelIngot;
+        Required: 1;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 3;
+    );
+);

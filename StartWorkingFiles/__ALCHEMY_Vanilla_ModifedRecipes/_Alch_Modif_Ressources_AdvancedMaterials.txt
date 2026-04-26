@@ -1,0 +1,104 @@
+#		PdaGroup: Resources | PdaCategory: AdvancedMaterials		#
+
+
+ModifiedRecipes:
+
+
+#	------------	ACIDE CHLORHYDRIQUE	-----------	#
+(
+    ItemID: HydrochloricAcid;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WhiteMushroom;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    );
+),
+
+#	------------	BENZÈNE	--------------------	#
+(
+    ItemID: Benzene;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: BloodOil;
+        Required: 2;
+    ),
+	(
+		ItemID: Lubricant;
+		Required: 2;
+	),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+
+#	------------	FIBRES SYNTHÉTIQUES	----------	#
+(
+    ItemID: AramidFibers;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Benzene;
+        Required: 1;
+    ),
+    (
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+
+#	------------	AÉROGEL	--------------------	#
+(
+    ItemID: Aerogel;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: JellyPlant;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 1;
+    );
+),
+
+#	------------	POLYANILINE	--------------------	#
+(
+    ItemID: Polyaniline;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Gold;
+        Required: 2;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+);

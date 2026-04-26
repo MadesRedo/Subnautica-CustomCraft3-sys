@@ -1,0 +1,21 @@
+CustomFoods:
+(
+    ItemID: Peeperpatty;
+    DecayRateMod: 0.3; 
+    DisplayName: "Peeper Patty";
+    Tooltip: "A simple fish patty made from ground Peeper meat.";
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 3;
+    ),
+    (
+        ItemID: CreepvinePiece;
+        Required: 4;
+    );
+    Path: Fabricator/Survival/CookedFood;
+    FoodValue:24;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),

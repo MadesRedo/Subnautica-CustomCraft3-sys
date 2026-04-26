@@ -1,0 +1,270 @@
+
+#		CYCLOPS		#
+
+MovedRecipes:
+
+		#	Cyclops Depth	#
+(
+	ItemID: CyclopsHullModule1;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsHullModule2;
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsDepthUpgrades;
+),
+(
+	ItemID: CyclopsHullModule3;
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsDepthUpgrades;
+),
+		#	Cyclops Vanilla & Mods	#
+(
+	ItemID: CyclopsShieldModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSonarModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSeamothRepairModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsRepairModule;												#	Automatic Vehicle Repair "Marslandare" - 1402	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsFireSuppressionModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsDecoyModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSpeedUpgradeMK1;												#	Vehicle Speed Upgrade "AshFoxJp" - 2602		#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSpeedUpgradeMK2;												#	Vehicle Speed Upgrade "AshFoxJp" - 2602		#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: CyclopsSpeedModule;													#	More Cyclops Upgrades (1407): Speed Upgrades "MrPurple6411" - 1427	#
+	OldPath: CyclopsFabricator/CyclopsMenu;
+	NewPath: CyclopsFabricator;
+),
+(
+	ItemID: CyclopsSpeedModule;														#	COPIED	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSpeedMk1;													#	Cyclop's Modules (- Speed) "Maxichigo" - 2659		#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSpeedMk2;													#	Cyclop's Modules (-- Speed) "Maxichigo" - 2659		#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: CyclopsSpeedMk3;													#	Cyclop's Modules (--- Speed) "Maxichigo" - 2659		#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: DeployableBeaconModule;												#	Cyclops Beacon Deployer "Indigocoder" - 1365	==> NEED A FIX !	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsSolarCharger;												#	Cyclops Solar Charger "aedenthorn" - 2072	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsThermalReactorModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: PowerUpgradeModule;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: PowerUpgradeModuleMk2;												#	More Cyclops Upgrades (1407): Engine Upgrade Mk2 "MrPurple6411" - 1428	 #
+	OldPath: Workbench/CyclopsMenu;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: PowerUpgradeModuleMk3;												#	More Cyclops Upgrades (1407): Engine Upgrade Mk3 "MrPurple6411" - 1428	 #
+	OldPath: Workbench/CyclopsMenu;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: CyclopsTorpedoModule;												#	Cyclops Torpedoes "EldritchCarMaker" - 1932		==> NEED A FIX !	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsLaserCannonModule;											#	Cyclops Laser Cannon "senna7608" - 240	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsAntiParasite;												#	More Cyclops Upgrades (1407): Anti Parasite Remover "MrPurple6411" - 1429	#
+	OldPath: CyclopsFabricator/CyclopsMenu;
+	NewPath: CyclopsFabricator;
+),
+(
+	ItemID: CyclopsAntiParasite;													#	COPIED	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsDefenseMk1;													#	Cyclop's Modules (- Defense) "Maxichigo" - 2659		#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsDefenseMk2;													#	Cyclop's Modules (-- Defense) "Maxichigo" - 2659	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: CyclopsDefenseMk3;													#	Cyclop's Modules (--- Defense) "Maxichigo" - 2659	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: CyclopsNuclearModule;												#	More Cyclops Upgrades (1407): Nuclear Upgrade "MrPurple6411" - 1430	 #
+	OldPath: Workbench/CyclopsMenu;
+	NewPath: CyclopsFabricator;
+),
+(
+	ItemID: CyclopsNuclearModule;													#	COPIED	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsZapperModule;												#	More Cyclops Upgrades (1407): Auto Defense System Mk1 "MrPurple6411" - 1429	 #
+	OldPath: CyclopsFabricator/CyclopsMenu;
+	NewPath: CyclopsFabricator;
+),
+(
+	ItemID: CyclopsZapperModule;													#	COPIED	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: CyclopsZapperModuleMk2;												#	More Cyclops Upgrades (1407): Auto Defense System Mk2 "MrPurple6411" - 1429	 #
+	OldPath: Workbench/CyclopsMenu;
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+),
+(
+	ItemID: CyclopsRemoteControl;												#	Remote Control Vehicles "EldritchCarMaker" - 1943	#
+	OldPath: CyclopsFabricator/CyclopsMenu;
+	NewPath: CyclopsFabricator;
+),
+(
+	ItemID: CyclopsFlyingModule;												#	Flying Cyclops "MrJumpscare" - 1810		#
+	NewPath: Workbench_MK2/CyclopsUpgrades/CyclopsModuleUpgrades;
+	Copied: YES;
+),
+		#	Cyclops VF Speed - 1973   #
+(
+	ItemID: SpeedModuleVF1Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Speed;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF2Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Speed;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF3Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Speed;
+	Copied: YES;
+),
+		#	Cyclops VF Stealth - 746   #
+(
+	ItemID: StealthModule1Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule2Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule3Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule4Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule5Cyclops;
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Stealth;
+	Copied: YES;
+),
+		#	Cyclops VF Others	#
+(
+	ItemID: SolarChargingModuleCyclops;								#	1413	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: ThermalChargingModuleCyclops;							#	1768	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: SelfRepairModuleCyclops;								#	2880	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: FlightModuleCyclops;									#	2224	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: VFSonarModuleCyclops;									#	1406	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: CrabsquidModuleCyclops;									#	1609	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: NanoWeaveBarrierCyclops;								#	1405	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: VoidDepthUpgradeCyclops;								#	1900	#
+	NewPath: Workbench_MK2/CyclopsUpgrades/Cyclops_VF_Others;
+	Copied: YES;
+);

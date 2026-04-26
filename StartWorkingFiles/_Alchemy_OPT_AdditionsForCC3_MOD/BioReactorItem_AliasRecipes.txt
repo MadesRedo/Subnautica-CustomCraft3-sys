@@ -1,0 +1,92 @@
+﻿
+
+
+AliasRecipes:			#	OPTIONAL	#
+
+
+(	
+    ItemID: BioFuel;
+    DisplayName: "Biofuel";
+    Tooltip: "Fuel from waste products of organisms or organic industrial waste. Bioreactor: +1000";
+    LinkedItemIDs: BioFuel;
+	SpriteItemID: Bleach;
+	FunctionalID: Bleach;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: BaseBioReactor;
+    Path: Fabricator/Resources/AdvancedMaterials;
+	Ingredients:
+    (
+        ItemID: CreepvineSeedCluster;
+        Required: 2;
+	),
+	(
+        ItemID: CreepvinePiece;
+        Required: 4;
+	),
+	(
+        ItemID: Salt;
+        Required: 1;
+	),
+	(
+        ItemID: Silicone;
+        Required: 1;
+	);
+),
+(	
+    ItemID: BioFuelPink;
+    DisplayName: "Spore biofuel";
+    Tooltip: "Fuel from waste products of organisms or organic industrial waste. Bioreactor : +1300";
+    LinkedItemIDs: BioFuelPink;
+	SpriteItemID: Bleach;
+	FunctionalID: Bleach;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: BaseBioReactor;
+    Path: Fabricator/Resources/AdvancedMaterials;
+	Ingredients:
+    (
+        ItemID: PinkMushroom;
+        Required: 4;
+	),
+	(
+        ItemID: PurpleRattle;
+        Required: 4;
+	),
+	(
+        ItemID: Salt;
+        Required: 1;
+	),
+	(
+        ItemID: Silicone;
+        Required: 1;
+	);
+),
+(	
+    ItemID: BioFuelRed;
+    DisplayName: "Bloodroot biofuel";
+    Tooltip: "Fuel from waste products of organisms or organic industrial waste. Bioreactor : +1800";
+    LinkedItemIDs: BioFuelRed;
+	SpriteItemID: Bleach;
+	FunctionalID: Bleach;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	UnlockedBy: BaseBioReactor;
+    Path: Fabricator/Resources/AdvancedMaterials;
+	Ingredients:
+    (
+        ItemID: BloodOil;
+        Required: 4;
+	),
+	(
+        ItemID: Salt;
+        Required: 1;
+	),
+	(
+        ItemID: Silicone;
+        Required: 1;
+	);
+);

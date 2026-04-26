@@ -1,0 +1,528 @@
+AliasRecipes:
+(
+    ItemID: SulphuricAcid;
+	DisplayName: "Sulphuric Acid.";
+    Tooltip: "H2SO4.";
+	LinkedItemIDs: SulphuricAcid;
+	FunctionalID: HydrochloricAcid;
+    Ingredients:
+    (
+        ItemID: AcidMushroom;
+        Required: 3;
+    ),
+	(
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/LiquidChems;	
+	UnlockedBy: LabEquipment2;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+),
+(
+    ItemID: NitricAcid;
+	DisplayName: "Nitric Acid.";
+    Tooltip: "HNO3.";
+	LinkedItemIDs: NitricAcid;
+	FunctionalID: HydrochloricAcid;
+    Ingredients:
+    (
+        ItemID: GasPod;
+        Required: 3;
+    ),
+	(
+        ItemID: FilteredWater;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/LiquidChems;
+	UnlockedBy: LabEquipment2;
+	PdaGroup: Resources;
+	PdaCategory: AdvancedMaterials;
+),
+(
+    ItemID: SSF;
+    DisplayName: "Small sample flusk";
+    Tooltip: "Sample flusk.";
+	LinkedItemIDs: LabContainer2;
+    Ingredients: 
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/LabEquipment;
+	UnlockedBy: LabContainer2;
+	PdaGroup: Miscellaneous;
+	PdaCategory: Misc;
+),
+(
+    ItemID: CSF;
+	DisplayName: "Cylindrical sample flusk";
+    Tooltip: "Sample flusk.";
+	LinkedItemIDs: LabContainer3;
+    Ingredients:
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/LabEquipment;
+	UnlockedBy: LabContainer3;
+	PdaGroup: Miscellaneous;
+	PdaCategory: Misc;
+),
+(
+    ItemID: SSF2;
+    DisplayName: "Clear sample flusk";
+    Tooltip: "Cleared sample flusk suitable for metal extraction.";
+	LinkedItemIDs: SSF2;
+	SpriteItemID: LabContainer2;
+	FunctionalID: LabContainer2;
+    Ingredients: 
+    (
+        ItemID: LabContainer2;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/LabEquipment;
+	UnlockedBy: LabContainer2;
+	PdaGroup: Miscellaneous;
+	PdaCategory: Misc;
+),
+(
+    ItemID: CSF2;
+	DisplayName: "Clear cylindrical sample flusk";
+    Tooltip: "Cleared sample flusk suitable for crystals growing.";
+	LinkedItemIDs: CSF2;
+	SpriteItemID: LabContainer3;
+	FunctionalID: LabContainer3;
+    Ingredients:
+    (
+        ItemID: LabContainer3;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/LabEquipment;
+	UnlockedBy: LabContainer3;
+	PdaGroup: Miscellaneous;
+	PdaCategory: Misc;
+),
+(
+    ItemID: GrownQuartz;
+    DisplayName: "Grown Quartz";
+    Tooltip: "Quartz crystals grown in laboratory environment. (x3)";
+    LinkedItemIDs: Quartz,Quartz,Quartz,LabContainer3;
+	FunctionalID: Quartz;
+    Ingredients: 
+    (
+        ItemID: Quartz;
+        Required: 1;
+    ),
+	(
+        ItemID: JellyPlant;
+        Required:1;
+	),
+    (
+        ItemID: CSF2;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearLead;
+    DisplayName: "Lead (Lab.)";
+    Tooltip: "Chemiсally extracted Lead. (x6)";
+    LinkedItemIDs: Lead,Lead,Lead,Lead,Lead,Lead,LabContainer2;
+	FunctionalID: Lead;
+    Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required: 1;
+    ),
+    (
+        ItemID: HydrochloricAcid;
+        Required: 2;
+    ),
+	(
+        ItemID: SSF2;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearCopper;
+    DisplayName: "Copper (Lab.)";
+    Tooltip: "Chemiсally extracted Copper. (x6)";
+    LinkedItemIDs: Copper,Copper,Copper,Copper,Copper,Copper,LabContainer2;
+	FunctionalID: Copper;
+    Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required:1;
+    ),
+    (
+        ItemID: SulphuricAcid;
+        Required:2;
+    ),
+	(
+        ItemID: SSF2;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearGold;
+    DisplayName: "Gold (Lab.)";
+    Tooltip: "Chemiсally extracted Gold. (x4)";
+    LinkedItemIDs: Gold,Gold,Gold,Gold,LabContainer2;
+	FunctionalID: Gold;
+	Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required:2;
+    ),
+    (
+        ItemID: HydrochloricAcid;
+        Required:1;
+	),
+    (
+        ItemID: NitricAcid;
+        Required:1;
+    ),
+	(
+        ItemID: SSF2;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: GrownSulphur;
+    DisplayName: "Sulphur (Lab.)";
+    Tooltip: "Obtained in-lab crystals of Sulphur. (x2)";
+    LinkedItemIDs: Sulphur,Sulphur,LabContainer3;
+	FunctionalID: Sulphur;
+	Ingredients:
+    (
+        ItemID: CrashPowder;
+        Required:4;
+	),
+	(
+        ItemID: JellyPlant;
+        Required:1;
+	),
+	(
+        ItemID: CSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearSilver;
+    DisplayName: "Silver (Lab.)";
+    Tooltip: "Extracted bits of Silver. (x3)";
+    LinkedItemIDs: Silver,Silver,Silver,LabContainer2;
+	FunctionalID: Silver;
+	Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required:1;
+    ),
+    (
+        ItemID: SulphuricAcid;
+        Required:4;
+    ),
+	(
+        ItemID: SSF2;
+        Required: 1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: CrashPowderLab;
+    DisplayName: "Cave Sulphur (Lab.)";
+    Tooltip: "In-lab synthesized crystals of Cave Sulphur. (x6)";
+    LinkedItemIDs: CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,LabContainer3;
+	FunctionalID: CrashPowder;
+	Ingredients:
+    (
+        ItemID: WhiteMushroomSpore;
+        Required:2;
+	),
+	(
+        ItemID: BloodOil;
+        Required:1;
+	),
+	(
+        ItemID: CSF2;
+        Required:1;		
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: GrownDiamond;
+    DisplayName: "Diamond (Lab.)";
+    Tooltip: " 	- I really have a big business in hand, a very big business. But there are troubles just now.
+
+	The fact is . . . . I make diamonds.";
+    LinkedItemIDs: Diamond,Diamond,Diamond,LabContainer3;
+	FunctionalID: Diamond;
+	Ingredients:
+    (
+        ItemID: Diamond;
+        Required:1;
+	),
+	(
+        ItemID: JellyPlant;
+        Required:1;
+	),
+	(
+        ItemID: Benzene;
+        Required:1;		
+	),
+	(
+        ItemID: CSF2;
+        Required:1;		
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearLithium;
+    DisplayName: "Lithium (Lab.)";
+    Tooltip: "Extracted bits of Lithium. (x4).
+	
+	Be carefull around water sources!";
+    LinkedItemIDs: Lithium,Lithium,Lithium,Lithium,LabContainer2;
+	FunctionalID: Lithium;
+	Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required:1;
+	),
+    (
+        ItemID: NitricAcid;
+        Required:1;
+	),
+	(
+        ItemID: CoralChunk;
+        Required:2;
+	),
+	(
+        ItemID: SSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: GrownRuby;
+    DisplayName: "Ruby (Lab.)";
+    Tooltip: "Grown in-lab crystals of Ruby. (x2)";
+    LinkedItemIDs: AluminumOxide,AluminumOxide,LabContainer3;
+	FunctionalID: AluminumOxide;
+	Ingredients:
+    (
+        ItemID: AluminumOxide;
+        Required:1;
+	),
+    (
+        ItemID: JellyPlant;
+        Required:1;
+	),
+	(
+        ItemID: CoralChunk;
+        Required:1;
+	),
+	(
+        ItemID: CSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearMagnetite;
+    DisplayName: "Magnetite (Lab.)";
+    Tooltip: "Extracted Ferrum Oxide (III). (x5)";
+    LinkedItemIDs: Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,LabContainer2;
+	FunctionalID: Magnetite;
+	Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required:2;
+    ),
+    (
+        ItemID: HydrochloricAcid;
+        Required:3;
+    ),
+	(
+        ItemID: SSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: GrownKyanite;
+    DisplayName: "Kyanite (Lab.)";
+    Tooltip: "Grown in-lab crystals of Kyanite. (x3)";
+    LinkedItemIDs: Kyanite,Kyanite,Kyanite,LabContainer3;
+	FunctionalID: Kyanite;
+	Ingredients:
+    (
+        ItemID: Kyanite;
+        Required:1;
+    ),
+	(
+        ItemID: Quartz;
+        Required:1;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required:1;
+	),
+	(
+        ItemID: JellyPlant;
+        Required:1;
+	),
+	(
+        ItemID: CSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: SyntPrecursorIonCrystal;
+    DisplayName: "Ion Cube (Lab.)";
+    Tooltip: "Synthesized Ancient Alien power source.";
+    LinkedItemIDs: PrecursorIonCrystal;
+	FunctionalID: PrecursorIonCrystal;
+	Ingredients:
+    (
+        ItemID: UraniniteCrystal;
+        Required:3;
+	),
+    (
+        ItemID: Lithium;
+        Required:1;
+    ),
+    (
+        ItemID: Kyanite;
+        Required:2;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Energetic;
+	UnlockedBy: PrecursorIonCrystal;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: ClearNickel;
+    DisplayName: "Nickel (Lab.)";
+    Tooltip: "Extracted bits of Nickel. (x4)";
+    LinkedItemIDs: Nickel,Nickel,Nickel,Nickel,LabContainer2;
+	FunctionalID: Nickel;
+	Ingredients:
+    (
+        ItemID: ScrapMetal;
+        Required: 2;
+	),
+	(
+        ItemID: SulphuricAcid;
+        Required:4;
+    ),
+	(
+        ItemID: SSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Metal;
+	UnlockedBy: SSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+),
+(	
+    ItemID: GrownUraninite;
+    DisplayName: "Uraninite (Lab.)";
+    Tooltip: "Grown in-lab crystals of Uraninite. 
+
+	YN, Im smth of a scientist myself!";
+    LinkedItemIDs: UraniniteCrystal,UraniniteCrystal,LabContainer3;
+	FunctionalID: UraniniteCrystal;
+	Ingredients:
+    (
+        ItemID: UraniniteCrystal;
+        Required:1;
+	),
+	(
+        ItemID: JellyPlant;
+        Required:1;
+	),
+	(
+        ItemID: Lead;
+        Required:4;
+	),
+	(
+        ItemID: CSF2;
+        Required:1;
+    );
+	ForceUnlockAtStart: NO;
+    Path: Fabricator/Alchemy/Crystal;
+	UnlockedBy: CSF2;
+	PdaGroup: Resources;
+	PdaCategory: BasicMaterials;
+);

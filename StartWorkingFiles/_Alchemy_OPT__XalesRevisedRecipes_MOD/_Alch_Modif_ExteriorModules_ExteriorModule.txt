@@ -1,0 +1,78 @@
+#		PdaGroup: ExteriorModules | PdaCategory: ExteriorModule		#
+
+
+ModifiedRecipes:
+
+
+#	------------	PANNEAU SOLAIRE	-----------	#
+(
+    ItemID: SolarPanel;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 4;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    );
+),
+
+#	------------	CENTRALE THERMIQUE	-----------	#
+(
+    ItemID: ThermalPlant;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 2;
+    );
+),
+
+#	------------	TRANSMETTEUR DE PUISSANCE	-----------	#
+(
+    ItemID: PowerTransmitter;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Gold;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    );
+);

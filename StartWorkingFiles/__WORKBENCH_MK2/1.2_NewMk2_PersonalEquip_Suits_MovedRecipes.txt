@@ -1,0 +1,116 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Suits	#
+(
+	ItemID: RadiationSuit;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ReinforcedRadiationSuit;											#	Reinforced Radiation Suit "Indigocoder" - 1512	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: ReinforcedDiveSuit;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: WaterFiltrationSuit;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;			#	can't be moved from		==> 	OldPath: Fabricator/Personal/Equipment;		#
+	Copied: YES;
+),
+(
+	ItemID: enhancedstillsuit;													#	More Modified Items "MrPurple6411" - 398	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: rssuit;																#	More Modified Items "MrPurple6411" - 398	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: rssuitmk2;																#	Deathrun Remade "Raqzas" - 1495		#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: rssuitmk3;																#	Deathrun Remade "Raqzas" - 1495		#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: WarpStabilizationSuit;												#	Warp Stabilization Suit "Indigocoder" - 1326	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: stabilizedenhancedstillsuit;										#	More Modified Items "MrPurple6411" - 398	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: stabilizedenhancedstillsuitmk2;											#	Deathrun Remade "Raqzas" - 1495		#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: stabilizedenhancedstillsuitmk3;											#	Deathrun Remade "Raqzas" - 1495		#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: ArmorSuitItem;														#	Armor Suit "EldritchCarMaker" - 1947	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: StasisSuitItem;														#	Stasis Suit "EldritchCarMaker" - 1953	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: ShieldSuitItem;														#	Shield Suit "EldritchCarMaker" - 1951	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: TimeSuitItem;														#	Time Suit "EldritchCarMaker" - 1954		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: MiniSuitItem;														#	Miniature Suit "EldritchCarMaker" - 1952	#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: AcidSuit;															#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: SurvivalSuit;														#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: ReinforcedSurvivalSuit;												#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+),
+(
+	ItemID: SuperSurvivalSuit;													#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/BodyMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerSuitUpgrades;
+);

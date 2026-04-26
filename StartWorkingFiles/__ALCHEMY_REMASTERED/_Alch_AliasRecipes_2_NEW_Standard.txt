@@ -1,0 +1,269 @@
+
+
+
+AliasRecipes:
+
+#	----------------------------------------	#
+#				STANDARD ALCHEMY				#
+#	----------------------------------------	#
+
+
+#	-------------	LEAD	----------------	#
+(
+    ItemID: Alch_Lead;
+    DisplayName: "Alchemic Lead";
+	Tooltip: "Standard Alchemy. To obtain +3 Lead | +3 Magnetic Iron Powder. Bioreactor: +350";
+	LinkedItemIDs: Alch_Lead;
+	FunctionalID: Lead;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lead;
+    Path: Alch_Fab/Alchemy/Alch_Standard;
+    Ingredients: 
+    (
+        ItemID: HangingFruit;
+        Required: 1;
+    ),
+    (
+        ItemID: PurpleRattleSpore;
+        Required: 3;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 1;
+    ),
+	(
+        ItemID: CrashPowder;
+        Required: 3;
+    );
+),
+
+(
+    ItemID: Alch_IronMagneticPowder;
+    DisplayName: "Iron Magnetic Powder";
+	Tooltip: "Catalytic Component of Alchemic Lead. Extraction of a large quantity of iron powder with unusual but stable magnetic properties. Bioreactor: +180";
+	LinkedItemIDs: Alch_IronMagneticPowder;
+	FunctionalID: Lead;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_IronMagneticPowder;
+),
+
+(
+    ItemID: Alch_Lead_&_Iron;
+    DisplayName: "Lead & Iron";
+	Tooltip: "+3 Lead | +3 Magnetic Iron Powder, obtained by Catalysis of Alchemic Lead";
+	LinkedItemIDs: Alch_IronMagneticPowder, Alch_IronMagneticPowder, Alch_IronMagneticPowder, Lead, Lead, Lead, LabEquipment3;
+	FunctionalID: Lead;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lead_&_Iron;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Lead;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    ),
+	(
+        ItemID: LabEquipment3;
+        Required: 1;
+    );
+),
+
+#	-------------	SILVER	----------------	#
+(
+    ItemID: Alch_Silver;
+    DisplayName: "Alchemic Silver";
+	Tooltip: "Standard Alchemy. To obtain +4 Silver. Bioreactor: +380";
+	LinkedItemIDs: Alch_Silver;
+	FunctionalID: Silver;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Silver;
+    Path: Alch_Fab/Alchemy/Alch_Standard;
+    Ingredients: 
+    (
+        ItemID: HangingFruit;
+        Required: 2;
+    ),
+    (
+        ItemID: PurpleVasePlantSeed;
+        Required: 4;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_Silver_X;
+    DisplayName: "Silver (x4)";
+	Tooltip: "Silver (x4) : obtained from Alchemic Silver";
+	LinkedItemIDs: Silver, Silver, Silver, Silver, Alch_LabContainer2;
+	FunctionalID: Silver;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Silver_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Silver;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer2;
+        Required: 1;
+    );
+),
+
+#	--------------	GOLD	--------------------	#
+(
+    ItemID: Alch_Gold;
+    DisplayName: "Alchemic Gold";
+	Tooltip: "Standard Alchemy. To obtain +4 Gold. Bioreactor: +380";
+	LinkedItemIDs: Alch_Gold;
+	FunctionalID: Gold;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Gold;
+    Path: Alch_Fab/Alchemy/Alch_Standard;
+    Ingredients: 
+    (
+        ItemID: HangingFruit;
+        Required: 2;
+    ),
+    (
+        ItemID: PurpleVegetable;
+        Required: 4;
+    ),
+	(
+        ItemID: Copper;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_Gold_X;
+    DisplayName: "Gold (x4)";
+	Tooltip: "Gold (x4) : obtained from Alchemic Gold";
+	LinkedItemIDs: Gold, Gold, Gold, Gold, Alch_LabContainer2;
+	FunctionalID: Gold;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Gold_X;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Gold;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_LabContainer2;
+        Required: 1;
+    );
+),
+
+#	--------------	LITHIUM	-------------	#
+(
+    ItemID: Alch_Lithium;
+    DisplayName: "Alchemic Lithium";
+	Tooltip: "Standard Alchemy. To obtain +3 Lithium | +3 Aluminum Raw. Bioréacteur +400";
+    LinkedItemIDs: Alch_Lithium;
+	FunctionalID: Lithium;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lithium;
+    Path: Alch_Fab/Alchemy/Alch_Standard;
+    Ingredients: 
+    (
+        ItemID: HangingFruit;
+        Required: 1;
+    ),
+	(
+        ItemID: PinkFlowerSeed;
+        Required: 3;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 1;
+    );
+),
+
+(
+    ItemID: Alch_AluminumRaw;
+    DisplayName: "Aluminum raw";
+	Tooltip: "Pyrolytic Component of Alchemic Lithium. Piece of pure Aluminum. Prized for its lightness and malleability, it provides greater flexibility and even greater versatility than Titanium in compositions where density is not a priority. Bioreactor: +200";
+	LinkedItemIDs: Alch_AluminumRaw;
+	FunctionalID: Lithium;
+	PdaGroup: Resources;
+    PdaCategory: AdvancedMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_AluminumRaw;
+),
+
+(
+    ItemID: Alch_Lithium_&_Aluminum;
+    DisplayName: "Lithium & Aluminum";
+	Tooltip: "+3 Lithium | +3 Aluminum raw, obtained by Pyrolysis of Alchemic Lithium";
+	LinkedItemIDs: Alch_AluminumRaw, Alch_AluminumRaw, Alch_AluminumRaw, Lithium, Lithium, Lithium, LabEquipment3;
+	FunctionalID: Lithium;
+	PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+	ForceUnlockAtStart: NO;
+	Unlocks: Alch_Lithium_&_Aluminum;
+	Path: Alch_Fab/Alchemy/Alch_Materials;
+    Ingredients: 
+    (
+        ItemID: Alch_Lithium;
+        Required: 1;
+    ),
+	(
+        ItemID: JeweledDiskPiece;
+        Required: 2;
+    ),
+	(
+        ItemID: LabEquipment3;
+        Required: 1;
+    );
+);

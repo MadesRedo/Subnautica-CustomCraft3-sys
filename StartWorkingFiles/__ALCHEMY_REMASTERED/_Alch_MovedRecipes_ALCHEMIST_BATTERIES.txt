@@ -1,0 +1,179 @@
+
+
+
+MovedRecipes:
+
+
+#	------------	RECHARGED	-----------	#
+	# Batt Recharged Purple Tentacle #
+(
+    ItemID: Alch_Recharged_Batt_PurpleTentacle;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Energy_Recharge;
+	Copied: YES;
+),
+	# Batt Recharged Creepvine #
+(
+    ItemID: Alch_Recharged_Batt_Creepvine;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Energy_Recharge;
+	Copied: YES;
+),
+	# Batt Recharged Ultimate #
+(
+    ItemID: Alch_Recharged_Batt_RadiumCrystal;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Energy_Recharge;
+),
+	# PCell Recharged Purple Tentacle #
+(
+    ItemID: Alch_Recharged_PCell_PurpleTentacle;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Energy_Recharge;
+	Copied: YES;
+),
+	# PCell Recharged Creepvine #
+(
+    ItemID: Alch_Recharged_PCell_Creepvine;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Energy_Recharge;
+	Copied: YES;
+),
+	# PCell Recharged Ultimate #
+(
+    ItemID: Alch_Recharged_PCell_RadiumCrystal;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Energy_Recharge;
+),
+
+#	------------	BATTERIES	-----------	#
+	#	1 - Recycled Purple Tentacle		#
+(
+    ItemID: Alch_1_Battery_PurpleTentacle;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+	Copied: YES;
+),
+	#	2 - Enriched Creepvine		#
+(
+    ItemID: Alch_2_Battery_Creepvine;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+	Copied: YES;
+),
+	#	3a - Reinforced Snake Mushroom		#
+(
+    ItemID: Alch_3a_Battery_SnakeMushroom;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	3b - Reinforced Copper Oxide	#
+(
+    ItemID: Alch_3b_Battery_CopperOxide;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	4a - Enriched Lantern Tree		#
+(
+    ItemID: Alch_4a_Battery_LanternTree;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	4b - Reinforced Sulfur Crystals		#
+(
+    ItemID: Alch_4b_Battery_SulphurCrystals;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	5a - Enriched Bulb Bush		#
+(
+    ItemID: Alch_5a_Battery_BulbBush;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	5b - Reinforced Pink Salt	#
+(
+    ItemID: Alch_5b_Battery_PinkSalt;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	6a - Reinforced Blood Vine	#
+(
+    ItemID: Alch_6a_Battery_BloodVine;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	6b - Reinforced Iron Magnetic Powder	#
+(
+    ItemID: Alch_6b_Battery_IronMagneticPowder;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+	#	7 - Alchemist's Ultimate	#
+(
+    ItemID: Alch_7_Battery_RadiumCrystal;
+	OldPath: Fabricator/Resources/BatteryTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_Batt;
+),
+
+#	------------	POWER CELL	-----------	#
+	#	1 - Recycled Purple Tentacle		#
+(
+    ItemID: Alch_1_PowerCell_PurpleTentacle;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+	Copied: YES;
+),
+	#	2 - Enriched Creepvine		#
+(
+    ItemID: Alch_2_PowerCell_Creepvine;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+	Copied: YES;
+),
+	#	3a - Reinforced Snake Mushroom		#
+(
+    ItemID: Alch_3a_PowerCell_SnakeMushroom;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	3b - Reinforced Copper Oxide	#
+(
+    ItemID: Alch_3b_PowerCell_CopperOxide;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	4a - Enriched Lantern Tree		#
+(
+    ItemID: Alch_4a_PowerCell_LanternTree;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	4b - Reinforced Sulfur Crystals		#
+(
+    ItemID: Alch_4b_PowerCell_SulphurCrystals;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	5a - Enriched Bulb Bush		#
+(
+    ItemID: Alch_5a_PowerCell_BulbBush;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	5b - Reinforced Pink Salt	#
+(
+    ItemID: Alch_5b_PowerCell_PinkSalt;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	6a - Reinforced Blood Vine	#
+(
+    ItemID: Alch_6a_PowerCell_BloodVine;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	6b - Reinforced Iron Magnetic Powder	#
+(
+    ItemID: Alch_6b_PowerCell_IronMagneticPowder;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+),
+	#	7 - Alchemist's Ultimate	#
+(
+    ItemID: Alch_7_PowerCell_RadiumCrystal;
+	OldPath: Fabricator/Resources/PowCellTab;
+	NewPath: Alch_Fab/Alch_Energies/Alch_PCell;
+);

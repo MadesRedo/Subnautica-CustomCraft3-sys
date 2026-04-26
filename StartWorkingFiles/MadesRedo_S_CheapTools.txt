@@ -1,0 +1,171 @@
+AliasRecipes:
+    (
+        ItemID: add_scanner;
+        DisplayName: "Scanner x1";
+        Tooltip: "Cheap Scanner";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, scanner;
+        SpriteItemID: scanner;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_repairtool;
+        DisplayName: "Repair Tool x1";
+        Tooltip: "Cheap Repair Tool";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, repairtool;
+        SpriteItemID: repairtool;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_survivalknife;
+        DisplayName: "Survival Knife x1";
+        Tooltip: "Cheap Survival Knife";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, knife;
+        SpriteItemID: knife;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_flashlight;
+        DisplayName: "Flashlight x1";
+        Tooltip: "Cheap Flashlight";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, flashlight;
+        SpriteItemID: flashlight;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_lasercutter;
+        DisplayName: "Laser Cutter x1";
+        Tooltip: "Cheap Laser Cutter";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, lasercutter;
+        SpriteItemID: lasercutter;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_propulsioncannon;
+        DisplayName: "Propulsion Cannon x1";
+        Tooltip: "Cheap Propulsion Cannon";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, propulsioncannon;
+        SpriteItemID: propulsioncannon;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_stasisrifle;
+        DisplayName: "Stasis Rifle x1";
+        Tooltip: "Cheap Stasis Rifle";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, stasisrifle;
+        SpriteItemID: stasisrifle;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_pathfindertool;
+        DisplayName: "Pathfinder Tool x1";
+        Tooltip: "Cheap Pathfinder Tool";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, pathfindertool;
+        SpriteItemID: pathfindertool;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_airbladder;
+        DisplayName: "Air Bladder x1";
+        Tooltip: "Cheap Air Bladder";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, airbladder;
+        SpriteItemID: airbladder;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    ),
+    (
+        ItemID: add_flares;
+        DisplayName: "Flare x3";
+        Tooltip: "Cheap Flares";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, flare, flare, flare;
+        SpriteItemID: flare;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapTools;
+    );

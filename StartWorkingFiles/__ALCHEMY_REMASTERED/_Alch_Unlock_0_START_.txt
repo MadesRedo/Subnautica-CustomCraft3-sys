@@ -1,0 +1,46 @@
+
+
+
+ModifiedRecipes: 
+
+
+(
+    ItemID: AcidMushroom;
+    Unlocks: AcidMushroom;
+),
+(
+	ItemID: Alch_Fab;
+	UnlockedBy: SeaTreaderPoop, FarmingTray, PlanterBox, BaseRoom, StarshipSouvenir, CutefishEgg, CutefishEggUndiscovered, SeaCrownSeed, BloodOil, CuredOculus;
+),
+(
+	ItemID: Alch_SyntheticManure;
+	UnlockedBy: SeaTreaderPoop, FarmingTray, PlanterBox;
+),
+(
+	ItemID: Alch_OrganicManure;
+	UnlockedBy: SeaTreaderPoop;
+),
+(
+	ItemID: Alch_LabEquipment3;
+	UnlockedBy: LabEquipment3;
+),
+(
+	ItemID: Alch_LabEquipment1;
+	UnlockedBy: LabEquipment1;
+),
+(
+	ItemID: Alch_LabEquipment2;
+	UnlockedBy: LabEquipment2;
+),
+(
+	ItemID: Alch_LabContainer3;
+	UnlockedBy: LabContainer3;
+),
+(
+	ItemID: Alch_LabContainer2;
+	UnlockedBy: LabContainer2;
+),
+(
+	ItemID: Alch_LabContainer;
+	UnlockedBy: LabContainer;
+);

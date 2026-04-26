@@ -1,0 +1,508 @@
+
+# 		PERSONAL EQUIPMENT	 	#
+
+ModifiedRecipes:
+
+	#-------------------------------------------------------#
+	#			--- SUITS / HELMETS / GLOVES ---			#
+	#-------------------------------------------------------#
+
+# ---	Reinforced Radiation Suit "Indigocoder" - 1512	--- #
+	#__ Suit __#
+(
+    ItemID: ReinforcedRadiationSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RadiationSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: RadiationGloves;
+        Required: 1;
+    ),
+    (
+        ItemID: RadiationHelmet;
+        Required: 1;
+    ),
+    (
+        ItemID: AramidFibers;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    );
+    LinkedItemIDs: RebreatherRadiationHelmet,ReinforcedRadiationGloves;
+),
+	#__ Helmet __#
+(
+    ItemID: RebreatherRadiationHelmet;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: RadiationHelmet;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: MercuryOre;
+        Required: 1;
+    );
+),
+	#__ Gloves __#
+(
+    ItemID: ReinforcedRadiationGloves;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RadiationGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 1;
+    );
+),
+
+# ---	Warp Stabilization Suit "Indigocoder" - 1326	--- #
+	#__ Suit __#
+(
+    ItemID: WarpStabilizationSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ReinforcedDiveSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: ReinforcedGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 2;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+    LinkedItemIDs: WarpStabilizationGloves;
+),
+	#__ Gloves __#
+(
+    ItemID: WarpStabilizationGloves;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ReinforcedGloves;
+        Required: 1;
+    ),
+    (
+        ItemID: Polyaniline;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+
+# ---	More Modified Items "MrPurple6411" - 398	--- #
+	#__ Enhanced Water Filtration Suit __#
+(
+    ItemID: enhancedstillsuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WaterFiltrationSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 2;
+    ),
+    (
+        ItemID: Silver;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    );
+),
+	#__ Reinforced Enhanced Water Filtration Suit __#
+(
+    ItemID: rssuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ReinforcedDiveSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: enhancedstillsuit;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+    (
+        ItemID: Lubricant;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+	#__ Stabilized Enhanced Water Filtration Suit __#
+(
+    ItemID: stabilizedenhancedstillsuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: enhancedstillsuit;
+        Required: 1;
+    ),
+    (
+        ItemID: WarpStabilizationSuit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+),
+
+# ---	Armor Suit "EldritchCarMaker" - 1947	--- #
+	#__ Suit __#
+(
+    ItemID: ArmorSuitItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ReinforcedDiveSuit;
+        Required: 1;
+    ),
+	(
+        ItemID: ReinforcedGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: IonFiber;
+        Required: 2;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 2;
+    );
+    LinkedItemIDs: ArmorGlovesItem;
+),
+	#__ Gloves __#
+(
+    ItemID: ArmorGlovesItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ReinforcedGloves;
+        Required: 1;
+    ),
+    (
+        ItemID: IonFiber;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnesium;
+        Required: 1;
+    );
+),
+
+# ---	Shield Suit "EldritchCarMaker" - 1951	--- #
+(
+    ItemID: ShieldSuitItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Infused_PinkSalt_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    );
+),
+
+# ---	Miniature Suit "EldritchCarMaker" - 1952	--- #
+(
+    ItemID: MiniSuitItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Infused_OrganicTitanium_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    );
+),
+
+# ---	Stasis Suit "EldritchCarMaker" - 1953	--- #
+(
+    ItemID: StasisSuitItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 2;
+    );
+),
+
+# ---	Time Suit "EldritchCarMaker" - 1954	--- #
+(
+    ItemID: TimeSuitItem;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StasisRifle;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_Charged_CorundumGem_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonPowerCell;
+        Required: 1;
+    );
+),
+
+# ---	DWEquipment "DaWrecka"	--- #
+	#__ Acid Suit __#
+(
+    ItemID: AcidSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+	(
+        ItemID: RadiationSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: ReinforcedDiveSuit;
+        Required: 1;
+    ),
+	(
+        ItemID: RadiationGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: ReinforcedGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+    (
+        ItemID: Aerogel;
+        Required: 1;
+    ),
+	(
+        ItemID: FiberMesh;
+        Required: 1;
+    );
+    LinkedItemIDs: AcidGloves;
+),
+	#__ Acid Helmet __#
+(
+    ItemID: AcidHelmet;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Rebreather;
+        Required: 1;
+    ),
+	(
+        ItemID: HydrochloricAcid;
+        Required: 1;
+    ),
+	(
+        ItemID: Aerogel;
+        Required: 1;
+    );
+),
+	#__ Acid Gloves __#
+(
+    ItemID: AcidGloves;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: RadiationGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: ReinforcedGloves;
+        Required: 1;
+    ),
+	(
+        ItemID: MercuryOre;
+        Required: 1;
+    );
+),
+	#__ Survival Suit __#
+(
+    ItemID: SurvivalSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WaterFiltrationSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: JellyPlant;
+        Required: 1;
+    ),
+    (
+        ItemID: KooshChunk;
+        Required: 3;
+    );
+),
+	#__ Reinforced Survival Suit __#
+(
+    ItemID: ReinforcedSurvivalSuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WaterFiltrationSuit;
+        Required: 1;
+    ),
+    (
+        ItemID: ReinforcedDiveSuit;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+# ---	Immersive Outcrop Break "M3dicCookie" - 2519	--- #
+	#__ Basic outcrop gloves __#
+(
+    ItemID: BasicShaleGloves;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: FiberMesh;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+	#__ Standard outcrop gloves __#
+(
+    ItemID: StandardShaleGloves;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: BasicShaleGloves;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Silver_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 1;
+    );
+),
+	#__ Advanced outcrop gloves __#
+(
+    ItemID: AdvancedShaleGloves;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StandardShaleGloves;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Gold_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: MercuryOre;
+        Required: 1;
+    );
+);

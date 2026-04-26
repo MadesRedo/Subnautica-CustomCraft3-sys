@@ -1,0 +1,90 @@
+
+# 		MISCELLANEOUS MODS		#
+
+MovedRecipes:
+
+#	-----	Camera Drone Upgrades AIO "EldritchCarMaker" - 1914 	-----	(removed from submenus / copied to MK2)	#
+
+#	Defense	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraDefenseUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraDefenseUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	Flight	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraFlightUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraFlightUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	Repair	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraRepairUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraRepairUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	Shield	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraShieldUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraShieldUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	Speed	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraSpeedUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraSpeedUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	Stasis	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraStasisUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraStasisUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+),
+
+#	Stealth	------------------------------------------------------------	#
+(
+	ItemID: MapRoomCameraStealthUpgrade;
+	OldPath: MapRoom/DroneUpgrades;
+	NewPath: MapRoom;
+),
+(
+	ItemID: MapRoomCameraStealthUpgrade;
+	NewPath: Workbench_MK2/WMK2_MapRoomUpgrades;
+	Copied: Yes;
+);

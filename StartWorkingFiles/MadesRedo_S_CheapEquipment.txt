@@ -1,0 +1,222 @@
+AliasRecipes:
+    (
+        ItemID: add_fins;
+        DisplayName: "Fins x1";
+        Tooltip: "Cheap Fins";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, fins;
+        SpriteItemID: fins;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_ultraglidefins;
+        DisplayName: "Ultra Glide Fins x1";
+        Tooltip: "Cheap Ultra Glide Fins";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, ultraglidefins;
+        SpriteItemID: ultraglidefins;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_swimchargefins;
+        DisplayName: "Swim Charge Fins x1";
+        Tooltip: "Cheap Swim Charge Fins";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, swimchargefins;
+        SpriteItemID: swimchargefins;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_standardo2tank;
+        DisplayName: "O₂ Tank x1";
+        Tooltip: "Cheap Standard O₂ Tank";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, standardo2tank;
+        SpriteItemID: standardo2tank;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_highcapacitytank;
+        DisplayName: "High Capacity O₂ Tank x1";
+        Tooltip: "Cheap High Capacity O₂ Tank";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, highcapacitytank;
+        SpriteItemID: highcapacitytank;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_rebreather;
+        DisplayName: "Rebreather x1";
+        Tooltip: "Cheap Rebreather";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, rebreather;
+        SpriteItemID: rebreather;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_compass;
+        DisplayName: "Compass x1";
+        Tooltip: "Cheap Compass";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, compass;
+        SpriteItemID: compass;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_thermometer;
+        DisplayName: "Thermometer x1";
+        Tooltip: "Cheap Thermometer";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, thermometer;
+        SpriteItemID: thermometer;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_radiationsuit;
+        DisplayName: "Radiation Suit x1";
+        Tooltip: "Cheap Radiation Suit";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, radiationsuit;
+        SpriteItemID: radiationsuit;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_reinforceddivesuit;
+        DisplayName: "Reinforced Dive Suit x1";
+        Tooltip: "Cheap Reinforced Dive Suit";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, reinforceddivesuit;
+        SpriteItemID: reinforceddivesuit;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_stillsuit;
+        DisplayName: "Still Suit x1";
+        Tooltip: "Cheap Still Suit";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, stillsuit;
+        SpriteItemID: stillsuit;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_pipe;
+        DisplayName: "Pipe x5";
+        Tooltip: "Cheap Pipes";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, pipe, pipe, pipe, pipe, pipe;
+        SpriteItemID: pipe;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    ),
+    (
+        ItemID: add_floatingairpump;
+        DisplayName: "Floating Air Pump x1";
+        Tooltip: "Cheap Floating Air Pump";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, floatingairpump;
+        SpriteItemID: floatingairpump;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEquipment;
+    );

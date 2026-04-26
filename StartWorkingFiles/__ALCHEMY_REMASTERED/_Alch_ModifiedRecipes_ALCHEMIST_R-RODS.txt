@@ -1,0 +1,166 @@
+
+
+
+ModifiedRecipes:
+
+
+#	------------	REACTOR RODS	-----------	#
+	#	1 - Enriched Copper Oxide Rod		#
+(
+    ItemID: Alch_Enriched_CopperOxide_Rod;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_3b_PowerCell_CopperOxide;
+    Ingredients: 
+	(
+        ItemID: Alch_3b_Battery_CopperOxide;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: UraniniteCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+	#	2 - Enriched Sulphur Crystals Rod		#
+(
+    ItemID: Alch_Enriched_SulphurCrystals_Rod;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_4b_PowerCell_SulphurCrystals;
+    Ingredients: 
+	(
+        ItemID: Alch_4b_Battery_SulphurCrystals;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: UraniniteCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+	#	3 - Enriched Pink Salt Rod		#
+(
+    ItemID: Alch_Enriched_PinkSalt_Rod;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_5b_PowerCell_PinkSalt;
+    Ingredients: 
+	(
+        ItemID: Alch_5b_Battery_PinkSalt;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_PinkSalt_Block;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+	#	4 - Enriched Iron Magnetic Powder Rod		#
+(
+    ItemID: Alch_Enriched_IronMagneticPowder_Rod;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_6b_PowerCell_IronMagneticPowder;
+    Ingredients: 
+	(
+        ItemID: Alch_6b_Battery_IronMagneticPowder;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder_Bag;
+        Required: 1;
+    ),
+	(
+        ItemID: UraniniteCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+),
+
+	#	5 - Radium Crystal Rod		#
+(
+    ItemID: Alch_RadiumCrystal_Rod;
+    AmountCrafted: 1;
+	UnlockedBy: Alch_7_PowerCell_RadiumCrystal;
+    Ingredients: 
+	(
+        ItemID: Alch_7_Battery_RadiumCrystal;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Lithium;
+        Required: 2;
+    ),
+	(
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 1;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 1;
+    );
+);

@@ -1,0 +1,25 @@
+CustomFoods:
+(
+    ItemID: Bladderfishbrew;
+    DecayRateMod: 0.0; 
+    DisplayName: "Bladderfish Brew";
+    Tooltip: "A surprisingly real-tasting brew crafted from processed Bladderfish, offering quick hydration for underwater explorers.";
+    AmountCrafted: 2;
+    Ingredients: 
+    (
+        ItemID: BladderFish;
+        Required: 3;
+    ),
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: FilteredWater;
+        Required: 1;
+    );
+    Path: Fabricator/Survival/Water;
+    FoodValue:38;
+    WaterValue:57;
+    ForceUnlockAtStart: YES;
+),

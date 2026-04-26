@@ -1,0 +1,198 @@
+
+# 		PERSONAL EQUIPMENT	 	#
+
+ModifiedRecipes:
+
+	#-----------------------------------#
+	#			 --- PDA ---			#
+	#-----------------------------------#
+	
+# ---	PDA Upgrade Chips "Kallie23" - 2400	--- #
+	#__ PDA pocket dimension upgrade MK1 __#
+(
+    ItemID: PdaPocketDimensionUpgradeMk1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleStorageModule;
+        Required: 1;
+    ),
+	(
+        ItemID: TitaniumIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Infused_OrganicTitanium_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: Pipe;
+        Required: 2;
+    );
+),
+	#__ PDA pocket dimension upgrade MK2 __#
+(
+    ItemID: PdaPocketDimensionUpgradeMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PdaPocketDimensionUpgradeMk1;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Infused_AluminumRaw_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: PrecursorIonCrystal;
+        Required: 1;
+    );
+),
+	#__ PDA pocket dimension upgrade MK3 __#
+(
+    ItemID: PdaPocketDimensionUpgradeMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PdaPocketDimensionUpgradeMk2;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+        Required: 1;
+    ),
+    (
+        ItemID: PlasteelIngot;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorKey_Blue;
+        Required: 1;
+    ),
+    (
+        ItemID: LabEquipment1;
+        Required: 1;
+    ),
+    (
+        ItemID: RedGreenTentacleSeed;
+        Required: 2;
+    );
+),
+	#__ PDA music upgrade __#
+(
+    ItemID: PdaMusicUpgrade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: FiberMesh;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_Quartz_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Magnetite;
+        Required: 1;
+    );
+),
+	#__ PDA colorizer upgrade __#
+(
+    ItemID: PdaColorizerUpgrade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_CinnabarPowder_Vial;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 1;
+    );
+),
+	#__ PDA ambient light upgrade __#
+(
+    ItemID: PdaAmbientLightUpgrade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: LEDLight;
+        Required: 1;
+    ),
+    (
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Glass_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Diamond;
+        Required: 1;
+    );
+),
+	#__ PDA live minimap upgrade __#
+(
+    ItemID: PdaMinimapUpgrade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: MapRoomCamera;
+        Required: 1;
+    ),
+    (
+        ItemID: Beacon;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_EnameledGlass_Block;
+        Required: 1;
+    );
+),
+	#__ PDA leviathan detector upgrade __#
+(
+    ItemID: PdaLeviathanDetectorUpgrade;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_PinkSalt_Block;
+        Required: 1;
+    ),
+	(
+        ItemID: Quartz;
+        Required: 1;
+    );
+);

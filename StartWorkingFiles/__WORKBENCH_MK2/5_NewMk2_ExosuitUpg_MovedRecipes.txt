@@ -1,0 +1,230 @@
+
+#		EXOSUIT 		#
+
+MovedRecipes:
+
+		#	Exosuit Depth		#
+(
+	ItemID: ExoHullModule1;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitDepthUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExoHullModule2;
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitDepthUpgrades;
+),
+		#	Exosuit Vanilla & Mods	#
+(
+	ItemID: ExosuitSolarModule;													#	DWEquipment "DaWrecka"	#
+	OldPath: SeamothUpgrades/VehicleChargers;
+	NewPath: SeamothUpgrades/ExosuitModules;
+),
+(
+	ItemID: ExosuitSolarModule;														#	COPIED	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitSolarModuleMk2;												#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitThermalReactorModule;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitThermalModuleMk2;											#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitUnifiedChargerModule;										#	DWEquipment "DaWrecka"	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitPropulsionArmModule;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitRepulsionCannonArm;											#	Prawn Repulsion Cannon Arm "senna7608" - 301 	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitGrapplingArmModule;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: GrapplingArmUpgradeModule;											#	Upgraded Grappling Arm "Indigocoder" - 1315		#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+),
+(
+	ItemID: ExosuitDrillArmModule;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: PrawnDrillArmMK2;													#	Prawn Drill Arm Upgrades "NxtCracky" - 2847		#
+	OldPath: Workbench/PDAU_Tab;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+),
+(
+	ItemID: PrawnDrillArmMK3;													#	Prawn Drill Arm Upgrades "NxtCracky" - 2847		#
+	OldPath: Workbench/PDAU_Tab;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+),
+(
+	ItemID: ExosuitTorpedoArmModule;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitPlasmaCannonArm;												#	Prawn Plasma Canon Arm "senna7608" - 302 	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitJetUpgradeModule;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: UpgradedJumpJetModule;												#	Upgraded Jump Jet Module "Indigocoder" - 1316	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+),
+(
+	ItemID: PrawnSuitSpeedModule;												#	Prawn Suit Speed Module "LeeTwentyThree" / "Kallie23" - 1298	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitSpeedModuleMk1;												#	Prawn Suit Speed Modules "Maxichigo" - 2639	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+(
+	ItemID: ExosuitSpeedModuleMk2;												#	Prawn Suit Speed Modules "Maxichigo" - 2639	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+),
+(
+	ItemID: ExosuitSpeedModuleMk3;												#	Prawn Suit Speed Modules "Maxichigo" - 2639	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+),
+(
+	ItemID: PrawnSelfDefenseModule;												#	Alterra Weaponry "mdownsxy" - 2944		#
+	NewPath: Workbench_MK2/ExosuitUpgrades/ExosuitModuleUpgrades;
+	Copied: YES;
+),
+		#	Exosuit VF Speed - 1973   #
+(
+	ItemID: SpeedModuleVF1Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Speed;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF2Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Speed;
+	Copied: YES;
+),
+(
+	ItemID: SpeedModuleVF3Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Speed;
+	Copied: YES;
+),			
+		#	Exosuit VF Stealth - 746   #
+(
+	ItemID: StealthModule1Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule2Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule3Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule4Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Stealth;
+	Copied: YES;
+),
+(
+	ItemID: StealthModule5Exosuit;
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Stealth;
+	Copied: YES;
+),
+		#	Exosuit VF Others	#
+(
+	ItemID: DrillArmVFExosuit;										#	Drill Arm VF "Milkjaw" - 1767	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: ScannerArmVFExosuit;									#	Scanner Arm VF "Milkjaw" - 1824		#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: SolarChargingModuleExosuit;								#	1413	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: ThermalChargingModuleExosuit;							#	1768	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: SelfRepairModuleExosuit;								#	2880	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: MagnetBootsModuleExosuit;								#	2283	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: ImpulseSpeedBoosterExosuit;								#	1403	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: SonarModuleExosuit;										#	1406	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: CrabsquidModuleExosuit;									#	1609	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: NanoWeaveBarrierExosuit;								#	1405	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: IonDefenseCapacitorExosuit;								#	1404	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+),
+(
+	ItemID: VoidDepthUpgradeExosuit;								#	1900	#
+	NewPath: Workbench_MK2/ExosuitUpgrades/Exosuit_VF_Others;
+	Copied: YES;
+);

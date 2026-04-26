@@ -1,0 +1,4714 @@
+[
+    {
+        "Name": "FiberMesh",
+        "CraftAmount": 2,
+        "Ingredients": [
+            {
+                "Name": "CreepvinePiece",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Glass",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Quartz",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Titanium",
+        "CraftAmount": 5,
+        "Ingredients": [
+            {
+                "Name": "ScrapMetal",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Silicone",
+        "CraftAmount": 2,
+        "Ingredients": [
+            {
+                "Name": "CreepvineSeedCluster",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Bleach",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Salt",
+                "Amount": 3
+            },
+            {
+                "Name": "CoralChunk",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "TitaniumIngot",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 20
+            },
+            {
+                "Name": "Lead",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CopperWire",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Copper",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "WiringKit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CopperWire",
+                "Amount": 3
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "Quartz",
+                "Amount": 1
+            },
+            {
+                "Name": "Gold",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "AdvancedWiringKit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Gold",
+                "Amount": 2
+            },
+            {
+                "Name": "Silver",
+                "Amount": 2
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 3
+            },
+            {
+                "Name": "Quartz",
+                "Amount": 3
+            },
+            {
+                "Name": "Lead",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlasteelIngot",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Lead",
+                "Amount": 1
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "EnameledGlass",
+        "CraftAmount": 3,
+        "Ingredients": [
+            {
+                "Name": "StalkerTooth",
+                "Amount": 5
+            },
+            {
+                "Name": "Glass",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PowerCell",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "CrashPowder",
+                "Amount": 3
+            },
+            {
+                "Name": "Lead",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ComputerChip",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "JeweledDiskPiece",
+                "Amount": 6
+            },
+            {
+                "Name": "Gold",
+                "Amount": 3
+            },
+            {
+                "Name": "Silver",
+                "Amount": 4
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "CreepvinePiece",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HydrochloricAcid",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WhiteMushroom",
+                "Amount": 8
+            },
+            {
+                "Name": "Salt",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Polyaniline",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Gold",
+                "Amount": 3
+            },
+            {
+                "Name": "HydrochloricAcid",
+                "Amount": 2
+            },
+            {
+                "Name": "Benzene",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "AramidFibers",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Benzene",
+                "Amount": 2
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 4
+            },
+            {
+                "Name": "HydrochloricAcid",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Aerogel",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "JellyPlant",
+                "Amount": 5
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 2
+            },
+            {
+                "Name": "CreepvinePiece",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Nanowires",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "MercuryOre",
+                "Amount": 12
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 5
+            },
+            {
+                "Name": "Gold",
+                "Amount": 8
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Benzene",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "BloodOil",
+                "Amount": 3
+            },
+            {
+                "Name": "DisinfectedWater",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Lubricant",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CreepvineSeedCluster",
+                "Amount": 2
+            },
+            {
+                "Name": "DisinfectedWater",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ReactorRod",
+        "CraftAmount": 4,
+        "Ingredients": [
+            {
+                "Name": "UraniniteCrystal",
+                "Amount": 12
+            },
+            {
+                "Name": "Lead",
+                "Amount": 8
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "Glass",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Fins",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Silicone",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Tank",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 12
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Battery",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AcidMushroom",
+                "Amount": 5
+            },
+            {
+                "Name": "Copper",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Knife",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Flashlight",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Beacon",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CopperWire",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Builder",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "Gold",
+                "Amount": 2
+            },
+            {
+                "Name": "Silver",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Compass",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CopperWire",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "AirBladder",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "Bladderfish",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Terraformer",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Pipe",
+        "CraftAmount": 5,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Thermometer",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Quartz",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "DiveReel",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CopperWire",
+                "Amount": 3
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Rebreather",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 1
+            },
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RadiationSuit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "FiberMesh",
+                "Amount": 6
+            },
+            {
+                "Name": "Lead",
+                "Amount": 8
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 6
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": [
+            "RadiationHelmet",
+            "RadiationGloves"
+        ]
+    },
+    {
+        "Name": "ReinforcedDiveSuit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AramidFibers",
+                "Amount": 6
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 3
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 6
+            }
+        ],
+        "LinkedItems": [
+            "ReinforcedGloves"
+        ]
+    },
+    {
+        "Name": "Scanner",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+	    {
+		"Name": "JeweledDiskPiece",
+		"Amount": 1
+	    }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "FireExtinguisher",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MapRoomHUDChip",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 3
+            },
+            {
+                "Name": "Battery",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PipeSurfaceFloater",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            },
+            {
+                "Name": "AirBladder",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsDecoy",
+        "CraftAmount": 3,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "DoubleTank",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Tank",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 10
+            },
+            {
+                "Name": "Silver",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Welder",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "CrashPowder",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Seaglide",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 2
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 3
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 5
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Constructor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 2
+            },
+            {
+                "Name": "PowerCell",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Transfuser",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Flare",
+        "CraftAmount": 5,
+        "Ingredients": [
+            {
+                "Name": "CrashPowder",
+                "Amount": 4
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            },
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StasisRifle",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 10
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PropulsionCannon",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Gravsphere",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 2
+            },
+            {
+                "Name": "Copper",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SmallStorage",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LaserCutter",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Diamond",
+                "Amount": 4
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            },
+            {
+                "Name": "CrashPowder",
+                "Amount": 6
+            },
+            {
+                "Name": "Lead",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LEDLight",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Copper",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "DiamondBlade",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Knife",
+                "Amount": 1
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HeatBlade",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Knife",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LithiumIonBattery",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 10
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlasteelTank",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "DoubleTank",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HighCapacityTank",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelTank",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 10
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "Nickel",
+                "Amount": 8
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "UltraGlideFins",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Fins",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 2
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SwimChargeFins",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Fins",
+                "Amount": 1
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RepulsionCannon",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PropulsionCannon",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 4
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "WaterFiltrationSuit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AramidFibers",
+                "Amount": 8
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 4
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 4
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PowerGlide",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PowerGlide",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Workbench",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 12
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 4
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HullReinforcementModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Fabricator",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            },
+            {
+                "Name": "Gold",
+                "Amount": 4
+            },
+            {
+                "Name": "JeweledDiskPiece",
+                "Amount": 6
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Aquarium",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 3
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Locker",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Quartz",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Spotlight",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Copper",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CurrentGenerator",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SpecialHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BikemanHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "EatMyDictionHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "DevTestItem",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SpecimenAnalyzer",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HullReinforcementModule2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ReefbackShell",
+                "Amount": 1
+            },
+            {
+                "Name": "HullReinforcementModule",
+                "Amount": 1
+            },
+            {
+                "Name": "ReefbackDNA",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HullReinforcementModule3",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ReefbackAdvancedStructure",
+                "Amount": 1
+            },
+            {
+                "Name": "HullReinforcementModule2",
+                "Amount": 1
+            },
+            {
+                "Name": "ReefbackDNA",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PowerUpgradeModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Benzene",
+                "Amount": 1
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SolarPanel",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Quartz",
+                "Amount": 4
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 2
+            },
+            {
+                "Name": "Battery",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Sign",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CopperWire",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PowerTransmitter",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Gold",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Accumulator",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Bioreactor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "Silver",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ThermalPlant",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 12
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 4
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "PowerCell",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "NuclearReactor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Lead",
+                "Amount": 8
+            },
+            {
+                "Name": "Silver",
+                "Amount": 4
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 2
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "PowerCell",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SmallLocker",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Bench",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PictureFrame",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CopperWire",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlanterPot",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "CreepvinePiece",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlanterBox",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+	    {
+                "Name": "CreepvinePiece",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlanterShelf",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            },
+	    {
+                "Name": "CreepvinePiece",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "FarmingTray",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "CreepvinePiece",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "FiltrationMachine",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 8
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Techlight",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Radio",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Copper",
+                "Amount": 1
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlanterPot2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "CreepvinePiece",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PlanterPot3",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "CreepvinePiece",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MedicalCabinet",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 3
+            },
+            {
+                "Name": "Silver",
+                "Amount": 4
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsHullModule1",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 5
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 5
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 2
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsHullModule2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CyclopsHullModule1",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Nickel",
+                "Amount": 8
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 5
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 5
+            },
+            {
+                "Name": "Lead",
+                "Amount": 8
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 8
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SingleWallShelf",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "WallShelves",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Bed1",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Bed2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "NarrowBed",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BatteryCharger",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PowerCellCharger",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 8
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 6
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "HatchingEnzymes",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "EyesPlantSeed",
+                "Amount": 1
+            },
+            {
+                "Name": "SeaCrownSeed",
+                "Amount": 1
+            },
+            {
+                "Name": "TreeMushroomPiece",
+                "Amount": 1
+            },
+            {
+                "Name": "RedGreenTentacleSeed",
+                "Amount": 1
+            },
+            {
+                "Name": "KooshChunk",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Centrifuge",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsShieldModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 4
+            },
+            {
+                "Name": "PrecursorIonPowerCell",
+                "Amount": 2
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 6
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsSonarModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 4
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 2
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsSeamothRepairModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Welder",
+                "Amount": 1
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsDecoyModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsFireSuppressionModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Aerogel",
+                "Amount": 4
+            },
+            {
+                "Name": "Sulphur",
+                "Amount": 4
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsThermalReactorModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Polyaniline",
+                "Amount": 4
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 8
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CyclopsHullModule3",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CyclopsHullModule2",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 8
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 8
+            },
+            {
+                "Name": "Lead",
+                "Amount": 12
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 12
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipCargoCrate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipCircuitBox",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipDesk",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipChair",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipMonitor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipChair2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "StarshipChair3",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CoffeeVendingMachine",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "Quartz",
+                "Amount": 1
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BarTable",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Trashcans",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LabTrashcan",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "Lead",
+                "Amount": 5
+            },
+	    {
+                "Name": "EnameledGlass",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VendingMachine",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LabCounter",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Seamoth",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 6
+            },
+            {
+                "Name": "PowerCell",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 4
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 6
+            },
+            {
+                "Name": "Lead",
+                "Amount": 6
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Exosuit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 6
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 4
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 3
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 6
+            },
+            {
+                "Name": "Lead",
+                "Amount": 6
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 4
+            },
+            {
+                "Name": "PowerCell",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Cyclops",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 10
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 6
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 6
+            },
+            {
+                "Name": "Lead",
+                "Amount": 6
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 4
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 6
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 2
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SeamothReinforcementModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 2
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VehiclePowerUpgradeModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 2
+            },
+            {
+                "Name": "Gold",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SeamothSolarCharge",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 5
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VehicleStorageModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SeamothElectricalDefense",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Polyaniline",
+                "Amount": 4
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 5
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VehicleArmorPlating",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 4
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LootSensorMetal",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LootSensorLithium",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LootSensorFragment",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SeamothTorpedoModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 2
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 1
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+	    {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "SeamothSonarModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 2
+            },
+	    {
+                "Name": "AluminumOxide",
+                "Amount": 2
+            },
+	    {
+                "Name": "WiringKit",
+                "Amount": 1
+            },
+	    {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "WhirlpoolTorpedo",
+        "CraftAmount": 2,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VehicleHullModule1",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 2
+            },
+	    {
+                "Name": "Diamond",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VehicleHullModule2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "VehicleHullModule1",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 5
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 2
+            },
+	    {
+                "Name": "Lead",
+                "Amount": 3
+            },
+	    {
+                "Name": "Diamond",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "VehicleHullModule3",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "VehicleHullModule2",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 8
+            },
+	    {
+                "Name": "Diamond",
+                "Amount": 6
+            },
+	    {
+                "Name": "Lead",
+                "Amount": 6
+            },
+	    {
+                "Name": "EnameledGlass",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExosuitJetUpgradeModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Nickel",
+                "Amount": 6
+            },
+            {
+                "Name": "Sulphur",
+                "Amount": 12
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 10
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+	    {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExosuitDrillArmModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 8
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 4
+            },
+	    {
+                "Name": "AluminumOxide",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExosuitThermalReactorModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Polyaniline",
+                "Amount": 4
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 6
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "GasTorpedo",
+        "CraftAmount": 2,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "GasPod",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExosuitPropulsionArmModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 5
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 2
+            },
+	    {
+                "Name": "AluminumOxide",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExosuitGrapplingArmModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Benzene",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 2
+            },
+	    {
+                "Name": "FiberMesh",
+                "Amount": 4
+            },
+	    {
+                "Name": "Lubricant",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExosuitTorpedoArmModule",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 2
+            },
+	    {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExoHullModule1",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Nickel",
+                "Amount": 6
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 4
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "ExoHullModule2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ExoHullModule1",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 4
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 6
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 3
+            },
+            {
+                "Name": "Lead",
+                "Amount": 6
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 6
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MapRoomUpgradeScanRange",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Copper",
+                "Amount": 2
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 2
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+	    {
+                "Name": "Gold",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MapRoomUpgradeScanSpeed",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Silver",
+                "Amount": 3
+            },
+            {
+                "Name": "Gold",
+                "Amount": 3
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+	    {
+                "Name": "Magnetite",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PrecursorKey_Blue",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PrecursorIonCrystal",
+                "Amount": 1
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 4
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+	    {
+                "Name": "CopperWire",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PrecursorKey_Orange",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PrecursorIonCrystal",
+                "Amount": 1
+            },
+            {
+                "Name": "Nickel",
+                "Amount": 4
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+	    {
+                "Name": "CopperWire",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PrecursorKey_Purple",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PrecursorIonCrystal",
+                "Amount": 1
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 4
+            },
+	    {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+	    {
+                "Name": "CopperWire",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PrecursorIonPowerCell",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PrecursorIonBattery",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "PrecursorIonBattery",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PrecursorIonCrystal",
+                "Amount": 1
+            },
+            {
+                "Name": "Gold",
+                "Amount": 3
+            },
+            {
+                "Name": "Silver",
+                "Amount": 3
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "FilteredWater",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Bladderfish",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "DisinfectedWater",
+        "CraftAmount": 4,
+        "Ingredients": [
+            {
+                "Name": "Bleach",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedPeeper",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Peeper",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedHoleFish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "HoleFish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedGarryFish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "GarryFish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedReginald",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Reginald",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedBladderfish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Bladderfish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedHoverfish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Hoverfish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedSpadefish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Spadefish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedBoomerang",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Boomerang",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedEyeye",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Eyeye",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedOculus",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Oculus",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedHoopfish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Hoopfish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "FirstAidKit",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "FiberMesh",
+                "Amount": 4
+            },
+            {
+                "Name": "Bleach",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedSpinefish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Spinefish",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedLavaEyeye",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "LavaEyeye",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CookedLavaBoomerang",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "LavaBoomerang",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredPeeper",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Peeper",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredHoleFish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "HoleFish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredGarryFish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "GarryFish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredReginald",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Reginald",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredBladderfish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Bladderfish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredHoverfish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Hoverfish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredSpadefish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Spadefish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredBoomerang",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Boomerang",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredEyeye",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Eyeye",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredOculus",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Oculus",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredHoopfish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Hoopfish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredSpinefish",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Spinefish",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredLavaEyeye",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "LavaEyeye",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "CuredLavaBoomerang",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "LavaBoomerang",
+                "Amount": 1
+            },
+            {
+                "Name": "Salt",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseRoom",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseHatch",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Quartz",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 6
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseWall",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseDoor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseLadder",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseWindow",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseFoundation",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Lead",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorI",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorL",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorT",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 7
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorX",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 8
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseReinforcement",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Diamond",
+                "Amount": 5
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseBulkhead",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 2
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorGlassI",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 2
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorGlassL",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 3
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseObservatory",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "EnameledGlass",
+                "Amount": 3
+            },
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseConnector",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseMoonpool",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 3
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 4
+            },
+            {
+                "Name": "Lead",
+                "Amount": 8
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Silicone",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseCorridorGlass",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseUpgradeConsole",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 8
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 3
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BasePlanter",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 2
+            },
+            {
+                "Name": "CreepvinePiece",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseFiltrationMachine",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 8
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 2
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseWaterPark",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "EnameledGlass",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 4
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 3
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseMapRoom",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "Magnetite",
+                "Amount": 5
+            },
+            {
+                "Name": "Gold",
+                "Amount": 4
+            },
+            {
+                "Name": "JeweledDiskPiece",
+                "Amount": 4
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MapRoomCamera",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseBioReactor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 1
+            },
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Battery",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseNuclearReactor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 1
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            },
+            {
+                "Name": "Lead",
+                "Amount": 10
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 1
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 5
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 5
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BasePipeConnector",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 5
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseLargeRoom",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Lead",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BasePartitionDoor",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            },
+            {
+                "Name": "Quartz",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseGlassDome",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "EnameledGlass",
+                "Amount": 6
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 8
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BasePartition",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Titanium",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "BaseLargeGlassDome",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "EnameledGlass",
+                "Amount": 8
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 12
+            },
+            {
+                "Name": "Lithium",
+                "Amount": 6
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RocketBase",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "TitaniumIngot",
+                "Amount": 10
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 2
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 2
+            },
+            {
+                "Name": "Lead",
+                "Amount": 6
+            },
+            {
+                "Name": "AirBladder",
+                "Amount": 8
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RocketBaseLadder",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "CopperWire",
+                "Amount": 4
+            },
+            {
+                "Name": "Lubricant",
+                "Amount": 6
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RocketStage1",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Nickel",
+                "Amount": 5
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 4
+            },
+            {
+                "Name": "WiringKit",
+                "Amount": 3
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 2
+            },
+            {
+                "Name": "Sulphur",
+                "Amount": 6
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RocketStage2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "Sulphur",
+                "Amount": 8
+            },
+            {
+                "Name": "Kyanite",
+                "Amount": 8
+            },
+            {
+                "Name": "PrecursorIonPowerCell",
+                "Amount": 6
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 2
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 2
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "RocketStage3",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "CyclopsShieldModule",
+                "Amount": 1
+            },
+            {
+                "Name": "PlasteelIngot",
+                "Amount": 2
+            },
+            {
+                "Name": "EnameledGlass",
+                "Amount": 6
+            },
+            {
+                "Name": "ComputerChip",
+                "Amount": 4
+            },
+            {
+                "Name": "AdvancedWiringKit",
+                "Amount": 4
+            },
+            {
+                "Name": "CyclopsFireSuppressionModule",
+                "Amount": 1
+            },
+            {
+                "Name": "Aerogel",
+                "Amount": 5
+            },
+            {
+                "Name": "Polyaniline",
+                "Amount": 2
+            },
+            {
+                "Name": "AluminumOxide",
+                "Amount": 6
+            },
+            {
+                "Name": "Diamond",
+                "Amount": 3
+            },
+            {
+                "Name": "FiberMesh",
+                "Amount": 4
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "DioramaHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MarkiplierHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "MuyskermHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "LordMinionHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "JackSepticEyeHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "IGPHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "GilathissHullPlate",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Marki1",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "Marki2",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "JackSepticEye",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    },
+    {
+        "Name": "EatMyDiction",
+        "CraftAmount": 1,
+        "Ingredients": [
+            {
+                "Name": "Glass",
+                "Amount": 1
+            },
+            {
+                "Name": "Titanium",
+                "Amount": 1
+            }
+        ],
+        "LinkedItems": []
+    }
+]

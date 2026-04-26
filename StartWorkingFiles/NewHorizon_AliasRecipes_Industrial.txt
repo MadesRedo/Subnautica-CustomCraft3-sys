@@ -1,0 +1,1058 @@
+#---------------------------------------------------------------#
+#			Crafts					#
+#---------------------------------------------------------------#
+	AliasRecipes:
+					#---Artifacts---#
+(
+    ItemID: NHIbasic_precursorkey_red;
+    DisplayName: "Red Tablet";
+    Tooltip: "Ancient alien tablet. Glows red.";
+    AmountCrafted: 0;
+    LinkedItemIDs: precursorkey_red;
+    Ingredients: 
+    (
+        ItemID: precursorioncrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: aluminumoxide;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_orange;
+),
+(
+    ItemID: NHIbasic_precursorkey_white;
+    DisplayName: "White Tablet";
+    Tooltip: "Ancient alien tablet. Glows white.";
+    AmountCrafted: 0;
+    LinkedItemIDs: precursorkey_white;
+    Ingredients: 
+    (
+        ItemID: precursorioncrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: lithium;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_orange;
+),
+(
+    ItemID: NHIbasic_precursorioncrystalmatrix;
+    DisplayName: "Ion Cube Matrix";
+    Tooltip: "Ion cube matrix.";
+    AmountCrafted: 0;
+    LinkedItemIDs: precursorioncrystalmatrix;
+    Ingredients: 
+    (
+        ItemID: precursorioncrystal;
+        Required: 5;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+#    PdaGroup: Personal;
+    PdaCategory: Equipment;#
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorioncrystal;
+),
+(
+    ItemID: NHIArtifact_AlienBuildingBlock;
+    DisplayName: "Alien Building Block";
+    Tooltip: "This rock-like object features organic as well as mechanical parts. It may have been a fundamental building block of the aliens' technology, or even of the aliens themselves.";
+    AmountCrafted: 5;
+#    LinkedItemIDs: NHIArtifact_AlienBuildingBlock;#
+    Ingredients: 
+    (
+        ItemID: precursorioncrystal;
+        Required: 1;
+    ),
+    (
+        ItemID: scrapmetal;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_orange;
+),
+(
+    ItemID: NHIArtifact_TranslationDevice;
+    DisplayName: "Translation Device";
+    Tooltip: "Contains over 1,000 alien languages and is capable of translating these into the language of the relic's designers. Several ancient Earth languages are contained within its data.
+This slightly modified version can even traduce these languages into modern Earth ones.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_TranslationDevice;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: aluminumoxide;
+        Required: 1;
+    ),
+    (
+        ItemID: magnetite;
+        Required: 1;
+    ),
+    (
+        ItemID: advancedwiringkit;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_AlienBuildingBlock;
+),
+(
+    ItemID: NHIArtifact_OrganicMatterManipulator;
+    DisplayName: "Organic Matter Particulator";
+    Tooltip: "Strange relic capable of emitting extremely damaging radiation in order to destroy any organisms in an area whilst the non-organic surroundings would be left untouched. It was likely used for sterilization.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_OrganicMatterManipulator;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 2;
+    ),
+    (
+        ItemID: uranium;
+        Required: 2;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 1;
+    ),
+    (
+        ItemID: jellyplant;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_AlienBuildingBlock;
+),
+(
+    ItemID: NHIArtifact_InorganicMatterManipulator;
+    DisplayName: "Activated Inorganic Matter Particulator";
+    Tooltip: "Modified version of the original Organic Matter Manipulator with an integrated translator and the capacity to modify the matter at an atomical scale.";
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_OrganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_TranslationDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: precursorioncrystalmatrix;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab51_Artifacts;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_OrganicMatterManipulator;
+),
+					#---Tech---#
+(
+    ItemID: NHIbasic_enameledglass;
+    DisplayName: "Enameled Glass";
+    Tooltip: "Glass, hardened using a natural substrate.";
+    AmountCrafted: 0;
+    LinkedItemIDs: enameledglass;
+    Ingredients: 
+    (
+        ItemID: lead;
+        Required: 1;
+    ),
+    (
+        ItemID: diamond;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : stalkertooth, baseobservatory, cyclops;
+),
+(
+    ItemID: NHIbasic_reactorrod;
+    DisplayName: "Reactor Rod (Refueling)";
+    Tooltip: "Used to power nuclear reactors.";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrod;
+    Ingredients: 
+    (
+        ItemID: depletedreactorrod;
+        Required: 1;
+    ),
+    (
+        ItemID: uraninitecrystal;
+        Required: 3;
+    ),
+    (
+        ItemID: lead;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Resources;
+    PdaCategory: Electronics;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : reactorrod, depletedreactorrod;
+),
+(
+    ItemID: NHIbasic_reactorrodfromuranium;
+    DisplayName: "Reactor Rod";
+    Tooltip: "Used to power nuclear reactors.";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrod;
+    Ingredients: 
+    (
+        ItemID: uranium;
+        Required: 2;
+    ),
+    (
+        ItemID: lead;
+        Required: 1;
+    ),
+    (
+        ItemID: titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Resources;
+    PdaCategory: Electronics;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : reactorrod, depletedreactorrod;
+),
+(
+    ItemID: NHIbasic_reactorrodfromuranium2;
+    DisplayName: "Reactor Rod (Refueling)";
+    Tooltip: "Used to power nuclear reactors.";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrod;
+    Ingredients: 
+    (
+        ItemID: depletedreactorrod;
+        Required: 1;
+    ),
+    (
+        ItemID: uranium;
+        Required: 2;
+    ),
+    (
+        ItemID: lead;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Resources;
+    PdaCategory: Electronics;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : reactorrod, depletedreactorrod;
+),
+(
+    ItemID: NHIbasic_lithiumionbattery;
+    DisplayName: "Lithium Ion Battery";
+    Tooltip: "High capacity battery.";
+    AmountCrafted: 0;
+    LinkedItemIDs: lithiumionbattery;
+    Ingredients: 
+    (
+        ItemID: battery;
+        Required: 1;
+    ),
+    (
+        ItemID: lithium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Resources;
+    PdaCategory: Electronics;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : lithium;
+),
+(
+    ItemID: NHIbasic_labequipment1;
+    DisplayName: "Microscope";
+    Tooltip: "Non-functional laboratory equipment.";
+    AmountCrafted: 0;
+    LinkedItemIDs: labequipment1;
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 3;
+    )
+    (
+        ItemID: quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: jeweleddiskpiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : labequipment1;
+),
+(
+    ItemID: NHIbasic_labequipment2;
+    DisplayName: "Fluid Analyzer";
+    Tooltip: "Non-functional laboratory equipment.";
+    AmountCrafted: 0;
+    LinkedItemIDs: labequipment2;
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 3;
+    )
+    (
+        ItemID: quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: crashpowder;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : labequipment2;
+),
+(
+    ItemID: NHIbasic_labequipment3;
+    DisplayName: "Sample Analyzer";
+    Tooltip: "Non-functional laboratory equipment.";
+    AmountCrafted: 0;
+    LinkedItemIDs: labequipment3;
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 3;
+    )
+    (
+        ItemID: quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: acidmushroom;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab53_Tech;
+    PdaGroup: Personal;
+    PdaCategory: Equipment;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : labequipment3;
+),
+					#---MineralSyn.---#
+
+(
+    ItemID: NHISynthesisOfMagnesium;
+    DisplayName: "Magnesium";
+    Tooltip: "According to the translator, the purple tablet is not only a key but also a crafting blueprint for synthesizing magnesium.
+This recipe only consumes the boomerangs.";
+    SpriteItemID: magnesium;
+    AmountCrafted: 0;
+    LinkedItemIDs: magnesium, NHIArtifact_TranslationDevice, precursorkey_purple;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_TranslationDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: precursorkey_purple;
+        Required: 1;
+    ),
+    (
+        ItemID: boomerang;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_purple;
+),
+(
+    ItemID: NHISynthesisOfMagnesium2;
+    DisplayName: "Magnesium";
+    Tooltip: "According to the translator, the purple tablet is not only a key but also a crafting blueprint for synthesizing magnesium.
+This recipe only consumes the magmarangs.";
+    SpriteItemID: magnesium;
+    AmountCrafted: 0;
+    LinkedItemIDs: magnesium, NHIArtifact_TranslationDevice, precursorkey_purple;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_TranslationDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: precursorkey_purple;
+        Required: 1;
+    ),
+    (
+        ItemID: lavaboomerang;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_purple;
+),
+(
+    ItemID: NHISynthesisOfUranium;
+    DisplayName: "Uranium";
+    Tooltip: "According to the translator, the white tablet is not only a useless key but also a crafting blueprint for synthesizing uranium.
+This recipe only consumes the uranite crystal.";
+    SpriteItemID: uranium;
+    AmountCrafted: 0;
+    LinkedItemIDs: uranium, NHIArtifact_TranslationDevice, precursorkey_white;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_TranslationDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: precursorkey_white;
+        Required: 1;
+    ),
+    (
+        ItemID: uraninitecrystal;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_white;
+),
+(
+    ItemID: NHISynthesisOfMercury;
+    DisplayName: "Mercury Ore";
+    Tooltip: "According to the translator, the red tablet is not only a useless key but also a crafting blueprint for synthesizing mercury ore.
+This recipe only consumes the crystalline sulfur.";
+    SpriteItemID: mercuryore;
+    AmountCrafted: 0;
+    LinkedItemIDs: mercuryore, NHIArtifact_TranslationDevice, precursorkey_red;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_TranslationDevice;
+        Required: 1;
+    ),
+    (
+        ItemID: precursorkey_red;
+        Required: 1;
+    ),
+    (
+        ItemID: sulphur;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : precursorkey_red;
+),
+(
+    ItemID: NHIbasic_TitaniumSynth;
+    DisplayName: "Titanium";
+    Tooltip: "Ti. Basic building material.";
+    SpriteItemID: titanium;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, titanium;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 1;
+    ),
+    (
+        ItemID: stalkertooth;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_QuartzSynth;
+    DisplayName: "Quartz";
+    Tooltip: "SiO4. Silica in crystalline form.";
+    SpriteItemID: quartz;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, quartz;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_CopperSynth;
+    DisplayName: "Copper Ore (x3)";
+    Tooltip: "Cu. Essential wiring component.";
+    SpriteItemID: copper;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, copper, copper, copper;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: mercuryore;
+        Required: 1;
+    ),
+    (
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_SilverSynth;
+    DisplayName: "Silver Ore (x2)";
+    Tooltip: "Ag. Conductive element and microbicide.";
+    SpriteItemID: silver;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, silver, silver;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: mercuryore;
+        Required: 1;
+    ),
+    (
+        ItemID: jeweleddiskpiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_GoldSynth;
+    DisplayName: "Gold";
+    Tooltip: "Au. Valuable conductive properties. Highly valuable social property.";
+    SpriteItemID: gold;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, gold;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: mercuryore;
+        Required: 1;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_CrystallineSulfurSynth;
+    DisplayName: "Crystalline Sulfur";
+    Tooltip: "S. Oxidant and reducing agent.";
+    SpriteItemID: sulphur;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, sulphur;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: crashpowder;
+        Required: 3;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_LeadSynth;
+    DisplayName: "Lead";
+    Tooltip: "Pb. Insulates against radiation.";
+    SpriteItemID: lead;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, lead;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: uranium;
+        Required: 1;
+    ),
+    (
+        ItemID: kooshchunk;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_LithiumSynth;
+    DisplayName: "Lithium (x5)";
+    Tooltip: "Li. Applications in high-strength alloys.";
+    SpriteItemID: lithium;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, lithium, lithium, lithium, lithium, lithium;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_NickelSynth;
+    DisplayName: "Nickel Ore (x3)";
+    Tooltip: "Ni. Versatile alloy ingredient required for advanced fabrication.";
+    SpriteItemID: nickel;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, nickel, nickel, nickel;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: mercuryore;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_UraniniteSynth;
+    DisplayName: "Uraninite Crystal (x2)";
+    Tooltip: "U3O8. A highly radioactive material.";
+    SpriteItemID: uraninitecrystal;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, uraninitecrystal, uraninitecrystal;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: uranium;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_DiamondSynth;
+    DisplayName: "Diamond";
+    Tooltip: "C. Carbon allotrope with superlative physical properties.";
+    SpriteItemID: diamond;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, diamond;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 2;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_MagnetiteSynth;
+    DisplayName: "Magnetite (x2)";
+    Tooltip: "Fe3O4. Metal oxide with magnetic properties.";
+    SpriteItemID: magnetite;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, magnetite, magnetite;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: NHITech_Rutile;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_RubySynth;
+    DisplayName: "Ruby";
+    Tooltip: "Al2O3. Valuable thermo-conductivity and electro-conductance.";
+    SpriteItemID: aluminumoxide;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, aluminumoxide;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: purplebraincoralpiece;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+(
+    ItemID: NHIbasic_KyaniteSynth;
+    DisplayName: "Kyanite (x3)";
+    Tooltip: "Al2SiO5. Deep blue, heat resistant crystal.";
+    SpriteItemID: kyanite;
+    AmountCrafted: 0;
+    LinkedItemIDs: NHIArtifact_InorganicMatterManipulator, kyanite, kyanite, kyanite;
+    Ingredients: 
+    (
+        ItemID: NHIArtifact_InorganicMatterManipulator;
+        Required: 1;
+    ),
+    (
+        ItemID: NHIArtifact_AlienBuildingBlock;
+        Required: 1;
+    ),
+    (
+        ItemID: quartz;
+        Required: 1;
+    ),
+    (
+        ItemID: aluminumoxide;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab52_MineralSynth;
+    PdaGroup: Resources;
+    PdaCategory: BasicMaterials;
+    ForceUnlockAtStart : NO;
+    UnlockedBy : NHIArtifact_InorganicMatterManipulator;
+),
+					#---Manufacture---#
+(
+    ItemID: NHIbasic_posteraurora;
+    DisplayName: "Aurora Poster";
+    Tooltip: "Aurora Poster";
+    AmountCrafted: 0;
+    LinkedItemIDs: posteraurora;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 2;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+    ForceUnlockAtStart: NO;
+    UnlockedBy : posteraurora, posterkitty, poster, posterexosuit1, posterexosuit2;
+),
+(
+    ItemID: NHIbasic_posterkitty;
+    DisplayName: "Keep Calm Poster";
+    Tooltip: "Keep Calm Poster";
+    AmountCrafted: 0;
+    LinkedItemIDs: posterkitty;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 2;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : posteraurora, posterkitty, poster, posterexosuit1, posterexosuit2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_poster;
+    DisplayName: "Natural Selection 2 Poster";
+    Tooltip: "Natural Selection 2 Poster";
+    AmountCrafted: 0;
+    LinkedItemIDs: poster;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 2;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : posteraurora, posterkitty, poster, posterexosuit1, posterexosuit2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_posterexosuit1;
+    DisplayName: "Prawn Suit Poster - Land";
+    Tooltip: "Prawn Suit Poster - Land";
+    AmountCrafted: 0;
+    LinkedItemIDs: posterexosuit1;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 2;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : posteraurora, posterkitty, poster, posterexosuit1, posterexosuit2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_posterexosuit2;
+    DisplayName: "Prawn Suit Poster - Sea";
+    Tooltip: "Prawn Suit Poster - Sea";
+    AmountCrafted: 0;
+    LinkedItemIDs: posterexosuit2;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 2;
+    ),
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : posteraurora, posterkitty, poster, posterexosuit1, posterexosuit2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_luggagebag;
+    DisplayName: "Carry-all";
+    Tooltip: "Common bag for transporting personal items.";
+    AmountCrafted: 0;
+    LinkedItemIDs: luggagebag;
+    Ingredients: 
+    (
+        ItemID: fibermesh;
+        Required: 2;
+    ),
+    (
+        ItemID: silicone;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : luggagebag, cap1, cap2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_cap1;
+    DisplayName: "Gray Cap";
+    Tooltip: "Gray cap. Incompatible with protective environment suits.";
+    AmountCrafted: 0;
+    LinkedItemIDs: cap1;
+    Ingredients: 
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : luggagebag, cap1, cap2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_cap2;
+    DisplayName: "Blue Cap";
+    Tooltip: "Blue cap. Incompatible with protective environment suits.";
+    AmountCrafted: 0;
+    LinkedItemIDs: cap2;
+    Ingredients: 
+    (
+        ItemID: fibermesh;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : luggagebag, cap1, cap2;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_arcadegorgetoy;
+    DisplayName: "Arcade Gorge Toy";
+    Tooltip: "Comforting.";
+    AmountCrafted: 0;
+    LinkedItemIDs: arcadegorgetoy;
+    Ingredients: 
+    (
+        ItemID: fibermesh;
+        Required: 2;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : arcadegorgetoy, toycar, luggagebag;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_toycar;
+    DisplayName: "Toy Car";
+    Tooltip: "Toy Car";
+    AmountCrafted: 0;
+    LinkedItemIDs: toycar;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 3;
+    ),
+    (
+        ItemID: quartz;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : arcadegorgetoy, toycar, luggagebag;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+),
+(
+    ItemID: NHIbasic_starshipsouvenir;
+    DisplayName: "Aurora Miniature";
+    Tooltip: "A miniature of the Aurora.";
+    AmountCrafted: 0;
+    LinkedItemIDs: starshipsouvenir;
+    Ingredients: 
+    (
+        ItemID: NHITech_Rutile;
+        Required: 4;
+    ),
+    (
+        ItemID: silicone;
+        Required: 1;
+    );
+    ForceUnlockAtStart: NO;
+    UnlockedBy : starshipsouvenir, rocketbase;
+    Path: Fabricator/NHITab00_NewHorizon/NHITab50_Industrial/NHITab54_Manufacture;
+);

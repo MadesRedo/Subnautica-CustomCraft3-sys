@@ -1,0 +1,28 @@
+
+
+
+ModifiedRecipes: 
+
+
+(
+	ItemID: Alch_Lead;
+	UnlockedBy: RadiationSuit;
+	Unlocks: Alch_Lead_&_Iron;
+),
+(
+	ItemID: Alch_IronMagneticPowder;
+	Unlocks: Alch_Silver, Alch_Gold;
+),
+(
+	ItemID: Alch_Silver;
+	Unlocks: Alch_Silver_X;
+),
+(
+	ItemID: Alch_Gold;
+	Unlocks: Alch_Gold_X;
+),
+(
+	ItemID: Alch_Lithium;
+	UnlockedBy: HighCapacityTank;
+	Unlocks: Alch_Lithium_&_Aluminum;
+);

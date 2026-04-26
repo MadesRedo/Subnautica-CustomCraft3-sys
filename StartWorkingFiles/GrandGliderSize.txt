@@ -1,0 +1,16 @@
+﻿CustomSizes: 
+(
+    ItemID:CookedGrandGlider;
+    Width: 2;
+    Height: 1;
+),
+(
+    ItemID:CuredGrandGlider;
+    Width: 2;
+    Height: 1;
+),
+(
+    ItemID:GrandGliderSashimi;
+    Width: 2;
+    Height: 1;
+);

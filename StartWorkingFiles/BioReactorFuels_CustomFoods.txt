@@ -1,0 +1,135 @@
+CustomFoods:
+#======= V1.25 =======#
+#=====================#
+#____________ CookedFood ____________#
+#____________ CookedFood ___________#
+
+	(
+		ItemID: bFCookedWetspade;
+		FoodType: cookedspadefish;
+		DecayRateMod: 0.9;
+		DisplayName: "Cooked Wetspade";
+		Tooltip: "Have oil and water in the tissues and in the belly cavity around the gut.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: bFWetspade;
+				Required: 1;
+			);
+		Path: Fabricator/Survival/CookedFood;
+		FoodValue: 30;
+		WaterValue: 10;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFWetspade;
+	),
+
+	(
+		ItemID: bFCookedFatspade;
+		FoodType: cookedspadefish;
+		DecayRateMod: 0.9;
+		DisplayName: "Cooked Fatspade";
+		Tooltip: "One of the most nutritious foods you can eat. It also happen to be high in cholesterol.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: bFFatspade;
+				Required: 1;
+			);
+		Path: Fabricator/Survival/CookedFood;
+		FoodValue: 50;
+		WaterValue: 5;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFFatspade;
+	),
+
+	(
+		ItemID: bFCookedOptimuspade;
+		FoodType: cookedspadefish;
+		DecayRateMod: 0.8;
+		DisplayName: "Cooked Optimuspade";
+		Tooltip: "Eating tasty fish makes times spent in the outdoors all the more enjoyable.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: bFOptimuspade;
+				Required: 1;
+			);
+		Path: Fabricator/Survival/CookedFood;
+		FoodValue: 55;
+		WaterValue: 11;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFOptimuspade;
+	),
+
+#____________ CookedFood ___________#
+#____________ CuredFood ____________#
+
+	(
+		ItemID: bFCuredWetspade;
+		FoodType: curedspadefish;
+		DecayRateMod: 0;
+		DisplayName: "Cured Wetspade";
+		Tooltip: "Healty, good source of vitamins A and D.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: bFWetspade;
+				Required: 1;
+			),
+			(
+				ItemID: salt;
+				Required: 1;
+			);
+		Path: Fabricator/Survival/CuredFood;
+		FoodValue: 30;
+		WaterValue: 3;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFWetspade;
+	),
+
+	(
+		ItemID: bFCuredFatspade;
+		FoodType: curedspadefish;
+		DecayRateMod: 0;
+		DisplayName: "Cured Fatspade";
+		Tooltip: "An excellent source of protein, B vitamins, iron and selenium, also high in cholesterol.";
+		AmountCrafted: 1;
+		Ingredients:
+			(
+				ItemID: bFFatspade;
+				Required: 1;
+			),
+			(
+				ItemID: salt;
+				Required: 1;
+			);
+		Path: Fabricator/Survival/CuredFood;
+		FoodValue: 50;
+		WaterValue: -1;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFFatspade;
+	),
+
+	(
+		ItemID: bFCuredOptimuspade;
+		FoodType: curedspadefish;
+		DecayRateMod: 0;
+		DisplayName: "Cured Optimuspade";
+		Tooltip: "Delicious, hearty meal is an important part of all our trips.";
+		AmountCrafted: 1;
+		Ingredients: 
+			(
+				ItemID: bFOptimuspade;
+				Required: 1;
+			),
+			(
+				ItemID: salt;
+				Required: 1;
+			);
+		Path: Fabricator/Survival/CuredFood;
+		FoodValue: 55;
+		WaterValue: 4;
+		ForceUnlockAtStart: NO;
+		UnlockedBy: bFOptimuspade;
+	);
+#____________ CuredFood ____________#

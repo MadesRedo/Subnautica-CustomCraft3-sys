@@ -1,0 +1,167 @@
+
+# 		PERSONAL EQUIPMENT 		#
+
+MovedRecipes:
+
+		#	Tools	#
+(
+	ItemID: FirstAidKit;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Thermometer;
+	OldPath: Workbench/Chips;
+	Hidden: Yes;
+),
+(
+	ItemID: Thermometer;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Pipe;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Flare;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: LEDLight;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Knife;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: DiamondBlade;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: HeatBlade;
+	OldPath: Workbench/KnifeMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+),
+(
+	ItemID: Vibroblade;															#	DWEquipment "DaWrecka"	#
+	OldPath: Workbench/KnifeMenu;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+),
+(
+	ItemID: FireExtinguisher;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Scanner;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Welder;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Flashlight;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: DiveReel;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: AirBladder;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: Builder;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: LaserCutter;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: StasisRifle;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+#(#
+	#ItemID: Terraformer;#
+	#NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;#
+	#Copied: Yes;#
+#),#
+(
+	ItemID: Transfuser;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: PropulsionCannon;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: RepulsionCannon;
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+),
+(
+	ItemID: VariableGravityCannon;												#	Variable Gravity Cannon "Indigocoder" - 1505	==> NEED A FIX !	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+),
+(
+	ItemID: RockHammer;															#	Hydronautica's Rock Hammer Mod "hydronautica" - 2450	#
+	#OldPath: Fabricator/Personal/Tools;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: AncientSword;														#	Ancient Sword "senna7608" - 226		#
+	#OldPath: Fabricator/Personal/Tools;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: TechPistol;															#	Tech Pistol "MrPurple6411" - 1141	#
+	#OldPath: Fabricator/Personal/Tools;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: SpyWatchItem;														#	Spy Watch "EldritchCarMaker" - 1949		#
+	#OldPath: Fabricator/Personal/Equipment;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: VehicleTeleporter;													#	Teleport Vehicle "AshFoxJp" - 2571		#
+	#OldPath: Fabricator/Personal/Tools;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+),
+(
+	ItemID: LightSaber;															#	Ionic Light Saber "Maxichigo" - 2658	#
+	OldPath: Workbench;
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+),
+(
+	ItemID: HandHeldToolsFabricator;											#	Upgrades LIB "LawAbidingDeveloper" - 2430	#
+	#OldPath: Fabricator/Personal/Tools;#
+	NewPath: Workbench_MK2/PlayerEquipmentUpgrades/PlayerToolUpgrades;
+	Copied: Yes;
+);

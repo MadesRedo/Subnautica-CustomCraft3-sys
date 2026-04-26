@@ -1,0 +1,257 @@
+AliasRecipes: 
+    (
+        ItemID: add_kyanite;
+	DisplayName: "Kyanite x4";
+	Tooltip: "Cheap Kyanite";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, kyanite, kyanite, kyanite, kyanite;
+	SpriteItemID: kyanite;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_gold;
+	DisplayName: "Gold x4";
+	Tooltip: "Cheap Gold";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, gold, gold, gold, gold;
+	SpriteItemID: gold;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_lead;
+	DisplayName: "Lead x4";
+	Tooltip: "Cheap Lead";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, lead, lead, lead, lead;
+	SpriteItemID: lead;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_magnetite;
+	DisplayName: "Magnetite x4";
+	Tooltip: "Cheap Magnetite";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, magnetite, magnetite, magnetite, magnetite;
+	SpriteItemID: magnetite;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_nickel;
+	DisplayName: "Nickel x4";
+	Tooltip: "Cheap Nickel";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, nickel, nickel, nickel, nickel;
+	SpriteItemID: nickel;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_ruby;
+	DisplayName: "Ruby x4";
+	Tooltip: "Cheap Ruby";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, aluminumoxide, aluminumoxide, aluminumoxide, aluminumoxide;
+	SpriteItemID: aluminumoxide;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_silver;
+	DisplayName: "Silver x4";
+	Tooltip: "Cheap Silver";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, silver, silver, silver, silver;
+	SpriteItemID: silver;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_sulphur;
+	DisplayName: "Sulphur x4";
+	Tooltip: "Cheap Sulphur";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, sulphur, sulphur, sulphur, sulphur;
+	SpriteItemID: sulphur;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_uraninitecrystal;
+	DisplayName: "Uraninitecrystal x4";
+	Tooltip: "Cheap Uraninitecrystal";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, uraninitecrystal, uraninitecrystal, uraninitecrystal, uraninitecrystal;
+	SpriteItemID: uraninitecrystal;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_titanium;
+	DisplayName: "Titanium x6";
+	Tooltip: "Cheap Titanium";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, titanium, titanium, titanium, titanium, titanium;
+	SpriteItemID: titanium;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_copper;
+	DisplayName: "Copper x4";
+	Tooltip: "Cheap Copper";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, copper, copper, copper, copper;
+	SpriteItemID: copper;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_diamond;
+	DisplayName: "Diamond x4";
+	Tooltip: "Cheap Diamond";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, diamond, diamond, diamond, diamond;
+	SpriteItemID: diamond;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_lithium;
+	DisplayName: "Lithium x4";
+	Tooltip: "Cheap Lithium";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, lithium, lithium, lithium, lithium;
+	SpriteItemID: lithium;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_salt;
+	DisplayName: "Salt x4";
+	Tooltip: "Cheap Salt";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, salt, salt, salt, salt;
+	SpriteItemID: salt;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    ),
+    (
+        ItemID: add_quartz;
+	DisplayName: "Quartz x4";
+	Tooltip: "Cheap Quartz";
+	AmountCrafted: 0;
+	LinkedItemIDs: titanium, quartz, quartz, quartz, quartz;
+	SpriteItemID: quartz;
+	Ingredients:
+	(
+		ItemID: Titanium;
+		Required: 1;
+	);
+        ForceUnlockAtStart:YES;	
+	PdaGroup: Resources;
+    	PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapRawMaterials;        
+    );
+	

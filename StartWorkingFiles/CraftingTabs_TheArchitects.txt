@@ -1,0 +1,25 @@
+CustomCraftingTabs:
+(
+    TabID: PrecursorTab;
+    DisplayName: "Precursor";
+    SpriteItemID: PrecursorIonCrystal;
+    ParentTabPath: Fabricator;
+),
+(
+    TabID: PrecursorKeysTab;
+    DisplayName: "Precursor Keys";
+    SpriteItemID: PrecursorKey_Purple;
+    ParentTabPath: Fabricator/PrecursorTab;
+),
+(
+    TabID: PrecursorTabAdvBatteries;
+    DisplayName: "Precursor Advanced Batteries";
+    SpriteItemID: PrecursorIonPowerCell;
+    ParentTabPath: Fabricator/PrecursorTab;
+),
+(
+    TabID: PrecursorTabBatteries;
+    DisplayName: "Precursor Batteries";
+    SpriteItemID: PrecursorIonBattery;
+    ParentTabPath: Fabricator/PrecursorTab;
+);

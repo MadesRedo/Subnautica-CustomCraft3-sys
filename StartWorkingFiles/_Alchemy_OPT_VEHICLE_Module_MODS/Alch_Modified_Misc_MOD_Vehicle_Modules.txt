@@ -1,0 +1,612 @@
+
+
+
+ModifiedRecipes:
+
+# ---	Infinite vehicle Depth "rjacobvogel" - 1541 	==> NEED A FIX !	--- TO DO --- #
+
+# ---	Repair Module "senna7608" - 133		--- #
+(
+    ItemID: RepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+
+# ---	Scanner Module "senna7608" - 131	--- #
+(
+    ItemID: ScannerModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Scanner;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 1;
+    );
+),
+
+# ---	Vehicle Speed Upgrade "AshFoxJp" - 2602	--- #
+		#___ MK1 ___#
+(
+    ItemID: VehicleSpeedUpgradeMK1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 1;
+    );
+),
+		#___ MK2 ___#
+(
+    ItemID: VehicleSpeedUpgradeMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleSpeedUpgradeMK1;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Quartz;
+        Required: 2;
+    ),
+    (
+        ItemID: Diamond;
+        Required: 1;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+
+# ---	Automatic Vehicle Repair "Marslandare" - 1402	--- #
+(
+    ItemID: VehicleRepairModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Welder;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Battery;
+        Required: 1;
+    ),
+	(
+        ItemID: CopperWire;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    );
+),
+
+# ---	Cloudy With A Chance Of Torpedoes "EldritchCarMaker" - 1931		--- #
+(
+    ItemID: BitchGonRain;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_RadiumCrystal;
+        Required: 3;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 4;
+    ),
+    (
+        ItemID: Gold;
+        Required: 2;
+    );
+),
+
+# ---	Better Vehicle Storage "MrPurple6411" - 1471	--- #
+		#___ MK2 ___#
+(
+    ItemID: StorageModuleMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleStorageModule;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 3;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: StorageModuleMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StorageModuleMk2;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 3;
+    );
+),
+		#___ MK4 ___#
+(
+    ItemID: StorageModuleMk4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StorageModuleMk3;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+		#___ MK5 ___#
+(
+    ItemID: StorageModuleMk5;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: StorageModuleMk4;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: AramidFibers;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    ),
+	(
+        ItemID: Kyanite;
+        Required: 2;
+    );
+),
+
+# ---	Upgraded Vehicles "MrPurple6411" - 1468		--- #
+	#___ Boost Speed ___#
+(
+    ItemID: SpeedModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Titanium;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+		#___ MK2 ___#
+(
+    ItemID: SpeedModuleMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SpeedModule;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    ),
+    (
+        ItemID: Lithium;
+        Required: 1;
+    ),
+	(
+        ItemID: AcidMushroom;
+        Required: 2;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: SpeedModuleMK3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SpeedModuleMK2;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 1;
+    ),
+	(
+        ItemID: WhiteMushroom;
+        Required: 2;
+    );
+),
+		#___ MK4 ___#
+(
+    ItemID: SpeedModuleMK4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SpeedModuleMK3;
+        Required: 1;
+    ),
+	(
+        ItemID: PrecursorIonCrystal;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+	#___ Armor Plating ___#
+		#___ MK2 ___#
+(
+    ItemID: HullArmorMk2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleArmorPlating;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Lead;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_OrganicTitanium;
+        Required: 1;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: HullArmorMk3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HullArmorMk2;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_AluminumRaw;
+        Required: 2;
+    );
+),
+		#___ MK4 ___#
+(
+    ItemID: HullArmorMk4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HullArmorMk3;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 2;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+	(
+        ItemID: Nickel;
+        Required: 1;
+    );
+),
+	#___ Power ___#
+		#___ MK2 ___#
+(
+    ItemID: VehiclePowerUpgradeModuleMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehiclePowerUpgradeModule;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 2;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: VehiclePowerUpgradeModuleMK3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehiclePowerUpgradeModuleMK2;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+		#___ MK4 ___#
+(
+    ItemID: VehiclePowerUpgradeModuleMK4;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehiclePowerUpgradeModuleMK3;
+        Required: 1;
+    ),
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+    (
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_PinkSalt;
+        Required: 2;
+    );
+),
+
+# ---	Remote Control Vehicles "EldritchCarMaker" - 1943	--- #
+		#___ Cyclops Remote Control ___#
+(
+    ItemID: CyclopsRemoteControl;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 3;
+    );
+),
+		#___ Vehicle Remote Control ___#
+(
+    ItemID: VehicleRemoteControl;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+		#___ Drone Control Remote ___#
+(
+    ItemID: DroneControlRemote;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 2;
+    ),
+	(
+        ItemID: Alch_IronMagneticPowder;
+        Required: 2;
+    );
+),
+		#___ Remote Control Car ___#
+(
+    ItemID: RemoteControlCar;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: ToyCar;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 1;
+    );
+),
+		#___ Remote Control Aurora ___#
+(
+    ItemID: RemoteControlAurora;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: StarshipSouvenir;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 1;
+    );
+),
+
+# ---	Hull Reinforcement Fix "Indigocoder" - 1348		--- #
+		#___ MK2 ___#
+(
+    ItemID: HullReinforcementMK2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: VehicleArmorPlating;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_OrganicTitanium;
+        Required: 2;
+    ),
+    (
+        ItemID: AluminumOxide;
+        Required: 3;
+    ),
+    (
+        ItemID: Nickel;
+        Required: 2;
+    );
+),
+		#___ MK3 ___#
+(
+    ItemID: HullReinforcementMK3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HullReinforcementMK2;
+        Required: 1;
+    ),
+    (
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    ),
+    (
+        ItemID: EnameledGlass;
+        Required: 3;
+    ),
+    (
+        ItemID: Kyanite;
+        Required: 2;
+    );
+);

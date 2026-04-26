@@ -1,0 +1,257 @@
+ModifiedRecipes: 
+(
+    ItemID: rocketbase;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: lead;
+        Required: 4;
+    ),
+    (
+        ItemID: titaniumingot;
+        Required: 2;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 3;
+    ),
+    (
+        ItemID: computerchip;
+        Required: 1;
+    );    
+),
+(
+    ItemID: rocketstage1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: plasteelingot;
+        Required: 1;
+    ),
+    (
+        ItemID: nickel;
+        Required: 3;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 2;
+    ),
+    (
+        ItemID: aerogel;
+        Required: 2;
+    ),  
+    (
+        ItemID: wiringkit;
+        Required: 1;
+    ), 
+    (
+        ItemID: mercuryore;
+        Required: 3;
+    ); 
+),
+(
+    ItemID: cyclopsshieldmodule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: advancedwiringkit;
+        Required: 1;
+    ),
+    (
+        ItemID: polyaniline;
+        Required: 1;
+    ),
+    (
+        ItemID: powercell;
+        Required: 1;
+    ),
+    (
+        ItemID: mercuryore;
+        Required: 2;
+    );    
+),
+(
+    ItemID: exohullmodule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: plasteelingot;
+        Required: 1;
+    ),
+    (
+        ItemID: nickel;
+        Required: 3;
+    ),
+    (
+        ItemID: aluminiumoxide;
+        Required: 2;
+    ),
+    (
+        ItemID: mercuryore;
+        Required: 3;
+    );    
+),
+(
+    ItemID: exohullmodule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: exohullmodule1;
+        Required: 1;
+    ),
+    (
+        ItemID: titanium;
+        Required: 5;
+    ),
+    (
+        ItemID: magnesium;
+        Required: 1;
+    ),
+    (
+        ItemID: lithium;
+        Required: 2;
+    ),  
+    (
+        ItemID: kyanite;
+        Required: 3;
+    ), 
+    (
+        ItemID: uranium;
+        Required: 2;
+    ); 
+),
+(
+    ItemID: seamoth;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    ),
+    (
+        ItemID: powercell;
+        Required: 1;
+    ),
+    (
+        ItemID: glass;
+        Required: 2;
+    ),
+    (
+        ItemID: lubricant;
+        Required: 1;
+    ),  
+    (
+        ItemID: lead;
+        Required: 1;
+    ), 
+    (
+        ItemID: magnesium;
+        Required: 1;
+    ); 
+),
+(
+    ItemID: cyclops;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: plasteelingot;
+        Required: 3;
+    ),
+    (
+        ItemID: enameledglass;
+        Required: 3;
+    ),
+    (
+        ItemID: lubricant;
+        Required: 1;
+    ),
+    (
+        ItemID: advancedwiringkit;
+        Required: 1;
+    ),  
+    (
+        ItemID: lead;
+        Required: 3;
+    ), 
+    (
+        ItemID: magnesium;
+        Required: 3;
+    ); 
+),
+(
+    ItemID: exosuit;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: plasteelingot;
+        Required: 2;
+    ),
+    (
+        ItemID: aerogel;
+        Required: 2;
+    ),
+    (
+        ItemID: enameledglass;
+        Required: 1;
+    ),
+    (
+        ItemID: diamond;
+        Required: 2;
+    ),  
+    (
+        ItemID: lead;
+        Required: 2;
+    ), 
+    (
+        ItemID: magnesium;
+        Required: 2;
+    ); 
+),
+(
+    ItemID: builder;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: magnesium;
+        Required: 1;
+    ),
+    (
+        ItemID: wiringkit;
+        Required: 1;
+    ),
+    (
+        ItemID: computerchip;
+        Required: 1;
+    ),
+    (
+        ItemID: battery;
+        Required: 1;
+    );    
+),
+(
+    ItemID: rocketstage2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: plasteelingot;
+        Required: 1;
+    ),
+    (
+        ItemID: sulphur;
+        Required: 4;
+    ),
+    (
+        ItemID: kyanite;
+        Required: 4;
+    ),
+    (
+        ItemID: uranium;
+        Required: 6;
+    ),   
+    (
+        ItemID: QuantumPowercell;
+        Required: 2;
+    );
+);
+
+

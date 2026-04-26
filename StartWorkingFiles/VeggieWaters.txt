@@ -1,0 +1,113 @@
+CustomFoods:
+(
+    ItemID:MelonWater;
+    DisplayName:"Melon Flavored Water";
+    Tooltip:"Bottle of water that has a slight melon flavor to it.";
+    AmountCrafted:1;
+    UnlockedBy: Melon;
+    Ingredients:
+    (
+		ItemID:Melon;
+		Required:2;
+	);
+    WaterValue:40;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:NO;
+    Path:Fabricator/Survival/Water;
+    ),
+(
+    ItemID:VineWater;
+    DisplayName:"Vine Water";
+    Tooltip:"Bottle of water that has a slight kelpy flavor to it.";
+    AmountCrafted:1;
+    Ingredients:
+    (
+		ItemID:CreepvinePiece;
+		Required:2;
+	);
+    WaterValue:25;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:YES;
+    Path:Fabricator/Survival/Water;
+    ),
+(
+    ItemID:BulbyWater;
+    DisplayName:"Bulby Water";
+    Tooltip:"Bottle of water that has a slight veggie flavor to it.";
+    AmountCrafted:1;
+    UnlockedBy: KooshChunk;
+    Ingredients:
+    (
+		ItemID:KooshChunk;
+		Required:2;
+	);
+    WaterValue:30;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:NO;
+    Path:Fabricator/Survival/Water;
+    ),
+(
+    ItemID:GelWater;
+    DisplayName:"Gel Water";
+    Tooltip:"Bottle of water that has a slightly thicker consistency to it.";
+    AmountCrafted:1;
+    UnlockedBy: JellyPlant;
+    Ingredients:
+    (
+		ItemID:JellyPlant;
+		Required:2;
+	);
+    FoodValue:5;
+    WaterValue:20;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:NO;
+    Path:Fabricator/Survival/Water;
+),
+(
+    ItemID:BulboWater;
+    DisplayName:"Bulbo Water";
+    Tooltip:"Bottle of water that has a slight coconut flavor to it.";
+    AmountCrafted:1;
+    UnlockedBy: BulbotreePiece;
+    Ingredients:
+    (
+		ItemID:BulbotreePiece;
+		Required:1;
+	);
+    WaterValue:30;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:NO;
+    Path:Fabricator/Survival/Water;
+    ),
+(
+    ItemID:PurpleWater;
+    DisplayName:"Purple Water";
+    Tooltip:"Bottle of water that has a slight purple tint to it and a hint of potato flavor.";
+    AmountCrafted:1;
+    UnlockedBy: PurpleVegetable;
+    Ingredients:
+    (
+		ItemID:PurpleVegetable;
+		Required:2;
+	);
+    WaterValue:25;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:NO;
+    Path:Fabricator/Survival/Water;
+    ),
+(
+    ItemID:LanternFruitWater;
+    DisplayName:"Lantern Fruit Water";
+    Tooltip:"Bottle of water that has a slight glow to it and a slightly sweet fruity flavor.";
+    AmountCrafted:1;
+    UnlockedBy: HangingFruit;
+    Ingredients:
+    (
+		ItemID:HangingFruit;
+		Required:2;
+	);
+    WaterValue:40;
+	FoodType:filteredwater;
+    ForceUnlockAtStart:NO;
+    Path:Fabricator/Survival/Water;
+);

@@ -1,0 +1,68 @@
+CustomCraftingTabs:
+    (
+        TabID: MR_Cheats;
+        DisplayName: "MadesRedo Cheating";
+        ParentTabPath: Fabricator/MR_Craft;
+        SpriteItemID: titanium;
+    ),
+    (
+        TabID: MR_CheapRawMaterials;
+        DisplayName: "MadesRedo Cheap Raw Mat.";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: CrashPowder;
+    ),
+    (
+        TabID: MR_CheapAlloys;
+        DisplayName: "MadesRedo Cheap Alloys";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: Plasteelingot;
+    ),
+    (
+        TabID: MR_CheapElectronics;
+        DisplayName: "MadesRedo Cheap Electronics";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: Computerchip;
+    ),
+    (
+        TabID: MR_CheapAdvanced;
+        DisplayName: "MadesRedo Cheap Advanced Mat.";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: AramidFibers;
+    ),
+    (
+        TabID: MR_CheapPlants;
+        DisplayName: "MadesRedo Cheap Plants";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: Jellyplant;
+    ),
+    (
+        TabID: MR_CheapSeeds;
+        DisplayName: "MadesRedo Cheap Seeds";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: SpottedLeavesPlantSeed;
+    ),
+    (
+        TabID: MR_CheapFish;
+        DisplayName: "MadesRedo Cheap Fish";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: Peeper;
+    ),
+    (
+        TabID: MR_CheapTools;
+        DisplayName: "MadesRedo Cheap Tools";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: Scanner;
+    ),
+    (
+        TabID: MR_CheapEquipment;
+        DisplayName: "MadesRedo Cheap Equipment";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: Fins;
+    ),
+    (
+        TabID: MR_CheapVehicleUpgrades;
+        DisplayName: "MadesRedo Cheap Vehicle Upgrades";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: SeamothDepthModule1;
+    );
+	

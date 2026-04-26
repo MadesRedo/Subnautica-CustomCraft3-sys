@@ -1,0 +1,125 @@
+#	SEAL SPECIFIC UPGRADES	#
+
+
+ModifiedRecipes:
+
+# ---	HULL MODULES	--- #
+	#__ HULL MK1 __#
+(
+    ItemID: SealHullModule1;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Alch_Infused_AluminumRaw_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: ComputerChip;
+        Required: 1;
+    ),
+	(
+        ItemID: EnameledGlass;
+        Required: 2;
+    );
+),
+	#__ HULL MK2 __#
+(
+    ItemID: SealHullModule2;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SealHullModule1;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Infused_IronMagneticPowder_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CarbonRaw;
+        Required: 2;
+    );
+),
+	#__ HULL MK3 __#
+(
+    ItemID: SealHullModule3;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SealHullModule2;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_Infused_PinkSalt_Ingot;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 2;
+    );
+),
+
+# ---	CHARGE MODULE	--- #
+(
+    ItemID: SealSolarChargeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SeamothSolarCharge;
+        Required: 1;
+    ),
+	(
+        ItemID: WiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CopperOxide;
+        Required: 4;
+    );
+),
+
+# ---	THERMAL CHARGE MODULE	--- #
+(
+    ItemID: SealThermalChargeModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: ExosuitThermalReactorModule;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_SulphurCrystals;
+        Required: 2;
+    );
+),
+
+# ---	SPEED MODULE	--- #
+(
+    ItemID: SealSpeedModule;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PowerUpgradeModule;
+        Required: 1;
+    ),
+	(
+        ItemID: AdvancedWiringKit;
+        Required: 1;
+    ),
+	(
+        ItemID: Alch_CorundumGem;
+        Required: 1;
+    );
+);
