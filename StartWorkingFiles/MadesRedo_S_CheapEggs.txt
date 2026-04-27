@@ -1,0 +1,307 @@
+AliasRecipes:
+    (
+        ItemID: add_rabbitrayegg;
+        DisplayName: "Rabbit Ray Egg x2";
+        Tooltip: "Cheap Rabbit Ray Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, RabbitRayEgg, RabbitRayEgg;
+        SpriteItemID: RabbitRayEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_stalkeregg;
+        DisplayName: "Stalker Egg x2";
+        Tooltip: "Cheap Stalker Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, StalkerEgg, StalkerEgg;
+        SpriteItemID: StalkerEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_gasopodegg;
+        DisplayName: "Gasopod Egg x2";
+        Tooltip: "Cheap Gasopod Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, GasopodEgg, GasopodEgg;
+        SpriteItemID: GasopodEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_crabsnakeegg;
+        DisplayName: "Crabsnake Egg x2";
+        Tooltip: "Cheap Crabsnake Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, CrabsnakeEgg, CrabsnakeEgg;
+        SpriteItemID: CrabsnakeEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_crabsquidegg;
+        DisplayName: "Crabsquid Egg x2";
+        Tooltip: "Cheap Crabsquid Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, CrabsquidEgg, CrabsquidEgg;
+        SpriteItemID: CrabsquidEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_bonesharkegg;
+        DisplayName: "Boneshark Egg x2";
+        Tooltip: "Cheap Boneshark Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, BonesharkEgg, BonesharkEgg;
+        SpriteItemID: BonesharkEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_lavalizardegg;
+        DisplayName: "Lava Lizard Egg x2";
+        Tooltip: "Cheap Lava Lizard Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, LavaLizardEgg, LavaLizardEgg;
+        SpriteItemID: LavaLizardEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_mesmeregg;
+        DisplayName: "Mesmer Egg x2";
+        Tooltip: "Cheap Mesmer Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, MesmerEgg, MesmerEgg;
+        SpriteItemID: MesmerEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_shockeregg;
+        DisplayName: "Ampeel Egg x2";
+        Tooltip: "Cheap Ampeel Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, ShockerEgg, ShockerEgg;
+        SpriteItemID: ShockerEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_spadefishegg;
+        DisplayName: "Spadefish Egg x2";
+        Tooltip: "Cheap Spadefish Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, SpadefishEgg, SpadefishEgg;
+        SpriteItemID: SpadefishEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_hoopfishegg;
+        DisplayName: "Hoopfish Egg x2";
+        Tooltip: "Cheap Hoopfish Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, HoopfishEgg, HoopfishEgg;
+        SpriteItemID: HoopfishEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_garryfishegg;
+        DisplayName: "Garryfish Egg x2";
+        Tooltip: "Cheap Garryfish Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, GarryFishEgg, GarryFishEgg;
+        SpriteItemID: GarryFishEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_reginaldegg;
+        DisplayName: "Reginald Egg x2";
+        Tooltip: "Cheap Reginald Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, ReginaldEgg, ReginaldEgg;
+        SpriteItemID: ReginaldEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_oculusegg;
+        DisplayName: "Oculus Egg x2";
+        Tooltip: "Cheap Oculus Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, OculusEgg, OculusEgg;
+        SpriteItemID: OculusEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_bladderfishegg;
+        DisplayName: "Bladderfish Egg x2";
+        Tooltip: "Cheap Bladderfish Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, BladderfishEgg, BladderfishEgg;
+        SpriteItemID: BladderfishEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_boomerangegg;
+        DisplayName: "Boomerang Egg x2";
+        Tooltip: "Cheap Boomerang Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, BoomerangEgg, BoomerangEgg;
+        SpriteItemID: BoomerangEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_peeperegg;
+        DisplayName: "Peeper Egg x2";
+        Tooltip: "Cheap Peeper Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, PeeperEgg, PeeperEgg;
+        SpriteItemID: PeeperEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    ),
+    (
+        ItemID: add_spinefishegg;
+        DisplayName: "Spinefish Egg x2";
+        Tooltip: "Cheap Spinefish Egg";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium, SpinefishEgg, SpinefishEgg;
+        SpriteItemID: SpinefishEgg;
+        Ingredients:
+        (
+            ItemID: Titanium;
+            Required: 1;
+        );
+        ForceUnlockAtStart:YES;
+        PdaGroup: Resources;
+        PdaCategory: BasicMaterials;
+        Path: Fabricator/MR_Craft/MR_Cheats/MR_CheapEggs;
+    );

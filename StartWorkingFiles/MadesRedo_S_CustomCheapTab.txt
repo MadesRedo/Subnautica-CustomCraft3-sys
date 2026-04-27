@@ -48,6 +48,12 @@ CustomCraftingTabs:
         SpriteItemID: Peeper;
     ),
     (
+        TabID: MR_CheapEggs;
+        DisplayName: "MadesRedo Cheap Eggs";
+        ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
+        SpriteItemID: shockeregg;
+    ),
+    (
         TabID: MR_CheapTools;
         DisplayName: "MadesRedo Cheap Tools";
         ParentTabPath: Fabricator/MR_Craft/MR_Cheats;
