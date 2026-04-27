@@ -1,0 +1,201 @@
+﻿CustomSizes: 
+(
+    ItemID: CreepvineSeedCluster;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: CreepvinePiece;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: fins;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: highcapacitytank;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: plasteeltank;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: tank;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: doubletank;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: ultraglidefins;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: swimchargefins;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: stillsuit;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: reinforceddivesuit;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: reinforcedgloves;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: rebreather;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: radiationsuit;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: radiationhelmet;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: radiationgloves;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: scrapmetal;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: repulsioncannon;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: propulsioncannon;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: stasisrifle;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: luggagebag;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: seaglide;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: smallstorage;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: constructor;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: gravsphere;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: melon;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: purplevegetable;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: purplevegetableplant;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: bulbotreepiece;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: hangingfruit;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: jellyplantseed;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: seatreaderpoop;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: gasopod;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: gasopodegg;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: bloodoil;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: kooshchunk;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: seacrownseed;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: redgreententacleseed;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: eyesplantseed;
+    Width: 1;
+    Height: 1;
+),
+(
+    ItemID: cyclopsdecoy;
+    Width: 1;
+    Height: 1;
+);

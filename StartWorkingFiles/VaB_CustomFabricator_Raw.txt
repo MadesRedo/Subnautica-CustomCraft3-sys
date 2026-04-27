@@ -1,0 +1,1142 @@
+CustomFabricators: 
+(
+    ItemID: VaB_Fabricatur;     # I deliberately made a typo to be sure the ID is unique! #
+    DisplayName: "Fabricator C, Raw";
+    Tooltip: "Who needs the console to spawn items when this will do just fine?";
+    # Ingredients: ( ItemID: Titanium; Required: 1;); # # Incidentally, removing the need for ingredients makes the crafting instantaneous, huh #
+    ForceUnlockAtStart: YES;
+    PdaGroup: InteriorModules;
+    PdaCategory: InteriorModule;
+    Model: Fabricator;
+    ColorTint: 0.5, 0.0, 1.0 ;  # RGB #
+    AllowedInBase: YES;
+    AllowedInCyclops: YES;
+    #
+     #
+    #
+     #
+    CustomCraftingTabs:
+    (
+        TabID: VaB_Make_Xx;
+        DisplayName: "Let's Start Cheating";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_x1_p0;
+        DisplayName: "x1 Creation";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx; 
+    ),
+    (
+        TabID: VaB_Make_x1_p1;
+        DisplayName: "Page 1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0; 
+    ),
+    (
+        TabID: VaB_Make_x1_p2;
+        DisplayName: "Page 2";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0; 
+    ),
+    (
+        TabID: VaB_Make_x1_p3;
+        DisplayName: "Page 3";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_x10_p0;
+        DisplayName: "x10 Creation";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx; 
+    ),
+    (
+        TabID: VaB_Make_x10_p1;
+        DisplayName: "Page 1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0; 
+    ),
+    (
+        TabID: VaB_Make_x10_p2;
+        DisplayName: "Page 2";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0; 
+    ),
+    (
+        TabID: VaB_Make_x10_p3;
+        DisplayName: "Page 3";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_x25_p0;
+        DisplayName: "x25 Creation";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx; 
+    ),
+    (
+        TabID: VaB_Make_x25_p1;
+        DisplayName: "Page 1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0;
+    ),
+    (
+        TabID: VaB_Make_x25_p2;
+        DisplayName: "Page 2";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0;
+    ),
+    (
+        TabID: VaB_Make_x25_p3;
+        DisplayName: "Page 3";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0;
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_x40_p0;
+        DisplayName: "x40 Creation";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx; 
+    ),
+    (
+        TabID: VaB_Make_x40_p1;
+        DisplayName: "Page 1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0;
+    ),
+    (
+        TabID: VaB_Make_x40_p2;
+        DisplayName: "Page 2";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0;
+    ),
+    (
+        TabID: VaB_Make_x40_p3;
+        DisplayName: "Page 3";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0;
+    );
+    #
+     #
+    #
+     #
+    AliasRecipes: 
+    (
+        ItemID: VaB_kyanite_x1;
+        DisplayName: "Kyanite x1";
+        Tooltip: "Al2SiO5. Deep blue, heat resistant crystal.";
+        AmountCrafted: 0;
+        LinkedItemIDs: kyanite;
+        # Ingredients: (ItemID: kyanite; Required: 1; ); #
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gold_x1;
+        DisplayName: "Gold x1";
+        Tooltip: "Au. Valuable conductive properties. Highly valuable social property.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gold;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lead_x1;
+        DisplayName: "Lead x1";
+        Tooltip: "Pb. Screening from radiation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lead;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_magnetite_x1;
+        DisplayName: "Magnetite x1";
+        Tooltip: "Fe3O4. Metal oxide with magnetic properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: magnetite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_nickel_x1;
+        DisplayName: "Nickel x1";
+        Tooltip: "Ni. Versatile alloy ingredient required for advanced fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: nickel;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aluminumoxide_x1;
+        DisplayName: "Ruby x1";
+        Tooltip: "Al2O3. Valuable thermo-conductivity and electro-conductance.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aluminumoxide;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_silver_x1;
+        DisplayName: "Silver x1";
+        Tooltip: "Ag. Conductive element and microbicide.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silver;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_sulphur_x1;
+        DisplayName: "Crystalline Sulfur x1";
+        Tooltip: "S. Oxidant and reducing agent.";
+        AmountCrafted: 0;
+        LinkedItemIDs: sulphur;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_uraninitecrystal_x1;
+        DisplayName: "Uraninite Crystal x1";
+        Tooltip: "U3O8. A highly radioactive material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: uraninitecrystal;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gaspod_x1;
+        DisplayName: "Gas Pod x1";
+        Tooltip: "An acidic compound produced by the Gasopod. May be re-purposed.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gaspod;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_jeweleddiskpiece_x1;
+        DisplayName: "Table Coral Sample x1";
+        Tooltip: "Contains trace precious metals used in computer fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jeweleddiskpiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_coralchunk_x1;
+        DisplayName: "Coral Tube Sample x1";
+        Tooltip: "Sample containing CaCO3. Calcium carbonate is a base ingredient for bleach.";
+        AmountCrafted: 0;
+        LinkedItemIDs: coralchunk;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titanium_x1;
+        DisplayName: "Titanium x1";
+        Tooltip: "Ti. Basic building material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_acidmushroom_x1;
+        DisplayName: "Acid Mushroom x1";
+        Tooltip: "Purple fungus. Acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: acidmushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_whitemushroom_x1;
+        DisplayName: "Deep Shroom x1";
+        Tooltip: "Highly acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: whitemushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvineseedcluster_x1;
+        DisplayName: "Creepvine Seed Cluster x1";
+        Tooltip: "Indigenous seeds with high silicone and oil content.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvineseedcluster;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvinepiece_x1;
+        DisplayName: "Creepvine Sample x1";
+        Tooltip: "Silicone-based plant material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvinepiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copper_x1;
+        DisplayName: "Copper x1";
+        Tooltip: "Cu. Essential wiring component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copper;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_crashpowder_x1;
+        DisplayName: "Cave Sulfur x1";
+        Tooltip: "SO4Tr. Sulfur-based powder which collects within particular cave plants. Combustible underwater.";
+        AmountCrafted: 0;
+        LinkedItemIDs: crashpowder;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_diamond_x1;
+        DisplayName: "Diamond x1";
+        Tooltip: "C. Carbon allotrope with superlative physical properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: diamond;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_lithium_x1;
+        DisplayName: "Lithium x1";
+        Tooltip: "Li. Applications in high-strength alloys.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lithium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_stalkertooth_x1;
+        DisplayName: "Stalker Tooth x1";
+        Tooltip: "A sharp, hardened calcium formation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: stalkertooth;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_salt_x1;
+        DisplayName: "Salt x1";
+        Tooltip: "NaCl. Culinary and sanitation applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: salt;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_quartz_x1;
+        DisplayName: "Quartz x1";
+        Tooltip: "SiO4. Silica in crystalline form.";
+        AmountCrafted: 0;
+        LinkedItemIDs: quartz;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_jellyplant_x1;
+        DisplayName: "Gel Sack x1";
+        Tooltip: "Gel sack.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jellyplant;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bloodoil_x1;
+        DisplayName: "Blood Oil x1";
+        Tooltip: "Red, oil-filled pustule. Contains bloodvine seeds. May be processed into benzene.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bloodoil;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x1_p0/VaB_Make_x1_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_kyanite_x10;
+        DisplayName: "Kyanite x10";
+        Tooltip: "Al2SiO5. Deep blue, heat resistant crystal.";
+        AmountCrafted: 0;
+        LinkedItemIDs: kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gold_x10;
+        DisplayName: "Gold x10";
+        Tooltip: "Au. Valuable conductive properties. Highly valuable social property.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gold,gold,gold,gold,gold,gold,gold,gold,gold,gold;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lead_x10;
+        DisplayName: "Lead x10";
+        Tooltip: "Pb. Screening from radiation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lead,lead,lead,lead,lead,lead,lead,lead,lead,lead;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_magnetite_x10;
+        DisplayName: "Magnetite x10";
+        Tooltip: "Fe3O4. Metal oxide with magnetic properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_nickel_x10;
+        DisplayName: "Nickel x10";
+        Tooltip: "Ni. Versatile alloy ingredient required for advanced fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aluminumoxide_x10;
+        DisplayName: "Ruby x10";
+        Tooltip: "Al2O3. Valuable thermo-conductivity and electro-conductance.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_silver_x10;
+        DisplayName: "Silver x10";
+        Tooltip: "Ag. Conductive element and microbicide.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silver,silver,silver,silver,silver,silver,silver,silver,silver,silver;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_sulphur_x10;
+        DisplayName: "Crystalline Sulfur x10";
+        Tooltip: "S. Oxidant and reducing agent.";
+        AmountCrafted: 0;
+        LinkedItemIDs: sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_uraninitecrystal_x10;
+        DisplayName: "Uraninite Crystal x10";
+        Tooltip: "U3O8. A highly radioactive material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gaspod_x10;
+        DisplayName: "Gas Pod x10";
+        Tooltip: "An acidic compound produced by the Gasopod. May be re-purposed.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_jeweleddiskpiece_x10;
+        DisplayName: "Table Coral Sample x10";
+        Tooltip: "Contains trace precious metals used in computer fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_coralchunk_x10;
+        DisplayName: "Coral Tube Sample x10";
+        Tooltip: "Sample containing CaCO3. Calcium carbonate is a base ingredient for bleach.";
+        AmountCrafted: 0;
+        LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titanium_x10;
+        DisplayName: "Titanium x10";
+        Tooltip: "Ti. Basic building material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_acidmushroom_x10;
+        DisplayName: "Acid Mushroom x10";
+        Tooltip: "Purple fungus. Acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_whitemushroom_x10;
+        DisplayName: "Deep Shroom x10";
+        Tooltip: "Highly acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvineseedcluster_x10;
+        DisplayName: "Creepvine Seed Cluster x10";
+        Tooltip: "Indigenous seeds with high silicone and oil content.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvinepiece_x10;
+        DisplayName: "Creepvine Sample x10";
+        Tooltip: "Silicone-based plant material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copper_x10;
+        DisplayName: "Copper x10";
+        Tooltip: "Cu. Essential wiring component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copper,copper,copper,copper,copper,copper,copper,copper,copper,copper;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_crashpowder_x10;
+        DisplayName: "Cave Sulfur x10";
+        Tooltip: "SO4Tr. Sulfur-based powder which collects within particular cave plants. Combustible underwater.";
+        AmountCrafted: 0;
+        LinkedItemIDs: crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_diamond_x10;
+        DisplayName: "Diamond x10";
+        Tooltip: "C. Carbon allotrope with superlative physical properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_lithium_x10;
+        DisplayName: "Lithium x10";
+        Tooltip: "Li. Applications in high-strength alloys.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_stalkertooth_x10;
+        DisplayName: "Stalker Teeth x10";
+        Tooltip: "A sharp, hardened calcium formation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_salt_x10;
+        DisplayName: "Salt x10";
+        Tooltip: "NaCl. Culinary and sanitation applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: salt,salt,salt,salt,salt,salt,salt,salt,salt,salt;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_quartz_x10;
+        DisplayName: "Quartz x10";
+        Tooltip: "SiO4. Silica in crystalline form.";
+        AmountCrafted: 0;
+        LinkedItemIDs: quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_jellyplant_x10;
+        DisplayName: "Gel Sack x10";
+        Tooltip: "Gel sack.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bloodoil_x10;
+        DisplayName: "Blood Oil x10";
+        Tooltip: "Red, oil-filled pustule. Contains bloodvine seeds. May be processed into benzene.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x10_p0/VaB_Make_x10_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_kyanite_x25;
+        DisplayName: "Kyanite x25";
+        Tooltip: "Al2SiO5. Deep blue, heat resistant crystal.";
+        AmountCrafted: 0;
+        LinkedItemIDs: kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gold_x25;
+        DisplayName: "Gold x25";
+        Tooltip: "Au. Valuable conductive properties. Highly valuable social property.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lead_x25;
+        DisplayName: "Lead x25";
+        Tooltip: "Pb. Screening from radiation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_magnetite_x25;
+        DisplayName: "Magnetite x25";
+        Tooltip: "Fe3O4. Metal oxide with magnetic properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_nickel_x25;
+        DisplayName: "Nickel x25";
+        Tooltip: "Ni. Versatile alloy ingredient required for advanced fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aluminumoxide_x25;
+        DisplayName: "Ruby x25";
+        Tooltip: "Al2O3. Valuable thermo-conductivity and electro-conductance.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_silver_x25;
+        DisplayName: "Silver x25";
+        Tooltip: "Ag. Conductive element and microbicide.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_sulphur_x25;
+        DisplayName: "Crystalline Sulfur x25";
+        Tooltip: "S. Oxidant and reducing agent.";
+        AmountCrafted: 0;
+        LinkedItemIDs: sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_uraninitecrystal_x25;
+        DisplayName: "Uraninite Crystal x25";
+        Tooltip: "U3O8. A highly radioactive material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gaspod_x25;
+        DisplayName: "Gas Pod x25";
+        Tooltip: "An acidic compound produced by the Gasopod. May be re-purposed.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_jeweleddiskpiece_x25;
+        DisplayName: "Table Coral Sample x25";
+        Tooltip: "Contains trace precious metals used in computer fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_coralchunk_x25;
+        DisplayName: "Coral Tube Sample x25";
+        Tooltip: "Sample containing CaCO3. Calcium carbonate is a base ingredient for bleach.";
+        AmountCrafted: 0;
+        LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titanium_x25;
+        DisplayName: "Titanium x25";
+        Tooltip: "Ti. Basic building material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_acidmushroom_x25;
+        DisplayName: "Acid Mushroom x25";
+        Tooltip: "Purple fungus. Acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_whitemushroom_x25;
+        DisplayName: "Deep Shroom x25";
+        Tooltip: "Highly acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvineseedcluster_x25;
+        DisplayName: "Creepvine Seed Cluster x25";
+        Tooltip: "Indigenous seeds with high silicone and oil content.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvinepiece_x25;
+        DisplayName: "Creepvine Sample x25";
+        Tooltip: "Silicone-based plant material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copper_x25;
+        DisplayName: "Copper x25";
+        Tooltip: "Cu. Essential wiring component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_crashpowder_x25;
+        DisplayName: "Cave Sulfur x25";
+        Tooltip: "SO4Tr. Sulfur-based powder which collects within particular cave plants. Combustible underwater.";
+        AmountCrafted: 0;
+        LinkedItemIDs: crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_diamond_x25;
+        DisplayName: "Diamond x25";
+        Tooltip: "C. Carbon allotrope with superlative physical properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_lithium_x25;
+        DisplayName: "Lithium x25";
+        Tooltip: "Li. Applications in high-strength alloys.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_stalkertooth_x25;
+        DisplayName: "Stalker Teeth x25";
+        Tooltip: "A sharp, hardened calcium formation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_salt_x25;
+        DisplayName: "Salt x25";
+        Tooltip: "NaCl. Culinary and sanitation applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_quartz_x25;
+        DisplayName: "Quartz x25";
+        Tooltip: "SiO4. Silica in crystalline form.";
+        AmountCrafted: 0;
+        LinkedItemIDs: quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_jellyplant_x25;
+        DisplayName: "Gel Sack x25";
+        Tooltip: "Gel sack.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bloodoil_x25;
+        DisplayName: "Blood Oil x25";
+        Tooltip: "Red, oil-filled pustule. Contains bloodvine seeds. May be processed into benzene.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x25_p0/VaB_Make_x25_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_kyanite_x40;
+        DisplayName: "Kyanite x40";
+        Tooltip: "Al2SiO5. Deep blue, heat resistant crystal.";
+        AmountCrafted: 0;
+        LinkedItemIDs: kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite,kyanite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gold_x40;
+        DisplayName: "Gold x40";
+        Tooltip: "Au. Valuable conductive properties. Highly valuable social property.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold,gold;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lead_x40;
+        DisplayName: "Lead x40";
+        Tooltip: "Pb. Screening from radiation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead,lead;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_magnetite_x40;
+        DisplayName: "Magnetite x40";
+        Tooltip: "Fe3O4. Metal oxide with magnetic properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite,magnetite;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_nickel_x40;
+        DisplayName: "Nickel x40";
+        Tooltip: "Ni. Versatile alloy ingredient required for advanced fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel,nickel;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aluminumoxide_x40;
+        DisplayName: "Ruby x40";
+        Tooltip: "Al2O3. Valuable thermo-conductivity and electro-conductance.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_silver_x40;
+        DisplayName: "Silver x40";
+        Tooltip: "Ag. Conductive element and microbicide.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver,silver;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_sulphur_x40;
+        DisplayName: "Crystalline Sulfur x40";
+        Tooltip: "S. Oxidant and reducing agent.";
+        AmountCrafted: 0;
+        LinkedItemIDs: sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur,sulphur;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_uraninitecrystal_x40;
+        DisplayName: "Uraninite Crystal x40";
+        Tooltip: "U3O8. A highly radioactive material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_gaspod_x40;
+        DisplayName: "Gas Pod x40";
+        Tooltip: "An acidic compound produced by the Gasopod. May be re-purposed.";
+        AmountCrafted: 0;
+        LinkedItemIDs: gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod,gaspod;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_jeweleddiskpiece_x40;
+        DisplayName: "Table Coral Sample x40";
+        Tooltip: "Contains trace precious metals used in computer fabrication.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_coralchunk_x40;
+        DisplayName: "Coral Tube Sample x40";
+        Tooltip: "Sample containing CaCO3. Calcium carbonate is a base ingredient for bleach.";
+        AmountCrafted: 0;
+        LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titanium_x40;
+        DisplayName: "Titanium x40";
+        Tooltip: "Ti. Basic building material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_acidmushroom_x40;
+        DisplayName: "Acid Mushroom x40";
+        Tooltip: "Purple fungus. Acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_whitemushroom_x40;
+        DisplayName: "Deep Shroom x40";
+        Tooltip: "Highly acidic flesh.";
+        AmountCrafted: 0;
+        LinkedItemIDs: whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvineseedcluster_x40;
+        DisplayName: "Creepvine Seed Cluster x40";
+        Tooltip: "Indigenous seeds with high silicone and oil content.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_creepvinepiece_x40;
+        DisplayName: "Creepvine Sample x40";
+        Tooltip: "Silicone-based plant material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copper_x40;
+        DisplayName: "Copper x40";
+        Tooltip: "Cu. Essential wiring component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper,copper;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_crashpowder_x40;
+        DisplayName: "Cave Sulfur x40";
+        Tooltip: "SO4Tr. Sulfur-based powder which collects within particular cave plants. Combustible underwater.";
+        AmountCrafted: 0;
+        LinkedItemIDs: crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder,crashpowder;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_diamond_x40;
+        DisplayName: "Diamond x40";
+        Tooltip: "C. Carbon allotrope with superlative physical properties.";
+        AmountCrafted: 0;
+        LinkedItemIDs: diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond,diamond;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p2;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (
+        ItemID: VaB_lithium_x40;
+        DisplayName: "Lithium x40";
+        Tooltip: "Li. Applications in high-strength alloys.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium,lithium;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_stalkertooth_x40;
+        DisplayName: "Stalker Teeth x40";
+        Tooltip: "A sharp, hardened calcium formation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_salt_x40;
+        DisplayName: "Salt x40";
+        Tooltip: "NaCl. Culinary and sanitation applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_quartz_x40;
+        DisplayName: "Quartz x40";
+        Tooltip: "SiO4. Silica in crystalline form.";
+        AmountCrafted: 0;
+        LinkedItemIDs: quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz,quartz;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_jellyplant_x40;
+        DisplayName: "Gel Sack x40";
+        Tooltip: "Gel sack.";
+        AmountCrafted: 0;
+        LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p3;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bloodoil_x40;
+        DisplayName: "Blood Oil x40";
+        Tooltip: "Red, oil-filled pustule. Contains bloodvine seeds. May be processed into benzene.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil,bloodoil;
+        Path: VaB_Fabricatur/VaB_Make_Xx/VaB_Make_x40_p0/VaB_Make_x40_p3;
+        ForceUnlockAtStart:YES;
+    );
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

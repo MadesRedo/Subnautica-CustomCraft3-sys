@@ -1,0 +1,1435 @@
+CustomFabricators: 
+(
+    ItemID: VaB_FabricaturAlloy;     # I deliberately made a typo to be sure the ID is unique! #
+    DisplayName: "Fabricator C, Alloy";
+    Tooltip: "Who needs the console to spawn items when this will do just fine?";
+    # Ingredients: ( ItemID: Titanium; Required: 1;); # # Incidentally, removing the need for ingredients makes the crafting instantaneous, huh #
+    ForceUnlockAtStart: YES;
+    PdaGroup: InteriorModules;
+    PdaCategory: InteriorModule;
+    Model: Fabricator;
+    ColorTint: 1.0, 0.55, 0.1 ;  # RGB #
+    AllowedInBase: YES;
+    AllowedInCyclops: YES;
+    #
+     #
+    #
+     #
+    CustomCraftingTabs:
+    (
+        TabID: VaB_Make_Xxa;
+        DisplayName: "Let's Start Cheating";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_Basic_x0;
+        DisplayName: "Basic Materials";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa; 
+    ),
+    (
+        TabID: VaB_Make_Basic_x1;
+        DisplayName: "Create x1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0; 
+    ),
+    (
+        TabID: VaB_Make_Basic_x10;
+        DisplayName: "Create x10";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0; 
+    ),
+    (
+        TabID: VaB_Make_Basic_x25;
+        DisplayName: "Create x25";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0; 
+    ),
+    (
+        TabID: VaB_Make_Basic_x40;
+        DisplayName: "Create x40";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_Electronics_x0;
+        DisplayName: "Basic Materials";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa; 
+    ),
+    (
+        TabID: VaB_Make_Electronics_x1;
+        DisplayName: "Create x1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0; 
+    ),
+    (
+        TabID: VaB_Make_Electronics_x10;
+        DisplayName: "Create x10";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0; 
+    ),
+    (
+        TabID: VaB_Make_Electronics_x25;
+        DisplayName: "Create x25";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0; 
+    ),
+    (
+        TabID: VaB_Make_Electronics_x40;
+        DisplayName: "Create x40";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_Advanced_x0;
+        DisplayName: "Basic Materials";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa; 
+    ),
+    (
+        TabID: VaB_Make_Advanced_x1;
+        DisplayName: "Create x1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0; 
+    ),
+    (
+        TabID: VaB_Make_Advanced_x10;
+        DisplayName: "Create x10";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0; 
+    ),
+    (
+        TabID: VaB_Make_Advanced_x25;
+        DisplayName: "Create x25";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0; 
+    ),
+    (
+        TabID: VaB_Make_Advanced_x40;
+        DisplayName: "Create x40";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_Misc_x0;
+        DisplayName: "Basic Materials";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa; 
+    ),
+    (
+        TabID: VaB_Make_Misc_x1;
+        DisplayName: "Create x1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0; 
+    ),
+    (
+        TabID: VaB_Make_Misc_x10;
+        DisplayName: "Create x10";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0; 
+    ),
+    (
+        TabID: VaB_Make_Misc_x25;
+        DisplayName: "Create x25";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0; 
+    ),
+    (
+        TabID: VaB_Make_Misc_x40;
+        DisplayName: "Create x40";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0; 
+    ),
+    # ==== #
+    (
+        TabID: VaB_Make_Enzyme_x0;
+        DisplayName: "Basic Materials";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa; 
+    ),
+    (
+        TabID: VaB_Make_Enzyme_x1;
+        DisplayName: "Create x1";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0; 
+    ),
+    (
+        TabID: VaB_Make_Enzyme_x10;
+        DisplayName: "Create x10";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0; 
+    ),
+    (
+        TabID: VaB_Make_Enzyme_x25;
+        DisplayName: "Create x25";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0; 
+    ),
+    (
+        TabID: VaB_Make_Enzyme_x40;
+        DisplayName: "Create x40";
+        SpriteItemID: beacon;
+        ParentTabPath: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0; 
+    );
+    #
+     #
+    #
+     #
+    AliasRecipes: 
+    (       # Basic x1#
+        ItemID: VaB_bleach_x1;
+        DisplayName: "Bleach x1";
+        Tooltip: "NaClO. Sodium hypochlorite bleach. Sanitizing applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bleach;
+        # Ingredients: (ItemID: bleach; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_enameledglass_x1;
+        DisplayName: "Enameled Glass x1";
+        Tooltip: "Glass, hardened using a natural substrate.";
+        AmountCrafted: 0;
+        LinkedItemIDs: enameledglass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_fibermesh_x1;
+        DisplayName: "Fiber Mesh x1";
+        Tooltip: "Strong natural fiber. Comfy.";
+        AmountCrafted: 0;
+        LinkedItemIDs: fibermesh;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_glass_x1;
+        DisplayName: "Glass x1";
+        Tooltip: "SiO4. Pure fused quartz glass.";
+        AmountCrafted: 0;
+        LinkedItemIDs: glass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lubricant_x1;
+        DisplayName: "Lubricant x1";
+        Tooltip: "Naturally-derived, oil-based lubricant. Industrial applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lubricant;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_plasteelingot_x1;
+        DisplayName: "Plasteel Ingot x1";
+        Tooltip: "Ultra-strong synthetic construction material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: plasteelingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_siliconerubber_x1;
+        DisplayName: "Silicone Rubber x1";
+        Tooltip: "Synthetic, silicone-based rubber.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silicone;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titaniumingot_x1;
+        DisplayName: "Titanium Ingot x1";
+        Tooltip: "Ti. Condensed titanium bar.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titaniumingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Basic x10#
+        ItemID: VaB_bleach_x10;
+        DisplayName: "Bleach x10";
+        Tooltip: "NaClO. Sodium hypochlorite bleach. Sanitizing applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach;
+        # Ingredients: (ItemID: bleach; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_enameledglass_x10;
+        DisplayName: "Enameled Glass x10";
+        Tooltip: "Glass, hardened using a natural substrate.";
+        AmountCrafted: 0;
+        LinkedItemIDs: enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_fibermesh_x10;
+        DisplayName: "Fiber Mesh x10";
+        Tooltip: "Strong natural fiber. Comfy.";
+        AmountCrafted: 0;
+        LinkedItemIDs: fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_glass_x10;
+        DisplayName: "Glass x10";
+        Tooltip: "SiO4. Pure fused quartz glass.";
+        AmountCrafted: 0;
+        LinkedItemIDs: glass,glass,glass,glass,glass,glass,glass,glass,glass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lubricant_x10;
+        DisplayName: "Lubricant x10";
+        Tooltip: "Naturally-derived, oil-based lubricant. Industrial applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_plasteelingot_x10;
+        DisplayName: "Plasteel Ingot x10";
+        Tooltip: "Ultra-strong synthetic construction material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_siliconerubber_x10;
+        DisplayName: "Silicone Rubber x10";
+        Tooltip: "Synthetic, silicone-based rubber.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titaniumingot_x10;
+        DisplayName: "Titanium Ingot x10";
+        Tooltip: "Ti. Condensed titanium bar.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Basic x25#
+        ItemID: VaB_bleach_x25;
+        DisplayName: "Bleach x25";
+        Tooltip: "NaClO. Sodium hypochlorite bleach. Sanitizing applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach;
+        # Ingredients: (ItemID: bleach; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_enameledglass_x25;
+        DisplayName: "Enameled Glass x25";
+        Tooltip: "Glass, hardened using a natural substrate.";
+        AmountCrafted: 0;
+        LinkedItemIDs: enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_fibermesh_x25;
+        DisplayName: "Fiber Mesh x25";
+        Tooltip: "Strong natural fiber. Comfy.";
+        AmountCrafted: 0;
+        LinkedItemIDs: fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_glass_x25;
+        DisplayName: "Glass x25";
+        Tooltip: "SiO4. Pure fused quartz glass.";
+        AmountCrafted: 0;
+        LinkedItemIDs: glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lubricant_x25;
+        DisplayName: "Lubricant x25";
+        Tooltip: "Naturally-derived, oil-based lubricant. Industrial applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_plasteelingot_x25;
+        DisplayName: "Plasteel Ingot x25";
+        Tooltip: "Ultra-strong synthetic construction material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_siliconerubber_x25;
+        DisplayName: "Silicone Rubber x25";
+        Tooltip: "Synthetic, silicone-based rubber.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titaniumingot_x25;
+        DisplayName: "Titanium Ingot x25";
+        Tooltip: "Ti. Condensed titanium bar.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Basic x40#
+        ItemID: VaB_bleach_x40;
+        DisplayName: "Bleach x40";
+        Tooltip: "NaClO. Sodium hypochlorite bleach. Sanitizing applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach;
+        # Ingredients: (ItemID: bleach; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_enameledglass_x40;
+        DisplayName: "Enameled Glass x40";
+        Tooltip: "Glass, hardened using a natural substrate.";
+        AmountCrafted: 0;
+        LinkedItemIDs: enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_fibermesh_x40;
+        DisplayName: "Fiber Mesh x40";
+        Tooltip: "Strong natural fiber. Comfy.";
+        AmountCrafted: 0;
+        LinkedItemIDs: fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_glass_x40;
+        DisplayName: "Glass x40";
+        Tooltip: "SiO4. Pure fused quartz glass.";
+        AmountCrafted: 0;
+        LinkedItemIDs: glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass,glass;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_lubricant_x40;
+        DisplayName: "Lubricant x40";
+        Tooltip: "Naturally-derived, oil-based lubricant. Industrial applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_plasteelingot_x40;
+        DisplayName: "Plasteel Ingot x40";
+        Tooltip: "Ultra-strong synthetic construction material.";
+        AmountCrafted: 0;
+        LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_siliconerubber_x40;
+        DisplayName: "Silicone Rubber x40";
+        Tooltip: "Synthetic, silicone-based rubber.";
+        AmountCrafted: 0;
+        LinkedItemIDs: silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_titaniumingot_x40;
+        DisplayName: "Titanium Ingot x40";
+        Tooltip: "Ti. Condensed titanium bar.";
+        AmountCrafted: 0;
+        LinkedItemIDs: titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Basic_x0/VaB_Make_Basic_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (       # Electronics x1#
+        ItemID: VaB_advancedwiringkit_x1;
+        DisplayName: "Advanced Wiring Kit x1";
+        Tooltip: "CPU used in advanced construction.";
+        AmountCrafted: 0;
+        LinkedItemIDs: advancedwiringkit;
+        # Ingredients: (ItemID: advancedwiringkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_battery_x1;
+        DisplayName: "Battery x1";
+        Tooltip: "Mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: battery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_computerchip_x1;
+        DisplayName: "Computer Chip x1";
+        Tooltip: "Multi-purpose CPU.";
+        AmountCrafted: 0;
+        LinkedItemIDs: computerchip;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copperwire_x1;
+        DisplayName: "Copper Wire x1";
+        Tooltip: "Copper atoms fabricated into basic electrical wiring.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copperwire;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionbattery_x1;
+        DisplayName: "Ion Battery x1";
+        Tooltip: "Ion-infused battery.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionbattery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionpowercell_x1;
+        DisplayName: "Ion Power Cell x1";
+        Tooltip: "Ion-infused power cell.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionpowercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_powercell_x1;
+        DisplayName: "Power Cell x1";
+        Tooltip: "High-capacity mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: powercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_reactorrod_x1;
+        DisplayName: "Reactor Rod x1";
+        Tooltip: "Used to power nuclear reactors.";
+        AmountCrafted: 0;
+        LinkedItemIDs: reactorrod;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_wiringkit_x1;
+        DisplayName: "Wiring Kit x1";
+        Tooltip: "Insulated silver wire. Essential electronic component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: wiringkit;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Electronics x10#
+        ItemID: VaB_advancedwiringkit_x10;
+        DisplayName: "Advanced Wiring Kit x10";
+        Tooltip: "CPU used in advanced construction.";
+        AmountCrafted: 0;
+        LinkedItemIDs: advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit;
+        # Ingredients: (ItemID: advancedwiringkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_battery_x10;
+        DisplayName: "Battery x10";
+        Tooltip: "Mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_computerchip_x10;
+        DisplayName: "Computer Chip x10";
+        Tooltip: "Multi-purpose CPU.";
+        AmountCrafted: 0;
+        LinkedItemIDs: computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copperwire_x10;
+        DisplayName: "Copper Wire x10";
+        Tooltip: "Copper atoms fabricated into basic electrical wiring.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionbattery_x10;
+        DisplayName: "Ion Battery x10";
+        Tooltip: "Ion-infused battery.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionpowercell_x10;
+        DisplayName: "Ion Power Cell x10";
+        Tooltip: "Ion-infused power cell.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_powercell_x10;
+        DisplayName: "Power Cell x10";
+        Tooltip: "High-capacity mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_reactorrod_x10;
+        DisplayName: "Reactor Rod x10";
+        Tooltip: "Used to power nuclear reactors.";
+        AmountCrafted: 0;
+        LinkedItemIDs: reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_wiringkit_x10;
+        DisplayName: "Wiring Kit x10";
+        Tooltip: "Insulated silver wire. Essential electronic component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Electronics x25#
+        ItemID: VaB_advancedwiringkit_x25;
+        DisplayName: "Advanced Wiring Kit x25";
+        Tooltip: "CPU used in advanced construction.";
+        AmountCrafted: 0;
+        LinkedItemIDs: advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit;
+        # Ingredients: (ItemID: advancedwiringkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_battery_x25;
+        DisplayName: "Battery x25";
+        Tooltip: "Mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_computerchip_x25;
+        DisplayName: "Computer Chip x25";
+        Tooltip: "Multi-purpose CPU.";
+        AmountCrafted: 0;
+        LinkedItemIDs: computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copperwire_x25;
+        DisplayName: "Copper Wire x25";
+        Tooltip: "Copper atoms fabricated into basic electrical wiring.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionbattery_x25;
+        DisplayName: "Ion Battery x25";
+        Tooltip: "Ion-infused battery.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionpowercell_x25;
+        DisplayName: "Ion Power Cell x25";
+        Tooltip: "Ion-infused power cell.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_powercell_x25;
+        DisplayName: "Power Cell x25";
+        Tooltip: "High-capacity mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_reactorrod_x25;
+        DisplayName: "Reactor Rod x25";
+        Tooltip: "Used to power nuclear reactors.";
+        AmountCrafted: 0;
+        LinkedItemIDs: reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_wiringkit_x25;
+        DisplayName: "Wiring Kit x25";
+        Tooltip: "Insulated silver wire. Essential electronic component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Electronics x40#
+        ItemID: VaB_advancedwiringkit_x40;
+        DisplayName: "Advanced Wiring Kit x40";
+        Tooltip: "CPU used in advanced construction.";
+        AmountCrafted: 0;
+        LinkedItemIDs: advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit;
+        # Ingredients: (ItemID: advancedwiringkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_battery_x40;
+        DisplayName: "Battery x40";
+        Tooltip: "Mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_computerchip_x40;
+        DisplayName: "Computer Chip x40";
+        Tooltip: "Multi-purpose CPU.";
+        AmountCrafted: 0;
+        LinkedItemIDs: computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_copperwire_x40;
+        DisplayName: "Copper Wire x40";
+        Tooltip: "Copper atoms fabricated into basic electrical wiring.";
+        AmountCrafted: 0;
+        LinkedItemIDs: copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionbattery_x40;
+        DisplayName: "Ion Battery x40";
+        Tooltip: "Ion-infused battery.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery,precursorionbattery;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_ionpowercell_x40;
+        DisplayName: "Ion Power Cell x40";
+        Tooltip: "Ion-infused power cell.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell,precursorionpowercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_powercell_x40;
+        DisplayName: "Power Cell x40";
+        Tooltip: "High-capacity mobile power source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_reactorrod_x40;
+        DisplayName: "Reactor Rod x40";
+        Tooltip: "Used to power nuclear reactors.";
+        AmountCrafted: 0;
+        LinkedItemIDs: reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_wiringkit_x40;
+        DisplayName: "Wiring Kit x40";
+        Tooltip: "Insulated silver wire. Essential electronic component.";
+        AmountCrafted: 0;
+        LinkedItemIDs: wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Electronics_x0/VaB_Make_Electronics_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (       # Advanced x1#
+        ItemID: VaB_syntheticfibers_x1;
+        DisplayName: "Synthetic Fibers x1";
+        Tooltip: "High-strength synthetic fibers.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aramidfibers;
+        # Ingredients: (ItemID: aramidfibers; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aerogel_x1;
+        DisplayName: "Aerogel x1";
+        Tooltip: "Light, porous, dried gel. High heat insulation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aerogel;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_benzene_x1;
+        DisplayName: "Benzene x1";
+        Tooltip: "C6H6. Oil and solvent applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: benzene;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_hydrochloricacid_x1;
+        DisplayName: "Hydrochloric Acid x1";
+        Tooltip: "HCl. Powerful acidic compound. Employ due care.";
+        AmountCrafted: 0;
+        LinkedItemIDs: hydrochloricacid;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_polyaniline_x1;
+        DisplayName: "Polyaniline x1";
+        Tooltip: "High conductance polymer.";
+        AmountCrafted: 0;
+        LinkedItemIDs: polyaniline;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Advanced x10#
+        ItemID: VaB_syntheticfibers_x10;
+        DisplayName: "Synthetic Fibers x10";
+        Tooltip: "High-strength synthetic fibers.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers;
+        # Ingredients: (ItemID: aramidfibers; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aerogel_x10;
+        DisplayName: "Aerogel x10";
+        Tooltip: "Light, porous, dried gel. High heat insulation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_benzene_x10;
+        DisplayName: "Benzene x10";
+        Tooltip: "C6H6. Oil and solvent applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_hydrochloricacid_x10;
+        DisplayName: "Hydrochloric Acid x10";
+        Tooltip: "HCl. Powerful acidic compound. Employ due care.";
+        AmountCrafted: 0;
+        LinkedItemIDs: hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_polyaniline_x10;
+        DisplayName: "Polyaniline x10";
+        Tooltip: "High conductance polymer.";
+        AmountCrafted: 0;
+        LinkedItemIDs: polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Advanced x25#
+        ItemID: VaB_syntheticfibers_x25;
+        DisplayName: "Synthetic Fibers x25";
+        Tooltip: "High-strength synthetic fibers.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers;
+        # Ingredients: (ItemID: aramidfibers; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aerogel_x25;
+        DisplayName: "Aerogel x25";
+        Tooltip: "Light, porous, dried gel. High heat insulation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_benzene_x25;
+        DisplayName: "Benzene x25";
+        Tooltip: "C6H6. Oil and solvent applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_hydrochloricacid_x25;
+        DisplayName: "Hydrochloric Acid x25";
+        Tooltip: "HCl. Powerful acidic compound. Employ due care.";
+        AmountCrafted: 0;
+        LinkedItemIDs: hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_polyaniline_x25;
+        DisplayName: "Polyaniline x25";
+        Tooltip: "High conductance polymer.";
+        AmountCrafted: 0;
+        LinkedItemIDs: polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Advanced x40#
+        ItemID: VaB_syntheticfibers_x40;
+        DisplayName: "Synthetic Fibers x40";
+        Tooltip: "High-strength synthetic fibers.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers;
+        # Ingredients: (ItemID: aramidfibers; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_aerogel_x40;
+        DisplayName: "Aerogel x40";
+        Tooltip: "Light, porous, dried gel. High heat insulation.";
+        AmountCrafted: 0;
+        LinkedItemIDs: aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_benzene_x40;
+        DisplayName: "Benzene x40";
+        Tooltip: "C6H6. Oil and solvent applications.";
+        AmountCrafted: 0;
+        LinkedItemIDs: benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_hydrochloricacid_x40;
+        DisplayName: "Hydrochloric Acid x40";
+        Tooltip: "HCl. Powerful acidic compound. Employ due care.";
+        AmountCrafted: 0;
+        LinkedItemIDs: hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_polyaniline_x40;
+        DisplayName: "Polyaniline x40";
+        Tooltip: "High conductance polymer.";
+        AmountCrafted: 0;
+        LinkedItemIDs: polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Advanced_x0/VaB_Make_Advanced_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (       # Misc x1#
+        ItemID: VaB_ioncube_x1;
+        DisplayName: "Ion Cube x1";
+        Tooltip: "High capacity energy source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorioncrystal;
+        # Ingredients: (ItemID: precursorioncrystal; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_firstaidkit_x1;
+        DisplayName: "First Aid Kit x1";
+        Tooltip: "Treated bandages. Apply to staunch blood-flow and sanitize wounds.";
+        AmountCrafted: 0;
+        LinkedItemIDs: firstaidkit;
+        # Ingredients: (ItemID: firstaidkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bulbotreepiece_x1;
+        DisplayName: "Bulbo Tree Sample x1";
+        Tooltip: "Bulbo Trees are a terrestrial flora species found on the Floating Island and Mountain Island. +8 Food, +10 Water, +420 Bio, per piece. 10 knifed samples, ~27min growth.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bulbotreepiece;
+        # Ingredients: (ItemID: bulbotreepiece; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Misc x10#
+        ItemID: VaB_ioncube_x10;
+        DisplayName: "Ion Cube x10";
+        Tooltip: "High capacity energy source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal;
+        # Ingredients: (ItemID: precursorioncrystal; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_firstaidkit_x10;
+        DisplayName: "First Aid Kit x10";
+        Tooltip: "Treated bandages. Apply to staunch blood-flow and sanitize wounds.";
+        AmountCrafted: 0;
+        LinkedItemIDs: firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit;
+        # Ingredients: (ItemID: firstaidkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bulbotreepiece_x10;
+        DisplayName: "Bulbo Tree Sample x10";
+        Tooltip: "Bulbo Trees are a terrestrial flora species found on the Floating Island and Mountain Island. +8 Food, +10 Water, +420 Bio, per piece. 10 knifed samples, ~27min growth.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece;
+        # Ingredients: (ItemID: bulbotreepiece; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Misc x25#
+        ItemID: VaB_ioncube_x25;
+        DisplayName: "Ion Cube x25";
+        Tooltip: "High capacity energy source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal;
+        # Ingredients: (ItemID: precursorioncrystal; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_firstaidkit_x25;
+        DisplayName: "First Aid Kit x25";
+        Tooltip: "Treated bandages. Apply to staunch blood-flow and sanitize wounds.";
+        AmountCrafted: 0;
+        LinkedItemIDs: firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit;
+        # Ingredients: (ItemID: firstaidkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bulbotreepiece_x25;
+        DisplayName: "Bulbo Tree Sample x25";
+        Tooltip: "Bulbo Trees are a terrestrial flora species found on the Floating Island and Mountain Island. +8 Food, +10 Water, +420 Bio, per piece. 10 knifed samples, ~27min growth.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulboteepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece;
+        # Ingredients: (ItemID: bulbotreepiece; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Misc x40#
+        ItemID: VaB_ioncube_x40;
+        DisplayName: "Ion Cube x40";
+        Tooltip: "High capacity energy source.";
+        AmountCrafted: 0;
+        LinkedItemIDs: precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal;
+        # Ingredients: (ItemID: precursorioncrystal; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_firstaidkit_x40;
+        DisplayName: "First Aid Kit x40";
+        Tooltip: "Treated bandages. Apply to staunch blood-flow and sanitize wounds.";
+        AmountCrafted: 0;
+        LinkedItemIDs: firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,frstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit,firstaidkit;
+        # Ingredients: (ItemID: firstaidkit; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_bulbotreepiece_x40;
+        DisplayName: "Bulbo Tree Sample x40";
+        Tooltip: "Bulbo Trees are a terrestrial flora species found on the Floating Island and Mountain Island. +8 Food, +10 Water, +420 Bio, per piece. 10 knifed samples, ~27min growth.";
+        AmountCrafted: 0;
+        LinkedItemIDs: bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreeiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulboreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece,bulbotreepiece;
+        # Ingredients: (ItemID: bulbotreepiece; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Misc_x0/VaB_Make_Misc_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+
+    #
+     #
+    #
+     #
+    #
+     #
+    #
+     #
+    (       # Enzyme x1#
+        ItemID: VaB_kooshchunk_x1;
+        DisplayName: "Bulb Bush Sample x1";
+        Tooltip: "A mature flora specimen will grow, if planted in the right conditions. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: kooshchunk;
+        # Ingredients: (ItemID: kooshchunk; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_treemushroompiece_x1;
+        DisplayName: "Fungal Sample x1";
+        Tooltip: "Indigenous flora. Contain fungal enzymes. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: treemushroompiece;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_seacrownseed_x1;
+        DisplayName: "Sea Crown Seed x1";
+        Tooltip: "Sea Crown Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: seacrownseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_redgreententacleseed_x1;
+        DisplayName: "Ghost Weed Seed x1";
+        Tooltip: "Ghost Weed Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: redgreententacleseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_eyesplantseed_x1;
+        DisplayName: "Eye Stalk Seed x1";
+        Tooltip: "Eye Stalk Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: eyesplantseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x1;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Enzyme x10#
+        ItemID: VaB_kooshchunk_x10;
+        DisplayName: "Bulb Bush Sample x10";
+        Tooltip: "A mature flora specimen will grow, if planted in the right conditions. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk;
+        # Ingredients: (ItemID: kooshchunk; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_treemushroompiece_x10;
+        DisplayName: "Fungal Sample x10";
+        Tooltip: "Indigenous flora. Contain fungal enzymes. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_seacrownseed_x10;
+        DisplayName: "Sea Crown Seed x10";
+        Tooltip: "Sea Crown Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_redgreententacleseed_x10;
+        DisplayName: "Ghost Weed Seed x10";
+        Tooltip: "Ghost Weed Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_eyesplantseed_x10;
+        DisplayName: "Eye Stalk Seed x10";
+        Tooltip: "Eye Stalk Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x10;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Enzyme x25#
+        ItemID: VaB_kooshchunk_x25;
+        DisplayName: "Bulb Bush Sample x25";
+        Tooltip: "A mature flora specimen will grow, if planted in the right conditions. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk;
+        # Ingredients: (ItemID: kooshchunk; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_treemushroompiece_x25;
+        DisplayName: "Fungal Sample x25";
+        Tooltip: "Indigenous flora. Contain fungal enzymes. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_seacrownseed_x25;
+        DisplayName: "Sea Crown Seed x25";
+        Tooltip: "Sea Crown Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_redgreententacleseed_x25;
+        DisplayName: "Ghost Weed Seed x25";
+        Tooltip: "Ghost Weed Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_eyesplantseed_x25;
+        DisplayName: "Eye Stalk Seed x25";
+        Tooltip: "Eye Stalk Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x25;
+        ForceUnlockAtStart:YES;
+    ),
+    #
+     #
+    #
+     #
+    (       # Enzyme x40#
+        ItemID: VaB_kooshchunk_x40;
+        DisplayName: "Bulb Bush Sample x40";
+        Tooltip: "A mature flora specimen will grow, if planted in the right conditions. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk,kooshchunk;
+        # Ingredients: (ItemID: kooshchunk; Required: 1; ); #
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_treemushroompiece_x40;
+        DisplayName: "Fungal Sample x40";
+        Tooltip: "Indigenous flora. Contain fungal enzymes. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece,treemushroompiece;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_seacrownseed_x40;
+        DisplayName: "Sea Crown Seed x40";
+        Tooltip: "Sea Crown Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed,seacrownseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_redgreententacleseed_x40;
+        DisplayName: "Ghost Weed Seed x40";
+        Tooltip: "Ghost Weed Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed,redgreententacleseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x40;
+        ForceUnlockAtStart:YES;
+    ),
+    (
+        ItemID: VaB_eyesplantseed_x40;
+        DisplayName: "Eye Stalk Seed x40";
+        Tooltip: "Eye Stalk Seed. -Spoiler Item-";
+        AmountCrafted: 0;
+        LinkedItemIDs: eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed,eyesplantseed;
+        Path: VaB_FabricaturAlloy/VaB_Make_Xxa/VaB_Make_Enzyme_x0/VaB_Make_Enzyme_x40;
+        ForceUnlockAtStart:YES;
+    );
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
